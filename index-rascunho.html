@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Campeonato</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+:root{
+  --bg:#0b1220;
+  --card:#111827;
+  --primary:#22c55e;
+  --text:#e5e7eb;
+  --muted:#9ca3af;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:Inter,system-ui,Arial;
+  background:var(--bg);
+  color:var(--text);
+}
+header{
+  padding:16px;
+  text-align:center;
+  background:#020617;
+  font-weight:700;
+}
+.tabs{
+  display:flex;
+  background:#020617;
+}
+.tab{
+  flex:1;
+  padding:12px;
+  text-align:center;
+  color:var(--muted);
+  cursor:pointer;
+}
+.tab.active{
+  color:var(--primary);
+  border-bottom:3px solid var(--primary);
+}
+.container{padding:12px}
+.card{
+  background:var(--card);
+  border-radius:12px;
+  padding:10px;
+  margin-bottom:8px;
+}
+.table-row{
+  display:grid;
+  grid-template-columns:30px 30px 1fr 40px;
+  align-items:center;
+  gap:8px;
+}
+.table-row img{width:28px}
+.match{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.team{
+  display:flex;
+  align-items:center;
+  gap:6px;
+  width:40%;
+}
+.team img{width:28px}
+.score{text-align:center;font-weight:700}
+.meta{font-size:12px;color:var(--muted)}
+.round-nav{
+  display:flex;
+  justify-content:space-between;
+  margin:10px 0;
+}
+.round-btn{color:var(--primary);cursor:pointer}
+.hidden{display:none}
+</style>
+</head>
+
+<body>
+
+<header id="titulo">Campeonato</header>
+
+<div class="tabs">
+  <div class="tab active" onclick="showTab('classificacao')">Classificação</div>
+  <div class="tab" onclick="showTab('jogos')">Jogos</div>
+</div>
+
+<div class="container">
+  <div id="classificacao"></div>
+
+  <div id="jogos" class="hidden">
+    <div class="round-nav">
+      <div class="round-btn" onclick="prevRound()">&lt; Rodada</div>
+      <div id="round-title"></div>
+      <div class="round-btn" onclick="nextRound()">Rodada &gt;</div>
+    </div>
+    <div id="round-games"></div>
+  </div>
+</div>
+
+<script>
+const CAMPEONATO = "CAMPE-20372-LCH-EON-2025";
+const PROXY = "https://api.allorigins.win/raw?url=";
+
+let campeonato, rodadas=[], rodadaAtual=0;
+
+init();
+
+async function api(url){
+  return fetch(PROXY + encodeURIComponent(url)).then(r=>r.json());
+}
+
+async function init(){
+  campeonato = await api(
+    `https://egol.fcf.com.br/egolligaSC/WsEgol.wso/Get_IdCampeonato/JSON/debug?sCampeonato=${CAMPEONATO}`
+  );
+
+  document.getElementById("titulo").innerText = campeonato[0].sCampeonato;
+
+  await loadClassificacao();
+  await loadJogos();
+}
+
+
+
+async function loadClassificacao(){
+  const {iAno,iCampeonato,sLiga} = campeonato[0];
+
+  const fases = await api(
+    `https://egol.fcf.com.br/egolligaSC/WsEgol.wso/Get_Campeonato/JSON/debug?iAno=${iAno}&iCampeonato=${iCampeonato}&sLiga=${sLiga}`
+  );
+
+  let htmlFinal = "";
+  let encontrou = false;
+
+  for (const fase of fases) {
+    if (!fase.Grupo || fase.Grupo.length === 0) continue;
+
+    for (const grupo of fase.Grupo) {
+      if (!grupo.Tabela || grupo.Tabela.length === 0) continue;
+
+      encontrou = true;
+
+      // título do grupo (A, B, etc)
+      htmlFinal += `
+        <div style="
+          margin:16px 4px 8px;
+          font-weight:700;
+          color:#22c55e;
+          font-size:14px;
+        ">
+          ${grupo.sNome_Grupo}
+        </div>
+      `;
+
+      // cabeçalho
+      htmlFinal += `
+        <div class="card table-row" style="color:#9ca3af;font-size:12px">
+          <div>#</div>
+          <div></div>
+          <div>Time</div>
+          <div>PTS</div>
+        </div>
+      `;
+
+      // ordena corretamente
+      grupo.Tabela.sort((a,b)=>a.iPosicao - b.iPosicao);
+
+      grupo.Tabela.forEach(t=>{
+        htmlFinal += `
+          <div class="card table-row">
+            <div>${t.iPosicao}</div>
+            <img src="${t.sLogo}">
+            <div>${t.sNome_Clube}</div>
+            <div>${t.iPontos}</div>
+          </div>
+        `;
+      });
+    }
+  }
+
+  if (!encontrou) {
+    htmlFinal = `<div class="card">Classificação não disponível</div>`;
+  }
+
+  document.getElementById("classificacao").innerHTML = htmlFinal;
+}
+
+
+async function loadJogos(){
+  const {iAno,iCampeonato,sLiga} = campeonato[0];
+
+  rodadas = await api(
+    `https://egol.fcf.com.br/egolligaSC/WsEgol.wso/Get_Jogos/JSON/debug?iAno=${iAno}&iCampeonato=${iCampeonato}&sLiga=${sLiga}`
+  );
+
+  renderRodada();
+}
+
+function renderRodada(){
+  const r = rodadas[rodadaAtual];
+  document.getElementById("round-title").innerText = r.sRodada;
+
+  let html="";
+  r.Jogos.forEach(j=>{
+    html+=`
+    <div class="card">
+      <div class="match">
+        <div class="team">
+          <img src="${j.sLogoMandante}">
+          ${j.sNmMandante}
+        </div>
+
+        <div class="score">
+          ${j.iGolsMandante ?? "-"} x ${j.iGolsVisitante ?? "-"}
+          <div class="meta">${j.sData} ${j.sHora}</div>
+        </div>
+
+        <div class="team" style="justify-content:flex-end">
+          ${j.sNmVisitante}
+          <img src="${j.sLogoVisitante}">
+        </div>
+      </div>
+    </div>`;
+  });
+
+  document.getElementById("round-games").innerHTML = html;
+}
+
+function prevRound(){
+  if(rodadaAtual>0){rodadaAtual--;renderRodada()}
+}
+function nextRound(){
+  if(rodadaAtual<rodadas.length-1){rodadaAtual++;renderRodada()}
+}
+
+function showTab(tab){
+  document.querySelectorAll(".tab").forEach(t=>t.classList.remove("active"));
+  event.target.classList.add("active");
+  document.getElementById("classificacao").classList.toggle("hidden",tab!=="classificacao");
+  document.getElementById("jogos").classList.toggle("hidden",tab!=="jogos");
+}
+</script>
+
+</body>
+</html>
