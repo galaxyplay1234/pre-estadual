@@ -8,73 +8,140 @@
 <style>
 :root{
   --bg:#0b1220;
-  --card:#111827;
   --primary:#22c55e;
-  --text:#e5e7eb;
-  --muted:#9ca3af;
+  --dark:#020617;
+  --text:#111827;
+  --muted:#6b7280;
+  --card:#ffffff;
+  --line:#e5e7eb;
 }
 *{box-sizing:border-box}
 body{
   margin:0;
   font-family:Inter,system-ui,Arial;
   background:var(--bg);
-  color:var(--text);
 }
+
+/* HEADER */
 header{
   padding:16px;
   text-align:center;
-  background:#020617;
+  background:var(--dark);
   font-weight:700;
+  color:white;
 }
+
+/* TABS */
 .tabs{
   display:flex;
-  background:#020617;
+  background:var(--dark);
 }
 .tab{
   flex:1;
   padding:12px;
   text-align:center;
-  color:var(--muted);
+  color:#9ca3af;
   cursor:pointer;
 }
 .tab.active{
   color:var(--primary);
   border-bottom:3px solid var(--primary);
 }
-.container{padding:12px}
-.card{
-  background:var(--card);
-  border-radius:12px;
-  padding:10px;
-  margin-bottom:8px;
+
+/* CONTAINER */
+.container{
+  padding:12px;
 }
+
+/* CLASSIFICAÇÃO */
+.group-title{
+  margin:18px 4px 8px;
+  font-weight:700;
+  color:#111827;
+}
+
+.table{
+  background:var(--card);
+  border-radius:14px;
+  overflow:hidden;
+  margin-bottom:20px;
+}
+
+.table-header,
 .table-row{
   display:grid;
-  grid-template-columns:30px 30px 1fr 40px;
-  align-items:center;
-  gap:8px;
-}
-.table-row img{width:28px}
-.match{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-}
-.team{
-  display:flex;
+  grid-template-columns:30px 34px 1fr repeat(6,34px);
   align-items:center;
   gap:6px;
-  width:40%;
+  padding:10px;
+  border-bottom:1px solid var(--line);
+  font-size:13px;
 }
-.team img{width:28px}
-.score{text-align:center;font-weight:700}
-.meta{font-size:12px;color:var(--muted)}
-.round-nav{
+.table-header{
+  color:var(--muted);
+  font-weight:600;
+}
+.table-row:last-child{
+  border-bottom:none;
+}
+.table-row img{
+  width:28px;
+  height:28px;
+  object-fit:contain;
+}
+
+/* JOGOS */
+.match-card{
+  background:var(--card);
+  border-radius:14px;
+  padding:14px;
+  margin-bottom:12px;
+}
+.match-top{
+  text-align:center;
+  font-size:13px;
+  color:var(--muted);
+}
+.match-middle{
   display:flex;
+  align-items:center;
   justify-content:space-between;
   margin:10px 0;
 }
-.round-btn{color:var(--primary);cursor:pointer}
+.team{
+  width:40%;
+  display:flex;
+  align-items:center;
+  gap:8px;
+}
+.team.right{
+  justify-content:flex-end;
+}
+.team img{
+  width:34px;
+}
+.time{
+  font-size:18px;
+  font-weight:700;
+}
+.match-bottom{
+  text-align:center;
+  font-size:13px;
+  color:var(--muted);
+}
+
+/* RODADAS */
+.round-nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin:10px 0;
+  color:white;
+}
+.round-btn{
+  color:var(--primary);
+  cursor:pointer;
+}
 .hidden{display:none}
 </style>
 </head>
@@ -89,6 +156,7 @@ header{
 </div>
 
 <div class="container">
+
   <div id="classificacao"></div>
 
   <div id="jogos" class="hidden">
@@ -99,6 +167,7 @@ header{
     </div>
     <div id="round-games"></div>
   </div>
+
 </div>
 
 <script>
@@ -124,79 +193,61 @@ async function init(){
   await loadJogos();
 }
 
-
-
+/* CLASSIFICAÇÃO */
 async function loadClassificacao(){
   const {iAno,iCampeonato,sLiga} = campeonato[0];
-
   const fases = await api(
     `https://egol.fcf.com.br/egolligaSC/WsEgol.wso/Get_Campeonato/JSON/debug?iAno=${iAno}&iCampeonato=${iCampeonato}&sLiga=${sLiga}`
   );
 
-  let htmlFinal = "";
-  let encontrou = false;
+  let html = "";
 
-  for (const fase of fases) {
-    if (!fase.Grupo || fase.Grupo.length === 0) continue;
+  for(const fase of fases){
+    if(!fase.Grupo) continue;
 
-    for (const grupo of fase.Grupo) {
-      if (!grupo.Tabela || grupo.Tabela.length === 0) continue;
+    for(const grupo of fase.Grupo){
+      if(!grupo.Tabela || grupo.Tabela.length===0) continue;
 
-      encontrou = true;
+      html += `<div class="group-title">${grupo.sNome_Grupo}</div>`;
 
-      // título do grupo (A, B, etc)
-      htmlFinal += `
-        <div style="
-          margin:16px 4px 8px;
-          font-weight:700;
-          color:#22c55e;
-          font-size:14px;
-        ">
-          ${grupo.sNome_Grupo}
-        </div>
-      `;
+      html += `
+      <div class="table">
+        <div class="table-header">
+          <div>#</div><div></div><div>Time</div>
+          <div>P</div><div>J</div><div>V</div>
+          <div>E</div><div>D</div><div>SG</div>
+        </div>`;
 
-      // cabeçalho
-      htmlFinal += `
-        <div class="card table-row" style="color:#9ca3af;font-size:12px">
-          <div>#</div>
-          <div></div>
-          <div>Time</div>
-          <div>PTS</div>
-        </div>
-      `;
-
-      // ordena corretamente
-      grupo.Tabela.sort((a,b)=>a.iPosicao - b.iPosicao);
+      grupo.Tabela.sort((a,b)=>a.iPosicao-b.iPosicao);
 
       grupo.Tabela.forEach(t=>{
-        htmlFinal += `
-          <div class="card table-row">
-            <div>${t.iPosicao}</div>
-            <img src="${t.sLogo}">
-            <div>${t.sNome_Clube}</div>
-            <div>${t.iPontos}</div>
-          </div>
-        `;
+        html += `
+        <div class="table-row">
+          <div>${t.iPosicao}</div>
+          <img src="${t.sLogo}">
+          <div>${t.sNome_Clube}</div>
+          <div>${t.iPontos}</div>
+          <div>${t.iJogos}</div>
+          <div>${t.iVitorias}</div>
+          <div>${t.iEmpates}</div>
+          <div>${t.iDerrotas}</div>
+          <div>${t.iSaldo_Gols}</div>
+        </div>`;
       });
+
+      html += `</div>`;
     }
   }
 
-  if (!encontrou) {
-    htmlFinal = `<div class="card">Classificação não disponível</div>`;
-  }
-
-  document.getElementById("classificacao").innerHTML = htmlFinal;
+  document.getElementById("classificacao").innerHTML = html;
 }
 
-
+/* JOGOS */
 async function loadJogos(){
   const {iAno,iCampeonato,sLiga} = campeonato[0];
-
   rodadas = await api(
     `https://egol.fcf.com.br/egolligaSC/WsEgol.wso/Get_Jogos/JSON/debug?iAno=${iAno}&iCampeonato=${iCampeonato}&sLiga=${sLiga}`
   );
-
   renderRodada();
 }
 
@@ -207,35 +258,32 @@ function renderRodada(){
   let html="";
   r.Jogos.forEach(j=>{
     html+=`
-    <div class="card">
-      <div class="match">
+    <div class="match-card">
+      <div class="match-top">${j.sData}</div>
+
+      <div class="match-middle">
         <div class="team">
           <img src="${j.sLogoMandante}">
           ${j.sNmMandante}
         </div>
 
-        <div class="score">
-          ${j.iGolsMandante ?? "-"} x ${j.iGolsVisitante ?? "-"}
-          <div class="meta">${j.sData} ${j.sHora}</div>
-        </div>
+        <div class="time">${j.sHora}</div>
 
-        <div class="team" style="justify-content:flex-end">
+        <div class="team right">
           ${j.sNmVisitante}
           <img src="${j.sLogoVisitante}">
         </div>
       </div>
+
+      <div class="match-bottom">${j.sEstadio}</div>
     </div>`;
   });
 
   document.getElementById("round-games").innerHTML = html;
 }
 
-function prevRound(){
-  if(rodadaAtual>0){rodadaAtual--;renderRodada()}
-}
-function nextRound(){
-  if(rodadaAtual<rodadas.length-1){rodadaAtual++;renderRodada()}
-}
+function prevRound(){ if(rodadaAtual>0){rodadaAtual--;renderRodada()} }
+function nextRound(){ if(rodadaAtual<rodadas.length-1){rodadaAtual++;renderRodada()} }
 
 function showTab(tab){
   document.querySelectorAll(".tab").forEach(t=>t.classList.remove("active"));
