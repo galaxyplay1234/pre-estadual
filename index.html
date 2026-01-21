@@ -101,7 +101,7 @@ header{
   </div>
 </div>
 
-<script>
+
 const CAMPEONATO = "CAMPE-20372-LCH-EON-2025";
 const PROXY = "https://api.allorigins.win/raw?url=";
 
@@ -125,6 +125,7 @@ async function init(){
 }
 
 
+<script>
 async function loadClassificacao(){
   const {iAno,iCampeonato,sLiga} = campeonato[0];
 
@@ -132,51 +133,60 @@ async function loadClassificacao(){
     `https://egol.fcf.com.br/egolligaSC/WsEgol.wso/Get_Campeonato/JSON/debug?iAno=${iAno}&iCampeonato=${iCampeonato}&sLiga=${sLiga}`
   );
 
-  let tabelaEncontrada = null;
+  let htmlFinal = "";
+  let encontrou = false;
 
-  // percorre todas as fases e grupos
   for (const fase of fases) {
-    if (!fase.Grupo) continue;
+    if (!fase.Grupo || fase.Grupo.length === 0) continue;
 
     for (const grupo of fase.Grupo) {
-      if (grupo.Tabela && grupo.Tabela.length > 0) {
-        tabelaEncontrada = grupo.Tabela;
-        break;
-      }
+      if (!grupo.Tabela || grupo.Tabela.length === 0) continue;
+
+      encontrou = true;
+
+      // título do grupo (A, B, etc)
+      htmlFinal += `
+        <div style="
+          margin:16px 4px 8px;
+          font-weight:700;
+          color:#22c55e;
+          font-size:14px;
+        ">
+          ${grupo.sNome_Grupo}
+        </div>
+      `;
+
+      // cabeçalho
+      htmlFinal += `
+        <div class="card table-row" style="color:#9ca3af;font-size:12px">
+          <div>#</div>
+          <div></div>
+          <div>Time</div>
+          <div>PTS</div>
+        </div>
+      `;
+
+      // ordena corretamente
+      grupo.Tabela.sort((a,b)=>a.iPosicao - b.iPosicao);
+
+      grupo.Tabela.forEach(t=>{
+        htmlFinal += `
+          <div class="card table-row">
+            <div>${t.iPosicao}</div>
+            <img src="${t.sLogo}">
+            <div>${t.sNome_Clube}</div>
+            <div>${t.iPontos}</div>
+          </div>
+        `;
+      });
     }
-    if (tabelaEncontrada) break;
   }
 
-  if (!tabelaEncontrada) {
-    document.getElementById("classificacao").innerHTML =
-      "<div class='card'>Classificação não disponível</div>";
-    return;
+  if (!encontrou) {
+    htmlFinal = `<div class="card">Classificação não disponível</div>`;
   }
 
-  // ordena corretamente
-  tabelaEncontrada.sort((a,b)=>a.iPosicao - b.iPosicao);
-
-  let html = `
-    <div class="card table-row" style="color:#9ca3af;font-size:12px">
-      <div>#</div>
-      <div></div>
-      <div>Time</div>
-      <div>PTS</div>
-    </div>
-  `;
-
-  tabelaEncontrada.forEach(t=>{
-    html += `
-      <div class="card table-row">
-        <div>${t.iPosicao}</div>
-        <img src="${t.sLogo}">
-        <div>${t.sNome_Clube}</div>
-        <div>${t.iPontos}</div>
-      </div>
-    `;
-  });
-
-  document.getElementById("classificacao").innerHTML = html;
+  document.getElementById("classificacao").innerHTML = htmlFinal;
 }
 
 
