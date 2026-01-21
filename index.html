@@ -7,79 +7,54 @@
 
 <style>
 :root{
-  --bg:#0f172a;
+  --bg:#0b1220;
   --card:#111827;
   --primary:#22c55e;
   --text:#e5e7eb;
   --muted:#9ca3af;
 }
-
 *{box-sizing:border-box}
 body{
   margin:0;
-  font-family: Inter, system-ui, Arial;
+  font-family:Inter,system-ui,Arial;
   background:var(--bg);
   color:var(--text);
 }
-
-/* HEADER */
 header{
   padding:16px;
   text-align:center;
   background:#020617;
   font-weight:700;
-  font-size:18px;
 }
-
-/* TABS */
 .tabs{
   display:flex;
   background:#020617;
 }
 .tab{
   flex:1;
-  text-align:center;
   padding:12px;
-  cursor:pointer;
+  text-align:center;
   color:var(--muted);
+  cursor:pointer;
 }
 .tab.active{
   color:var(--primary);
   border-bottom:3px solid var(--primary);
 }
-
-/* CONTAINER */
-.container{
-  padding:12px;
-}
-
-/* CARD */
+.container{padding:12px}
 .card{
   background:var(--card);
   border-radius:12px;
   padding:10px;
-  margin-bottom:10px;
+  margin-bottom:8px;
 }
-
-/* CLASSIFICAÇÃO */
 .table-row{
   display:grid;
-  grid-template-columns:30px 32px 1fr 30px;
-  gap:8px;
+  grid-template-columns:30px 30px 1fr 40px;
   align-items:center;
-  padding:6px 0;
+  gap:8px;
 }
-.table-row img{
-  width:28px;
-  height:28px;
-  object-fit:contain;
-}
-.table-row.header{
-  color:var(--muted);
-  font-size:12px;
-}
-
-/* JOGOS */
+.table-row img{width:28px}
 .match{
   display:flex;
   justify-content:space-between;
@@ -91,31 +66,15 @@ header{
   gap:6px;
   width:40%;
 }
-.team img{
-  width:30px;
-}
-.score{
-  font-weight:700;
-}
-.meta{
-  font-size:12px;
-  color:var(--muted);
-  text-align:center;
-}
-
-/* RODADAS */
+.team img{width:28px}
+.score{text-align:center;font-weight:700}
+.meta{font-size:12px;color:var(--muted)}
 .round-nav{
   display:flex;
   justify-content:space-between;
-  align-items:center;
   margin:10px 0;
 }
-.round-btn{
-  cursor:pointer;
-  color:var(--primary);
-  font-weight:600;
-}
-
+.round-btn{color:var(--primary);cursor:pointer}
 .hidden{display:none}
 </style>
 </head>
@@ -130,34 +89,34 @@ header{
 </div>
 
 <div class="container">
-
-  <!-- CLASSIFICAÇÃO -->
   <div id="classificacao"></div>
 
-  <!-- JOGOS -->
   <div id="jogos" class="hidden">
     <div class="round-nav">
-      <div class="round-btn" onclick="prevRound()">&lt; Anterior</div>
+      <div class="round-btn" onclick="prevRound()">&lt; Rodada</div>
       <div id="round-title"></div>
-      <div class="round-btn" onclick="nextRound()">Próxima &gt;</div>
+      <div class="round-btn" onclick="nextRound()">Rodada &gt;</div>
     </div>
     <div id="round-games"></div>
   </div>
-
 </div>
 
 <script>
 const CAMPEONATO = "CAMPE-20372-LCH-EON-2025";
+const PROXY = "https://api.allorigins.win/raw?url=";
 
 let campeonato, rodadas=[], rodadaAtual=0;
 
-// -------- INIT ----------
 init();
 
+async function api(url){
+  return fetch(PROXY + encodeURIComponent(url)).then(r=>r.json());
+}
+
 async function init(){
-  campeonato = await fetch(
+  campeonato = await api(
     `https://egol.fcf.com.br/egolligaSC/WsEgol.wso/Get_IdCampeonato/JSON/debug?sCampeonato=${CAMPEONATO}`
-  ).then(r=>r.json());
+  );
 
   document.getElementById("titulo").innerText = campeonato[0].sCampeonato;
 
@@ -165,21 +124,16 @@ async function init(){
   await loadJogos();
 }
 
-// -------- CLASSIFICAÇÃO ----------
 async function loadClassificacao(){
   const {iAno,iCampeonato,sLiga} = campeonato[0];
 
-  const data = await fetch(
+  const data = await api(
     `https://egol.fcf.com.br/egolligaSC/WsEgol.wso/Get_Campeonato/JSON/debug?iAno=${iAno}&iCampeonato=${iCampeonato}&sLiga=${sLiga}`
-  ).then(r=>r.json());
+  );
 
   const tabela = data[0].Grupo[0].Tabela.sort((a,b)=>a.iPosicao-b.iPosicao);
 
-  let html = `
-    <div class="card table-row header">
-      <div>#</div><div></div><div>Time</div><div>PTS</div>
-    </div>`;
-
+  let html="";
   tabela.forEach(t=>{
     html+=`
     <div class="card table-row">
@@ -193,24 +147,22 @@ async function loadClassificacao(){
   document.getElementById("classificacao").innerHTML = html;
 }
 
-// -------- JOGOS ----------
 async function loadJogos(){
   const {iAno,iCampeonato,sLiga} = campeonato[0];
 
-  const data = await fetch(
+  rodadas = await api(
     `https://egol.fcf.com.br/egolligaSC/WsEgol.wso/Get_Jogos/JSON/debug?iAno=${iAno}&iCampeonato=${iCampeonato}&sLiga=${sLiga}`
-  ).then(r=>r.json());
+  );
 
-  rodadas = data;
   renderRodada();
 }
 
 function renderRodada(){
-  const rodada = rodadas[rodadaAtual];
-  document.getElementById("round-title").innerText = rodada.sRodada;
+  const r = rodadas[rodadaAtual];
+  document.getElementById("round-title").innerText = r.sRodada;
 
   let html="";
-  rodada.Jogos.forEach(j=>{
+  r.Jogos.forEach(j=>{
     html+=`
     <div class="card">
       <div class="match">
@@ -242,13 +194,11 @@ function nextRound(){
   if(rodadaAtual<rodadas.length-1){rodadaAtual++;renderRodada()}
 }
 
-// -------- TABS ----------
 function showTab(tab){
   document.querySelectorAll(".tab").forEach(t=>t.classList.remove("active"));
   event.target.classList.add("active");
-
-  document.getElementById("classificacao").classList.toggle("hidden", tab!=="classificacao");
-  document.getElementById("jogos").classList.toggle("hidden", tab!=="jogos");
+  document.getElementById("classificacao").classList.toggle("hidden",tab!=="classificacao");
+  document.getElementById("jogos").classList.toggle("hidden",tab!=="jogos");
 }
 </script>
 
