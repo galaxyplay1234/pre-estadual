@@ -124,28 +124,58 @@ async function init(){
   await loadJogos();
 }
 
+
 async function loadClassificacao(){
   const {iAno,iCampeonato,sLiga} = campeonato[0];
 
-  const data = await api(
+  const fases = await api(
     `https://egol.fcf.com.br/egolligaSC/WsEgol.wso/Get_Campeonato/JSON/debug?iAno=${iAno}&iCampeonato=${iCampeonato}&sLiga=${sLiga}`
   );
 
-  const tabela = data[0].Grupo[0].Tabela.sort((a,b)=>a.iPosicao-b.iPosicao);
+  // pega a última fase disponível
+  const faseAtual = fases[fases.length - 1];
 
-  let html="";
+  if (!faseAtual || !faseAtual.Grupo || faseAtual.Grupo.length === 0) {
+    document.getElementById("classificacao").innerHTML =
+      "<div class='card'>Classificação não disponível</div>";
+    return;
+  }
+
+  // pega o primeiro grupo da fase
+  const grupo = faseAtual.Grupo[0];
+
+  if (!grupo.Tabela || grupo.Tabela.length === 0) {
+    document.getElementById("classificacao").innerHTML =
+      "<div class='card'>Classificação não disponível</div>";
+    return;
+  }
+
+  // ordena por posição
+  const tabela = grupo.Tabela.sort((a,b)=>a.iPosicao-b.iPosicao);
+
+  let html = `
+    <div class="card table-row" style="color:#9ca3af;font-size:12px">
+      <div>#</div>
+      <div></div>
+      <div>Time</div>
+      <div>PTS</div>
+    </div>
+  `;
+
   tabela.forEach(t=>{
-    html+=`
-    <div class="card table-row">
-      <div>${t.iPosicao}</div>
-      <img src="${t.sLogo}">
-      <div>${t.sNome_Clube}</div>
-      <div>${t.iPontos}</div>
-    </div>`;
+    html += `
+      <div class="card table-row">
+        <div>${t.iPosicao}</div>
+        <img src="${t.sLogo}">
+        <div>${t.sNome_Clube}</div>
+        <div>${t.iPontos}</div>
+      </div>
+    `;
   });
 
   document.getElementById("classificacao").innerHTML = html;
 }
+
 
 async function loadJogos(){
   const {iAno,iCampeonato,sLiga} = campeonato[0];
