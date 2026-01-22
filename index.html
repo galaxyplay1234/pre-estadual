@@ -293,6 +293,16 @@ header{
 </div>
 
 <div class="container">
+  
+  <!-- LOADING -->
+  <div id="loading" style="
+    text-align:center;
+    padding:40px;
+    font-size:14px;
+    color:#6b7280;
+  ">
+    Carregando dados…
+  </div>
 
   <div id="classificacao"></div>
 
@@ -326,6 +336,8 @@ async function init(){
   document.getElementById("titulo").innerText = campeonato[0].sCampeonato;
   await loadClassificacao();
   await loadJogos();
+  
+  document.getElementById("loading")?.remove();
 }
 
 /* CLASSIFICAÇÃO */
