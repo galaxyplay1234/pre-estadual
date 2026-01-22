@@ -358,7 +358,9 @@ async function loadClassificacao(){
 
       // grupo.Tabela.sort((a,b)=>b.iPontos-a.iPontos);
 
-      grupo.Tabela.forEach((t,i)=>{
+      const tabelaOrdenada = [...grupo.Tabela].reverse();
+
+tabelaOrdenada.forEach((t,i)=>{
         html += `
         <div class="table-row ${i < 4 ? 'classificado' : ''}">
   <div>${i+1}</div>
