@@ -82,6 +82,12 @@ header{
   font-size:11.5px;
 }
 
+
+.num {
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+
 .table-header{
   color:var(--muted);
   font-weight:600;
@@ -280,13 +286,13 @@ async function loadClassificacao(){
   <div>${i+1}</div>
   <img src="${t.sLogo}">
   <div class="team-name">${t.sNome_Clube}</div>
-  <div class="points">${t.iPontos}</div>
-  <div>${t.iJogos}</div>
-  <div>${t.iVitorias}</div>
-  <div>${t.iEmpates}</div>
-  <div>${t.iDerrotas}</div>
-  <div>${t.iGols_Pro}:${t.iGols_Contra}</div>
-  <div>${t.iSaldo_Gols}</div>
+  <div class="points num">${t.iPontos}</div>
+<div class="num">${t.iJogos}</div>
+<div class="num">${t.iVitorias}</div>
+<div class="num">${t.iEmpates}</div>
+<div class="num">${t.iDerrotas}</div>
+<div class="num">${t.iGols_Pro}:${t.iGols_Contra}</div>
+<div class="num">${t.iSaldo_Gols}</div>
 </div>`;
       });
 
