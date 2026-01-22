@@ -317,6 +317,7 @@ async function loadClassificacao(){
     }
   }
   document.getElementById("classificacao").innerHTML = html;
+  removeTitles();
 }
 
 /* JOGOS */
@@ -406,6 +407,14 @@ function showTab(tab){
   document.getElementById("classificacao").classList.toggle("hidden",tab!=="classificacao");
   document.getElementById("jogos").classList.toggle("hidden",tab!=="jogos");
 }
+
+
+function removeTitles() {
+  document.querySelectorAll('.table-header *').forEach(el => {
+    el.removeAttribute('title');
+  });
+}
+
 </script>
 
 </body>
