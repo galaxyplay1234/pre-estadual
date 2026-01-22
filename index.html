@@ -192,9 +192,13 @@ header{
 
 .hidden{display:none}
 
-a{
-  text-decoration:none;
-  color:inherit;
+/* Remove qualquer pontilhado herdado da API */
+.match-card *,
+.match-card a,
+.match-card span,
+.match-card abbr {
+  text-decoration: none !important;
+  border-bottom: none !important;
 }
 
 </style>
