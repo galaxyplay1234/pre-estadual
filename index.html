@@ -224,6 +224,13 @@ header{
   border-bottom: none !important;
 }
 
+.plain-text {
+  text-decoration: none !important;
+  border-bottom: none !important;
+  -webkit-text-decoration: none !important;
+}
+
+
 </style>
 </head>
 
@@ -291,8 +298,13 @@ async function loadClassificacao(){
       <div class="table">
         <div class="table-header">
   <div>#</div><div></div><div>Time</div>
-  <div>P</div><div>J</div><div>V</div>
-  <div>E</div><div>D</div><div>G</div><div>SG</div>
+  <div class="plain-text">P</div>
+  <div class="plain-text">J</div>
+  <div class="plain-text">V</div>
+  <div class="plain-text">E</div>
+  <div class="plain-text">D</div>
+  <div class="plain-text">G</div>
+  <div class="plain-text">SG</div>
 </div>`;
 
       grupo.Tabela.sort((a,b)=>b.iPontos-a.iPontos);
@@ -302,7 +314,7 @@ async function loadClassificacao(){
         <div class="table-row">
   <div>${i+1}</div>
   <img src="${t.sLogo}">
-  <div class="team-name">${t.sNome_Clube}</div>
+  <div class="team-name plain-text">${t.sNome_Clube}</div>
   <div class="points num">${t.iPontos}</div>
 <div class="num">${t.iJogos}</div>
 <div class="num">${t.iVitorias}</div>
