@@ -343,18 +343,33 @@ function renderRodada(){
 
 
 function formatarDataHora(dataStr, horaStr){
-  // dataStr exemplo: "Dom, 15/02/2026"
-  // queremos: "Dom, 15/02"
+  let diaSemana = "";
+  let dataParte = "";
 
-  let dataLimpa = dataStr;
+  // Caso 1: já vem com dia da semana (ex: "Dom, 15/02/2026")
+  if (dataStr.includes(",")) {
+    const partes = dataStr.split(",");
+    diaSemana = partes[0].trim(); // Dom
+    dataParte = partes[1].trim(); // 15/02/2026
+  } 
+  // Caso 2: vem só a data (ex: "15/02/2026")
+  else {
+    dataParte = dataStr.trim();
 
-  // remove o ano ( /2026 )
-  dataLimpa = dataLimpa.replace(/\/\d{4}/, "");
+    const [dia, mes, ano] = dataParte.split("/");
+    const dataObj = new Date(ano, mes - 1, dia);
 
-  // hora: 16:00 -> 16h00
+    const dias = ["Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sáb"];
+    diaSemana = dias[dataObj.getDay()];
+  }
+
+  // remove o ano
+  dataParte = dataParte.replace(/\/\d{4}/, "");
+
+  // hora 16:00 → 16h00
   const horaFormatada = horaStr.replace(":", "h");
 
-  return `${dataLimpa} - ${horaFormatada}`;
+  return `${diaSemana}, ${dataParte} - ${horaFormatada}`;
 }
 
 
