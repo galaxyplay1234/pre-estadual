@@ -78,12 +78,36 @@ header{
 .table-header,
 .table-row{
   display:grid;
-  grid-template-columns:24px 26px 1fr 26px 26px 26px 26px 26px 34px 26px;
+  grid-template-columns:
+    6%   /* posição */
+    6%   /* escudo */
+    40%  /* nome */
+    5%   /* P */
+    5%   /* J */
+    5%   /* V */
+    5%   /* E */
+    5%   /* D */
+    7%  /* G */
+    6%;  /* SG */
+    
   align-items:center;
   gap:4px;
   padding:6px 8px;
   border-bottom:1px solid var(--line);
   font-size:11.5px;
+}
+
+
+
+
+.team-name{
+  white-space: normal;
+  word-break: break-word;
+}
+
+.num{
+  text-align:center;
+  font-variant-numeric: tabular-nums;
 }
 
 
@@ -209,6 +233,13 @@ header{
   font-size:13px;
 }
 
+/* Linha classificada (1º ao 4º) */
+.table-row.classificado {
+  border-left: 1px solid #16a34a; /* verde forte */
+  
+}
+
+
 .hidden{display:none}
 
 /* Remove qualquer pontilhado herdado da API */
@@ -245,6 +276,8 @@ header{
   text-decoration: none !important;
   -webkit-text-decoration: none !important;
 }
+
+
 
 
 </style>
@@ -323,11 +356,13 @@ async function loadClassificacao(){
   <div class="plain-text">SG</div>
 </div>`;
 
-      grupo.Tabela.sort((a,b)=>b.iPontos-a.iPontos);
+      // grupo.Tabela.sort((a,b)=>b.iPontos-a.iPontos);
 
-      grupo.Tabela.forEach((t,i)=>{
+      const tabelaOrdenada = [...grupo.Tabela].reverse();
+
+tabelaOrdenada.forEach((t,i)=>{
         html += `
-        <div class="table-row">
+        <div class="table-row ${i < 4 ? 'classificado' : ''}">
   <div>${i+1}</div>
   <img src="${t.sLogo}">
   <div class="team-name plain-text">${t.sNome_Clube}</div>
