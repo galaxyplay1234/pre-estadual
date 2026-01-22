@@ -312,7 +312,9 @@ function renderRodada(){
   r.Jogos.forEach(j=>{
     html+=`
     <div class="match-card">
-      <div class="match-top">${j.sData} • ${j.sHora}</div>
+      <div class="match-top">
+  ${formatarDataHora(j.sData, j.sHora)}
+</div>
 
       <div class="match-middle">
   <div class="team-left">${j.sNmMandante}</div>
@@ -338,6 +340,23 @@ function renderRodada(){
 
   document.getElementById("round-games").innerHTML = html;
 }
+
+
+function formatarDataHora(dataStr, horaStr){
+  // dataStr exemplo: "Dom, 15/02/2026"
+  // queremos: "Dom, 15/02"
+
+  let dataLimpa = dataStr;
+
+  // remove o ano ( /2026 )
+  dataLimpa = dataLimpa.replace(/\/\d{4}/, "");
+
+  // hora: 16:00 -> 16h00
+  const horaFormatada = horaStr.replace(":", "h");
+
+  return `${dataLimpa} - ${horaFormatada}`;
+}
+
 
 function prevRound(){ if(rodadaAtual>0){rodadaAtual--;renderRodada()} }
 function nextRound(){ if(rodadaAtual<rodadas.length-1){rodadaAtual++;renderRodada()} }
