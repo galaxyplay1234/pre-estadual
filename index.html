@@ -319,7 +319,13 @@ function renderRodada(){
 
         <div class="center">
   <img class="logo" src="${j.sLogoMandante}">
-  <div class="score">${j.iGolsMandante ?? "-"} x ${j.iGolsVisitante ?? "-"}</div>
+  <div class="score">
+  ${
+    j.iGolsMandante !== null && j.iGolsVisitante !== null
+      ? `${j.iGolsMandante} x ${j.iGolsVisitante}`
+      : "x"
+  }
+</div>
   <img class="logo" src="${j.sLogoVisitante}">
 </div>
 
