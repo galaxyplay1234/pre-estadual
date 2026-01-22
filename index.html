@@ -143,13 +143,14 @@ header{
 /* CENTRO TRAVADO */
 .center{
   display:grid;
-  grid-template-rows:24px 24px 24px;
+  grid-template-columns:26px auto 26px; /* 🔒 tudo na MESMA LINHA */
   align-items:center;
-  justify-items:center;
-  height:72px;              /* 🔒 TRAVA TOTAL */
+  justify-content:center;
+  column-gap:6px;
+  height:32px; /* 🔒 trava vertical */
 }
 
-.center img{
+.center .logo{
   width:22px;
   height:22px;
   object-fit:contain;
@@ -158,11 +159,7 @@ header{
 .score{
   font-size:15px;
   font-weight:700;
-  line-height:24px;         /* 🔒 ALTURA FIXA */
-  height:24px;              /* 🔒 ALTURA FIXA */
-  display:flex;
-  align-items:center;
-  justify-content:center;
+  white-space:nowrap;
 }
 
 .match-bottom{
@@ -309,10 +306,10 @@ function renderRodada(){
         <div class="team-left">${j.sNmMandante}</div>
 
         <div class="center">
-          <img src="${j.sLogoMandante}">
-          <div class="score">${j.iGolsMandante ?? "-"} x ${j.iGolsVisitante ?? "-"}</div>
-          <img src="${j.sLogoVisitante}">
-        </div>
+  <img class="logo" src="${j.sLogoMandante}">
+  <div class="score">${j.iGolsMandante ?? "-"} x ${j.iGolsVisitante ?? "-"}</div>
+  <img class="logo" src="${j.sLogoVisitante}">
+</div>
 
         <div class="team-right">${j.sNmVisitante}</div>
       </div>
