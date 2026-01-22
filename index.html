@@ -277,16 +277,17 @@ async function loadClassificacao(){
       grupo.Tabela.forEach((t,i)=>{
         html += `
         <div class="table-row">
-          <div>${i+1}</div>
-          <img src="${t.sLogo}">
-          <div class="team-name">${t.sNome_Clube}</div>
-          <div class="points">${t.iPontos}</div>
-          <div>${t.iJogos}</div>
-          <div>${t.iVitorias}</div>
-          <div>${t.iEmpates}</div>
-          <div>${t.iDerrotas}</div>
-          <div>${t.iSaldo_Gols}</div>
-        </div>`;
+  <div>${i+1}</div>
+  <img src="${t.sLogo}">
+  <div class="team-name">${t.sNome_Clube}</div>
+  <div class="points">${t.iPontos}</div>
+  <div>${t.iJogos}</div>
+  <div>${t.iVitorias}</div>
+  <div>${t.iEmpates}</div>
+  <div>${t.iDerrotas}</div>
+  <div>${t.iGols_Pro}:${t.iGols_Contra}</div>
+  <div>${t.iSaldo_Gols}</div>
+</div>`;
       });
 
       html += `</div>`;
