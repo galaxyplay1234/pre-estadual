@@ -143,20 +143,26 @@ header{
 /* CENTRO TRAVADO */
 .center{
   display:grid;
-  grid-template-rows:26px 22px 26px;
+  grid-template-rows:24px 24px 24px;
   align-items:center;
   justify-items:center;
+  height:72px;              /* 🔒 TRAVA TOTAL */
 }
 
 .center img{
   width:22px;
   height:22px;
+  object-fit:contain;
 }
 
 .score{
   font-size:15px;
   font-weight:700;
-  line-height:1;
+  line-height:24px;         /* 🔒 ALTURA FIXA */
+  height:24px;              /* 🔒 ALTURA FIXA */
+  display:flex;
+  align-items:center;
+  justify-content:center;
 }
 
 .match-bottom{
