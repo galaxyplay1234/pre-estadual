@@ -315,23 +315,22 @@ function renderRodada(){
       <div class="match-top">${j.sData} • ${j.sHora}</div>
 
       <div class="match-middle">
-        <div class="team-left">${j.sNmMandante}</div>
+  <div class="team-left">${j.sNmMandante}</div>
 
-        <div class="center">
-  <img class="logo" src="${j.sLogoMandante}">
-  <div class="score">
-  ${
-    j.iGolsMandante && j.iGolsVisitante && j.iGolsMandante !== "-" && j.iGolsVisitante !== "-"
-      ? `${j.iGolsMandante} x ${j.iGolsVisitante}`
-      : "x"
-  }
-</div>
-</div>
-  <img class="logo" src="${j.sLogoVisitante}">
-</div>
+  <div class="center">
+    <img class="logo" src="${j.sLogoMandante}">
+    <div class="score">
+      ${
+        j.iGolsMandante && j.iGolsVisitante && j.iGolsMandante !== "-" && j.iGolsVisitante !== "-"
+          ? `${j.iGolsMandante} x ${j.iGolsVisitante}`
+          : "x"
+      }
+    </div>
+    <img class="logo" src="${j.sLogoVisitante}">
+  </div>
 
-        <div class="team-right">${j.sNmVisitante}</div>
-      </div>
+  <div class="team-right">${j.sNmVisitante}</div>
+</div>
 
       <div class="match-bottom">${j.sEstadio}</div>
     </div>`;
