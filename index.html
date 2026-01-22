@@ -78,12 +78,32 @@ header{
 .table-header,
 .table-row{
   display:grid;
-  grid-template-columns:24px 26px 1fr 26px 26px 26px 26px 26px 34px 26px;
+  grid-template-columns:
+    6%   /* posição */
+    8%   /* escudo */
+    30%  /* nome */
+    6%   /* P */
+    6%   /* J */
+    6%   /* V */
+    6%   /* E */
+    6%   /* D */
+    10%  /* G */
+    6%;  /* SG */
+
   align-items:center;
-  gap:4px;
+  gap:0;
   padding:6px 8px;
-  border-bottom:1px solid var(--line);
-  font-size:11.5px;
+}
+
+
+.team-name{
+  white-space: normal;
+  word-break: break-word;
+}
+
+.num{
+  text-align:center;
+  font-variant-numeric: tabular-nums;
 }
 
 
