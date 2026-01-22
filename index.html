@@ -79,16 +79,16 @@ header{
 .table-row{
   display:grid;
   grid-template-columns:
-    6%   /* posição */
-    8%   /* escudo */
-    30%  /* nome */
-    6%   /* P */
-    6%   /* J */
-    6%   /* V */
-    6%   /* E */
-    6%   /* D */
-    10%  /* G */
-    6%;  /* SG */
+  28px              /* posição */
+  32px              /* escudo */
+  minmax(120px,1fr) /* nome do time */
+  32px              /* P */
+  32px              /* J */
+  32px              /* V */
+  32px              /* E */
+  32px              /* D */
+  48px              /* G (2:1) */
+  32px;             /* SG */
 
   align-items:center;
   gap:0;
@@ -96,7 +96,10 @@ header{
 }
 
 
-
+.team-name{
+  white-space: normal;
+  word-break: break-word;
+}
 
 .num{
   text-align:center;
