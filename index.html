@@ -337,7 +337,7 @@ async function init(){
   await loadClassificacao();
   await loadJogos();
   
-  document.getElementById("loading")?.remove();
+  document.getElementById("loading").style.display = "none";
 }
 
 /* CLASSIFICAÇÃO */
