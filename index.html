@@ -233,6 +233,13 @@ header{
   font-size:13px;
 }
 
+/* Posição classificada (1º ao 4º) */
+.pos-classificado {
+  color: #16a34a; /* verde forte */
+  
+}
+
+
 .hidden{display:none}
 
 /* Remove qualquer pontilhado herdado da API */
@@ -269,6 +276,8 @@ header{
   text-decoration: none !important;
   -webkit-text-decoration: none !important;
 }
+
+
 
 
 </style>
@@ -352,7 +361,7 @@ async function loadClassificacao(){
       grupo.Tabela.forEach((t,i)=>{
         html += `
         <div class="table-row">
-  <div>${i+1}</div>
+  <div class="${i < 4 ? 'pos-classificado' : ''}">${i+1}</div>
   <img src="${t.sLogo}">
   <div class="team-name plain-text">${t.sNome_Clube}</div>
   <div class="points num">${t.iPontos}</div>
