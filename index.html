@@ -8,6 +8,7 @@
 <style>
 :root{
   --bg:#0b1220;
+  --content:#f3f4f6;
   --primary:#22c55e;
   --dark:#020617;
   --text:#111827;
@@ -50,83 +51,105 @@ header{
 
 /* CONTAINER */
 .container{
-  padding:12px;
+  padding:14px;
+  background:var(--content);
+  min-height:100vh;
 }
 
 /* CLASSIFICAÇÃO */
 .group-title{
-  margin:18px 4px 8px;
+  margin:18px 6px 8px;
   font-weight:700;
   color:#111827;
+  font-size:14px;
 }
 
 .table{
   background:var(--card);
   border-radius:14px;
   overflow:hidden;
-  margin-bottom:20px;
+  margin-bottom:22px;
+  box-shadow:0 4px 10px rgba(0,0,0,.08);
 }
 
 .table-header,
 .table-row{
   display:grid;
-  grid-template-columns:30px 34px 1fr repeat(6,34px);
+  grid-template-columns:26px 30px 1fr 30px 30px 30px 30px 30px 34px;
   align-items:center;
   gap:6px;
-  padding:10px;
+  padding:8px 10px;
   border-bottom:1px solid var(--line);
-  font-size:13px;
+  font-size:12px;
 }
+
 .table-header{
   color:var(--muted);
   font-weight:600;
 }
+
 .table-row:last-child{
   border-bottom:none;
 }
+
 .table-row img{
-  width:28px;
-  height:28px;
+  width:22px;
+  height:22px;
   object-fit:contain;
+}
+
+.team-name{
+  font-size:12px;
+  line-height:1.2;
 }
 
 /* JOGOS */
 .match-card{
   background:var(--card);
   border-radius:14px;
-  padding:14px;
+  padding:12px;
   margin-bottom:12px;
+  box-shadow:0 4px 10px rgba(0,0,0,.08);
 }
+
 .match-top{
   text-align:center;
-  font-size:13px;
+  font-size:12px;
   color:var(--muted);
 }
+
 .match-middle{
   display:flex;
   align-items:center;
   justify-content:space-between;
-  margin:10px 0;
+  margin:8px 0;
 }
+
 .team{
-  width:40%;
+  width:42%;
   display:flex;
   align-items:center;
-  gap:8px;
+  gap:6px;
+  font-size:13px;
 }
+
 .team.right{
   justify-content:flex-end;
+  text-align:right;
 }
+
 .team img{
-  width:34px;
+  width:26px;
 }
+
 .time{
-  font-size:18px;
+  font-size:16px;
   font-weight:700;
 }
+
 .match-bottom{
   text-align:center;
-  font-size:13px;
+  font-size:12px;
   color:var(--muted);
 }
 
@@ -135,8 +158,9 @@ header{
   display:flex;
   justify-content:space-between;
   align-items:center;
-  margin:10px 0;
-  color:white;
+  margin:12px 0;
+  color:#111827;
+  font-weight:600;
 }
 .round-btn{
   color:var(--primary);
@@ -218,14 +242,14 @@ async function loadClassificacao(){
           <div>E</div><div>D</div><div>SG</div>
         </div>`;
 
-      grupo.Tabela.sort((a,b)=>a.iPosicao-b.iPosicao);
+      grupo.Tabela.sort((a,b)=>b.iPontos - a.iPontos);
 
-      grupo.Tabela.forEach(t=>{
+      grupo.Tabela.forEach((t,index)=>{
         html += `
         <div class="table-row">
-          <div>${t.iPosicao}</div>
+          <div>${index+1}</div>
           <img src="${t.sLogo}">
-          <div>${t.sNome_Clube}</div>
+          <div class="team-name">${t.sNome_Clube}</div>
           <div>${t.iPontos}</div>
           <div>${t.iJogos}</div>
           <div>${t.iVitorias}</div>
