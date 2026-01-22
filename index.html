@@ -330,14 +330,24 @@ async function api(url){
 }
 
 async function init(){
-  campeonato = await api(
-    `https://egol.fcf.com.br/egolligaSC/WsEgol.wso/Get_IdCampeonato/JSON/debug?sCampeonato=${CAMPEONATO}`
-  );
-  document.getElementById("titulo").innerText = campeonato[0].sCampeonato;
-  await loadClassificacao();
-  await loadJogos();
-  
-  document.getElementById("loading").style.display = "none";
+  try {
+    campeonato = await api(
+      `https://egol.fcf.com.br/egolligaSC/WsEgol.wso/Get_IdCampeonato/JSON/debug?sCampeonato=${CAMPEONATO}`
+    );
+
+    document.getElementById("titulo").innerText =
+      campeonato[0]?.sCampeonato || "Campeonato";
+
+    await loadClassificacao();
+    await loadJogos();
+
+  } catch (e) {
+    console.error("Erro ao carregar dados:", e);
+  } finally {
+    // 👇 ISSO EXECUTA SEMPRE (ANDROID SAFE)
+    const loading = document.getElementById("loading");
+    if (loading) loading.style.display = "none";
+  }
 }
 
 /* CLASSIFICAÇÃO */
