@@ -1,28 +1,32 @@
-name: Atualizar dados automaticamente
+name: Atualizar dados do campeonato
 
 on:
   schedule:
-    - cron: "*/15 * * * *"   # a cada 15 minutos
+    - cron: "*/15 * * * *" # a cada 15 minutos
   workflow_dispatch:
 
 jobs:
-  scrape:
+  update:
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
           node-version: 18
 
-      - run: npm install axios cheerio
+      - name: Instalar dependências
+        run: npm install node-fetch jsdom
 
-      - run: node scrape.js
+      - name: Rodar scraper
+        run: node scrape.js
 
-      - run: |
+      - name: Commit automático
+        run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add dados.json
-          git commit -m "Atualização automática" || exit 0
+          git commit -m "Atualização automática dos dados" || exit 0
           git push
