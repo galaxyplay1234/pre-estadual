@@ -45,6 +45,6 @@ const URL = "https://www.lchf.com.br/ClassificacaoJogos.aspx";
 
   const dados = { campeonato, grupos };
 
-  fs.writeFileSync("dados.json", JSON.stringify(dados, null, 2));
+  fs.writeFileSync("sicred/dados.json", JSON.stringify(dados, null, 2));
   console.log("✅ dados.json atualizado");
 })();
