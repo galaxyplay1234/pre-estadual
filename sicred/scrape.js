@@ -1,49 +1,50 @@
 const fs = require("fs");
-const axios = require("axios");
-const cheerio = require("cheerio");
+const fetch = require("node-fetch");
+const { JSDOM } = require("jsdom");
 
 const URL = "https://www.lchf.com.br/ClassificacaoJogos.aspx";
-const BASE = "https://www.lchf.com.br/";
 
 (async () => {
-  const { data: html } = await axios.get(URL);
-  const $ = cheerio.load(html);
+  const res = await fetch(URL);
+  const html = await res.text();
 
-  const campeonato = $("h3.title-bg").first().text().trim();
+  const dom = new JSDOM(html);
+  const document = dom.window.document;
+
+  const campeonato = document.querySelector("h3.title-bg")?.textContent.trim();
+
   const grupos = [];
 
-  $(".label-grupo").each((_, el) => {
-    const nomeGrupo = $(el).text().replace("Grupo:", "").trim();
-    const tabela = [];
+  document.querySelectorAll(".label-grupo").forEach(label => {
+    const nomeGrupo = label.textContent.replace("Grupo:", "").trim();
+    const tabela = label.nextElementSibling.querySelector("table");
 
-    const table = $(el).nextAll("div").find("table").first();
+    const times = [];
 
-    table.find("tr").slice(1).each((_, tr) => {
-      const td = $(tr).find("td");
-      if (td.length < 11) return;
+    tabela.querySelectorAll("tr").forEach((tr, i) => {
+      if (i === 0) return;
 
-      tabela.push({
-        posicao: Number(td.eq(0).text().trim()),
-        logo: BASE + td.eq(1).find("img").attr("src"),
-        nome: td.eq(2).text().trim(),
-        pontos: Number(td.eq(3).text()),
-        jogos: Number(td.eq(4).text()),
-        vitorias: Number(td.eq(5).text()),
-        empates: Number(td.eq(6).text()),
-        derrotas: Number(td.eq(7).text()),
-        gols_pro: Number(td.eq(8).text()),
-        gols_contra: Number(td.eq(9).text()),
-        saldo: Number(td.eq(10).text())
+      const td = tr.querySelectorAll("td");
+      times.push({
+        posicao: Number(td[0].textContent.trim()),
+        logo: td[1].querySelector("img")?.getAttribute("src"),
+        nome: td[2].textContent.trim(),
+        pontos: Number(td[3].textContent),
+        jogos: Number(td[4].textContent),
+        vitorias: Number(td[5].textContent),
+        empates: Number(td[6].textContent),
+        derrotas: Number(td[7].textContent),
+        gols_pro: Number(td[8].textContent),
+        gols_contra: Number(td[9].textContent),
+        saldo: Number(td[10].textContent)
       });
     });
 
-    grupos.push({ nome: nomeGrupo, tabela });
+    grupos.push({ nome: nomeGrupo, tabela: times });
   });
 
-  fs.writeFileSync(
-    "dados.json",
-    JSON.stringify({ campeonato, grupos }, null, 2)
-  );
+  const dados = { campeonato, grupos };
 
-  console.log("Dados atualizados");
+  fs.writeFileSync("dados.json", JSON.stringify(dados, null, 2));
+  console.log("✅ dados.json atualizado");
 })();
