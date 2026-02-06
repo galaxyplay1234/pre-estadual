@@ -1,1 +1,36 @@
-.
+{
+  "campeonato": "6ª COPA SICREDI LIVRE MASCULINO",
+  "grupos": [
+    {
+      "nome": "Grupo A",
+      "tabela": [
+        {
+          "posicao": 1,
+          "nome": "JAGERMEISTER",
+          "logo": "Upload/clubes/JAGER.png",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 2,
+          "nome": "REAL CATALUNHA FC",
+          "logo": "Upload/clubes/REAL C.png",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        }
+      ]
+    }
+  ]
+}
