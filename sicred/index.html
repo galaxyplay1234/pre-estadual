@@ -6,9 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="format-detection" content="telephone=no,date=no,address=no,email=no">
 <style>
-html, body {
-  touch-action: manipulation;
-}
+html, body { touch-action: manipulation; }
 
 :root{
   --bg:#0b1220;
@@ -60,7 +58,7 @@ header{
   min-height:100vh;
 }
 
-/* CLASSIFICAÇÃO (inalterado) */
+/* CLASSIFICAÇÃO */
 .group-title{
   margin:18px 6px 6px;
   font-weight:700;
@@ -78,46 +76,12 @@ header{
 .table-header,
 .table-row{
   display:grid;
-  grid-template-columns:
-    6%   /* posição */
-    6%   /* escudo */
-    40%  /* nome */
-    5%   /* P */
-    5%   /* J */
-    5%   /* V */
-    5%   /* E */
-    5%   /* D */
-    7%  /* G */
-    6%;  /* SG */
-    
+  grid-template-columns:6% 6% 40% 5% 5% 5% 5% 5% 7% 6%;
   align-items:center;
   gap:4px;
   padding:6px 8px;
   border-bottom:1px solid var(--line);
   font-size:11.5px;
-}
-
-
-
-
-.team-name{
-  white-space: normal;
-  word-break: break-word;
-}
-
-.num{
-  text-align:center;
-  font-variant-numeric: tabular-nums;
-}
-
-
-.num {
-  text-align: center;
-  font-variant-numeric: tabular-nums;
-}
-
-.table-header div:nth-child(n+4) {
-  text-align: center;
 }
 
 .table-header{
@@ -135,151 +99,22 @@ header{
 .team-name{
   font-size:11.5px;
   line-height:1.15;
+  word-break: break-word;
+}
+
+.num{
+  text-align:center;
+  font-variant-numeric: tabular-nums;
 }
 
 .points{font-weight:700}
 
-/* ================= JOGOS ================= */
-
-.match-card{
-  background:var(--card);
-  border-radius:14px;
-  padding:12px;
-  margin-bottom:12px;
-  box-shadow:0 4px 10px rgba(0,0,0,.08);
+/* Linha classificada */
+.table-row.classificado{
+  border-left:1px solid #16a34a;
 }
-
-.match-top{
-  text-align:center;
-  font-size:11.5px;
-  color:var(--muted);
-}
-
-/* GRID FIXO */
-.match-middle{
-  display:grid;
-  grid-template-columns:1fr 90px 1fr;
-  align-items:center;
-  margin:8px 0;
-}
-
-/* NOMES */
-.team-left{
-  text-align:right;
-  font-size:12px;
-  line-height:1.2;
-  padding-right:8px;
-}
-
-.team-right{
-  text-align:left;
-  font-size:12px;
-  line-height:1.2;
-  padding-left:8px;
-}
-
-/* CENTRO TRAVADO */
-.center{
-  display:grid;
-  grid-template-columns:26px 34px 26px;
-  align-items:center;
-  justify-content:center;
-  column-gap:6px;
-  height:32px;
-}
-
-.center .logo{
-  width:22px;
-  height:22px;
-  object-fit:contain;
-}
-
-.score{
-  width:34px;
-  text-align:center;
-  font-size:15px;
-  font-weight:700;
-  white-space:nowrap;
-}
-
-.match-bottom{
-  text-align:center;
-  font-size:9px;
-  color:var(--muted);
-}
-
-/* RODADAS */
-.round-nav{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  margin:10px 0;
-  font-weight:600;
-}
-
-.round-btn{
-  font-size:25px;
-  color:var(--primary);
-  cursor:pointer;
-  user-select:none;
-
-  /* 👇 AQUI ESTÁ O QUE VOCÊ QUER */
-  padding:8px 18px;        /* aumenta área clicável */
-  border-radius:12px;      /* toque mais confortável */
-  transition: background .15s ease;
-}
-
-.round-title{
-  font-size:13px;
-}
-
-/* Linha classificada (1º ao 4º) */
-.table-row.classificado {
-  border-left: 1px solid #16a34a; /* verde forte */
-  
-}
-
 
 .hidden{display:none}
-
-/* Remove qualquer pontilhado herdado da API */
-.match-card *,
-.match-card a,
-.match-card span,
-.match-card abbr {
-  text-decoration: none !important;
-  border-bottom: none !important;
-}
-
-
-/* Remove pontilhado das abreviações no cabeçalho */
-.table-header abbr {
-  text-decoration: none !important;
-  border-bottom: none !important;
-}
-
-/* Força também se o browser aplicar dotted direto */
-.table-header div {
-  text-decoration: none !important;
-  border-bottom: none !important;
-}
-
-.plain-text {
-  text-decoration: none !important;
-  border-bottom: none !important;
-  -webkit-text-decoration: none !important;
-}
-
-/* Blindagem contra underline automático do Safari iOS */
-.table,
-.table * {
-  text-decoration: none !important;
-  -webkit-text-decoration: none !important;
-}
-
-
-
-
 </style>
 </head>
 
@@ -289,217 +124,82 @@ header{
 
 <div class="tabs">
   <div class="tab active" onclick="showTab('classificacao')">Classificação</div>
-  <div class="tab" onclick="showTab('jogos')">Jogos</div>
 </div>
 
 <div class="container">
-  
-  <!-- LOADING -->
-  <div id="loading" style="
-    text-align:center;
-    padding:40px;
-    font-size:14px;
-    color:#6b7280;
-  ">
+
+  <div id="loading" style="text-align:center;padding:40px;font-size:14px;color:#6b7280">
     Carregando dados…
   </div>
 
   <div id="classificacao"></div>
 
-  <div id="jogos" class="hidden">
-    <div class="round-nav">
-      <div class="round-btn" onclick="prevRound()">‹</div>
-      <div id="round-title" class="round-title"></div>
-      <div class="round-btn" onclick="nextRound()">›</div>
-    </div>
-    <div id="round-games"></div>
-  </div>
-
 </div>
 
 <script>
-const CAMPEONATO = "CAMPE-20372-LCH-EON-2025";
-const PROXY = "https://api.allorigins.win/raw?url=";
-
-let campeonato, rodadas=[], rodadaAtual=0;
+let dados = null;
 
 init();
 
-async function api(url){
-  return fetch(PROXY + encodeURIComponent(url)).then(r=>r.json());
-}
-
 async function init(){
-  try {
-    campeonato = await api(
-      `https://egol.fcf.com.br/egolligaSC/WsEgol.wso/Get_IdCampeonato/JSON/debug?sCampeonato=${CAMPEONATO}`
-    );
+  try{
+    const res = await fetch("dados.json", { cache: "no-store" });
+    dados = await res.json();
 
     document.getElementById("titulo").innerText =
-      campeonato[0]?.sCampeonato || "Campeonato";
+      dados.campeonato || "Campeonato";
 
-    await loadClassificacao();
-    await loadJogos();
+    loadClassificacao();
 
-  } catch (e) {
-    console.error("Erro ao carregar dados:", e);
-  } finally {
-    // 👇 ISSO EXECUTA SEMPRE (ANDROID SAFE)
-    const loading = document.getElementById("loading");
-    if (loading) loading.style.display = "none";
+  }catch(e){
+    console.error("Erro:", e);
+  }finally{
+    const l = document.getElementById("loading");
+    if(l) l.style.display = "none";
   }
 }
 
-/* CLASSIFICAÇÃO */
-async function loadClassificacao(){
-  const {iAno,iCampeonato,sLiga} = campeonato[0];
-  const fases = await api(
-    `https://egol.fcf.com.br/egolligaSC/WsEgol.wso/Get_Campeonato/JSON/debug?iAno=${iAno}&iCampeonato=${iCampeonato}&sLiga=${sLiga}`
-  );
-
+function loadClassificacao(){
   let html = "";
 
-  for(const fase of fases){
-    if(!fase.Grupo) continue;
-
-    for(const grupo of fase.Grupo){
-      if(!grupo.Tabela?.length) continue;
-
-      html += `<div class="group-title">${grupo.sNome_Grupo}</div>
+  dados.grupos.forEach(grupo => {
+    html += `
+      <div class="group-title">${grupo.nome}</div>
       <div class="table">
         <div class="table-header">
-  <div>#</div><div></div><div>Time</div>
-  <div class="plain-text">P</div>
-  <div class="plain-text">J</div>
-  <div class="plain-text">V</div>
-  <div class="plain-text">E</div>
-  <div class="plain-text">D</div>
-  <div class="plain-text">G</div>
-  <div class="plain-text">SG</div>
-</div>`;
+          <div>#</div><div></div><div>Time</div>
+          <div>P</div><div>J</div><div>V</div>
+          <div>E</div><div>D</div><div>G</div><div>SG</div>
+        </div>
+    `;
 
-      // grupo.Tabela.sort((a,b)=>b.iPontos-a.iPontos);
-
-      const tabelaOrdenada = [...grupo.Tabela].reverse();
-
-tabelaOrdenada.forEach((t,i)=>{
-        html += `
+    grupo.tabela.forEach((t,i)=>{
+      html += `
         <div class="table-row ${i < 4 ? 'classificado' : ''}">
-  <div>${i+1}</div>
-  <img src="${t.sLogo}">
-  <div class="team-name plain-text">${t.sNome_Clube}</div>
-  <div class="points num">${t.iPontos}</div>
-<div class="num">${t.iJogos}</div>
-<div class="num">${t.iVitorias}</div>
-<div class="num">${t.iEmpates}</div>
-<div class="num">${t.iDerrotas}</div>
-<div class="num">${t.iGols_Pro}:${t.iGols_Contra}</div>
-<div class="num">${t.iSaldo_Gols}</div>
-</div>`;
-      });
+          <div>${t.posicao}</div>
+          <img src="${t.logo}">
+          <div class="team-name">${t.nome}</div>
+          <div class="points num">${t.pontos}</div>
+          <div class="num">${t.jogos}</div>
+          <div class="num">${t.vitorias}</div>
+          <div class="num">${t.empates}</div>
+          <div class="num">${t.derrotas}</div>
+          <div class="num">${t.gols_pro}:${t.gols_contra}</div>
+          <div class="num">${t.saldo}</div>
+        </div>
+      `;
+    });
 
-      html += `</div>`;
-    }
-  }
-  document.getElementById("classificacao").innerHTML = html;
-  removeTitles();
-}
-
-/* JOGOS */
-async function loadJogos(){
-  const {iAno,iCampeonato,sLiga} = campeonato[0];
-  rodadas = await api(
-    `https://egol.fcf.com.br/egolligaSC/WsEgol.wso/Get_Jogos/JSON/debug?iAno=${iAno}&iCampeonato=${iCampeonato}&sLiga=${sLiga}`
-  );
-  renderRodada();
-}
-
-function renderRodada(){
-  const r = rodadas[rodadaAtual];
-  document.getElementById("round-title").innerText = r.sRodada;
-
-  let html="";
-  r.Jogos.forEach(j=>{
-    html+=`
-    <div class="match-card">
-      <div class="match-top">
-  ${formatarDataHora(j.sData, j.sHora)}
-</div>
-
-      <div class="match-middle">
-  <div class="team-left">${j.sNmMandante}</div>
-
-  <div class="center">
-    <img class="logo" src="${j.sLogoMandante}">
-    <div class="score">
-      ${
-        j.iGolsMandante && j.iGolsVisitante && j.iGolsMandante !== "-" && j.iGolsVisitante !== "-"
-          ? `${j.iGolsMandante} x ${j.iGolsVisitante}`
-          : "x"
-      }
-    </div>
-    <img class="logo" src="${j.sLogoVisitante}">
-  </div>
-
-  <div class="team-right">${j.sNmVisitante}</div>
-</div>
-
-      <div class="match-bottom">${j.sEstadio}</div>
-    </div>`;
+    html += `</div>`;
   });
 
-  document.getElementById("round-games").innerHTML = html;
+  document.getElementById("classificacao").innerHTML = html;
 }
-
-
-function formatarDataHora(dataStr, horaStr){
-  let diaSemana = "";
-  let dataParte = "";
-
-  // Caso 1: já vem com dia da semana (ex: "Dom, 15/02/2026")
-  if (dataStr.includes(",")) {
-    const partes = dataStr.split(",");
-    diaSemana = partes[0].trim(); // Dom
-    dataParte = partes[1].trim(); // 15/02/2026
-  } 
-  // Caso 2: vem só a data (ex: "15/02/2026")
-  else {
-    dataParte = dataStr.trim();
-
-    const [dia, mes, ano] = dataParte.split("/");
-    const dataObj = new Date(ano, mes - 1, dia);
-
-    const dias = ["Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sáb"];
-    diaSemana = dias[dataObj.getDay()];
-  }
-
-  // remove o ano
-  dataParte = dataParte.replace(/\/\d{4}/, "");
-
-  // hora 16:00 → 16h00
-  const horaFormatada = horaStr.replace(":", "h");
-
-  return `${diaSemana}, ${dataParte} - ${horaFormatada}`;
-}
-
-
-function prevRound(){ if(rodadaAtual>0){rodadaAtual--;renderRodada()} }
-function nextRound(){ if(rodadaAtual<rodadas.length-1){rodadaAtual++;renderRodada()} }
 
 function showTab(tab){
   document.querySelectorAll(".tab").forEach(t=>t.classList.remove("active"));
   event.target.classList.add("active");
-  document.getElementById("classificacao").classList.toggle("hidden",tab!=="classificacao");
-  document.getElementById("jogos").classList.toggle("hidden",tab!=="jogos");
 }
-
-
-function removeTitles() {
-  document.querySelectorAll('.table-header *').forEach(el => {
-    el.removeAttribute('title');
-  });
-}
-
 </script>
 
 </body>
