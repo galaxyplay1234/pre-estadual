@@ -1,0 +1,33 @@
+name: Atualizar dados Sicredi
+
+on:
+  schedule:
+    - cron: "*/30 * * * *" # a cada 30 minutos
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Instalar dependências
+        run: npm install node-fetch@2 jsdom
+
+      - name: Rodar scraper
+        run: node sicred/scrape.js
+
+      - name: Commit dos dados atualizados
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add sicred/dados.json
+          git commit -m "Atualização automática dos dados" || echo "Sem alterações"
+          git push
