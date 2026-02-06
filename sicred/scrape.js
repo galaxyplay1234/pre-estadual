@@ -3,48 +3,93 @@ const fetch = require("node-fetch");
 const { JSDOM } = require("jsdom");
 
 const URL = "https://www.lchf.com.br/ClassificacaoJogos.aspx";
+const NOME_CAMPEONATO = "6ª COPA SICREDI LIVRE MASCULINO";
 
 (async () => {
-  const res = await fetch(URL);
-  const html = await res.text();
+  try {
+    const res = await fetch(URL);
+    const html = await res.text();
 
-  const dom = new JSDOM(html);
-  const document = dom.window.document;
+    const dom = new JSDOM(html);
+    const document = dom.window.document;
 
-  const campeonato = document.querySelector("h3.title-bg")?.textContent.trim();
+    // 1️⃣ localizar exatamente o campeonato correto
+    const titulos = [...document.querySelectorAll("h3.title-bg")];
+    const tituloCampeonato = titulos.find(
+      h3 => h3.textContent.trim() === NOME_CAMPEONATO
+    );
 
-  const grupos = [];
+    if (!tituloCampeonato) {
+      console.error("❌ Campeonato não encontrado");
+      process.exit(1);
+    }
 
-  document.querySelectorAll(".label-grupo").forEach(label => {
-    const nomeGrupo = label.textContent.replace("Grupo:", "").trim();
-    const tabela = label.nextElementSibling.querySelector("table");
+    const grupos = [];
+    let atual = tituloCampeonato.nextElementSibling;
 
-    const times = [];
+    // 2️⃣ percorre somente os grupos desse campeonato
+    while (atual) {
+      // se encontrar outro campeonato, para
+      if (atual.matches("h3.title-bg")) break;
 
-    tabela.querySelectorAll("tr").forEach((tr, i) => {
-      if (i === 0) return;
+      const labelGrupo = atual.querySelector?.(".label-grupo");
 
-      const td = tr.querySelectorAll("td");
-      times.push({
-        posicao: Number(td[0].textContent.trim()),
-        logo: td[1].querySelector("img")?.getAttribute("src"),
-        nome: td[2].textContent.trim(),
-        pontos: Number(td[3].textContent),
-        jogos: Number(td[4].textContent),
-        vitorias: Number(td[5].textContent),
-        empates: Number(td[6].textContent),
-        derrotas: Number(td[7].textContent),
-        gols_pro: Number(td[8].textContent),
-        gols_contra: Number(td[9].textContent),
-        saldo: Number(td[10].textContent)
-      });
-    });
+      if (labelGrupo) {
+        const nomeGrupo = labelGrupo.textContent
+          .replace("Grupo:", "")
+          .trim();
 
-    grupos.push({ nome: nomeGrupo, tabela: times });
-  });
+        const tabela = atual.querySelector("table");
+        const times = [];
 
-  const dados = { campeonato, grupos };
+        tabela.querySelectorAll("tr").forEach((tr, i) => {
+          if (i === 0) return;
 
-  fs.writeFileSync("sicred/dados.json", JSON.stringify(dados, null, 2));
-  console.log("✅ dados.json atualizado");
+          const td = tr.querySelectorAll("td");
+          if (!td.length) return;
+
+          times.push({
+            posicao: Number(td[0].textContent.trim()),
+            logo: td[1].querySelector("img")
+              ? "https://www.lchf.com.br/" + td[1].querySelector("img").getAttribute("src")
+              : null,
+            nome: td[2].textContent.trim(),
+            pontos: Number(td[3].textContent.trim()),
+            jogos: Number(td[4].textContent.trim()),
+            vitorias: Number(td[5].textContent.trim()),
+            empates: Number(td[6].textContent.trim()),
+            derrotas: Number(td[7].textContent.trim()),
+            gols_pro: Number(td[8].textContent.trim()),
+            gols_contra: Number(td[9].textContent.trim()),
+            saldo: Number(td[10].textContent.trim())
+          });
+        });
+
+        grupos.push({
+          nome: nomeGrupo,
+          tabela: times
+        });
+      }
+
+      atual = atual.nextElementSibling;
+    }
+
+    const dados = {
+      campeonato: NOME_CAMPEONATO,
+      atualizado_em: new Date().toISOString(),
+      grupos
+    };
+
+    fs.writeFileSync(
+      "sicred/dados.json",
+      JSON.stringify(dados, null, 2),
+      "utf8"
+    );
+
+    console.log("✅ dados.json atualizado com sucesso");
+
+  } catch (err) {
+    console.error("❌ Erro no scraper:", err);
+    process.exit(1);
+  }
 })();
