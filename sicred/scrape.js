@@ -11,30 +11,29 @@ const URL = "https://www.lchf.com.br/ClassificacaoJogos.aspx";
   const dom = new JSDOM(html);
   const document = dom.window.document;
 
-  // 🏆 Nome do campeonato
+  /* ================= CAMPEONATO ================= */
   const campeonato = [...document.querySelectorAll("h3.title-bg")]
-    .map(h => h.textContent.trim())
-    .find(t => t.includes("6ª COPA SICREDI LIVRE MASCULINO"));
+    .find(h => h.textContent.includes("SICREDI LIVRE MASCULINO"))
+    ?.textContent.trim();
 
-  // ================= CLASSIFICAÇÃO =================
+  /* ================= CLASSIFICAÇÃO ================= */
   const grupos = [];
 
   document.querySelectorAll(".label-grupo").forEach(label => {
     const nomeGrupo = label.textContent.replace("Grupo:", "").trim();
-    const tabela = label.nextElementSibling.querySelector("table");
+    const tabela = label.nextElementSibling?.querySelector("table");
     if (!tabela) return;
 
     const times = [];
 
     tabela.querySelectorAll("tr").forEach((tr, i) => {
       if (i === 0) return;
-
       const td = tr.querySelectorAll("td");
       if (td.length < 11) return;
 
       times.push({
         posicao: Number(td[0].textContent.trim()),
-        logo: td[1].querySelector("img")?.getAttribute("src") || null,
+        logo: td[1].querySelector("img")?.getAttribute("src") || "",
         nome: td[2].textContent.trim(),
         pontos: Number(td[3].textContent),
         jogos: Number(td[4].textContent),
@@ -50,55 +49,55 @@ const URL = "https://www.lchf.com.br/ClassificacaoJogos.aspx";
     grupos.push({ nome: nomeGrupo, tabela: times });
   });
 
-  // ================= JOGOS =================
-  const jogos = [];
+  /* ================= JOGOS ================= */
+  const jogosPorRodada = [];
+  let rodadaAtual = null;
 
-  const rodadaTexto =
-    document.querySelector("div:contains('Rodada')")?.textContent ||
-    document.body.textContent.match(/Rodada\s+\d+/)?.[0] ||
-    "Rodada atual";
+  const rows = document.querySelectorAll("table tr");
 
-  document
-    .querySelectorAll("table tr")
-    .forEach(tr => {
-      const td = tr.querySelectorAll("td");
-      if (td.length < 6) return;
+  rows.forEach(tr => {
+    const texto = tr.textContent.replace(/\s+/g, " ").trim();
 
-      const mandante = td[1]?.textContent.trim();
-      const placarMandante = td[2]?.querySelector("input")?.value || null;
-      const placarVisitante = td[3]?.querySelector("input")?.value || null;
-      const visitante = td[4]?.textContent.trim();
-      const campo = td[5]?.textContent.trim();
-      const dataHora = td[6]?.textContent.trim();
+    // Detecta "Rodada X"
+    if (texto.startsWith("Rodada")) {
+      rodadaAtual = {
+        rodada: texto,
+        jogos: []
+      };
+      jogosPorRodada.push(rodadaAtual);
+      return;
+    }
 
-      if (!mandante || !visitante) return;
+    if (!rodadaAtual) return;
 
-      let data = null;
-      let hora = null;
+    const tds = tr.querySelectorAll("td");
+    if (tds.length < 6) return;
 
-      if (dataHora?.includes(" ")) {
-        [data, hora] = dataHora.split(" ");
-      }
+    const mandante = tds[1]?.textContent.trim();
+    const visitante = tds[3]?.textContent.trim();
 
-      jogos.push({
-        rodada: rodadaTexto,
-        mandante,
-        visitante,
-        gols_mandante: placarMandante ? Number(placarMandante) : null,
-        gols_visitante: placarVisitante ? Number(placarVisitante) : null,
-        campo,
-        data,
-        hora
-      });
+    if (!mandante || !visitante) return;
+
+    rodadaAtual.jogos.push({
+      mandante,
+      visitante,
+      logo_mandante: tds[0]?.querySelector("img")?.getAttribute("src") || "",
+      logo_visitante: tds[4]?.querySelector("img")?.getAttribute("src") || "",
+      gols_mandante: null,
+      gols_visitante: null,
+      campo: tds[5]?.textContent.trim() || "",
+      data: tds[6]?.textContent.trim() || "",
+      hora: tds[7]?.textContent.trim() || ""
     });
+  });
 
-  // ================= SALVAR =================
-  const dados = { campeonato, grupos, jogos };
+  /* ================= SALVA ================= */
+  const dados = {
+    campeonato,
+    grupos,
+    jogos: jogosPorRodada
+  };
 
-  fs.writeFileSync(
-    "sicred/dados.json",
-    JSON.stringify(dados, null, 2)
-  );
-
-  console.log("✅ Classificação + jogos atualizados");
+  fs.writeFileSync("sicred/dados.json", JSON.stringify(dados, null, 2));
+  console.log("✅ dados.json atualizado com classificação + jogos");
 })();
