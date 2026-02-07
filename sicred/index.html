@@ -75,7 +75,11 @@ header{
 .table-header,
 .table-row{
   display:grid;
-  grid-template-columns:3% 6% 43% 5% 5% 5% 5% 5% 7% 6%;
+  grid-template-columns:
+  6%     /* posição */
+  6%     /* escudo */
+  minmax(0, 1fr) /* NOME — cresce sem empurrar */
+  5% 5% 5% 5% 5% 7% 6%;
   align-items:center;
   gap:4px;
   padding:6px 8px;
@@ -83,11 +87,7 @@ header{
   font-size:11.5px;
 }
 
-/* empurra estatísticas */
-.table-header > div:nth-child(n+4),
-.table-row > div:nth-child(n+4){
-  margin-left: 12px;
-}
+
 
 .table-header{
   color:var(--muted);
