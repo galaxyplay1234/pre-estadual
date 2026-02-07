@@ -183,6 +183,50 @@ header{
   color:var(--muted);
 }
 
+/* ================= ARTIHLEIROS ================= */
+
+.art-card{
+  background:var(--card);
+  border-radius:14px;
+  padding:12px;
+  margin-bottom:12px;
+  display:grid;
+  grid-template-columns:26px 40px 1fr 40px;
+  align-items:center;
+  gap:10px;
+  box-shadow:0 4px 10px rgba(0,0,0,.08);
+}
+
+.art-pos{
+  font-weight:700;
+  text-align:center;
+}
+
+.art-img{
+  width:36px;
+  height:36px;
+  border-radius:50%;
+}
+
+.art-name{
+  font-size:12px;
+  font-weight:600;
+}
+
+.art-club{
+  font-size:10px;
+  color:var(--muted);
+}
+
+.art-gols{
+  font-size:16px;
+  font-weight:700;
+  text-align:center;
+}
+
+
+
+
 /* RODADAS */
 .round-nav{
   display:flex;
@@ -214,6 +258,7 @@ header{
 <div class="tabs">
   <div class="tab active" onclick="showTab('classificacao')">Classificação</div>
   <div class="tab" onclick="showTab('jogos')">Jogos</div>
+  <div class="tab" onclick="showTab('artilheiros')">Artilheiros</div>
 </div>
 
 <div class="container">
@@ -354,15 +399,40 @@ function renderRodada(){
   document.getElementById("round-games").innerHTML=html;
 }
 
+
+/* ================= ARTIHLEIROS ================= */
+
+function loadArtilheiros(){
+  let html="";
+  artilheirosData.artilheiros.forEach(a=>{
+    html+=`
+    <div class="art-card">
+      <div class="art-pos">${a.posicao}</div>
+      <img class="art-img" src="https://s.glbimg.com/es/ge/static/live/widget_artilharia_responsivo/img/placeholder-jogador.png">
+      <div>
+        <div class="art-name">${a.nome}</div>
+        <div class="art-club">${a.clube}</div>
+      </div>
+      <div class="art-gols">${a.gols}</div>
+    </div>`;
+  });
+  document.getElementById("artilheiros").innerHTML=html;
+}
+
+
+
 function prevRound(){ if(rodadaAtual>0){rodadaAtual--;renderRodada()} }
 function nextRound(){ if(rodadaAtual<jogosData.rodadas.length-1){rodadaAtual++;renderRodada()} }
 
 function showTab(tab){
   document.querySelectorAll(".tab").forEach(t=>t.classList.remove("active"));
   event.target.classList.add("active");
-  document.getElementById("classificacao").classList.toggle("hidden",tab!=="classificacao");
-  document.getElementById("jogos").classList.toggle("hidden",tab!=="jogos");
+
+  ["classificacao","jogos","artilheiros"].forEach(id=>{
+    document.getElementById(id).classList.toggle("hidden", id!==tab);
+  });
 }
+
 
 function formatarDataHora(dataHora){
   if(!dataHora) return "";
