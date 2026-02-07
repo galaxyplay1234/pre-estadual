@@ -124,15 +124,9 @@ header{
   color:var(--primary);
   cursor:pointer;
   user-select:none;
-
-  /* 👇 AQUI ESTÁ O QUE VOCÊ QUER */
-  padding:8px 18px;        /* aumenta área clicável */
-  border-radius:12px;      /* toque mais confortável */
-  transition: background .15s ease;
+  padding:8px 18px;
+  border-radius:12px;
 }
-
-
-
 
 .round-title{ font-size:13px }
 
@@ -171,6 +165,7 @@ header{
 <script>
 let dados, jogosData;
 let rodadaAtual = 0;
+let mapaEscudos = {};
 
 init();
 
@@ -191,9 +186,35 @@ async function init(){
   }
 }
 
-/* CLASSIFICAÇÃO */
+/* ========= UTIL ========= */
+function normalizarNome(nome){
+  return nome
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9 ]/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function buscarEscudo(nome){
+  const n = normalizarNome(nome);
+
+  if(mapaEscudos[n]) return mapaEscudos[n];
+
+  for(const k in mapaEscudos){
+    if(n.includes(k) || k.includes(n)){
+      return mapaEscudos[k];
+    }
+  }
+  return "";
+}
+
+/* ========= CLASSIFICAÇÃO ========= */
 function loadClassificacao(){
   let html="";
+  mapaEscudos = {};
+
   dados.grupos.forEach(grupo=>{
     html+=`
       <div class="group-title">${grupo.nome}</div>
@@ -203,7 +224,11 @@ function loadClassificacao(){
           <div>P</div><div>J</div><div>V</div>
           <div>E</div><div>D</div><div>G</div><div>SG</div>
         </div>`;
+
     grupo.tabela.forEach((t,i)=>{
+      const nomeNorm = normalizarNome(t.nome);
+      mapaEscudos[nomeNorm] = t.logo;
+
       html+=`
         <div class="table-row ${i<4?'classificado':''}">
           <div>${t.posicao}</div>
@@ -218,12 +243,14 @@ function loadClassificacao(){
           <div class="num">${t.saldo}</div>
         </div>`;
     });
+
     html+=`</div>`;
   });
+
   document.getElementById("classificacao").innerHTML=html;
 }
 
-/* JOGOS */
+/* ========= JOGOS ========= */
 function renderRodada(){
   const rodada = jogosData.rodadas[rodadaAtual];
   document.getElementById("round-title").innerText = rodada.nome;
@@ -234,13 +261,20 @@ function renderRodada(){
       <div class="match-card">
         <div class="match-top">${j.data_hora}</div>
         <div class="match-middle">
-          <div class="team-left">${j.mandante}</div>
+          <div class="team-left">
+            <img src="${buscarEscudo(j.mandante)}" style="width:18px;vertical-align:middle;margin-right:6px">
+            ${j.mandante}
+          </div>
           <div class="score">${j.gols_mandante ?? ""} x ${j.gols_visitante ?? ""}</div>
-          <div class="team-right">${j.visitante}</div>
+          <div class="team-right">
+            <img src="${buscarEscudo(j.visitante)}" style="width:18px;vertical-align:middle;margin-right:6px">
+            ${j.visitante}
+          </div>
         </div>
         <div class="match-bottom">${j.campo}</div>
       </div>`;
   });
+
   document.getElementById("round-games").innerHTML=html;
 }
 
