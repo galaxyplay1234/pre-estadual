@@ -24,8 +24,10 @@ jobs:
       - name: Instalar dependências
         run: npm install node-fetch@2 jsdom
 
-      - name: Rodar scraper
-        run: node sicred/scrape.js
+      - name: Rodar scrapers
+  run: |
+    node sicred/scrape.js
+    node sicred/scrape-jogos.js
 
       - name: Commit dos dados atualizados
         run: |
