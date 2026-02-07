@@ -3,9 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Pré Estadual de Amadores</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<meta name="format-detection" content="telephone=no,date=no,address=no,email=no">
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
 html, body { touch-action: manipulation; }
 
@@ -20,7 +18,6 @@ html, body { touch-action: manipulation; }
 }
 
 *{box-sizing:border-box}
-
 body{
   margin:0;
   font-family:Inter,system-ui,Arial;
@@ -41,7 +38,6 @@ header{
   display:flex;
   background:var(--dark);
 }
-
 .tab{
   flex:1;
   padding:12px;
@@ -49,7 +45,6 @@ header{
   color:#9ca3af;
   cursor:pointer;
 }
-
 .tab.active{
   color:var(--primary);
   border-bottom:3px solid var(--primary);
@@ -80,7 +75,11 @@ header{
 .table-header,
 .table-row{
   display:grid;
-  grid-template-columns:6% 6% 40% 5% 5% 5% 5% 5% 7% 6%;
+  grid-template-columns:
+  3%     /* posição */
+  6%     /* escudo */
+  minmax(0, 1fr) /* NOME — cresce sem empurrar */
+  5% 5% 5% 5% 5% 7% 6%;
   align-items:center;
   gap:4px;
   padding:6px 8px;
@@ -88,28 +87,29 @@ header{
   font-size:11.5px;
 }
 
+
+
 .table-header{
   color:var(--muted);
   font-weight:600;
-}
 
-.table-row img{
-  width:20px;
-  height:20px;
+  /* 👇 importante */
+  align-items: flex-start;
 }
+.table-row img{ width:20px; height:20px; }
 
+.table-row > div{
+  min-width: 0;
+}
 .team-name{
   font-size:11.5px;
-  line-height:1.15;
+  line-height:1.2;
   word-break: break-word;
+  overflow-wrap: break-word;
 }
-
-.num{ text-align:center; }
+.num{ text-align:center }
 .points{ font-weight:700 }
-
-.table-row.classificado{
-  border-left:2px solid #16a34a;
-}
+.table-row.classificado{ border-left:2px solid #16a34a }
 
 /* JOGOS */
 .match-card{
@@ -126,27 +126,74 @@ header{
   color:var(--muted);
 }
 
+/* 👇 GRID IGUAL AO EGOL */
 .match-middle{
   display:grid;
-  grid-template-columns:1fr 60px 1fr;
+  grid-template-columns:1fr 90px 1fr;
   align-items:center;
   margin:8px 0;
 }
 
-.team-left{ text-align:right; font-size:12px; padding-right:6px; }
-.team-right{ text-align:left; font-size:12px; padding-left:6px; }
+.team-left{
+  text-align:right;
+  font-size:12px;
+  line-height:1.2;
+  padding-right:8px;
+}
+
+.team-right{
+  text-align:left;
+  font-size:12px;
+  line-height:1.2;
+  padding-left:8px;
+}
+
+/* CENTRO FIXO */
+.center{
+  display:grid;
+  grid-template-columns:26px 34px 26px;
+  align-items:center;
+  justify-content:center;
+  column-gap:6px;
+}
+
+.center img{
+  width:22px;
+  height:22px;
+  object-fit:contain;
+}
 
 .score{
   text-align:center;
-  font-size:16px;
+  font-size:15px;
   font-weight:700;
 }
 
 .match-bottom{
   text-align:center;
-  font-size:10px;
+  font-size:9px;
   color:var(--muted);
 }
+
+/* RODADAS */
+.round-nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin:10px 0;
+  font-weight:600;
+}
+
+.round-btn{
+  font-size:25px;
+  color:var(--primary);
+  cursor:pointer;
+  user-select:none;
+  padding:8px 18px;
+  border-radius:12px;
+}
+
+.round-title{ font-size:13px }
 
 .hidden{ display:none }
 </style>
@@ -170,29 +217,32 @@ header{
   <div id="classificacao"></div>
 
   <div id="jogos" class="hidden">
-    <div id="round-title" style="text-align:center;font-weight:700;margin:10px 0"></div>
+    <div class="round-nav">
+      <div class="round-btn" onclick="prevRound()">‹</div>
+      <div id="round-title" class="round-title"></div>
+      <div class="round-btn" onclick="nextRound()">›</div>
+    </div>
     <div id="round-games"></div>
   </div>
 
 </div>
 
 <script>
-let dados = null;
-let jogosData = null;
+let dados, jogosData;
+let rodadaAtual = 0;
+let mapaEscudos = {};
 
 init();
 
 async function init(){
   try{
-    const resDados = await fetch("dados.json",{cache:"no-store"});
-    dados = await resDados.json();
+    dados = await (await fetch("dados.json",{cache:"no-store"})).json();
+    jogosData = await (await fetch("jogos.json",{cache:"no-store"})).json();
 
     document.getElementById("titulo").innerText = dados.campeonato;
-    loadClassificacao();
 
-    const resJogos = await fetch("jogos.json",{cache:"no-store"});
-    jogosData = await resJogos.json();
-    loadJogos();
+    loadClassificacao();
+    renderRodada();
 
   }catch(e){
     console.error(e);
@@ -201,9 +251,34 @@ async function init(){
   }
 }
 
+/* UTIL */
+function normalizarNome(nome){
+  return nome
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g,"")
+    .replace(/[^a-z0-9 ]/g,"")
+    .replace(/\s+/g," ")
+    .trim();
+}
+
+function buscarEscudo(nome){
+  const n = normalizarNome(nome);
+  if(mapaEscudos[n]) return mapaEscudos[n];
+
+  for(const k in mapaEscudos){
+    if(n.includes(k) || k.includes(n)){
+      return mapaEscudos[k];
+    }
+  }
+  return "";
+}
+
 /* CLASSIFICAÇÃO */
 function loadClassificacao(){
   let html="";
+  mapaEscudos = {};
+
   dados.grupos.forEach(grupo=>{
     html+=`
       <div class="group-title">${grupo.nome}</div>
@@ -213,7 +288,10 @@ function loadClassificacao(){
           <div>P</div><div>J</div><div>V</div>
           <div>E</div><div>D</div><div>G</div><div>SG</div>
         </div>`;
+
     grupo.tabela.forEach((t,i)=>{
+      mapaEscudos[normalizarNome(t.nome)] = t.logo;
+
       html+=`
         <div class="table-row ${i<4?'classificado':''}">
           <div>${t.posicao}</div>
@@ -228,37 +306,71 @@ function loadClassificacao(){
           <div class="num">${t.saldo}</div>
         </div>`;
     });
+
     html+=`</div>`;
   });
+
   document.getElementById("classificacao").innerHTML=html;
 }
 
 /* JOGOS */
-function loadJogos(){
-  document.getElementById("round-title").innerText = jogosData.rodada;
+function renderRodada(){
+  const rodada = jogosData.rodadas[rodadaAtual];
+  document.getElementById("round-title").innerText = rodada.nome;
+
   let html="";
-  jogosData.jogos.forEach(j=>{
+  rodada.jogos.forEach(j=>{
     html+=`
       <div class="match-card">
-        <div class="match-top">${j.data_hora}</div>
+        <div class="match-top">${formatarDataHora(j.data_hora)}</div>
+
         <div class="match-middle">
           <div class="team-left">${j.mandante}</div>
-          <div class="score">${j.gols_mandante ?? ""} x ${j.gols_visitante ?? ""}</div>
+
+          <div class="center">
+            <img src="${buscarEscudo(j.mandante)}">
+            <div class="score">x</div>
+            <img src="${buscarEscudo(j.visitante)}">
+          </div>
+
           <div class="team-right">${j.visitante}</div>
         </div>
+
         <div class="match-bottom">${j.campo}</div>
       </div>`;
   });
+
   document.getElementById("round-games").innerHTML=html;
 }
 
-/* TABS */
+function prevRound(){
+  if(rodadaAtual>0){ rodadaAtual--; renderRodada(); }
+}
+function nextRound(){
+  if(rodadaAtual<jogosData.rodadas.length-1){ rodadaAtual++; renderRodada(); }
+}
+
 function showTab(tab){
   document.querySelectorAll(".tab").forEach(t=>t.classList.remove("active"));
   event.target.classList.add("active");
   document.getElementById("classificacao").classList.toggle("hidden",tab!=="classificacao");
   document.getElementById("jogos").classList.toggle("hidden",tab!=="jogos");
 }
+
+function formatarDataHora(dataHora){
+  if(!dataHora) return "";
+
+  const [data, hora] = dataHora.split(" ");
+  const [dia, mes, ano] = data.split("/");
+
+  const dias = ["Dom","Seg","Ter","Qua","Qui","Sex","Sáb"];
+  const dataObj = new Date(ano, mes-1, dia);
+  const diaSemana = dias[dataObj.getDay()];
+
+  return `${diaSemana}, ${dia}/${mes} - ${hora.replace(":", "h")}`;
+}
+
+
 </script>
 
 </body>
