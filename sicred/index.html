@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <title>Pré Estadual de Amadores</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <style>
 html, body { touch-action: manipulation; }
 
@@ -57,7 +58,8 @@ header{
   min-height:100vh;
 }
 
-/* CLASSIFICAÇÃO */
+/* ================= CLASSIFICAÇÃO ================= */
+
 .group-title{
   margin:18px 6px 6px;
   font-weight:700;
@@ -72,46 +74,53 @@ header{
   box-shadow:0 4px 10px rgba(0,0,0,.08);
 }
 
+/* GRID PRINCIPAL */
 .table-header,
 .table-row{
   display:grid;
-  grid-template-columns:
-  3%     /* posição */
-  6%     /* escudo */
-  minmax(0, 1fr) /* NOME — cresce sem empurrar */
-  5% 5% 5% 5% 5% 7% 6%;
-  align-items:center;
+  grid-template-columns:3% 6% minmax(0,1fr) 42%;
   gap:4px;
   padding:6px 8px;
   border-bottom:1px solid var(--line);
   font-size:11.5px;
+  align-items:flex-start;
 }
-
-
 
 .table-header{
   color:var(--muted);
   font-weight:600;
-
-  /* 👇 importante */
-  align-items: flex-start;
 }
-.table-row img{ width:20px; height:20px; }
 
-.table-row > div{
-  min-width: 0;
+.table-row:last-child{ border-bottom:none }
+
+.table-row img{
+  width:20px;
+  height:20px;
 }
+
 .team-name{
   font-size:11.5px;
   line-height:1.2;
-  word-break: break-word;
-  overflow-wrap: break-word;
+  word-break:break-word;
+  overflow-wrap:break-word;
 }
-.num{ text-align:center }
-.points{ font-weight:700 }
-.table-row.classificado{ border-left:2px solid #16a34a }
 
-/* JOGOS */
+/* SUBGRID DAS ESTATÍSTICAS */
+.stats{
+  display:grid;
+  grid-template-columns:repeat(7, 1fr);
+  text-align:center;
+  font-variant-numeric:tabular-nums;
+}
+
+.points{ font-weight:700 }
+
+.table-row.classificado{
+  border-left:2px solid #16a34a;
+}
+
+/* ================= JOGOS ================= */
+
 .match-card{
   background:var(--card);
   border-radius:14px;
@@ -126,7 +135,6 @@ header{
   color:var(--muted);
 }
 
-/* 👇 GRID IGUAL AO EGOL */
 .match-middle{
   display:grid;
   grid-template-columns:1fr 90px 1fr;
@@ -148,7 +156,6 @@ header{
   padding-left:8px;
 }
 
-/* CENTRO FIXO */
 .center{
   display:grid;
   grid-template-columns:26px 34px 26px;
@@ -253,8 +260,7 @@ async function init(){
 
 /* UTIL */
 function normalizarNome(nome){
-  return nome
-    .toLowerCase()
+  return nome.toLowerCase()
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g,"")
     .replace(/[^a-z0-9 ]/g,"")
@@ -265,11 +271,8 @@ function normalizarNome(nome){
 function buscarEscudo(nome){
   const n = normalizarNome(nome);
   if(mapaEscudos[n]) return mapaEscudos[n];
-
   for(const k in mapaEscudos){
-    if(n.includes(k) || k.includes(n)){
-      return mapaEscudos[k];
-    }
+    if(n.includes(k) || k.includes(n)) return mapaEscudos[k];
   }
   return "";
 }
@@ -277,34 +280,37 @@ function buscarEscudo(nome){
 /* CLASSIFICAÇÃO */
 function loadClassificacao(){
   let html="";
-  mapaEscudos = {};
+  mapaEscudos={};
 
   dados.grupos.forEach(grupo=>{
     html+=`
-      <div class="group-title">${grupo.nome}</div>
-      <div class="table">
-        <div class="table-header">
-          <div>#</div><div></div><div>Time</div>
+    <div class="group-title">${grupo.nome}</div>
+    <div class="table">
+      <div class="table-header">
+        <div>#</div><div></div><div>Time</div>
+        <div class="stats">
           <div>P</div><div>J</div><div>V</div>
           <div>E</div><div>D</div><div>G</div><div>SG</div>
-        </div>`;
+        </div>
+      </div>`;
 
     grupo.tabela.forEach((t,i)=>{
       mapaEscudos[normalizarNome(t.nome)] = t.logo;
-
       html+=`
-        <div class="table-row ${i<4?'classificado':''}">
-          <div>${t.posicao}</div>
-          <img src="${t.logo}">
-          <div class="team-name">${t.nome}</div>
-          <div class="points num">${t.pontos}</div>
-          <div class="num">${t.jogos}</div>
-          <div class="num">${t.vitorias}</div>
-          <div class="num">${t.empates}</div>
-          <div class="num">${t.derrotas}</div>
-          <div class="num">${t.gols_pro}:${t.gols_contra}</div>
-          <div class="num">${t.saldo}</div>
-        </div>`;
+      <div class="table-row ${i<4?'classificado':''}">
+        <div>${t.posicao}</div>
+        <img src="${t.logo}">
+        <div class="team-name">${t.nome}</div>
+        <div class="stats">
+          <div class="points">${t.pontos}</div>
+          <div>${t.jogos}</div>
+          <div>${t.vitorias}</div>
+          <div>${t.empates}</div>
+          <div>${t.derrotas}</div>
+          <div>${t.gols_pro}:${t.gols_contra}</div>
+          <div>${t.saldo}</div>
+        </div>
+      </div>`;
     });
 
     html+=`</div>`;
@@ -315,40 +321,32 @@ function loadClassificacao(){
 
 /* JOGOS */
 function renderRodada(){
-  const rodada = jogosData.rodadas[rodadaAtual];
-  document.getElementById("round-title").innerText = rodada.nome;
+  const r = jogosData.rodadas[rodadaAtual];
+  document.getElementById("round-title").innerText = r.nome;
 
   let html="";
-  rodada.jogos.forEach(j=>{
+  r.jogos.forEach(j=>{
     html+=`
-      <div class="match-card">
-        <div class="match-top">${formatarDataHora(j.data_hora)}</div>
-
-        <div class="match-middle">
-          <div class="team-left">${j.mandante}</div>
-
-          <div class="center">
-            <img src="${buscarEscudo(j.mandante)}">
-            <div class="score">x</div>
-            <img src="${buscarEscudo(j.visitante)}">
-          </div>
-
-          <div class="team-right">${j.visitante}</div>
+    <div class="match-card">
+      <div class="match-top">${formatarDataHora(j.data_hora)}</div>
+      <div class="match-middle">
+        <div class="team-left">${j.mandante}</div>
+        <div class="center">
+          <img src="${buscarEscudo(j.mandante)}">
+          <div class="score">x</div>
+          <img src="${buscarEscudo(j.visitante)}">
         </div>
-
-        <div class="match-bottom">${j.campo}</div>
-      </div>`;
+        <div class="team-right">${j.visitante}</div>
+      </div>
+      <div class="match-bottom">${j.campo}</div>
+    </div>`;
   });
 
   document.getElementById("round-games").innerHTML=html;
 }
 
-function prevRound(){
-  if(rodadaAtual>0){ rodadaAtual--; renderRodada(); }
-}
-function nextRound(){
-  if(rodadaAtual<jogosData.rodadas.length-1){ rodadaAtual++; renderRodada(); }
-}
+function prevRound(){ if(rodadaAtual>0){rodadaAtual--;renderRodada()} }
+function nextRound(){ if(rodadaAtual<jogosData.rodadas.length-1){rodadaAtual++;renderRodada()} }
 
 function showTab(tab){
   document.querySelectorAll(".tab").forEach(t=>t.classList.remove("active"));
@@ -359,18 +357,12 @@ function showTab(tab){
 
 function formatarDataHora(dataHora){
   if(!dataHora) return "";
-
   const [data, hora] = dataHora.split(" ");
-  const [dia, mes, ano] = data.split("/");
-
-  const dias = ["Dom","Seg","Ter","Qua","Qui","Sex","Sáb"];
-  const dataObj = new Date(ano, mes-1, dia);
-  const diaSemana = dias[dataObj.getDay()];
-
-  return `${diaSemana}, ${dia}/${mes} - ${hora.replace(":", "h")}`;
+  const [d,m,y] = data.split("/");
+  const dias=["Dom","Seg","Ter","Qua","Qui","Sex","Sáb"];
+  const diaSemana = dias[new Date(y,m-1,d).getDay()];
+  return `${diaSemana}, ${d}/${m} - ${hora.replace(":","h")}`;
 }
-
-
 </script>
 
 </body>
