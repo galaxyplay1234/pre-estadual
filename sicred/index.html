@@ -301,7 +301,7 @@ function renderRodada(){
   rodada.jogos.forEach(j=>{
     html+=`
       <div class="match-card">
-        <div class="match-top">${j.data_hora}</div>
+        <div class="match-top">${formatarDataHora(j.data_hora)}</div>
 
         <div class="match-middle">
           <div class="team-left">${j.mandante}</div>
@@ -335,6 +335,21 @@ function showTab(tab){
   document.getElementById("classificacao").classList.toggle("hidden",tab!=="classificacao");
   document.getElementById("jogos").classList.toggle("hidden",tab!=="jogos");
 }
+
+function formatarDataHora(dataHora){
+  if(!dataHora) return "";
+
+  const [data, hora] = dataHora.split(" ");
+  const [dia, mes, ano] = data.split("/");
+
+  const dias = ["Dom","Seg","Ter","Qua","Qui","Sex","Sáb"];
+  const dataObj = new Date(ano, mes-1, dia);
+  const diaSemana = dias[dataObj.getDay()];
+
+  return `${diaSemana}, ${dia}/${mes} - ${hora.replace(":", "h")}`;
+}
+
+
 </script>
 
 </body>
