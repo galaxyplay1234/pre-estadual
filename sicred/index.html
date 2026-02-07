@@ -3,9 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Pré Estadual de Amadores</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<meta name="format-detection" content="telephone=no,date=no,address=no,email=no">
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
 html, body { touch-action: manipulation; }
 
@@ -20,7 +18,6 @@ html, body { touch-action: manipulation; }
 }
 
 *{box-sizing:border-box}
-
 body{
   margin:0;
   font-family:Inter,system-ui,Arial;
@@ -41,7 +38,6 @@ header{
   display:flex;
   background:var(--dark);
 }
-
 .tab{
   flex:1;
   padding:12px;
@@ -49,7 +45,6 @@ header{
   color:#9ca3af;
   cursor:pointer;
 }
-
 .tab.active{
   color:var(--primary);
   border-bottom:3px solid var(--primary);
@@ -88,28 +83,12 @@ header{
   font-size:11.5px;
 }
 
-.table-header{
-  color:var(--muted);
-  font-weight:600;
-}
-
-.table-row img{
-  width:20px;
-  height:20px;
-}
-
-.team-name{
-  font-size:11.5px;
-  line-height:1.15;
-  word-break: break-word;
-}
-
-.num{ text-align:center; }
+.table-header{ color:var(--muted); font-weight:600; }
+.table-row img{ width:20px; height:20px; }
+.team-name{ font-size:11.5px; line-height:1.15; }
+.num{ text-align:center }
 .points{ font-weight:700 }
-
-.table-row.classificado{
-  border-left:2px solid #16a34a;
-}
+.table-row.classificado{ border-left:2px solid #16a34a }
 
 /* JOGOS */
 .match-card{
@@ -119,34 +98,33 @@ header{
   margin-bottom:12px;
   box-shadow:0 4px 10px rgba(0,0,0,.08);
 }
-
-.match-top{
-  text-align:center;
-  font-size:11.5px;
-  color:var(--muted);
-}
-
+.match-top{ text-align:center; font-size:11.5px; color:var(--muted); }
 .match-middle{
   display:grid;
-  grid-template-columns:1fr 60px 1fr;
+  grid-template-columns:1fr 90px 1fr;
   align-items:center;
   margin:8px 0;
 }
+.team-left{ text-align:right; font-size:12px; padding-right:8px }
+.team-right{ text-align:left; font-size:12px; padding-left:8px }
+.score{ text-align:center; font-size:15px; font-weight:700 }
+.match-bottom{ text-align:center; font-size:9px; color:var(--muted); }
 
-.team-left{ text-align:right; font-size:12px; padding-right:6px; }
-.team-right{ text-align:left; font-size:12px; padding-left:6px; }
-
-.score{
-  text-align:center;
-  font-size:16px;
-  font-weight:700;
+/* RODADAS */
+.round-nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin:10px 0;
+  font-weight:600;
 }
-
-.match-bottom{
-  text-align:center;
-  font-size:10px;
-  color:var(--muted);
+.round-btn{
+  font-size:25px;
+  color:var(--primary);
+  cursor:pointer;
+  padding:8px 18px;
 }
+.round-title{ font-size:13px }
 
 .hidden{ display:none }
 </style>
@@ -170,29 +148,31 @@ header{
   <div id="classificacao"></div>
 
   <div id="jogos" class="hidden">
-    <div id="round-title" style="text-align:center;font-weight:700;margin:10px 0"></div>
+    <div class="round-nav">
+      <div class="round-btn" onclick="prevRound()">‹</div>
+      <div id="round-title" class="round-title"></div>
+      <div class="round-btn" onclick="nextRound()">›</div>
+    </div>
     <div id="round-games"></div>
   </div>
 
 </div>
 
 <script>
-let dados = null;
-let jogosData = null;
+let dados, jogosData;
+let rodadaAtual = 0;
 
 init();
 
 async function init(){
   try{
-    const resDados = await fetch("dados.json",{cache:"no-store"});
-    dados = await resDados.json();
+    dados = await (await fetch("dados.json",{cache:"no-store"})).json();
+    jogosData = await (await fetch("jogos.json",{cache:"no-store"})).json();
 
     document.getElementById("titulo").innerText = dados.campeonato;
-    loadClassificacao();
 
-    const resJogos = await fetch("jogos.json",{cache:"no-store"});
-    jogosData = await resJogos.json();
-    loadJogos();
+    loadClassificacao();
+    renderRodada();
 
   }catch(e){
     console.error(e);
@@ -234,10 +214,12 @@ function loadClassificacao(){
 }
 
 /* JOGOS */
-function loadJogos(){
-  document.getElementById("round-title").innerText = jogosData.rodada;
+function renderRodada(){
+  const rodada = jogosData.rodadas[rodadaAtual];
+  document.getElementById("round-title").innerText = rodada.nome;
+
   let html="";
-  jogosData.jogos.forEach(j=>{
+  rodada.jogos.forEach(j=>{
     html+=`
       <div class="match-card">
         <div class="match-top">${j.data_hora}</div>
@@ -252,7 +234,13 @@ function loadJogos(){
   document.getElementById("round-games").innerHTML=html;
 }
 
-/* TABS */
+function prevRound(){
+  if(rodadaAtual>0){ rodadaAtual--; renderRodada(); }
+}
+function nextRound(){
+  if(rodadaAtual<jogosData.rodadas.length-1){ rodadaAtual++; renderRodada(); }
+}
+
 function showTab(tab){
   document.querySelectorAll(".tab").forEach(t=>t.classList.remove("active"));
   event.target.classList.add("active");
