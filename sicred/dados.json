@@ -1,13 +1,121 @@
 {
   "campeonato": "6ª COPA SICREDI LIVRE MASCULINO",
-  "atualizado_em": "2026-02-07T00:06:01.946Z",
   "grupos": [
     {
       "nome": "GRUPO A",
       "tabela": [
         {
           "posicao": 1,
-          "logo": "https://www.lchf.com.br/Upload/clubes/JAGER.png",
+          "logo": "Upload/clubes/usinox.png",
+          "nome": "ELETRO SERVICE/ EVOGEM FITNESS / USINOX",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 2,
+          "logo": "Upload/clubes/WhatsApp%20Image%202025-08-19%20at%2013.54.27.jpeg",
+          "nome": "AAT FC / ALMIR ARAÚJO TRANSPORTE",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 3,
+          "logo": "Upload/clubes/WhatsApp%20Image%202025-08-26%20at%2016.27.47.jpeg",
+          "nome": "MECANICA CASTELI / HORTIAGRO F.C",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 4,
+          "logo": "Upload/clubes/padrao.png",
+          "nome": "POLOMAQUINAS/GOPLAY",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 5,
+          "logo": "Upload/clubes/liver.png",
+          "nome": "CONSÓRCIO SALVADOR/LIVERPOOL F.C",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 6,
+          "logo": "Upload/clubes/12.png",
+          "nome": "FALCON'S",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 7,
+          "logo": "Upload/clubes/GTR.png",
+          "nome": "GTR SPORTS",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 8,
+          "logo": "Upload/clubes/padrao.png",
+          "nome": "PARÇA",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        }
+      ]
+    },
+    {
+      "nome": "GRUPO A",
+      "tabela": [
+        {
+          "posicao": 1,
+          "logo": "Upload/clubes/JAGER.png",
           "nome": "JAGERMEISTER",
           "pontos": 0,
           "jogos": 0,
@@ -20,7 +128,7 @@
         },
         {
           "posicao": 2,
-          "logo": "https://www.lchf.com.br/Upload/clubes/REAL%20C.png",
+          "logo": "Upload/clubes/REAL%20C.png",
           "nome": "REAL CATALUNHA FC",
           "pontos": 0,
           "jogos": 0,
@@ -33,7 +141,7 @@
         },
         {
           "posicao": 3,
-          "logo": "https://www.lchf.com.br/Upload/clubes/IMPERIAL.png",
+          "logo": "Upload/clubes/IMPERIAL.png",
           "nome": "IMPERIAL",
           "pontos": 0,
           "jogos": 0,
@@ -46,7 +154,7 @@
         },
         {
           "posicao": 4,
-          "logo": "https://www.lchf.com.br/Upload/clubes/FREITAS_1.png",
+          "logo": "Upload/clubes/FREITAS_1.png",
           "nome": "FREITAS FC / TIROLESA INTERESTADUAL / F&D CLIMATIZAÇÃO",
           "pontos": 0,
           "jogos": 0,
@@ -59,7 +167,7 @@
         },
         {
           "posicao": 5,
-          "logo": "https://www.lchf.com.br/Upload/clubes/PROMESSA.png",
+          "logo": "Upload/clubes/PROMESSA.png",
           "nome": "PROMESSA F.C",
           "pontos": 0,
           "jogos": 0,
@@ -72,7 +180,7 @@
         },
         {
           "posicao": 6,
-          "logo": "https://www.lchf.com.br/Upload/clubes/KOMDA.png",
+          "logo": "Upload/clubes/KOMDA.png",
           "nome": "ATLETICO KONDA",
           "pontos": 0,
           "jogos": 0,
@@ -85,7 +193,7 @@
         },
         {
           "posicao": 7,
-          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202025-08-19%20at%2013.54.27.jpeg",
+          "logo": "Upload/clubes/WhatsApp%20Image%202025-08-19%20at%2013.54.27.jpeg",
           "nome": "AAT FC / ALMIR ARAÚJO TRANSPORTE",
           "pontos": 0,
           "jogos": 0,
@@ -103,7 +211,7 @@
       "tabela": [
         {
           "posicao": 1,
-          "logo": "https://www.lchf.com.br/Upload/clubes/36.png",
+          "logo": "Upload/clubes/36.png",
           "nome": "SCRIPT UNITED",
           "pontos": 0,
           "jogos": 0,
@@ -116,7 +224,7 @@
         },
         {
           "posicao": 2,
-          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202025-08-26%20at%2016.27.47.jpeg",
+          "logo": "Upload/clubes/WhatsApp%20Image%202025-08-26%20at%2016.27.47.jpeg",
           "nome": "MECANICA CASTELI / HORTIAGRO F.C",
           "pontos": 0,
           "jogos": 0,
@@ -129,7 +237,7 @@
         },
         {
           "posicao": 3,
-          "logo": "https://www.lchf.com.br/Upload/clubes/LOS%20SANTOS.png",
+          "logo": "Upload/clubes/LOS%20SANTOS.png",
           "nome": "LOS SANTOS",
           "pontos": 0,
           "jogos": 0,
@@ -142,7 +250,7 @@
         },
         {
           "posicao": 4,
-          "logo": "https://www.lchf.com.br/Upload/clubes/SV.png",
+          "logo": "Upload/clubes/SV.png",
           "nome": "SÃO VENDELINO / SANTA BARBARA",
           "pontos": 0,
           "jogos": 0,
@@ -155,7 +263,7 @@
         },
         {
           "posicao": 5,
-          "logo": "https://www.lchf.com.br/Upload/clubes/ANUBIS.png",
+          "logo": "Upload/clubes/ANUBIS.png",
           "nome": "ANUBIS F.C",
           "pontos": 0,
           "jogos": 0,
@@ -168,7 +276,7 @@
         },
         {
           "posicao": 6,
-          "logo": "https://www.lchf.com.br/Upload/clubes/CAT.png",
+          "logo": "Upload/clubes/CAT.png",
           "nome": "CATARINENSE / CATARINENSE PROTEÇÃO VEICULAR / SOL AGÊNCIA DE MARKETING",
           "pontos": 0,
           "jogos": 0,
@@ -181,7 +289,7 @@
         },
         {
           "posicao": 7,
-          "logo": "https://www.lchf.com.br/Upload/clubes/padrao.png",
+          "logo": "Upload/clubes/padrao.png",
           "nome": "GERMAN STORE /TERTIUS",
           "pontos": 0,
           "jogos": 0,
@@ -199,7 +307,7 @@
       "tabela": [
         {
           "posicao": 1,
-          "logo": "https://www.lchf.com.br/Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(6)_2.png",
+          "logo": "Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(6)_2.png",
           "nome": "LJS/P2",
           "pontos": 0,
           "jogos": 0,
@@ -212,7 +320,7 @@
         },
         {
           "posicao": 2,
-          "logo": "https://www.lchf.com.br/Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(8).png",
+          "logo": "Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(8).png",
           "nome": "SEDE DO GORDO",
           "pontos": 0,
           "jogos": 0,
@@ -225,7 +333,7 @@
         },
         {
           "posicao": 3,
-          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-01-21%20at%2010.15.58.jpeg",
+          "logo": "Upload/clubes/WhatsApp%20Image%202026-01-21%20at%2010.15.58.jpeg",
           "nome": "GG PINTURAS/SANTA MARIA",
           "pontos": 0,
           "jogos": 0,
@@ -238,7 +346,7 @@
         },
         {
           "posicao": 4,
-          "logo": "https://www.lchf.com.br/Upload/clubes/PAVIDAL.png",
+          "logo": "Upload/clubes/PAVIDAL.png",
           "nome": "PAVIDAL BLOCOS E PAVERS",
           "pontos": 0,
           "jogos": 0,
@@ -251,7 +359,7 @@
         },
         {
           "posicao": 5,
-          "logo": "https://www.lchf.com.br/Upload/clubes/SP.png",
+          "logo": "Upload/clubes/SP.png",
           "nome": "SITICOM/ SÃO PEDRO  FC",
           "pontos": 0,
           "jogos": 0,
@@ -264,7 +372,7 @@
         },
         {
           "posicao": 6,
-          "logo": "https://www.lchf.com.br/Upload/clubes/PASSO_1.png",
+          "logo": "Upload/clubes/PASSO_1.png",
           "nome": "E.C.PASSO DOS FORTES / CFC AUTO ESCOLA CENTER",
           "pontos": 0,
           "jogos": 0,
@@ -277,7 +385,7 @@
         },
         {
           "posicao": 7,
-          "logo": "https://www.lchf.com.br/Upload/clubes/padrao.png",
+          "logo": "Upload/clubes/padrao.png",
           "nome": "ALVORADA LEGENDS FC / BARBEARIA RUAN ROSA",
           "pontos": 0,
           "jogos": 0,
@@ -295,7 +403,7 @@
       "tabela": [
         {
           "posicao": 1,
-          "logo": "https://www.lchf.com.br/Upload/clubes/LA12.png",
+          "logo": "Upload/clubes/LA12.png",
           "nome": "LÁ12",
           "pontos": 0,
           "jogos": 0,
@@ -308,7 +416,7 @@
         },
         {
           "posicao": 2,
-          "logo": "https://www.lchf.com.br/Upload/clubes/BOLEIROS.png",
+          "logo": "Upload/clubes/BOLEIROS.png",
           "nome": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
           "pontos": 0,
           "jogos": 0,
@@ -321,7 +429,7 @@
         },
         {
           "posicao": 3,
-          "logo": "https://www.lchf.com.br/Upload/clubes/padrao.png",
+          "logo": "Upload/clubes/padrao.png",
           "nome": "RESENHA F.C",
           "pontos": 0,
           "jogos": 0,
@@ -334,7 +442,7 @@
         },
         {
           "posicao": 4,
-          "logo": "https://www.lchf.com.br/Upload/clubes/padrao.png",
+          "logo": "Upload/clubes/padrao.png",
           "nome": "GRUPO COONECTA / PLAZA IMOVEIS",
           "pontos": 0,
           "jogos": 0,
@@ -347,7 +455,7 @@
         },
         {
           "posicao": 5,
-          "logo": "https://www.lchf.com.br/Upload/clubes/BUME.png",
+          "logo": "Upload/clubes/BUME.png",
           "nome": "ANA LUCIA RESTAURANTE / BUMERANGUE FC",
           "pontos": 0,
           "jogos": 0,
@@ -360,7 +468,7 @@
         },
         {
           "posicao": 6,
-          "logo": "https://www.lchf.com.br/Upload/clubes/NIJU%20(2).png",
+          "logo": "Upload/clubes/NIJU%20(2).png",
           "nome": "NIJU / GO PLAY F.C",
           "pontos": 0,
           "jogos": 0,
@@ -373,7 +481,7 @@
         },
         {
           "posicao": 7,
-          "logo": "https://www.lchf.com.br/Upload/clubes/GTR.png",
+          "logo": "Upload/clubes/GTR.png",
           "nome": "GTR SPORTS",
           "pontos": 0,
           "jogos": 0,
@@ -391,7 +499,7 @@
       "tabela": [
         {
           "posicao": 1,
-          "logo": "https://www.lchf.com.br/Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(1).png",
+          "logo": "Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(1).png",
           "nome": "SHALON FC",
           "pontos": 0,
           "jogos": 0,
@@ -404,7 +512,7 @@
         },
         {
           "posicao": 2,
-          "logo": "https://www.lchf.com.br/Upload/clubes/OJR.png",
+          "logo": "Upload/clubes/OJR.png",
           "nome": "R.C SPORTS",
           "pontos": 0,
           "jogos": 0,
@@ -417,7 +525,7 @@
         },
         {
           "posicao": 3,
-          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-01-19%20at%2014.22.43%20(1).jpeg",
+          "logo": "Upload/clubes/WhatsApp%20Image%202026-01-19%20at%2014.22.43%20(1).jpeg",
           "nome": "AGRO GUATAMBU",
           "pontos": 0,
           "jogos": 0,
@@ -430,7 +538,7 @@
         },
         {
           "posicao": 4,
-          "logo": "https://www.lchf.com.br/Upload/clubes/CK.png",
+          "logo": "Upload/clubes/CK.png",
           "nome": "CK MAQUINAS/NS INSTAÇÃO ELETRICAS",
           "pontos": 0,
           "jogos": 0,
@@ -443,7 +551,7 @@
         },
         {
           "posicao": 5,
-          "logo": "https://www.lchf.com.br/Upload/clubes/Design%20sem%20nome%20(6).png",
+          "logo": "Upload/clubes/Design%20sem%20nome%20(6).png",
           "nome": "E.C RONDOFRIO",
           "pontos": 0,
           "jogos": 0,
@@ -456,7 +564,7 @@
         },
         {
           "posicao": 6,
-          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202025-08-20%20at%2011.21.10.jpeg",
+          "logo": "Upload/clubes/WhatsApp%20Image%202025-08-20%20at%2011.21.10.jpeg",
           "nome": "PARCEIROS FC",
           "pontos": 0,
           "jogos": 0,
@@ -469,7 +577,7 @@
         },
         {
           "posicao": 7,
-          "logo": "https://www.lchf.com.br/Upload/clubes/padrao.png",
+          "logo": "Upload/clubes/padrao.png",
           "nome": "NANDO AUTO SOM /BENFICA FC",
           "pontos": 0,
           "jogos": 0,
@@ -481,6 +589,1031 @@
           "saldo": 0
         }
       ]
+    },
+    {
+      "nome": "GRUPO A",
+      "tabela": [
+        {
+          "posicao": 1,
+          "logo": "Upload/clubes/Blue%20Football%20Match%20Instagram%20Post.png",
+          "nome": "ALEGRI’S MASTERS FC",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 2,
+          "logo": "Upload/clubes/CLASSIC.png",
+          "nome": "CLASSIC UNIFORMES",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 3,
+          "logo": "Upload/clubes/SP.png",
+          "nome": "SITICOM/ SÃO PEDRO  FC",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 4,
+          "logo": "Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(3).png",
+          "nome": "AJAX/REDE TINTOU TINTAS/MAX DESPACHANTE/SAGUI MASSOTERAPEUTA",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 5,
+          "logo": "Upload/clubes/VILA%20REAL_1.png",
+          "nome": "VILA REAL FC / ELETRO MOTORES VICARI / DANIEL AGROPECUÁRIA",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 6,
+          "logo": "Upload/clubes/WhatsApp%20Image%202026-01-20%20at%2011.03.44.jpeg",
+          "nome": "DEPORTIVO REAL",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 7,
+          "logo": "Upload/clubes/54.png",
+          "nome": "E.C BELVEDERE /SCALVI FIBRAS / REDESUL",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 8,
+          "logo": "Upload/clubes/WhatsApp%20Image%202026-01-15%20at%2010.40.23.jpeg",
+          "nome": "SMEL XAXM",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        }
+      ]
+    },
+    {
+      "nome": "GRUPO B",
+      "tabela": [
+        {
+          "posicao": 1,
+          "logo": "Upload/clubes/NIJU%20(2).png",
+          "nome": "NIJU / GO PLAY F.C",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 2,
+          "logo": "Upload/clubes/WhatsApp%20Image%202025-09-01%20at%2008.48.28.jpeg",
+          "nome": "SEDE ZANOTELLI",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 3,
+          "logo": "Upload/clubes/padrao.png",
+          "nome": "MECÂNICA MOTOR FORTE/LIVERPOOL F.C",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 4,
+          "logo": "Upload/clubes/padrao.png",
+          "nome": "ADG PINHEIRINHO FUTEBOL",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 5,
+          "logo": "Upload/clubes/WhatsApp%20Image%202026-01-21%20at%2010.06.46.jpeg",
+          "nome": "HORTIAGRO / METALÚRGICA ROSA / CASTELLI / CSM",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 6,
+          "logo": "Upload/clubes/AGUA.png",
+          "nome": "AGUA AMARELA /BRITABAL/CORIARTE",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 7,
+          "logo": "Upload/clubes/padrao.png",
+          "nome": "SITICOM/ SÃO PEDRO /BOLEIROS",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 8,
+          "logo": "Upload/clubes/SC%20(2).png",
+          "nome": "SC POSTES E BARRACÕES",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        }
+      ]
+    },
+    {
+      "nome": "GRUPO A",
+      "tabela": [
+        {
+          "posicao": 1,
+          "logo": "Upload/clubes/padrao.png",
+          "nome": "AZURIZ RJ/TREINAMENTO ESPECIFICO",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 2,
+          "logo": "Upload/clubes/padrao.png",
+          "nome": "BARÇA SEARA/APACA",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 3,
+          "logo": "Upload/clubes/55.png",
+          "nome": "SERC GUARANY",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 4,
+          "logo": "Upload/clubes/padrao.png",
+          "nome": "ADEC MARISTA",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        }
+      ]
+    },
+    {
+      "nome": "GRUPO B",
+      "tabela": [
+        {
+          "posicao": 1,
+          "logo": "Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(7)_1.png",
+          "nome": "APRIMORAR ATLETAS",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 2,
+          "logo": "Upload/clubes/WhatsApp%20Image%202025-08-05%20at%2017.11.22%20(2).jpeg",
+          "nome": "AZURIZ PINHALZINHO/AJAP",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 3,
+          "logo": "Upload/clubes/padrao.png",
+          "nome": "SPORT CLUBE REAL",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 4,
+          "logo": "Upload/clubes/padrao.png",
+          "nome": "AZURIZ MARAVILHA",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        }
+      ]
+    },
+    {
+      "nome": "GRUPO A",
+      "tabela": [
+        {
+          "posicao": 1,
+          "logo": "Upload/clubes/padrao.png",
+          "nome": "AZURIZ MARAVILHA - B",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 2,
+          "logo": "Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(6).png",
+          "nome": "FUTIBASE",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 3,
+          "logo": "Upload/clubes/padrao.png",
+          "nome": "CME PALMITOS",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 4,
+          "logo": "Upload/clubes/55.png",
+          "nome": "SERC GUARANY",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 5,
+          "logo": "Upload/clubes/padrao.png",
+          "nome": "ADEC MARISTA",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 6,
+          "logo": "Upload/clubes/padrao.png",
+          "nome": "AZURIZ RJ/TREINAMENTO ESPECIFICO",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        }
+      ]
+    },
+    {
+      "nome": "GRUPO B",
+      "tabela": [
+        {
+          "posicao": 1,
+          "logo": "Upload/clubes/Design%20sem%20nome%20(9).png",
+          "nome": "CTC",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 2,
+          "logo": "Upload/clubes/padrao.png",
+          "nome": "SPORT CLUBE REAL",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 3,
+          "logo": "Upload/clubes/WhatsApp%20Image%202025-08-05%20at%2017.11.22%20(2).jpeg",
+          "nome": "AZURIZ PINHALZINHO/AJAP",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 4,
+          "logo": "Upload/clubes/padrao.png",
+          "nome": "ESCOLA GREMIO CHAPECO",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 5,
+          "logo": "Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(7)_1.png",
+          "nome": "APRIMORAR ATLETAS",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 6,
+          "logo": "Upload/clubes/padrao.png",
+          "nome": "AZURIZ MARAVILHA",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        }
+      ]
+    },
+    {
+      "nome": "GRUPO A",
+      "tabela": [
+        {
+          "posicao": 1,
+          "logo": "Upload/clubes/IMG_0412.PNG",
+          "nome": "AZURIZ CHAPECÓ",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 2,
+          "logo": "Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(6)_1.png",
+          "nome": "FUTIBASE - B",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 3,
+          "logo": "Upload/clubes/55.png",
+          "nome": "SERC GUARANY",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 4,
+          "logo": "Upload/clubes/padrao.png",
+          "nome": "ADEC MARISTA",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        }
+      ]
+    },
+    {
+      "nome": "GRUPO B",
+      "tabela": [
+        {
+          "posicao": 1,
+          "logo": "Upload/clubes/padrao.png",
+          "nome": "ESCOLA DO GALO CHAPECÓ",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 2,
+          "logo": "Upload/clubes/padrao.png",
+          "nome": "AZURIZ MARAVILHA",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 3,
+          "logo": "Upload/clubes/WhatsApp%20Image%202025-08-05%20at%2017.11.22%20(2).jpeg",
+          "nome": "AZURIZ PINHALZINHO/AJAP",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 4,
+          "logo": "Upload/clubes/padrao.png",
+          "nome": "ESCOLA GREMIO CHAPECO",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        }
+      ]
+    },
+    {
+      "nome": "GRUPO C",
+      "tabela": [
+        {
+          "posicao": 1,
+          "logo": "Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(11).png",
+          "nome": "CONFIANÇA FC",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 2,
+          "logo": "Upload/clubes/padrao.png",
+          "nome": "SERENOS",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 3,
+          "logo": "Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(6).png",
+          "nome": "FUTIBASE",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 4,
+          "logo": "Upload/clubes/padrao.png",
+          "nome": "CME PALMITOS",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        }
+      ]
+    },
+    {
+      "nome": "GRUPO D",
+      "tabela": [
+        {
+          "posicao": 1,
+          "logo": "Upload/clubes/Design%20sem%20nome%20(8)_1.png",
+          "nome": "C.E ZIDANI",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 2,
+          "logo": "Upload/clubes/Design%20sem%20nome%20(9).png",
+          "nome": "CTC",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 3,
+          "logo": "Upload/clubes/padrao.png",
+          "nome": "AZURIZ MARAVILHA - B",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 4,
+          "logo": "Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(9)_1.png",
+          "nome": "EFA",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        }
+      ]
+    },
+    {
+      "nome": "GRUPO A",
+      "tabela": [
+        {
+          "posicao": 1,
+          "logo": "Upload/clubes/padrao.png",
+          "nome": "CTC - B",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 2,
+          "logo": "Upload/clubes/IMG_0412.PNG",
+          "nome": "AZURIZ CHAPECÓ",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 3,
+          "logo": "Upload/clubes/55.png",
+          "nome": "SERC GUARANY",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 4,
+          "logo": "Upload/clubes/padrao.png",
+          "nome": "ADEC MARISTA",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 5,
+          "logo": "Upload/clubes/apti.png",
+          "nome": "NEC/APTI/REAL GAS",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        }
+      ]
+    },
+    {
+      "nome": "GRUPO B",
+      "tabela": [
+        {
+          "posicao": 1,
+          "logo": "Upload/clubes/Design%20sem%20nome%20(9).png",
+          "nome": "CTC",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 2,
+          "logo": "Upload/clubes/WhatsApp%20Image%202025-08-05%20at%2017.11.22%20(2).jpeg",
+          "nome": "AZURIZ PINHALZINHO/AJAP",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 3,
+          "logo": "Upload/clubes/padrao.png",
+          "nome": "ESCOLA GREMIO CHAPECO",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 4,
+          "logo": "Upload/clubes/padrao.png",
+          "nome": "AZURIZ MARAVILHA",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        }
+      ]
+    },
+    {
+      "nome": "GRUPO C",
+      "tabela": [
+        {
+          "posicao": 1,
+          "logo": "Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(6).png",
+          "nome": "FUTIBASE",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 2,
+          "logo": "Upload/clubes/padrao.png",
+          "nome": "ESCOLA DO GALO CHAPECÓ",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 3,
+          "logo": "Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(9)_1.png",
+          "nome": "EFA",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 4,
+          "logo": "Upload/clubes/padrao.png",
+          "nome": "AZURIZ CHAPECO 2012",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        }
+      ]
+    },
+    {
+      "nome": "GRUPO A",
+      "tabela": [
+        {
+          "posicao": 1,
+          "logo": "Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(6).png",
+          "nome": "FUTIBASE",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 2,
+          "logo": "Upload/clubes/padrao.png",
+          "nome": "LA MAFIA",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 3,
+          "logo": "Upload/clubes/IMG_0412.PNG",
+          "nome": "AZURIZ CHAPECÓ",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 4,
+          "logo": "Upload/clubes/padrao.png",
+          "nome": "CTC - B",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        }
+      ]
+    },
+    {
+      "nome": "GRUPO B",
+      "tabela": [
+        {
+          "posicao": 1,
+          "logo": "Upload/clubes/padrao.png",
+          "nome": "CTC/SPORTING",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 2,
+          "logo": "Upload/clubes/padrao.png",
+          "nome": "ESCOLA GREMIO CHAPECO",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 3,
+          "logo": "Upload/clubes/padrao.png",
+          "nome": "ESCOLINHA DO MESTRE ANDRÉ",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 4,
+          "logo": "Upload/clubes/WhatsApp%20Image%202026-01-19%20at%2009.29.32.jpeg",
+          "nome": "PALMITENSE/OPERARIO",
+          "pontos": 0,
+          "jogos": 0,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        }
+      ]
     }
-  ]
+  ],
+  "jogos": []
 }
