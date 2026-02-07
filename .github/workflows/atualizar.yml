@@ -28,6 +28,7 @@ jobs:
         run: |
           node sicred/scrape.js
           node sicred/scrape-jogos.js
+          node sicred/scrape-artilheiros.js
 
       - name: Commit dos dados atualizados
         run: |
