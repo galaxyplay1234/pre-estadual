@@ -3,91 +3,102 @@ const fetch = require("node-fetch");
 const { JSDOM } = require("jsdom");
 
 const URL = "https://www.lchf.com.br/ClassificacaoJogos.aspx";
-const NOME_CAMPEONATO = "6ª COPA SICREDI LIVRE MASCULINO";
 
 (async () => {
-  try {
-    const res = await fetch(URL);
-    const html = await res.text();
+  const res = await fetch(URL);
+  const html = await res.text();
 
-    const dom = new JSDOM(html);
-    const document = dom.window.document;
+  const dom = new JSDOM(html);
+  const document = dom.window.document;
 
-    // 1️⃣ acha o campeonato certo
-    const h3 = [...document.querySelectorAll("h3.title-bg")]
-      .find(el => el.textContent.trim() === NOME_CAMPEONATO);
+  // 🏆 Nome do campeonato
+  const campeonato = [...document.querySelectorAll("h3.title-bg")]
+    .map(h => h.textContent.trim())
+    .find(t => t.includes("6ª COPA SICREDI LIVRE MASCULINO"));
 
-    if (!h3) {
-      console.error("❌ Campeonato não encontrado");
-      process.exit(1);
-    }
+  // ================= CLASSIFICAÇÃO =================
+  const grupos = [];
 
-    // 2️⃣ o container que contém TODOS os grupos
-    const containerGrupos = h3.nextElementSibling;
-    if (!containerGrupos) {
-      console.error("❌ Container de grupos não encontrado");
-      process.exit(1);
-    }
+  document.querySelectorAll(".label-grupo").forEach(label => {
+    const nomeGrupo = label.textContent.replace("Grupo:", "").trim();
+    const tabela = label.nextElementSibling.querySelector("table");
+    if (!tabela) return;
 
-    const grupos = [];
+    const times = [];
 
-    // 3️⃣ percorre todos os grupos A, B, C, D, E
-    containerGrupos.querySelectorAll(".label-grupo").forEach(label => {
-      const nomeGrupo = label.textContent
-        .replace("Grupo:", "")
-        .trim();
+    tabela.querySelectorAll("tr").forEach((tr, i) => {
+      if (i === 0) return;
 
-      const tabela = label.nextElementSibling?.querySelector("table");
-      if (!tabela) return;
+      const td = tr.querySelectorAll("td");
+      if (td.length < 11) return;
 
-      const times = [];
-
-      tabela.querySelectorAll("tr").forEach((tr, i) => {
-        if (i === 0) return;
-
-        const td = tr.querySelectorAll("td");
-        if (td.length < 11) return;
-
-        times.push({
-          posicao: Number(td[0].textContent.trim()),
-          logo: td[1].querySelector("img")
-            ? "https://www.lchf.com.br/" +
-              td[1].querySelector("img").getAttribute("src")
-            : null,
-          nome: td[2].textContent.trim(),
-          pontos: Number(td[3].textContent.trim()),
-          jogos: Number(td[4].textContent.trim()),
-          vitorias: Number(td[5].textContent.trim()),
-          empates: Number(td[6].textContent.trim()),
-          derrotas: Number(td[7].textContent.trim()),
-          gols_pro: Number(td[8].textContent.trim()),
-          gols_contra: Number(td[9].textContent.trim()),
-          saldo: Number(td[10].textContent.trim())
-        });
-      });
-
-      grupos.push({
-        nome: nomeGrupo,
-        tabela: times
+      times.push({
+        posicao: Number(td[0].textContent.trim()),
+        logo: td[1].querySelector("img")?.getAttribute("src") || null,
+        nome: td[2].textContent.trim(),
+        pontos: Number(td[3].textContent),
+        jogos: Number(td[4].textContent),
+        vitorias: Number(td[5].textContent),
+        empates: Number(td[6].textContent),
+        derrotas: Number(td[7].textContent),
+        gols_pro: Number(td[8].textContent),
+        gols_contra: Number(td[9].textContent),
+        saldo: Number(td[10].textContent)
       });
     });
 
-    const dados = {
-      campeonato: NOME_CAMPEONATO,
-      atualizado_em: new Date().toISOString(),
-      grupos
-    };
+    grupos.push({ nome: nomeGrupo, tabela: times });
+  });
 
-    fs.writeFileSync(
-      "sicred/dados.json",
-      JSON.stringify(dados, null, 2),
-      "utf8"
-    );
+  // ================= JOGOS =================
+  const jogos = [];
 
-    console.log(`✅ ${grupos.length} grupos salvos com sucesso`);
+  const rodadaTexto =
+    document.querySelector("div:contains('Rodada')")?.textContent ||
+    document.body.textContent.match(/Rodada\s+\d+/)?.[0] ||
+    "Rodada atual";
 
-  } catch (err) {
-    console.error("❌ Erro no scraper:", err);
-    process.exit(1);
-  }
+  document
+    .querySelectorAll("table tr")
+    .forEach(tr => {
+      const td = tr.querySelectorAll("td");
+      if (td.length < 6) return;
+
+      const mandante = td[1]?.textContent.trim();
+      const placarMandante = td[2]?.querySelector("input")?.value || null;
+      const placarVisitante = td[3]?.querySelector("input")?.value || null;
+      const visitante = td[4]?.textContent.trim();
+      const campo = td[5]?.textContent.trim();
+      const dataHora = td[6]?.textContent.trim();
+
+      if (!mandante || !visitante) return;
+
+      let data = null;
+      let hora = null;
+
+      if (dataHora?.includes(" ")) {
+        [data, hora] = dataHora.split(" ");
+      }
+
+      jogos.push({
+        rodada: rodadaTexto,
+        mandante,
+        visitante,
+        gols_mandante: placarMandante ? Number(placarMandante) : null,
+        gols_visitante: placarVisitante ? Number(placarVisitante) : null,
+        campo,
+        data,
+        hora
+      });
+    });
+
+  // ================= SALVAR =================
+  const dados = { campeonato, grupos, jogos };
+
+  fs.writeFileSync(
+    "sicred/dados.json",
+    JSON.stringify(dados, null, 2)
+  );
+
+  console.log("✅ Classificação + jogos atualizados");
 })();
