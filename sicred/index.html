@@ -232,20 +232,26 @@ header{
 
 <script>
 let dados = null;
-let rodadas = [];
+let jogos = null;
 let rodadaAtual = 0;
 
 init();
 
 async function init(){
   try{
-    const res = await fetch("dados.json", { cache: "no-store" });
-    dados = await res.json();
+    // CLASSIFICAÇÃO
+    const resDados = await fetch("dados.json", { cache: "no-store" });
+    dados = await resDados.json();
 
     document.getElementById("titulo").innerText =
       dados.campeonato || "Campeonato";
 
     loadClassificacao();
+
+    // JOGOS
+    const resJogos = await fetch("jogos.json", { cache: "no-store" });
+    jogos = await resJogos.json();
+
     loadJogos();
 
   }catch(e){
@@ -255,7 +261,8 @@ async function init(){
   }
 }
 
-/* CLASSIFICAÇÃO */
+/* ================= CLASSIFICAÇÃO ================= */
+
 function loadClassificacao(){
   let html = "";
 
@@ -293,16 +300,16 @@ function loadClassificacao(){
   document.getElementById("classificacao").innerHTML = html;
 }
 
-/* JOGOS */
+/* ================= JOGOS ================= */
+
 function loadJogos(){
-  if(!dados.jogos) return;
-  rodadas = dados.jogos;
+  if(!jogos || !jogos.rodadas) return;
   renderRodada();
 }
 
 function renderRodada(){
-  const r = rodadas[rodadaAtual];
-  document.getElementById("round-title").innerText = r.rodada;
+  const r = jogos.rodadas[rodadaAtual];
+  document.getElementById("round-title").innerText = r.nome;
 
   let html = "";
 
@@ -322,15 +329,15 @@ function renderRodada(){
           <div class="team-left">${j.mandante}</div>
 
           <div class="center">
-            <img class="logo" src="${j.logo_mandante}">
+            <img class="logo" src="${j.logo_mandante || ''}">
             <div class="score">${placar}</div>
-            <img class="logo" src="${j.logo_visitante}">
+            <img class="logo" src="${j.logo_visitante || ''}">
           </div>
 
           <div class="team-right">${j.visitante}</div>
         </div>
 
-        <div class="match-bottom">${j.campo}</div>
+        <div class="match-bottom">${j.campo || ''}</div>
       </div>
     `;
   });
@@ -346,7 +353,7 @@ function prevRound(){
 }
 
 function nextRound(){
-  if(rodadaAtual < rodadas.length - 1){
+  if(rodadaAtual < jogos.rodadas.length - 1){
     rodadaAtual++;
     renderRodada();
   }
