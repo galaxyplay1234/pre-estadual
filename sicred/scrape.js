@@ -13,66 +13,64 @@ const NOME_CAMPEONATO = "6ª COPA SICREDI LIVRE MASCULINO";
     const dom = new JSDOM(html);
     const document = dom.window.document;
 
-    // 1️⃣ localizar exatamente o campeonato correto
-    const titulos = [...document.querySelectorAll("h3.title-bg")];
-    const tituloCampeonato = titulos.find(
-      h3 => h3.textContent.trim() === NOME_CAMPEONATO
-    );
+    // 1️⃣ acha o campeonato certo
+    const h3 = [...document.querySelectorAll("h3.title-bg")]
+      .find(el => el.textContent.trim() === NOME_CAMPEONATO);
 
-    if (!tituloCampeonato) {
+    if (!h3) {
       console.error("❌ Campeonato não encontrado");
       process.exit(1);
     }
 
-    const grupos = [];
-    let atual = tituloCampeonato.nextElementSibling;
-
-    // 2️⃣ percorre somente os grupos desse campeonato
-    while (atual) {
-      // se encontrar outro campeonato, para
-      if (atual.matches("h3.title-bg")) break;
-
-      const labelGrupo = atual.querySelector?.(".label-grupo");
-
-      if (labelGrupo) {
-        const nomeGrupo = labelGrupo.textContent
-          .replace("Grupo:", "")
-          .trim();
-
-        const tabela = atual.querySelector("table");
-        const times = [];
-
-        tabela.querySelectorAll("tr").forEach((tr, i) => {
-          if (i === 0) return;
-
-          const td = tr.querySelectorAll("td");
-          if (!td.length) return;
-
-          times.push({
-            posicao: Number(td[0].textContent.trim()),
-            logo: td[1].querySelector("img")
-              ? "https://www.lchf.com.br/" + td[1].querySelector("img").getAttribute("src")
-              : null,
-            nome: td[2].textContent.trim(),
-            pontos: Number(td[3].textContent.trim()),
-            jogos: Number(td[4].textContent.trim()),
-            vitorias: Number(td[5].textContent.trim()),
-            empates: Number(td[6].textContent.trim()),
-            derrotas: Number(td[7].textContent.trim()),
-            gols_pro: Number(td[8].textContent.trim()),
-            gols_contra: Number(td[9].textContent.trim()),
-            saldo: Number(td[10].textContent.trim())
-          });
-        });
-
-        grupos.push({
-          nome: nomeGrupo,
-          tabela: times
-        });
-      }
-
-      atual = atual.nextElementSibling;
+    // 2️⃣ o container que contém TODOS os grupos
+    const containerGrupos = h3.nextElementSibling;
+    if (!containerGrupos) {
+      console.error("❌ Container de grupos não encontrado");
+      process.exit(1);
     }
+
+    const grupos = [];
+
+    // 3️⃣ percorre todos os grupos A, B, C, D, E
+    containerGrupos.querySelectorAll(".label-grupo").forEach(label => {
+      const nomeGrupo = label.textContent
+        .replace("Grupo:", "")
+        .trim();
+
+      const tabela = label.nextElementSibling?.querySelector("table");
+      if (!tabela) return;
+
+      const times = [];
+
+      tabela.querySelectorAll("tr").forEach((tr, i) => {
+        if (i === 0) return;
+
+        const td = tr.querySelectorAll("td");
+        if (td.length < 11) return;
+
+        times.push({
+          posicao: Number(td[0].textContent.trim()),
+          logo: td[1].querySelector("img")
+            ? "https://www.lchf.com.br/" +
+              td[1].querySelector("img").getAttribute("src")
+            : null,
+          nome: td[2].textContent.trim(),
+          pontos: Number(td[3].textContent.trim()),
+          jogos: Number(td[4].textContent.trim()),
+          vitorias: Number(td[5].textContent.trim()),
+          empates: Number(td[6].textContent.trim()),
+          derrotas: Number(td[7].textContent.trim()),
+          gols_pro: Number(td[8].textContent.trim()),
+          gols_contra: Number(td[9].textContent.trim()),
+          saldo: Number(td[10].textContent.trim())
+        });
+      });
+
+      grupos.push({
+        nome: nomeGrupo,
+        tabela: times
+      });
+    });
 
     const dados = {
       campeonato: NOME_CAMPEONATO,
@@ -86,7 +84,7 @@ const NOME_CAMPEONATO = "6ª COPA SICREDI LIVRE MASCULINO";
       "utf8"
     );
 
-    console.log("✅ dados.json atualizado com sucesso");
+    console.log(`✅ ${grupos.length} grupos salvos com sucesso`);
 
   } catch (err) {
     console.error("❌ Erro no scraper:", err);
