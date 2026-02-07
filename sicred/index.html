@@ -98,17 +98,61 @@ header{
   margin-bottom:12px;
   box-shadow:0 4px 10px rgba(0,0,0,.08);
 }
-.match-top{ text-align:center; font-size:11.5px; color:var(--muted); }
+
+.match-top{
+  text-align:center;
+  font-size:11.5px;
+  color:var(--muted);
+}
+
+/* 👇 GRID IGUAL AO EGOL */
 .match-middle{
   display:grid;
   grid-template-columns:1fr 90px 1fr;
   align-items:center;
   margin:8px 0;
 }
-.team-left{ text-align:right; font-size:12px; padding-right:8px }
-.team-right{ text-align:left; font-size:12px; padding-left:8px }
-.score{ text-align:center; font-size:15px; font-weight:700 }
-.match-bottom{ text-align:center; font-size:9px; color:var(--muted); }
+
+.team-left{
+  text-align:right;
+  font-size:12px;
+  line-height:1.2;
+  padding-right:8px;
+}
+
+.team-right{
+  text-align:left;
+  font-size:12px;
+  line-height:1.2;
+  padding-left:8px;
+}
+
+/* CENTRO FIXO */
+.center{
+  display:grid;
+  grid-template-columns:26px 34px 26px;
+  align-items:center;
+  justify-content:center;
+  column-gap:6px;
+}
+
+.center img{
+  width:22px;
+  height:22px;
+  object-fit:contain;
+}
+
+.score{
+  text-align:center;
+  font-size:15px;
+  font-weight:700;
+}
+
+.match-bottom{
+  text-align:center;
+  font-size:9px;
+  color:var(--muted);
+}
 
 /* RODADAS */
 .round-nav{
@@ -186,20 +230,19 @@ async function init(){
   }
 }
 
-/* ========= UTIL ========= */
+/* UTIL */
 function normalizarNome(nome){
   return nome
     .toLowerCase()
     .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .replace(/[^a-z0-9 ]/g, "")
-    .replace(/\s+/g, " ")
+    .replace(/[\u0300-\u036f]/g,"")
+    .replace(/[^a-z0-9 ]/g,"")
+    .replace(/\s+/g," ")
     .trim();
 }
 
 function buscarEscudo(nome){
   const n = normalizarNome(nome);
-
   if(mapaEscudos[n]) return mapaEscudos[n];
 
   for(const k in mapaEscudos){
@@ -210,7 +253,7 @@ function buscarEscudo(nome){
   return "";
 }
 
-/* ========= CLASSIFICAÇÃO ========= */
+/* CLASSIFICAÇÃO */
 function loadClassificacao(){
   let html="";
   mapaEscudos = {};
@@ -226,8 +269,7 @@ function loadClassificacao(){
         </div>`;
 
     grupo.tabela.forEach((t,i)=>{
-      const nomeNorm = normalizarNome(t.nome);
-      mapaEscudos[nomeNorm] = t.logo;
+      mapaEscudos[normalizarNome(t.nome)] = t.logo;
 
       html+=`
         <div class="table-row ${i<4?'classificado':''}">
@@ -250,7 +292,7 @@ function loadClassificacao(){
   document.getElementById("classificacao").innerHTML=html;
 }
 
-/* ========= JOGOS ========= */
+/* JOGOS */
 function renderRodada(){
   const rodada = jogosData.rodadas[rodadaAtual];
   document.getElementById("round-title").innerText = rodada.nome;
@@ -260,17 +302,19 @@ function renderRodada(){
     html+=`
       <div class="match-card">
         <div class="match-top">${j.data_hora}</div>
+
         <div class="match-middle">
-          <div class="team-left">
-            <img src="${buscarEscudo(j.mandante)}" style="width:18px;vertical-align:middle;margin-right:6px">
-            ${j.mandante}
+          <div class="team-left">${j.mandante}</div>
+
+          <div class="center">
+            <img src="${buscarEscudo(j.mandante)}">
+            <div class="score">x</div>
+            <img src="${buscarEscudo(j.visitante)}">
           </div>
-          <div class="score">${j.gols_mandante ?? ""} x ${j.gols_visitante ?? ""}</div>
-          <div class="team-right">
-            <img src="${buscarEscudo(j.visitante)}" style="width:18px;vertical-align:middle;margin-right:6px">
-            ${j.visitante}
-          </div>
+
+          <div class="team-right">${j.visitante}</div>
         </div>
+
         <div class="match-bottom">${j.campo}</div>
       </div>`;
   });
