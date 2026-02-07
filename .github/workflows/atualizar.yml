@@ -34,6 +34,6 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add sicred/dados.json sicred/jogos.json
+          git add sicred/*.json
           git commit -m "Atualização automática dos dados" || echo "Sem alterações"
           git push
