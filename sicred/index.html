@@ -277,6 +277,8 @@ header{
     </div>
     <div id="round-games"></div>
   </div>
+  
+  <div id="artilheiros" class="hidden"></div>
 
 </div>
 
@@ -284,6 +286,7 @@ header{
 let dados, jogosData;
 let rodadaAtual = 0;
 let mapaEscudos = {};
+let dados, jogosData, artilheirosData;
 
 init();
 
@@ -291,11 +294,13 @@ async function init(){
   try{
     dados = await (await fetch("dados.json",{cache:"no-store"})).json();
     jogosData = await (await fetch("jogos.json",{cache:"no-store"})).json();
+    artilheirosData = await (await fetch("artilheiros.json",{cache:"no-store"})).json();
 
     document.getElementById("titulo").innerText = dados.campeonato;
 
     loadClassificacao();
     renderRodada();
+    loadArtilheiros();
 
   }catch(e){
     console.error(e);
