@@ -333,10 +333,18 @@ function renderRodada(){
       <div class="match-middle">
         <div class="team-left">${j.mandante}</div>
         <div class="center">
-          <img src="${buscarEscudo(j.mandante)}">
-          <div class="score">x</div>
-          <img src="${buscarEscudo(j.visitante)}">
-        </div>
+  <img src="${buscarEscudo(j.mandante)}">
+
+  <div class="score">
+    ${
+      j.gols_mandante !== null && j.gols_visitante !== null
+        ? `${j.gols_mandante} x ${j.gols_visitante}`
+        : "x"
+    }
+  </div>
+
+  <img src="${buscarEscudo(j.visitante)}">
+</div>
         <div class="team-right">${j.visitante}</div>
       </div>
       <div class="match-bottom">${j.campo}</div>
