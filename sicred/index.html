@@ -83,7 +83,13 @@ header{
   font-size:11.5px;
 }
 
-.table-header{ color:var(--muted); font-weight:600; }
+.table-header{
+  color:var(--muted);
+  font-weight:600;
+
+  /* 👇 importante */
+  align-items: flex-start;
+}
 .table-row img{ width:20px; height:20px; }
 
 .table-row > div{
@@ -94,7 +100,7 @@ header{
   line-height:1.2;
 
   /* 🔥 ISSO resolve o empurrão */
-  min-width: -5;
+  min-width: 0;
 
   /* quebra correta */
   word-break: break-word;
