@@ -14,7 +14,6 @@ html, body { touch-action: manipulation; }
   --content:#f3f4f6;
   --primary:#22c55e;
   --dark:#020617;
-  --text:#111827;
   --muted:#6b7280;
   --card:#ffffff;
   --line:#e5e7eb;
@@ -63,8 +62,7 @@ header{
   min-height:100vh;
 }
 
-/* ================= CLASSIFICAÇÃO ================= */
-
+/* CLASSIFICAÇÃO */
 .group-title{
   margin:18px 6px 6px;
   font-weight:700;
@@ -95,8 +93,6 @@ header{
   font-weight:600;
 }
 
-.table-row:last-child{border-bottom:none}
-
 .table-row img{
   width:20px;
   height:20px;
@@ -108,19 +104,14 @@ header{
   word-break: break-word;
 }
 
-.num{
-  text-align:center;
-  font-variant-numeric: tabular-nums;
-}
-
-.points{font-weight:700}
+.num{ text-align:center; }
+.points{ font-weight:700 }
 
 .table-row.classificado{
-  border-left:1px solid #16a34a;
+  border-left:2px solid #16a34a;
 }
 
-/* ================= JOGOS ================= */
-
+/* JOGOS */
 .match-card{
   background:var(--card);
   border-radius:14px;
@@ -137,68 +128,27 @@ header{
 
 .match-middle{
   display:grid;
-  grid-template-columns:1fr 90px 1fr;
+  grid-template-columns:1fr 60px 1fr;
   align-items:center;
   margin:8px 0;
 }
 
-.team-left{
-  text-align:right;
-  font-size:12px;
-  line-height:1.2;
-  padding-right:8px;
-}
-
-.team-right{
-  text-align:left;
-  font-size:12px;
-  line-height:1.2;
-  padding-left:8px;
-}
-
-.center{
-  display:grid;
-  grid-template-columns:26px 34px 26px;
-  align-items:center;
-  justify-content:center;
-  column-gap:6px;
-}
-
-.center .logo{
-  width:22px;
-  height:22px;
-  object-fit:contain;
-}
+.team-left{ text-align:right; font-size:12px; padding-right:6px; }
+.team-right{ text-align:left; font-size:12px; padding-left:6px; }
 
 .score{
   text-align:center;
-  font-size:15px;
+  font-size:16px;
   font-weight:700;
 }
 
 .match-bottom{
   text-align:center;
-  font-size:9px;
+  font-size:10px;
   color:var(--muted);
 }
 
-.round-nav{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  margin:10px 0;
-  font-weight:600;
-}
-
-.round-btn{
-  font-size:25px;
-  color:var(--primary);
-  cursor:pointer;
-  padding:8px 18px;
-  border-radius:12px;
-}
-
-.hidden{display:none}
+.hidden{ display:none }
 </style>
 </head>
 
@@ -213,18 +163,14 @@ header{
 
 <div class="container">
 
-  <div id="loading" style="text-align:center;padding:40px;font-size:14px;color:#6b7280">
+  <div id="loading" style="text-align:center;padding:40px;color:#6b7280">
     Carregando dados…
   </div>
 
   <div id="classificacao"></div>
 
   <div id="jogos" class="hidden">
-    <div class="round-nav">
-      <div class="round-btn" onclick="prevRound()">‹</div>
-      <div id="round-title"></div>
-      <div class="round-btn" onclick="nextRound()">›</div>
-    </div>
+    <div id="round-title" style="text-align:center;font-weight:700;margin:10px 0"></div>
     <div id="round-games"></div>
   </div>
 
@@ -232,54 +178,44 @@ header{
 
 <script>
 let dados = null;
-let jogos = null;
-let rodadaAtual = 0;
+let jogosData = null;
 
 init();
 
 async function init(){
   try{
-    // CLASSIFICAÇÃO
-    const resDados = await fetch("dados.json", { cache: "no-store" });
+    const resDados = await fetch("dados.json",{cache:"no-store"});
     dados = await resDados.json();
 
-    document.getElementById("titulo").innerText =
-      dados.campeonato || "Campeonato";
-
+    document.getElementById("titulo").innerText = dados.campeonato;
     loadClassificacao();
 
-    // JOGOS
-    const resJogos = await fetch("jogos.json", { cache: "no-store" });
-    jogos = await resJogos.json();
-
+    const resJogos = await fetch("jogos.json",{cache:"no-store"});
+    jogosData = await resJogos.json();
     loadJogos();
 
   }catch(e){
-    console.error("Erro:", e);
+    console.error(e);
   }finally{
-    document.getElementById("loading").style.display = "none";
+    document.getElementById("loading").style.display="none";
   }
 }
 
-/* ================= CLASSIFICAÇÃO ================= */
-
+/* CLASSIFICAÇÃO */
 function loadClassificacao(){
-  let html = "";
-
-  dados.grupos.forEach(grupo => {
-    html += `
+  let html="";
+  dados.grupos.forEach(grupo=>{
+    html+=`
       <div class="group-title">${grupo.nome}</div>
       <div class="table">
         <div class="table-header">
           <div>#</div><div></div><div>Time</div>
           <div>P</div><div>J</div><div>V</div>
           <div>E</div><div>D</div><div>G</div><div>SG</div>
-        </div>
-    `;
-
+        </div>`;
     grupo.tabela.forEach((t,i)=>{
-      html += `
-        <div class="table-row ${i < 4 ? 'classificado' : ''}">
+      html+=`
+        <div class="table-row ${i<4?'classificado':''}">
           <div>${t.posicao}</div>
           <img src="${t.logo}">
           <div class="team-name">${t.nome}</div>
@@ -290,86 +226,36 @@ function loadClassificacao(){
           <div class="num">${t.derrotas}</div>
           <div class="num">${t.gols_pro}:${t.gols_contra}</div>
           <div class="num">${t.saldo}</div>
-        </div>
-      `;
+        </div>`;
     });
-
-    html += `</div>`;
+    html+=`</div>`;
   });
-
-  document.getElementById("classificacao").innerHTML = html;
+  document.getElementById("classificacao").innerHTML=html;
 }
 
-/* ================= JOGOS ================= */
-
+/* JOGOS */
 function loadJogos(){
-  if(!jogos || !jogos.rodadas) return;
-  renderRodada();
-}
-
-function renderRodada(){
-  const r = jogos.rodadas[rodadaAtual];
-  document.getElementById("round-title").innerText = r.nome;
-
-  let html = "";
-
-  r.jogos.forEach(j => {
-    const placar =
-      j.gols_mandante !== null && j.gols_visitante !== null
-        ? `${j.gols_mandante} x ${j.gols_visitante}`
-        : "x";
-
-    html += `
+  document.getElementById("round-title").innerText = jogosData.rodada;
+  let html="";
+  jogosData.jogos.forEach(j=>{
+    html+=`
       <div class="match-card">
-        <div class="match-top">
-          ${formatarDataHora(j.data, j.hora)}
-        </div>
-
+        <div class="match-top">${j.data_hora}</div>
         <div class="match-middle">
           <div class="team-left">${j.mandante}</div>
-
-          <div class="center">
-            <img class="logo" src="${j.logo_mandante || ''}">
-            <div class="score">${placar}</div>
-            <img class="logo" src="${j.logo_visitante || ''}">
-          </div>
-
+          <div class="score">${j.gols_mandante ?? ""} x ${j.gols_visitante ?? ""}</div>
           <div class="team-right">${j.visitante}</div>
         </div>
-
-        <div class="match-bottom">${j.campo || ''}</div>
-      </div>
-    `;
+        <div class="match-bottom">${j.campo}</div>
+      </div>`;
   });
-
-  document.getElementById("round-games").innerHTML = html;
+  document.getElementById("round-games").innerHTML=html;
 }
 
-function prevRound(){
-  if(rodadaAtual > 0){
-    rodadaAtual--;
-    renderRodada();
-  }
-}
-
-function nextRound(){
-  if(rodadaAtual < jogos.rodadas.length - 1){
-    rodadaAtual++;
-    renderRodada();
-  }
-}
-
-function formatarDataHora(data, hora){
-  const [d,m,y] = data.split("/");
-  const dias = ["Dom","Seg","Ter","Qua","Qui","Sex","Sáb"];
-  const dia = new Date(y, m-1, d).getDay();
-  return `${dias[dia]}, ${d}/${m} - ${hora.replace(":","h")}`;
-}
-
+/* TABS */
 function showTab(tab){
   document.querySelectorAll(".tab").forEach(t=>t.classList.remove("active"));
   event.target.classList.add("active");
-
   document.getElementById("classificacao").classList.toggle("hidden",tab!=="classificacao");
   document.getElementById("jogos").classList.toggle("hidden",tab!=="jogos");
 }
