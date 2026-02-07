@@ -87,9 +87,20 @@ header{
 .table-row img{ width:20px; height:20px; }
 .team-name{
   font-size:11.5px;
-  line-height:1.15;
+  line-height:1.2;
+
+  /* 🔥 ISSO resolve o empurrão */
+  min-width: 0;
+
+  /* quebra correta */
   word-break: break-word;
   overflow-wrap: break-word;
+
+  /* limite de linhas */
+  display: -webkit-box;
+  -webkit-line-clamp: 4;   /* até 4 linhas */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 .num{ text-align:center }
 .points{ font-weight:700 }
