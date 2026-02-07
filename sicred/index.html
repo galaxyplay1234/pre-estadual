@@ -185,6 +185,15 @@ header{
 
 /* ================= ARTIHLEIROS ================= */
 
+.art-header{
+  display:grid;
+  grid-template-columns:26px 40px 1fr 40px;
+  padding:6px 12px;
+  font-size:11px;
+  font-weight:600;
+  color:var(--muted);
+}
+
 .art-card{
   background:var(--card);
   border-radius:14px;
@@ -407,20 +416,30 @@ function renderRodada(){
 /* ================= ARTIHLEIROS ================= */
 
 function loadArtilheiros(){
-  let html="";
+  let html = `
+    <div class="art-header">
+      <div>#</div>
+      <div></div>
+      <div>Nome</div>
+      <div>Gols</div>
+    </div>
+  `;
+
   artilheirosData.artilheiros.forEach(a=>{
-    html+=`
-    <div class="art-card">
-      <div class="art-pos">${a.posicao}</div>
-      <img class="art-img" src="https://s.glbimg.com/es/ge/static/live/widget_artilharia_responsivo/img/placeholder-jogador.png">
-      <div>
-        <div class="art-name">${a.nome}</div>
-        <div class="art-club">${a.clube}</div>
+    html += `
+      <div class="art-card">
+        <div class="art-pos">${a.posicao}</div>
+        <img class="art-img" src="https://s.glbimg.com/es/ge/static/live/widget_artilharia_responsivo/img/placeholder-jogador.png">
+        <div>
+          <div class="art-name">${a.nome}</div>
+          <div class="art-club">${a.clube}</div>
+        </div>
+        <div class="art-gols">${a.gols}</div>
       </div>
-      <div class="art-gols">${a.gols}</div>
-    </div>`;
+    `;
   });
-  document.getElementById("artilheiros").innerHTML=html;
+
+  document.getElementById("artilheiros").innerHTML = html;
 }
 
 
