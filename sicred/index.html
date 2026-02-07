@@ -195,13 +195,12 @@ header{
   align-items:center;
 }
 
-/* força alinhamentos corretos */
-.art-header div:nth-child(3){
-  padding-left:2px; /* alinha com o nome */
+.art-header div:nth-child(1){
+  text-align:center; /* # */
 }
 
 .art-header div:nth-child(4){
-  text-align:center; /* Gols centralizado */
+  text-align:center; /* Gols */
 }
 
 .art-card{
@@ -428,11 +427,11 @@ function renderRodada(){
 function loadArtilheiros(){
   let html = `
     <div class="art-header">
-      <div>#</div>
-      <div></div>
-      <div>Nome</div>
-      <div>Gols</div>
-    </div>
+  <div>#</div>
+  <div></div> <!-- coluna da foto (vazia) -->
+  <div>Nome</div>
+  <div>Gols</div>
+</div>
   `;
 
   artilheirosData.artilheiros.forEach(a=>{
