@@ -118,12 +118,22 @@ header{
   margin:10px 0;
   font-weight:600;
 }
+
 .round-btn{
   font-size:25px;
   color:var(--primary);
   cursor:pointer;
-  padding:8px 18px;
+  user-select:none;
+
+  /* 👇 AQUI ESTÁ O QUE VOCÊ QUER */
+  padding:8px 18px;        /* aumenta área clicável */
+  border-radius:12px;      /* toque mais confortável */
+  transition: background .15s ease;
 }
+
+
+
+
 .round-title{ font-size:13px }
 
 .hidden{ display:none }
