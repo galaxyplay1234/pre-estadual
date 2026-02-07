@@ -1,6 +1,6 @@
 {
   "campeonato": "6ª COPA SICREDI LIVRE MASCULINO",
-  "atualizado_em": "2026-02-07T10:31:31.621Z",
+  "atualizado_em": "2026-02-07T11:26:37.596Z",
   "grupos": [
     {
       "nome": "GRUPO A",
@@ -295,21 +295,21 @@
       "tabela": [
         {
           "posicao": 1,
-          "logo": "https://www.lchf.com.br/Upload/clubes/LA12.png",
-          "nome": "LÁ12",
-          "pontos": 0,
-          "jogos": 0,
-          "vitorias": 0,
+          "logo": "https://www.lchf.com.br/Upload/clubes/BOLEIROS.png",
+          "nome": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
+          "pontos": 3,
+          "jogos": 1,
+          "vitorias": 1,
           "empates": 0,
           "derrotas": 0,
-          "gols_pro": 0,
-          "gols_contra": 0,
-          "saldo": 0
+          "gols_pro": 2,
+          "gols_contra": 1,
+          "saldo": 1
         },
         {
           "posicao": 2,
-          "logo": "https://www.lchf.com.br/Upload/clubes/BOLEIROS.png",
-          "nome": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
+          "logo": "https://www.lchf.com.br/Upload/clubes/LA12.png",
+          "nome": "LÁ12",
           "pontos": 0,
           "jogos": 0,
           "vitorias": 0,
@@ -360,8 +360,8 @@
         },
         {
           "posicao": 6,
-          "logo": "https://www.lchf.com.br/Upload/clubes/NIJU%20(2).png",
-          "nome": "NIJU / GO PLAY F.C",
+          "logo": "https://www.lchf.com.br/Upload/clubes/GTR.png",
+          "nome": "GTR SPORTS",
           "pontos": 0,
           "jogos": 0,
           "vitorias": 0,
@@ -373,16 +373,16 @@
         },
         {
           "posicao": 7,
-          "logo": "https://www.lchf.com.br/Upload/clubes/GTR.png",
-          "nome": "GTR SPORTS",
+          "logo": "https://www.lchf.com.br/Upload/clubes/NIJU%20(2).png",
+          "nome": "NIJU / GO PLAY F.C",
           "pontos": 0,
-          "jogos": 0,
+          "jogos": 1,
           "vitorias": 0,
           "empates": 0,
-          "derrotas": 0,
-          "gols_pro": 0,
-          "gols_contra": 0,
-          "saldo": 0
+          "derrotas": 1,
+          "gols_pro": 1,
+          "gols_contra": 2,
+          "saldo": -1
         }
       ]
     },
