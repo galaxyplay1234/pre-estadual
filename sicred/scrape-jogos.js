@@ -3,71 +3,122 @@ const fetch = require("node-fetch");
 const { JSDOM } = require("jsdom");
 
 const URL = "https://www.lchf.com.br/JogosCampeonato.aspx";
-const BASE = "https://www.lchf.com.br";
 
-(async () => {
-  const res = await fetch(URL);
-  const html = await res.text();
+const HEADERS = {
+  "Content-Type": "application/x-www-form-urlencoded",
+  "User-Agent": "Mozilla/5.0"
+};
 
+async function getPage(html) {
   const dom = new JSDOM(html);
-  const document = dom.window.document;
+  return dom.window.document;
+}
 
-  // 🔹 Confere campeonato selecionado
-  const campeonatoSelect = document.querySelector(
-    "#ctl00_MainContent_ddlCampeonato option[selected]"
-  );
+function getHidden(document, name) {
+  return document.querySelector(`input[name="${name}"]`)?.value || "";
+}
 
-  const campeonato = campeonatoSelect
-    ? campeonatoSelect.textContent.trim()
-    : "Campeonato";
-
-  if (!campeonato.includes("SICREDI LIVRE MASCULINO")) {
-    throw new Error("Campeonato errado carregado");
-  }
-
-  // 🔹 Rodada atual
-  const rodada =
-    document.querySelector("#ctl00_MainContent_lblRodada")
-      ?.textContent.trim() || "";
-
-  // 🔹 Tabela de jogos
+function parseJogos(document) {
   const tabela = document.querySelector("table.point-table");
-  if (!tabela) throw new Error("Tabela de jogos não encontrada");
+  if (!tabela) return [];
 
   const jogos = [];
 
   tabela.querySelectorAll("tr").forEach((tr, i) => {
-    if (i === 0) return; // cabeçalho
+    if (i === 0) return;
 
     const td = tr.querySelectorAll("td");
     if (td.length < 6) return;
 
-    const golsCasa =
-      td[2].querySelector("input:first-child")?.value || "";
-    const golsFora =
-      td[2].querySelector("input:last-child")?.value || "";
+    const inputs = td[2].querySelectorAll("input");
 
     jogos.push({
       mandante: td[1].textContent.trim(),
       visitante: td[3].textContent.trim(),
-      gols_mandante: golsCasa || null,
-      gols_visitante: golsFora || null,
+      gols_mandante: inputs[0]?.value ? Number(inputs[0].value) : null,
+      gols_visitante: inputs[1]?.value ? Number(inputs[1].value) : null,
       campo: td[4].textContent.trim(),
       data_hora: td[5].textContent.trim()
     });
   });
 
-  const dados = {
+  return jogos;
+}
+
+(async () => {
+  console.log("▶ Iniciando scrape de jogos…");
+
+  // 1️⃣ GET inicial
+  let res = await fetch(URL, { headers: HEADERS });
+  let html = await res.text();
+  let document = await getPage(html);
+
+  // Campeonato
+  const campeonato = document
+    .querySelector("#ctl00_MainContent_ddlCampeonato option[selected]")
+    ?.textContent.trim() || "Campeonato";
+
+  if (!campeonato.includes("SICREDI LIVRE MASCULINO")) {
+    throw new Error("❌ Campeonato errado carregado");
+  }
+
+  let lblRodada = document.querySelector("#ctl00_MainContent_lblRodada")
+    ?.textContent.trim();
+
+  const totalRodadas = Number(lblRodada?.match(/de\s+(\d+)/)?.[1] || 1);
+
+  const rodadas = [];
+
+  // 2️⃣ Loop das rodadas
+  for (let i = 1; i <= totalRodadas; i++) {
+    console.log(`➡ Lendo Rodada ${i}`);
+
+    document = await getPage(html);
+
+    const nomeRodada = document.querySelector("#ctl00_MainContent_lblRodada")
+      ?.textContent.trim() || `Rodada ${i}`;
+
+    const jogos = parseJogos(document);
+
+    rodadas.push({
+      nome: nomeRodada,
+      jogos
+    });
+
+    // Se for a última, não avança
+    if (i === totalRodadas) break;
+
+    // 3️⃣ POST simulando botão ">"
+    const body = new URLSearchParams({
+      "__EVENTTARGET": "ctl00$MainContent$Button2",
+      "__EVENTARGUMENT": "",
+      "__VIEWSTATE": getHidden(document, "__VIEWSTATE"),
+      "__VIEWSTATEGENERATOR": getHidden(document, "__VIEWSTATEGENERATOR"),
+      "__EVENTVALIDATION": getHidden(document, "__EVENTVALIDATION"),
+      "ctl00$MainContent$ddlCampeonato":
+        document.querySelector("#ctl00_MainContent_ddlCampeonato")?.value || ""
+    }).toString();
+
+    res = await fetch(URL, {
+      method: "POST",
+      headers: HEADERS,
+      body
+    });
+
+    html = await res.text();
+  }
+
+  // 4️⃣ Salva JSON final
+  const output = {
     campeonato,
-    rodada,
-    jogos
+    rodadas
   };
 
   fs.writeFileSync(
     "sicred/jogos.json",
-    JSON.stringify(dados, null, 2),
+    JSON.stringify(output, null, 2),
     "utf-8"
   );
 
-  console.log("✅ jogos.json atualizado com sucesso");
+  console.log("✅ jogos.json gerado com TODAS as rodadas");
 })();
