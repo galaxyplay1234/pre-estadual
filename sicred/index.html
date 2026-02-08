@@ -293,7 +293,8 @@ header{
 
 <div class="container">
   
-  <div style="display:flex;justify-content:flex-end;margin-bottom:8px">
+  <div id="box-geral"
+     style="display:flex;justify-content:flex-end;margin-bottom:8px">
   <button id="btn-geral"
     onclick="toggleGeral()"
     style="
@@ -577,6 +578,14 @@ function showTab(tab){
   ["classificacao","jogos","artilheiros"].forEach(id=>{
     document.getElementById(id).classList.toggle("hidden", id!==tab);
   });
+
+  // 🔹 Mostrar botão Geral só na Classificação
+  const boxGeral = document.getElementById("box-geral");
+  if(tab === "classificacao"){
+    boxGeral.style.display = "flex";
+  }else{
+    boxGeral.style.display = "none";
+  }
 }
 
 
