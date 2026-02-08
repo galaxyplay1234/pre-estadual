@@ -120,6 +120,14 @@ header{
   border-left:2px solid #16a34a;
 }
 
+.table-row.geral-verde{
+  border-left:2px solid #16a34a;
+}
+
+.table-row.geral-azul{
+  border-left:2px solid #2563eb;
+}
+
 /* ================= JOGOS ================= */
 
 .match-card{
@@ -289,6 +297,24 @@ header{
     Carregando dados…
   </div>
 
+<div style="display:flex;justify-content:flex-end;margin-bottom:8px">
+  <button id="btn-geral"
+    onclick="toggleGeral()"
+    style="
+      padding:6px 12px;
+      border-radius:10px;
+      border:none;
+      font-size:12px;
+      font-weight:600;
+      background:#e5e7eb;
+      color:#374151;
+      cursor:pointer;
+    ">
+    Geral
+  </button>
+</div>
+
+
   <div id="classificacao"></div>
 
   <div id="jogos" class="hidden">
@@ -308,6 +334,7 @@ header{
 let dados, jogosData, artilheirosData;
 let rodadaAtual = 0;
 let mapaEscudos = {};
+let modoGeral = false;
 
 init();
 
@@ -390,6 +417,87 @@ function loadClassificacao(){
 
   document.getElementById("classificacao").innerHTML=html;
 }
+
+function toggleGeral(){
+  modoGeral = !modoGeral;
+
+  const btn = document.getElementById("btn-geral");
+
+  if(modoGeral){
+    btn.style.background = "#22c55e";
+    btn.style.color = "white";
+    btn.innerText = "Voltar aos Grupos";
+    renderTabelaGeral();
+  }else{
+    btn.style.background = "#e5e7eb";
+    btn.style.color = "#374151";
+    btn.innerText = "Geral";
+    loadClassificacao();
+  }
+}
+
+
+function renderTabelaGeral(){
+  let todos = [];
+
+  dados.grupos.forEach(grupo=>{
+    grupo.tabela.forEach(t=>{
+      todos.push({...t});
+    });
+  });
+
+  // 🔹 Ordenação
+  todos.sort((a,b)=>{
+    if(b.pontos !== a.pontos) return b.pontos - a.pontos;
+    if(b.vitorias !== a.vitorias) return b.vitorias - a.vitorias;
+    if(a.gols_contra !== b.gols_contra) return a.gols_contra - b.gols_contra;
+    if(b.gols_pro !== a.gols_pro) return b.gols_pro - a.gols_pro;
+    if(b.saldo !== a.saldo) return b.saldo - a.saldo;
+
+    // fallback: ordem alfabética
+    return a.nome.localeCompare(b.nome,"pt-BR");
+  });
+
+  let html = `
+    <div class="group-title">CLASSIFICAÇÃO GERAL</div>
+    <div class="table">
+      <div class="table-header">
+        <div>#</div><div></div><div>Time</div>
+        <div class="stats">
+          <div>P</div><div>J</div><div>V</div>
+          <div>E</div><div>D</div><div>G</div><div>SG</div>
+        </div>
+      </div>
+  `;
+
+  todos.forEach((t,i)=>{
+    const pos = i + 1;
+    const faixa =
+      pos <= 8 ? "geral-verde" :
+      pos <= 24 ? "geral-azul" : "";
+
+    html += `
+      <div class="table-row ${faixa}">
+        <div>${pos}</div>
+        <img src="${t.logo}">
+        <div class="team-name">${t.nome}</div>
+        <div class="stats">
+          <div class="points">${t.pontos}</div>
+          <div>${t.jogos}</div>
+          <div>${t.vitorias}</div>
+          <div>${t.empates}</div>
+          <div>${t.derrotas}</div>
+          <div>${t.gols_pro}:${t.gols_contra}</div>
+          <div>${t.saldo}</div>
+        </div>
+      </div>
+    `;
+  });
+
+  html += `</div>`;
+  document.getElementById("classificacao").innerHTML = html;
+}
+
 
 /* JOGOS */
 function renderRodada(){
