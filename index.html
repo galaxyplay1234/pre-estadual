@@ -387,10 +387,33 @@ tabelaOrdenada.forEach((t,i)=>{
 async function loadJogos(){
   const {iAno,iCampeonato,sLiga} = campeonato[0];
   rodadas = await api(
-    `https://egol.fcf.com.br/egolligaSC/WsEgol.wso/Get_Jogos/JSON/debug?iAno=${iAno}&iCampeonato=${iCampeonato}&sLiga=${sLiga}`
-  );
-  renderRodada();
+  `https://egol.fcf.com.br/egolligaSC/WsEgol.wso/Get_Jogos/JSON/debug?iAno=${iAno}&iCampeonato=${iCampeonato}&sLiga=${sLiga}`
+);
+
+// 🔥 AQUI ESTÁ O PULO DO GATO
+rodadaAtual = descobrirRodadaAtual(rodadas);
+
+renderRodada();
 }
+
+function descobrirRodadaAtual(rodadas){
+  // procura a primeira rodada que ainda tenha jogo sem placar
+  const index = rodadas.findIndex(r =>
+    r.Jogos.some(j =>
+      j.iGolsMandante === "-" ||
+      j.iGolsVisitante === "-" ||
+      j.iGolsMandante === null ||
+      j.iGolsVisitante === null
+    )
+  );
+
+  // se encontrou, usa ela
+  if(index !== -1) return index;
+
+  // se todas já terminaram, usa a última
+  return rodadas.length - 1;
+}
+
 
 function renderRodada(){
   const r = rodadas[rodadaAtual];
