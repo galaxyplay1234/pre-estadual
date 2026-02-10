@@ -1,6 +1,6 @@
 {
   "campeonato": "6ª COPA SICREDI LIVRE MASCULINO",
-  "atualizado_em": "2026-02-10T11:55:12.857Z",
+  "atualizado_em": "2026-02-10T13:24:41.411Z",
   "artilheiros": [
     {
       "posicao": 1,
@@ -10,8 +10,68 @@
     },
     {
       "posicao": 2,
+      "nome": "Jolbert Caic Oliveira Sales",
+      "clube": "FREITAS FC /CASA DOS MOTORS CHAPECO/ TIROLESA INTERESTADUAL / F&D CLIMATIZAÇÃO",
+      "gols": 2
+    },
+    {
+      "posicao": 3,
+      "nome": "Marco Antonio pizzani pieczaki",
+      "clube": "SCRIPT UNITED",
+      "gols": 2
+    },
+    {
+      "posicao": 4,
+      "nome": "Antoni zamboni",
+      "clube": "SCRIPT UNITED",
+      "gols": 1
+    },
+    {
+      "posicao": 5,
+      "nome": "Daniel Dotto",
+      "clube": "MECANICA CASTELI / HORTIAGRO F.C",
+      "gols": 1
+    },
+    {
+      "posicao": 6,
+      "nome": "Dhiovani Alessi",
+      "clube": "MECANICA CASTELI / HORTIAGRO F.C",
+      "gols": 1
+    },
+    {
+      "posicao": 7,
+      "nome": "Jacson Francisco Zanella",
+      "clube": "SCRIPT UNITED",
+      "gols": 1
+    },
+    {
+      "posicao": 8,
+      "nome": "LUCAS ROSINA",
+      "clube": "SCRIPT UNITED",
+      "gols": 1
+    },
+    {
+      "posicao": 9,
+      "nome": "Marcos Antônio de Souza correia",
+      "clube": "ATLETICO KONDA",
+      "gols": 1
+    },
+    {
+      "posicao": 10,
+      "nome": "Mauri De Souza Rodrigues",
+      "clube": "MECANICA CASTELI / HORTIAGRO F.C",
+      "gols": 1
+    },
+    {
+      "posicao": 11,
       "nome": "Mauricio Claudino dos Santos",
       "clube": "NIJU / GO PLAY F.C",
+      "gols": 1
+    },
+    {
+      "posicao": 12,
+      "nome": "Roger Luciano Camargo",
+      "clube": "FREITAS FC /CASA DOS MOTORS CHAPECO/ TIROLESA INTERESTADUAL / F&D CLIMATIZAÇÃO",
       "gols": 1
     }
   ]
