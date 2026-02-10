@@ -167,10 +167,11 @@ header{
 
 .center{
   display:grid;
-  grid-template-columns:26px 34px 26px;
+  grid-template-columns:26px 44px 26px; /* ⬅️ aumentamos o placar */
   align-items:center;
   justify-content:center;
   column-gap:6px;
+  height:32px;
 }
 
 .center img{
@@ -180,9 +181,19 @@ header{
 }
 
 .score{
+  width:44px;              /* largura fixa */
   text-align:center;
   font-size:15px;
   font-weight:700;
+  white-space:nowrap;      /* 🔒 impede quebra */
+  line-height:1;           /* evita empurrar */
+}
+
+
+.score{
+  display:flex;
+  align-items:center;
+  justify-content:center;
 }
 
 .match-bottom{
