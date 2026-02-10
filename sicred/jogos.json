@@ -15,16 +15,16 @@
         {
           "mandante": "FREITAS FC /CASA DOS MOTORS CHAPECO/ TIROLESA INTERESTADUAL / F&D CLIMATIZAÇÃO",
           "visitante": "ATLETICO KONDA",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 3,
+          "gols_visitante": 1,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "09/02/2026 20:30"
         },
         {
           "mandante": "MECANICA CASTELI / HORTIAGRO F.C",
           "visitante": "SCRIPT UNITED",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 4,
+          "gols_visitante": 5,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "09/02/2026 21:30"
         },
