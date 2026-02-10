@@ -263,14 +263,6 @@
           "data_hora": "01/01/0001 00:00"
         },
         {
-          "mandante": "FREITAS FC /CASA DOS MOTORS CHAPECO/ TIROLESA INTERESTADUAL / F&D CLIMATIZAÇÃO",
-          "visitante": "JAGERMEISTER",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "",
-          "data_hora": "01/01/0001 00:00"
-        },
-        {
           "mandante": "IMPERIAL",
           "visitante": "REAL CATALUNHA FC",
           "gols_mandante": null,
@@ -373,6 +365,14 @@
           "gols_visitante": null,
           "campo": "",
           "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "FREITAS FC /CASA DOS MOTORS CHAPECO/ TIROLESA INTERESTADUAL / F&D CLIMATIZAÇÃO",
+          "visitante": "JAGERMEISTER",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "02/03/2026 21:30"
         }
       ]
     },
