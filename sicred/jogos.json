@@ -255,124 +255,124 @@
       "nome": "Rodada 3 de 9",
       "jogos": [
         {
-          "mandante": "AAT FC / ALMIR ARAÚJO TRANSPORTE",
-          "visitante": "PROMESSA F.C",
+          "mandante": "ANA LUCIA RESTAURANTE / BUMERANGUE FC",
+          "visitante": "RESENHA F.C",
           "gols_mandante": null,
           "gols_visitante": null,
-          "campo": "",
-          "data_hora": "01/01/0001 00:00"
-        },
-        {
-          "mandante": "IMPERIAL",
-          "visitante": "REAL CATALUNHA FC",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "",
-          "data_hora": "01/01/0001 00:00"
-        },
-        {
-          "mandante": "SÃO VENDELINO / SANTA BARBARA",
-          "visitante": "SCRIPT UNITED",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "",
-          "data_hora": "01/01/0001 00:00"
-        },
-        {
-          "mandante": "LOS SANTOS",
-          "visitante": "MECANICA CASTELI / HORTIAGRO F.C",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "",
-          "data_hora": "01/01/0001 00:00"
-        },
-        {
-          "mandante": "GERMAN STORE /TERTIUS",
-          "visitante": "ANUBIS F.C",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "",
-          "data_hora": "01/01/0001 00:00"
-        },
-        {
-          "mandante": "PAVIDAL BLOCOS E PAVERS",
-          "visitante": "LJS/P2",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "",
-          "data_hora": "01/01/0001 00:00"
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "23/02/2026 20:30"
         },
         {
           "mandante": "GG PINTURAS/SANTA MARIA",
           "visitante": "SEDE DO GORDO",
           "gols_mandante": null,
           "gols_visitante": null,
-          "campo": "",
-          "data_hora": "01/01/0001 00:00"
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "23/02/2026 21:30"
         },
         {
-          "mandante": "ALVORADA LEGENDS FC / BARBEARIA RUAN ROSA",
-          "visitante": "SITICOM/ SÃO PEDRO  FC",
+          "mandante": "SÃO VENDELINO / SANTA BARBARA",
+          "visitante": "SCRIPT UNITED",
           "gols_mandante": null,
           "gols_visitante": null,
-          "campo": "",
-          "data_hora": "01/01/0001 00:00"
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "25/02/2026 20:30"
         },
         {
-          "mandante": "GTR SPORTS",
-          "visitante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
+          "mandante": "GERMAN STORE /TERTIUS",
+          "visitante": "ANUBIS F.C",
           "gols_mandante": null,
           "gols_visitante": null,
-          "campo": "",
-          "data_hora": "01/01/0001 00:00"
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "25/02/2026 21:30"
         },
         {
-          "mandante": "ANA LUCIA RESTAURANTE / BUMERANGUE FC",
-          "visitante": "RESENHA F.C",
+          "mandante": "LOS SANTOS",
+          "visitante": "MECANICA CASTELI / HORTIAGRO F.C",
           "gols_mandante": null,
           "gols_visitante": null,
-          "campo": "",
-          "data_hora": "01/01/0001 00:00"
-        },
-        {
-          "mandante": "NIJU / GO PLAY F.C",
-          "visitante": "LÁ12",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "",
-          "data_hora": "01/01/0001 00:00"
-        },
-        {
-          "mandante": "CK MAQUINAS/NS INSTAÇÃO ELETRICAS",
-          "visitante": "SHALON FC",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "",
-          "data_hora": "01/01/0001 00:00"
+          "campo": "GUATAMBU SOCIETY",
+          "data_hora": "25/02/2026 20:00"
         },
         {
           "mandante": "AGRO GUATAMBU",
           "visitante": "R.C SPORTS",
           "gols_mandante": null,
           "gols_visitante": null,
-          "campo": "",
-          "data_hora": "01/01/0001 00:00"
+          "campo": "GUATAMBU SOCIETY",
+          "data_hora": "25/02/2026 21:00"
         },
         {
-          "mandante": "NANDO AUTO SOM /BENFICA FC",
-          "visitante": "E.C RONDOFRIO",
+          "mandante": "IMPERIAL",
+          "visitante": "REAL CATALUNHA FC",
           "gols_mandante": null,
           "gols_visitante": null,
-          "campo": "",
-          "data_hora": "01/01/0001 00:00"
+          "campo": "xaxim - a definir",
+          "data_hora": "25/02/2026 20:00"
+        },
+        {
+          "mandante": "CK MAQUINAS/NS INSTAÇÃO ELETRICAS",
+          "visitante": "SHALON FC",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "xaxim - a definir",
+          "data_hora": "25/02/2026 21:00"
+        },
+        {
+          "mandante": "PAVIDAL BLOCOS E PAVERS",
+          "visitante": "LJS/P2",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "GUATAMBU SOCIETY",
+          "data_hora": "26/02/2026 20:00"
+        },
+        {
+          "mandante": "ALVORADA LEGENDS FC / BARBEARIA RUAN ROSA",
+          "visitante": "SITICOM/ SÃO PEDRO  FC",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "GUATAMBU SOCIETY",
+          "data_hora": "26/02/2026 21:00"
+        },
+        {
+          "mandante": "NIJU / GO PLAY F.C",
+          "visitante": "LÁ12",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "27/02/2026 19:30"
+        },
+        {
+          "mandante": "GTR SPORTS",
+          "visitante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "27/02/2026 20:30"
+        },
+        {
+          "mandante": "AAT FC / ALMIR ARAÚJO TRANSPORTE",
+          "visitante": "PROMESSA F.C",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "CAMPO DO TIAGO",
+          "data_hora": "27/02/2026 19:30"
         },
         {
           "mandante": "FREITAS FC /CASA DOS MOTORS CHAPECO/ TIROLESA INTERESTADUAL / F&D CLIMATIZAÇÃO",
           "visitante": "JAGERMEISTER",
           "gols_mandante": null,
           "gols_visitante": null,
+          "campo": "CAMPO DO TIAGO",
+          "data_hora": "27/02/2026 20:30"
+        },
+        {
+          "mandante": "NANDO AUTO SOM /BENFICA FC",
+          "visitante": "E.C RONDOFRIO",
+          "gols_mandante": null,
+          "gols_visitante": null,
           "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "02/03/2026 21:30"
+          "data_hora": "02/03/2026 20:30"
         }
       ]
     },
@@ -380,124 +380,124 @@
       "nome": "Rodada 4 de 9",
       "jogos": [
         {
-          "mandante": "JAGERMEISTER",
-          "visitante": "AAT FC / ALMIR ARAÚJO TRANSPORTE",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "",
-          "data_hora": "01/01/0001 00:00"
-        },
-        {
-          "mandante": "REAL CATALUNHA FC",
-          "visitante": "FREITAS FC /CASA DOS MOTORS CHAPECO/ TIROLESA INTERESTADUAL / F&D CLIMATIZAÇÃO",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "",
-          "data_hora": "01/01/0001 00:00"
-        },
-        {
-          "mandante": "PROMESSA F.C",
-          "visitante": "ATLETICO KONDA",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "",
-          "data_hora": "01/01/0001 00:00"
-        },
-        {
           "mandante": "SCRIPT UNITED",
           "visitante": "GERMAN STORE /TERTIUS",
           "gols_mandante": null,
           "gols_visitante": null,
-          "campo": "",
-          "data_hora": "01/01/0001 00:00"
-        },
-        {
-          "mandante": "MECANICA CASTELI / HORTIAGRO F.C",
-          "visitante": "SÃO VENDELINO / SANTA BARBARA",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "",
-          "data_hora": "01/01/0001 00:00"
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "04/03/2026 20:30"
         },
         {
           "mandante": "ANUBIS F.C",
           "visitante": "CATARINENSE / CATARINENSE PROTEÇÃO VEICULAR / SOL AGÊNCIA DE MARKETING",
           "gols_mandante": null,
           "gols_visitante": null,
-          "campo": "",
-          "data_hora": "01/01/0001 00:00"
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "04/03/2026 21:30"
         },
         {
           "mandante": "LJS/P2",
           "visitante": "ALVORADA LEGENDS FC / BARBEARIA RUAN ROSA",
           "gols_mandante": null,
           "gols_visitante": null,
-          "campo": "",
-          "data_hora": "01/01/0001 00:00"
+          "campo": "GUATAMBU SOCIETY",
+          "data_hora": "04/03/2026 20:00"
         },
         {
           "mandante": "SEDE DO GORDO",
           "visitante": "PAVIDAL BLOCOS E PAVERS",
           "gols_mandante": null,
           "gols_visitante": null,
-          "campo": "",
-          "data_hora": "01/01/0001 00:00"
+          "campo": "GUATAMBU SOCIETY",
+          "data_hora": "04/03/2026 21:00"
         },
         {
-          "mandante": "SITICOM/ SÃO PEDRO  FC",
-          "visitante": "E.C.PASSO DOS FORTES / CFC AUTO ESCOLA CENTER",
+          "mandante": "MECANICA CASTELI / HORTIAGRO F.C",
+          "visitante": "SÃO VENDELINO / SANTA BARBARA",
           "gols_mandante": null,
           "gols_visitante": null,
-          "campo": "",
-          "data_hora": "01/01/0001 00:00"
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "05/03/2026 21:00"
         },
         {
-          "mandante": "RESENHA F.C",
-          "visitante": "GTR SPORTS",
+          "mandante": "REAL CATALUNHA FC",
+          "visitante": "FREITAS FC /CASA DOS MOTORS CHAPECO/ TIROLESA INTERESTADUAL / F&D CLIMATIZAÇÃO",
           "gols_mandante": null,
           "gols_visitante": null,
-          "campo": "",
-          "data_hora": "01/01/0001 00:00"
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "06/03/2026 20:00"
         },
         {
           "mandante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
           "visitante": "GRUPO COONECTA / PLAZA IMOVEIS",
           "gols_mandante": null,
           "gols_visitante": null,
-          "campo": "",
-          "data_hora": "01/01/0001 00:00"
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "06/03/2026 21:00"
+        },
+        {
+          "mandante": "SITICOM/ SÃO PEDRO  FC",
+          "visitante": "E.C.PASSO DOS FORTES / CFC AUTO ESCOLA CENTER",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "CAMPO DO TIAGO",
+          "data_hora": "06/03/2026 20:00"
+        },
+        {
+          "mandante": "PROMESSA F.C",
+          "visitante": "ATLETICO KONDA",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "CAMPO DO TIAGO",
+          "data_hora": "06/03/2026 21:00"
         },
         {
           "mandante": "LÁ12",
           "visitante": "ANA LUCIA RESTAURANTE / BUMERANGUE FC",
           "gols_mandante": null,
           "gols_visitante": null,
-          "campo": "",
-          "data_hora": "01/01/0001 00:00"
+          "campo": "GUATAMBU SOCIETY",
+          "data_hora": "06/03/2026 20:00"
         },
         {
-          "mandante": "SHALON FC",
-          "visitante": "NANDO AUTO SOM /BENFICA FC",
+          "mandante": "JAGERMEISTER",
+          "visitante": "AAT FC / ALMIR ARAÚJO TRANSPORTE",
           "gols_mandante": null,
           "gols_visitante": null,
-          "campo": "",
-          "data_hora": "01/01/0001 00:00"
+          "campo": "GUATAMBU SOCIETY",
+          "data_hora": "06/03/2026 21:00"
         },
         {
           "mandante": "R.C SPORTS",
           "visitante": "CK MAQUINAS/NS INSTAÇÃO ELETRICAS",
           "gols_mandante": null,
           "gols_visitante": null,
-          "campo": "",
-          "data_hora": "01/01/0001 00:00"
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "09/03/2026 20:30"
+        },
+        {
+          "mandante": "RESENHA F.C",
+          "visitante": "GTR SPORTS",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "09/03/2026 21:30"
         },
         {
           "mandante": "E.C RONDOFRIO",
           "visitante": "PARCEIROS FC",
           "gols_mandante": null,
           "gols_visitante": null,
-          "campo": "",
-          "data_hora": "01/01/0001 00:00"
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "11/03/2026 20:30"
+        },
+        {
+          "mandante": "SHALON FC",
+          "visitante": "NANDO AUTO SOM /BENFICA FC",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "11/03/2026 21:30"
         }
       ]
     },
