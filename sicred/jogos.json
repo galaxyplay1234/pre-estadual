@@ -130,8 +130,16 @@
       "nome": "Rodada 2 de 9",
       "jogos": [
         {
-          "mandante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
-          "visitante": "ANA LUCIA RESTAURANTE / BUMERANGUE FC",
+          "mandante": "GRUPO COONECTA / PLAZA IMOVEIS",
+          "visitante": "GTR SPORTS",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "16/02/2026 19:30"
+        },
+        {
+          "mandante": "E.C RONDOFRIO",
+          "visitante": "CK MAQUINAS/NS INSTAÇÃO ELETRICAS",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "ARENA PRIME SOCIETY",
@@ -154,16 +162,8 @@
           "data_hora": "18/02/2026 20:00"
         },
         {
-          "mandante": "GRUPO COONECTA / PLAZA IMOVEIS",
-          "visitante": "GTR SPORTS",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "GUATAMBU SOCIETY",
-          "data_hora": "18/02/2026 21:00"
-        },
-        {
-          "mandante": "E.C RONDOFRIO",
-          "visitante": "CK MAQUINAS/NS INSTAÇÃO ELETRICAS",
+          "mandante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
+          "visitante": "ANA LUCIA RESTAURANTE / BUMERANGUE FC",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "ARENA PRIME SOCIETY",

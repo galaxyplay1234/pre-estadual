@@ -1,6 +1,6 @@
 {
   "campeonato": "6ª COPA SICREDI LIVRE MASCULINO",
-  "atualizado_em": "2026-02-11T11:27:01.267Z",
+  "atualizado_em": "2026-02-11T12:05:44.738Z",
   "artilheiros": [
     {
       "posicao": 1,
@@ -40,38 +40,80 @@
     },
     {
       "posicao": 7,
+      "nome": "Felipe De Carli",
+      "clube": "ANA LUCIA RESTAURANTE / BUMERANGUE FC",
+      "gols": 1
+    },
+    {
+      "posicao": 8,
+      "nome": "Felipe Junior Santa Catarina",
+      "clube": "CATARINENSE / CATARINENSE PROTEÇÃO VEICULAR / SOL AGÊNCIA DE MARKETING",
+      "gols": 1
+    },
+    {
+      "posicao": 9,
+      "nome": "GABRIEL MATEUS GRANDO",
+      "clube": "CATARINENSE / CATARINENSE PROTEÇÃO VEICULAR / SOL AGÊNCIA DE MARKETING",
+      "gols": 1
+    },
+    {
+      "posicao": 10,
+      "nome": "Gildomar j. Da Silva",
+      "clube": "CATARINENSE / CATARINENSE PROTEÇÃO VEICULAR / SOL AGÊNCIA DE MARKETING",
+      "gols": 1
+    },
+    {
+      "posicao": 11,
       "nome": "Jacson Francisco Zanella",
       "clube": "SCRIPT UNITED",
       "gols": 1
     },
     {
-      "posicao": 8,
+      "posicao": 12,
       "nome": "LUCAS ROSINA",
       "clube": "SCRIPT UNITED",
       "gols": 1
     },
     {
-      "posicao": 9,
+      "posicao": 13,
       "nome": "Marcos Antônio de Souza correia",
       "clube": "ATLETICO KONDA",
       "gols": 1
     },
     {
-      "posicao": 10,
+      "posicao": 14,
+      "nome": "Matheus Muller",
+      "clube": "CATARINENSE / CATARINENSE PROTEÇÃO VEICULAR / SOL AGÊNCIA DE MARKETING",
+      "gols": 1
+    },
+    {
+      "posicao": 15,
       "nome": "Mauri De Souza Rodrigues",
       "clube": "MECANICA CASTELI / HORTIAGRO F.C",
       "gols": 1
     },
     {
-      "posicao": 11,
+      "posicao": 16,
       "nome": "Mauricio Claudino dos Santos",
       "clube": "NIJU / GO PLAY F.C",
       "gols": 1
     },
     {
-      "posicao": 12,
+      "posicao": 17,
+      "nome": "Nathan Kennedy de Oliveira",
+      "clube": "GRUPO COONECTA / PLAZA IMOVEIS",
+      "gols": 1
+    },
+    {
+      "posicao": 18,
       "nome": "Roger Luciano Camargo",
       "clube": "FREITAS FC /CASA DOS MOTORS CHAPECO/ TIROLESA INTERESTADUAL / F&D CLIMATIZAÇÃO",
+      "gols": 1
+    },
+    {
+      "posicao": 19,
+      "nome": "Rogério Pereira Enoque",
+      "clube": "GRUPO COONECTA / PLAZA IMOVEIS",
       "gols": 1
     }
   ]

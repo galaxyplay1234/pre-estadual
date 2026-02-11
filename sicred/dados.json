@@ -1,6 +1,6 @@
 {
   "campeonato": "6ª COPA SICREDI LIVRE MASCULINO",
-  "atualizado_em": "2026-02-11T11:26:57.681Z",
+  "atualizado_em": "2026-02-11T12:05:40.266Z",
   "grupos": [
     {
       "nome": "GRUPO A",
@@ -295,8 +295,8 @@
       "tabela": [
         {
           "posicao": 1,
-          "logo": "https://www.lchf.com.br/Upload/clubes/coonecta.png",
-          "nome": "GRUPO COONECTA / PLAZA IMOVEIS",
+          "logo": "https://www.lchf.com.br/Upload/clubes/BOLEIROS.png",
+          "nome": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
           "pontos": 3,
           "jogos": 1,
           "vitorias": 1,
@@ -308,8 +308,8 @@
         },
         {
           "posicao": 2,
-          "logo": "https://www.lchf.com.br/Upload/clubes/BOLEIROS.png",
-          "nome": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
+          "logo": "https://www.lchf.com.br/Upload/clubes/coonecta.png",
+          "nome": "GRUPO COONECTA / PLAZA IMOVEIS",
           "pontos": 3,
           "jogos": 1,
           "vitorias": 1,
@@ -391,8 +391,8 @@
       "tabela": [
         {
           "posicao": 1,
-          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-01-19%20at%2014.22.43%20(1).jpeg",
-          "nome": "AGRO GUATAMBU",
+          "logo": "https://www.lchf.com.br/Upload/clubes/Design%20sem%20nome%20(6).png",
+          "nome": "E.C RONDOFRIO",
           "pontos": 1,
           "jogos": 1,
           "vitorias": 0,
@@ -404,8 +404,8 @@
         },
         {
           "posicao": 2,
-          "logo": "https://www.lchf.com.br/Upload/clubes/Design%20sem%20nome%20(6).png",
-          "nome": "E.C RONDOFRIO",
+          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-01-19%20at%2014.22.43%20(1).jpeg",
+          "nome": "AGRO GUATAMBU",
           "pontos": 1,
           "jogos": 1,
           "vitorias": 0,
