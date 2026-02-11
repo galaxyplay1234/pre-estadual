@@ -85,20 +85,20 @@
           "data_hora": "12/02/2026 22:00"
         },
         {
+          "mandante": "R.C SPORTS",
+          "visitante": "SHALON FC",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "CANTINA RECANTO - SER BRF",
+          "data_hora": "12/02/2026 21:00"
+        },
+        {
           "mandante": "SEDE DO GORDO",
           "visitante": "LJS/P2",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "GUATAMBU SOCIETY",
           "data_hora": "12/02/2026 20:00"
-        },
-        {
-          "mandante": "R.C SPORTS",
-          "visitante": "SHALON FC",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "GUATAMBU SOCIETY",
-          "data_hora": "12/02/2026 21:00"
         },
         {
           "mandante": "LÁ12",
@@ -135,7 +135,7 @@
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "16/02/2026 19:30"
+          "data_hora": "16/02/2026 20:30"
         },
         {
           "mandante": "E.C RONDOFRIO",
@@ -160,6 +160,14 @@
           "gols_visitante": null,
           "campo": "GUATAMBU SOCIETY",
           "data_hora": "18/02/2026 20:00"
+        },
+        {
+          "mandante": "PARCEIROS FC",
+          "visitante": "NANDO AUTO SOM /BENFICA FC",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "GUATAMBU SOCIETY",
+          "data_hora": "18/02/2026 21:00"
         },
         {
           "mandante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
@@ -226,20 +234,12 @@
           "data_hora": "20/02/2026 21:30"
         },
         {
-          "mandante": "PARCEIROS FC",
-          "visitante": "NANDO AUTO SOM /BENFICA FC",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "GUATAMBU SOCIETY",
-          "data_hora": "20/02/2026 19:30"
-        },
-        {
           "mandante": "SCRIPT UNITED",
           "visitante": "LOS SANTOS",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "GUATAMBU SOCIETY",
-          "data_hora": "20/02/2026 20:30"
+          "data_hora": "20/02/2026 20:00"
         },
         {
           "mandante": "PROMESSA F.C",
@@ -247,7 +247,7 @@
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "GUATAMBU SOCIETY",
-          "data_hora": "20/02/2026 21:30"
+          "data_hora": "20/02/2026 21:00"
         }
       ]
     },
