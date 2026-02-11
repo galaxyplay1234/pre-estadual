@@ -1,6 +1,6 @@
 {
   "campeonato": "6ª COPA SICREDI LIVRE MASCULINO",
-  "atualizado_em": "2026-02-11T00:03:22.097Z",
+  "atualizado_em": "2026-02-11T03:36:41.843Z",
   "grupos": [
     {
       "nome": "GRUPO A",
@@ -103,6 +103,19 @@
       "tabela": [
         {
           "posicao": 1,
+          "logo": "https://www.lchf.com.br/Upload/clubes/CAT.png",
+          "nome": "CATARINENSE / CATARINENSE PROTEÇÃO VEICULAR / SOL AGÊNCIA DE MARKETING",
+          "pontos": 3,
+          "jogos": 1,
+          "vitorias": 1,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 4,
+          "gols_contra": 0,
+          "saldo": 4
+        },
+        {
+          "posicao": 2,
           "logo": "https://www.lchf.com.br/Upload/clubes/36.png",
           "nome": "SCRIPT UNITED",
           "pontos": 3,
@@ -115,22 +128,9 @@
           "saldo": 1
         },
         {
-          "posicao": 2,
+          "posicao": 3,
           "logo": "https://www.lchf.com.br/Upload/clubes/LOS%20SANTOS.png",
           "nome": "LOS SANTOS",
-          "pontos": 0,
-          "jogos": 0,
-          "vitorias": 0,
-          "empates": 0,
-          "derrotas": 0,
-          "gols_pro": 0,
-          "gols_contra": 0,
-          "saldo": 0
-        },
-        {
-          "posicao": 3,
-          "logo": "https://www.lchf.com.br/Upload/clubes/SV.png",
-          "nome": "SÃO VENDELINO / SANTA BARBARA",
           "pontos": 0,
           "jogos": 0,
           "vitorias": 0,
@@ -155,19 +155,6 @@
         },
         {
           "posicao": 5,
-          "logo": "https://www.lchf.com.br/Upload/clubes/CAT.png",
-          "nome": "CATARINENSE / CATARINENSE PROTEÇÃO VEICULAR / SOL AGÊNCIA DE MARKETING",
-          "pontos": 0,
-          "jogos": 0,
-          "vitorias": 0,
-          "empates": 0,
-          "derrotas": 0,
-          "gols_pro": 0,
-          "gols_contra": 0,
-          "saldo": 0
-        },
-        {
-          "posicao": 6,
           "logo": "https://www.lchf.com.br/Upload/clubes/MARCA%20GERMAN%20STORE.jpg.jpeg",
           "nome": "GERMAN STORE /TERTIUS",
           "pontos": 0,
@@ -180,7 +167,7 @@
           "saldo": 0
         },
         {
-          "posicao": 7,
+          "posicao": 6,
           "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202025-08-26%20at%2016.27.47.jpeg",
           "nome": "MECANICA CASTELI / HORTIAGRO F.C",
           "pontos": 0,
@@ -191,6 +178,19 @@
           "gols_pro": 4,
           "gols_contra": 5,
           "saldo": -1
+        },
+        {
+          "posicao": 7,
+          "logo": "https://www.lchf.com.br/Upload/clubes/SV.png",
+          "nome": "SÃO VENDELINO / SANTA BARBARA",
+          "pontos": 0,
+          "jogos": 1,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 1,
+          "gols_pro": 0,
+          "gols_contra": 4,
+          "saldo": -4
         }
       ]
     },
@@ -295,6 +295,19 @@
       "tabela": [
         {
           "posicao": 1,
+          "logo": "https://www.lchf.com.br/Upload/clubes/coonecta.png",
+          "nome": "GRUPO COONECTA / PLAZA IMOVEIS",
+          "pontos": 3,
+          "jogos": 1,
+          "vitorias": 1,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 2,
+          "gols_contra": 1,
+          "saldo": 1
+        },
+        {
+          "posicao": 2,
           "logo": "https://www.lchf.com.br/Upload/clubes/BOLEIROS.png",
           "nome": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
           "pontos": 3,
@@ -307,7 +320,7 @@
           "saldo": 1
         },
         {
-          "posicao": 2,
+          "posicao": 3,
           "logo": "https://www.lchf.com.br/Upload/clubes/LA12.png",
           "nome": "LÁ12",
           "pontos": 0,
@@ -320,7 +333,7 @@
           "saldo": 0
         },
         {
-          "posicao": 3,
+          "posicao": 4,
           "logo": "https://www.lchf.com.br/Upload/clubes/RESENHA.png",
           "nome": "RESENHA F.C",
           "pontos": 0,
@@ -333,22 +346,9 @@
           "saldo": 0
         },
         {
-          "posicao": 4,
-          "logo": "https://www.lchf.com.br/Upload/clubes/coonecta.png",
-          "nome": "GRUPO COONECTA / PLAZA IMOVEIS",
-          "pontos": 0,
-          "jogos": 0,
-          "vitorias": 0,
-          "empates": 0,
-          "derrotas": 0,
-          "gols_pro": 0,
-          "gols_contra": 0,
-          "saldo": 0
-        },
-        {
           "posicao": 5,
-          "logo": "https://www.lchf.com.br/Upload/clubes/BUME.png",
-          "nome": "ANA LUCIA RESTAURANTE / BUMERANGUE FC",
+          "logo": "https://www.lchf.com.br/Upload/clubes/GTR.png",
+          "nome": "GTR SPORTS",
           "pontos": 0,
           "jogos": 0,
           "vitorias": 0,
@@ -360,16 +360,16 @@
         },
         {
           "posicao": 6,
-          "logo": "https://www.lchf.com.br/Upload/clubes/GTR.png",
-          "nome": "GTR SPORTS",
+          "logo": "https://www.lchf.com.br/Upload/clubes/BUME.png",
+          "nome": "ANA LUCIA RESTAURANTE / BUMERANGUE FC",
           "pontos": 0,
-          "jogos": 0,
+          "jogos": 1,
           "vitorias": 0,
           "empates": 0,
-          "derrotas": 0,
-          "gols_pro": 0,
-          "gols_contra": 0,
-          "saldo": 0
+          "derrotas": 1,
+          "gols_pro": 1,
+          "gols_contra": 2,
+          "saldo": -1
         },
         {
           "posicao": 7,
@@ -391,6 +391,32 @@
       "tabela": [
         {
           "posicao": 1,
+          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-01-19%20at%2014.22.43%20(1).jpeg",
+          "nome": "AGRO GUATAMBU",
+          "pontos": 1,
+          "jogos": 1,
+          "vitorias": 0,
+          "empates": 1,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 2,
+          "logo": "https://www.lchf.com.br/Upload/clubes/Design%20sem%20nome%20(6).png",
+          "nome": "E.C RONDOFRIO",
+          "pontos": 1,
+          "jogos": 1,
+          "vitorias": 0,
+          "empates": 1,
+          "derrotas": 0,
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "saldo": 0
+        },
+        {
+          "posicao": 3,
           "logo": "https://www.lchf.com.br/Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(1).png",
           "nome": "SHALON FC",
           "pontos": 0,
@@ -403,7 +429,7 @@
           "saldo": 0
         },
         {
-          "posicao": 2,
+          "posicao": 4,
           "logo": "https://www.lchf.com.br/Upload/clubes/OJR.png",
           "nome": "R.C SPORTS",
           "pontos": 0,
@@ -416,35 +442,9 @@
           "saldo": 0
         },
         {
-          "posicao": 3,
-          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-01-19%20at%2014.22.43%20(1).jpeg",
-          "nome": "AGRO GUATAMBU",
-          "pontos": 0,
-          "jogos": 0,
-          "vitorias": 0,
-          "empates": 0,
-          "derrotas": 0,
-          "gols_pro": 0,
-          "gols_contra": 0,
-          "saldo": 0
-        },
-        {
-          "posicao": 4,
+          "posicao": 5,
           "logo": "https://www.lchf.com.br/Upload/clubes/CK.png",
           "nome": "CK MAQUINAS/NS INSTAÇÃO ELETRICAS",
-          "pontos": 0,
-          "jogos": 0,
-          "vitorias": 0,
-          "empates": 0,
-          "derrotas": 0,
-          "gols_pro": 0,
-          "gols_contra": 0,
-          "saldo": 0
-        },
-        {
-          "posicao": 5,
-          "logo": "https://www.lchf.com.br/Upload/clubes/Design%20sem%20nome%20(6).png",
-          "nome": "E.C RONDOFRIO",
           "pontos": 0,
           "jogos": 0,
           "vitorias": 0,
