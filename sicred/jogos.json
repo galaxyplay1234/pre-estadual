@@ -505,14 +505,6 @@
       "nome": "Rodada 5 de 9",
       "jogos": [
         {
-          "mandante": "AAT FC / ALMIR ARAÚJO TRANSPORTE",
-          "visitante": "REAL CATALUNHA FC",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "",
-          "data_hora": "01/01/0001 00:00"
-        },
-        {
           "mandante": "ATLETICO KONDA",
           "visitante": "JAGERMEISTER",
           "gols_mandante": null,
@@ -623,6 +615,14 @@
           "gols_visitante": null,
           "campo": "",
           "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "AAT FC / ALMIR ARAÚJO TRANSPORTE",
+          "visitante": "REAL CATALUNHA FC",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "CAMPO DO TIAGO",
+          "data_hora": "13/03/2026 20:30"
         }
       ]
     },
