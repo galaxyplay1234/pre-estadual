@@ -1,6 +1,6 @@
 {
   "campeonato": "6ª COPA SICREDI LIVRE MASCULINO",
-  "atualizado_em": "2026-02-12T13:19:29.084Z",
+  "atualizado_em": "2026-02-12T14:32:43.161Z",
   "grupos": [
     {
       "nome": "GRUPO A",
@@ -46,8 +46,8 @@
         },
         {
           "posicao": 4,
-          "logo": "https://www.lchf.com.br/Upload/clubes/IMPERIAL.png",
-          "nome": "IMPERIAL",
+          "logo": "https://www.lchf.com.br/Upload/clubes/PROMESSA.png",
+          "nome": "PROMESSA F.C",
           "pontos": 1,
           "jogos": 1,
           "vitorias": 0,
@@ -59,8 +59,8 @@
         },
         {
           "posicao": 5,
-          "logo": "https://www.lchf.com.br/Upload/clubes/PROMESSA.png",
-          "nome": "PROMESSA F.C",
+          "logo": "https://www.lchf.com.br/Upload/clubes/IMPERIAL.png",
+          "nome": "IMPERIAL",
           "pontos": 1,
           "jogos": 1,
           "vitorias": 0,
