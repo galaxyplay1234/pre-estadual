@@ -55,16 +55,16 @@
         {
           "mandante": "REAL CATALUNHA FC",
           "visitante": "JAGERMEISTER",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 2,
+          "gols_visitante": 2,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "11/02/2026 20:30"
         },
         {
           "mandante": "IMPERIAL",
           "visitante": "PROMESSA F.C",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 1,
+          "gols_visitante": 1,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "11/02/2026 21:30"
         },
