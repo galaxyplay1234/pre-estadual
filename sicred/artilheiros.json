@@ -1,147 +1,213 @@
 {
   "campeonato": "6ª COPA SICREDI LIVRE MASCULINO",
-  "atualizado_em": "2026-02-13T11:34:56.560Z",
+  "atualizado_em": "2026-02-13T13:11:11.726Z",
   "artilheiros": [
     {
       "posicao": 1,
+      "nome": "Anderson Fagundes Plauth",
+      "clube": "SEDE DO GORDO",
+      "gols": 2
+    },
+    {
+      "posicao": 2,
       "nome": "Jeferson Kuhn Pereira",
       "clube": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
       "gols": 2
     },
     {
-      "posicao": 2,
+      "posicao": 3,
       "nome": "Jolbert Caic Oliveira Sales",
       "clube": "FREITAS FC /CASA DOS MOTORS CHAPECO/ TIROLESA INTERESTADUAL / F&D CLIMATIZAÇÃO",
       "gols": 2
     },
     {
-      "posicao": 3,
+      "posicao": 4,
       "nome": "Marco Antonio pizzani pieczaki",
       "clube": "SCRIPT UNITED",
       "gols": 2
     },
     {
-      "posicao": 4,
+      "posicao": 5,
       "nome": "Weslley Dos Santos Mello",
       "clube": "REAL CATALUNHA FC",
       "gols": 2
     },
     {
-      "posicao": 5,
+      "posicao": 6,
       "nome": "Antoni zamboni",
       "clube": "SCRIPT UNITED",
       "gols": 1
     },
     {
-      "posicao": 6,
+      "posicao": 7,
       "nome": "Artur Guilherme Cassuriaga Dias",
       "clube": "PROMESSA F.C",
       "gols": 1
     },
     {
-      "posicao": 7,
+      "posicao": 8,
       "nome": "Daniel Dotto",
       "clube": "MECANICA CASTELI / HORTIAGRO F.C",
       "gols": 1
     },
     {
-      "posicao": 8,
+      "posicao": 9,
       "nome": "Dhiovani Alessi",
       "clube": "MECANICA CASTELI / HORTIAGRO F.C",
       "gols": 1
     },
     {
-      "posicao": 9,
+      "posicao": 10,
       "nome": "Felipe De Carli",
       "clube": "ANA LUCIA RESTAURANTE / BUMERANGUE FC",
       "gols": 1
     },
     {
-      "posicao": 10,
+      "posicao": 11,
       "nome": "Felipe Junior Santa Catarina",
       "clube": "CATARINENSE / CATARINENSE PROTEÇÃO VEICULAR / SOL AGÊNCIA DE MARKETING",
       "gols": 1
     },
     {
-      "posicao": 11,
+      "posicao": 12,
       "nome": "GABRIEL MATEUS GRANDO",
       "clube": "CATARINENSE / CATARINENSE PROTEÇÃO VEICULAR / SOL AGÊNCIA DE MARKETING",
       "gols": 1
     },
     {
-      "posicao": 12,
+      "posicao": 13,
       "nome": "Gildomar j. Da Silva",
       "clube": "CATARINENSE / CATARINENSE PROTEÇÃO VEICULAR / SOL AGÊNCIA DE MARKETING",
       "gols": 1
     },
     {
-      "posicao": 13,
+      "posicao": 14,
+      "nome": "Guilherme da Silva Teixeira",
+      "clube": "SEDE DO GORDO",
+      "gols": 1
+    },
+    {
+      "posicao": 15,
       "nome": "Jacson Francisco Zanella",
       "clube": "SCRIPT UNITED",
       "gols": 1
     },
     {
-      "posicao": 14,
+      "posicao": 16,
+      "nome": "José Xavier Soares Sousa",
+      "clube": "SEDE DO GORDO",
+      "gols": 1
+    },
+    {
+      "posicao": 17,
       "nome": "João Vitor Probst",
       "clube": "JAGERMEISTER",
       "gols": 1
     },
     {
-      "posicao": 15,
+      "posicao": 18,
       "nome": "LUCAS ROSINA",
       "clube": "SCRIPT UNITED",
       "gols": 1
     },
     {
-      "posicao": 16,
+      "posicao": 19,
+      "nome": "Luan Henrique Ernesto Rodrigues",
+      "clube": "ANUBIS F.C",
+      "gols": 1
+    },
+    {
+      "posicao": 20,
+      "nome": "Luis José Castro Silva",
+      "clube": "LJS/P2",
+      "gols": 1
+    },
+    {
+      "posicao": 21,
       "nome": "Marcos Antônio de Souza correia",
       "clube": "ATLETICO KONDA",
       "gols": 1
     },
     {
-      "posicao": 17,
+      "posicao": 22,
+      "nome": "Marcos Fernandes",
+      "clube": "SEDE DO GORDO",
+      "gols": 1
+    },
+    {
+      "posicao": 23,
+      "nome": "Mateus José de oliveira",
+      "clube": "LOS SANTOS",
+      "gols": 1
+    },
+    {
+      "posicao": 24,
+      "nome": "Matheus Archer",
+      "clube": "R.C SPORTS",
+      "gols": 1
+    },
+    {
+      "posicao": 25,
       "nome": "Matheus Felipe Ferreira Dias",
       "clube": "JAGERMEISTER",
       "gols": 1
     },
     {
-      "posicao": 18,
+      "posicao": 26,
       "nome": "Matheus Muller",
       "clube": "CATARINENSE / CATARINENSE PROTEÇÃO VEICULAR / SOL AGÊNCIA DE MARKETING",
       "gols": 1
     },
     {
-      "posicao": 19,
+      "posicao": 27,
       "nome": "Mauri De Souza Rodrigues",
       "clube": "MECANICA CASTELI / HORTIAGRO F.C",
       "gols": 1
     },
     {
-      "posicao": 20,
+      "posicao": 28,
       "nome": "Mauricio Claudino dos Santos",
       "clube": "NIJU / GO PLAY F.C",
       "gols": 1
     },
     {
-      "posicao": 21,
+      "posicao": 29,
       "nome": "Nathan Kennedy de Oliveira",
       "clube": "GRUPO COONECTA / PLAZA IMOVEIS",
       "gols": 1
     },
     {
-      "posicao": 22,
+      "posicao": 30,
+      "nome": "OSEAS EZEQUIEL OLIVARES CHACIN",
+      "clube": "ANUBIS F.C",
+      "gols": 1
+    },
+    {
+      "posicao": 31,
       "nome": "Roger Luciano Camargo",
       "clube": "FREITAS FC /CASA DOS MOTORS CHAPECO/ TIROLESA INTERESTADUAL / F&D CLIMATIZAÇÃO",
       "gols": 1
     },
     {
-      "posicao": 23,
+      "posicao": 32,
       "nome": "Rogério Pereira Enoque",
       "clube": "GRUPO COONECTA / PLAZA IMOVEIS",
       "gols": 1
     },
     {
-      "posicao": 24,
+      "posicao": 33,
+      "nome": "Rudinei Soares Raimundo",
+      "clube": "SHALON FC",
+      "gols": 1
+    },
+    {
+      "posicao": 34,
+      "nome": "Tauan Emanoel da Silva",
+      "clube": "E.C.PASSO DOS FORTES / CFC AUTO ESCOLA CENTER",
+      "gols": 1
+    },
+    {
+      "posicao": 35,
       "nome": "Weliton pedro nunes volme",
       "clube": "IMPERIAL",
       "gols": 1
