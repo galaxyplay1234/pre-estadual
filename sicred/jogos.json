@@ -103,24 +103,24 @@
         {
           "mandante": "LÁ12",
           "visitante": "RESENHA F.C",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 2,
+          "gols_visitante": 1,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "13/02/2026 19:15"
         },
         {
           "mandante": "GG PINTURAS/SANTA MARIA",
           "visitante": "SITICOM/ SÃO PEDRO  FC",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 6,
+          "gols_visitante": 2,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "13/02/2026 20:15"
         },
         {
           "mandante": "CK MAQUINAS/NS INSTAÇÃO ELETRICAS",
           "visitante": "PARCEIROS FC",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 2,
+          "gols_visitante": 1,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "13/02/2026 21:15"
         }
