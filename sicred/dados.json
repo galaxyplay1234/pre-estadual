@@ -1,6 +1,6 @@
 {
   "campeonato": "6ª COPA SICREDI LIVRE MASCULINO",
-  "atualizado_em": "2026-02-17T17:56:46.386Z",
+  "atualizado_em": "2026-02-17T19:08:54.534Z",
   "grupos": [
     {
       "nome": "1º Fase",
@@ -384,8 +384,8 @@
         },
         {
           "posicao": 30,
-          "logo": "https://www.lchf.com.br/Upload/clubes/GTR.png",
-          "nome": "GTR SPORTS",
+          "logo": "https://www.lchf.com.br/Upload/clubes/KOMDA.png",
+          "nome": "ATLETICO KONDA",
           "pontos": 0,
           "jogos": 1,
           "vitorias": 0,
@@ -397,8 +397,8 @@
         },
         {
           "posicao": 31,
-          "logo": "https://www.lchf.com.br/Upload/clubes/KOMDA.png",
-          "nome": "ATLETICO KONDA",
+          "logo": "https://www.lchf.com.br/Upload/clubes/GTR.png",
+          "nome": "GTR SPORTS",
           "pontos": 0,
           "jogos": 1,
           "vitorias": 0,
