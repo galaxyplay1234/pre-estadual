@@ -182,16 +182,8 @@
           "visitante": "REAL CATALUNHA FC",
           "gols_mandante": null,
           "gols_visitante": null,
-          "campo": "xaxim - a definir",
-          "data_hora": "25/02/2026 20:00"
-        },
-        {
-          "mandante": "CK MAQUINAS/NS INSTAÇÃO ELETRICAS",
-          "visitante": "SHALON FC",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "xaxim - a definir",
-          "data_hora": "25/02/2026 21:00"
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "26/02/2026 21:00"
         },
         {
           "mandante": "PAVIDAL BLOCOS E PAVERS",
@@ -248,6 +240,14 @@
           "gols_visitante": null,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "02/03/2026 20:30"
+        },
+        {
+          "mandante": "CK MAQUINAS/NS INSTAÇÃO ELETRICAS",
+          "visitante": "SHALON FC",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "02/03/2026 21:30"
         }
       ]
     },
