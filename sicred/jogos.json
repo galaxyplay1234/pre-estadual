@@ -54,7 +54,7 @@
           "data_hora": "10/02/2026 21:00"
         },
         {
-          "mandante": "REAL CATALUNHA FC",
+          "mandante": "COLOR TINTAS REAL CATALUNHA FC",
           "visitante": "JAGERMEISTER",
           "gols_mandante": 2,
           "gols_visitante": 2,
@@ -305,7 +305,7 @@
         },
         {
           "mandante": "IMPERIAL",
-          "visitante": "REAL CATALUNHA FC",
+          "visitante": "COLOR TINTAS REAL CATALUNHA FC",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "ARENA PRIME SOCIETY",
@@ -421,7 +421,7 @@
           "data_hora": "05/03/2026 21:00"
         },
         {
-          "mandante": "REAL CATALUNHA FC",
+          "mandante": "COLOR TINTAS REAL CATALUNHA FC",
           "visitante": "FREITAS FC /CASA DOS MOTORS CHAPECO/ TIROLESA INTERESTADUAL / F&D CLIMATIZAÇÃO",
           "gols_mandante": null,
           "gols_visitante": null,
@@ -555,7 +555,7 @@
         },
         {
           "mandante": "AAT FC / ALMIR ARAÚJO TRANSPORTE",
-          "visitante": "REAL CATALUNHA FC",
+          "visitante": "COLOR TINTAS REAL CATALUNHA FC",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "CAMPO DO TIAGO",
@@ -647,7 +647,7 @@
           "data_hora": "23/03/2026 21:30"
         },
         {
-          "mandante": "REAL CATALUNHA FC",
+          "mandante": "COLOR TINTAS REAL CATALUNHA FC",
           "visitante": "ATLETICO KONDA",
           "gols_mandante": null,
           "gols_visitante": null,
@@ -765,7 +765,7 @@
         },
         {
           "mandante": "PROMESSA F.C",
-          "visitante": "REAL CATALUNHA FC",
+          "visitante": "COLOR TINTAS REAL CATALUNHA FC",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "",
