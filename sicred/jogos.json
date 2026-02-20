@@ -3,6 +3,131 @@
   "rodada_atual": 2,
   "rodadas": [
     {
+      "nome": "Rodada 1 de 9",
+      "jogos": [
+        {
+          "mandante": "NIJU / GO PLAY F.C",
+          "visitante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
+          "gols_mandante": 1,
+          "gols_visitante": 2,
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "06/02/2026 20:30"
+        },
+        {
+          "mandante": "FREITAS FC /CASA DOS MOTORS CHAPECO/ TIROLESA INTERESTADUAL / F&D CLIMATIZAÇÃO",
+          "visitante": "ATLETICO KONDA",
+          "gols_mandante": 3,
+          "gols_visitante": 1,
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "09/02/2026 20:30"
+        },
+        {
+          "mandante": "MECANICA CASTELI / HORTIAGRO F.C",
+          "visitante": "SCRIPT UNITED",
+          "gols_mandante": 4,
+          "gols_visitante": 5,
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "09/02/2026 21:30"
+        },
+        {
+          "mandante": "ANA LUCIA RESTAURANTE / BUMERANGUE FC",
+          "visitante": "GRUPO COONECTA / PLAZA IMOVEIS",
+          "gols_mandante": 1,
+          "gols_visitante": 2,
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "10/02/2026 21:30"
+        },
+        {
+          "mandante": "SÃO VENDELINO / SANTA BARBARA",
+          "visitante": "CATARINENSE / CATARINENSE PROTEÇÃO VEICULAR / SOL AGÊNCIA DE MARKETING",
+          "gols_mandante": 0,
+          "gols_visitante": 4,
+          "campo": "GUATAMBU SOCIETY",
+          "data_hora": "10/02/2026 20:00"
+        },
+        {
+          "mandante": "AGRO GUATAMBU",
+          "visitante": "E.C RONDOFRIO",
+          "gols_mandante": 0,
+          "gols_visitante": 0,
+          "campo": "GUATAMBU SOCIETY",
+          "data_hora": "10/02/2026 21:00"
+        },
+        {
+          "mandante": "REAL CATALUNHA FC",
+          "visitante": "JAGERMEISTER",
+          "gols_mandante": 2,
+          "gols_visitante": 2,
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "11/02/2026 20:30"
+        },
+        {
+          "mandante": "IMPERIAL",
+          "visitante": "PROMESSA F.C",
+          "gols_mandante": 1,
+          "gols_visitante": 1,
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "11/02/2026 21:30"
+        },
+        {
+          "mandante": "LOS SANTOS",
+          "visitante": "ANUBIS F.C",
+          "gols_mandante": 1,
+          "gols_visitante": 2,
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "12/02/2026 21:00"
+        },
+        {
+          "mandante": "PAVIDAL BLOCOS E PAVERS",
+          "visitante": "E.C.PASSO DOS FORTES / CFC AUTO ESCOLA CENTER",
+          "gols_mandante": 0,
+          "gols_visitante": 1,
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "12/02/2026 22:00"
+        },
+        {
+          "mandante": "R.C SPORTS",
+          "visitante": "SHALON FC",
+          "gols_mandante": 1,
+          "gols_visitante": 1,
+          "campo": "CANTINA RECANTO - SER BRF",
+          "data_hora": "12/02/2026 21:00"
+        },
+        {
+          "mandante": "SEDE DO GORDO",
+          "visitante": "LJS/P2",
+          "gols_mandante": 5,
+          "gols_visitante": 1,
+          "campo": "GUATAMBU SOCIETY",
+          "data_hora": "12/02/2026 20:00"
+        },
+        {
+          "mandante": "LÁ12",
+          "visitante": "RESENHA F.C",
+          "gols_mandante": 2,
+          "gols_visitante": 1,
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "13/02/2026 19:15"
+        },
+        {
+          "mandante": "GG PINTURAS/SANTA MARIA",
+          "visitante": "SITICOM/ SÃO PEDRO  FC",
+          "gols_mandante": 6,
+          "gols_visitante": 2,
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "13/02/2026 20:15"
+        },
+        {
+          "mandante": "CK MAQUINAS/NS INSTAÇÃO ELETRICAS",
+          "visitante": "PARCEIROS FC",
+          "gols_mandante": 2,
+          "gols_visitante": 1,
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "13/02/2026 21:15"
+        }
+      ]
+    },
+    {
       "nome": "Rodada 2 de 9",
       "jogos": [
         {
@@ -754,10 +879,6 @@
     },
     {
       "nome": "Rodada 8 de 9",
-      "jogos": []
-    },
-    {
-      "nome": "Rodada 9 de 9",
       "jogos": []
     },
     {
