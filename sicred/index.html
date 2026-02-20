@@ -363,8 +363,8 @@ async function init(){
     jogosData = await (await fetch("jogos.json",{cache:"no-store"})).json();
 
 jogosData.rodadas.sort((a,b)=>{
-  const numA = parseInt(a.nome.replace(/\D/g,''));
-  const numB = parseInt(b.nome.replace(/\D/g,''));
+  const numA = parseInt(a.nome.match(/\d+/));
+  const numB = parseInt(b.nome.match(/\d+/));
   return numA - numB;
 });
     artilheirosData = await (await fetch("artilheiros.json",{cache:"no-store"})).json();
