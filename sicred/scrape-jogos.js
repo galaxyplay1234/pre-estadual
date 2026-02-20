@@ -69,6 +69,34 @@ const totalRodadas = Number(lblRodada?.match(/de\s+(\d+)/)?.[1] || 1);
 const rodadaAtual = Number(lblRodada?.match(/Rodada\s+(\d+)/)?.[1] || 1);
 
   const rodadas = [];
+  
+  
+  // 🔥 VOLTA PARA A PRIMEIRA RODADA
+while (!lblRodada.includes("Rodada 1")) {
+
+  const body = new URLSearchParams({
+    "__EVENTTARGET": "ctl00$MainContent$Button1", // botão "<"
+    "__EVENTARGUMENT": "",
+    "__VIEWSTATE": getHidden(document, "__VIEWSTATE"),
+    "__VIEWSTATEGENERATOR": getHidden(document, "__VIEWSTATEGENERATOR"),
+    "__EVENTVALIDATION": getHidden(document, "__EVENTVALIDATION"),
+    "ctl00$MainContent$ddlCampeonato":
+      document.querySelector("#ctl00_MainContent_ddlCampeonato")?.value || ""
+  }).toString();
+
+  const resBack = await fetch(URL, {
+    method: "POST",
+    headers: HEADERS,
+    body
+  });
+
+  html = await resBack.text();
+  document = await getPage(html);
+
+  lblRodada = document.querySelector("#ctl00_MainContent_lblRodada")
+    ?.textContent.trim();
+}
+  
 
   // 2️⃣ Loop das rodadas
   for (let i = 1; i <= totalRodadas; i++) {
