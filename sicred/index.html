@@ -415,7 +415,15 @@ function loadClassificacao(){
     grupo.tabela.forEach((t,i)=>{
       mapaEscudos[normalizarNome(t.nome)] = t.logo;
       html+=`
-      <div class="table-row ${i<5?'classificado':''}">
+      const pos = t.posicao;
+
+const faixa =
+  pos <= 8 ? "geral-verde" :
+  pos <= 24 ? "geral-azul" :
+  "";
+
+html+=`
+  <div class="table-row ${faixa}">
         <div>${t.posicao}</div>
         <img src="${t.logo}">
         <div class="team-name">${t.nome}</div>
