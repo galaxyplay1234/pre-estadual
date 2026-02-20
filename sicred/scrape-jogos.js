@@ -63,9 +63,10 @@ function parseJogos(document) {
   }
 
   let lblRodada = document.querySelector("#ctl00_MainContent_lblRodada")
-    ?.textContent.trim();
+  ?.textContent.trim();
 
-  const totalRodadas = Number(lblRodada?.match(/de\s+(\d+)/)?.[1] || 1);
+const totalRodadas = Number(lblRodada?.match(/de\s+(\d+)/)?.[1] || 1);
+const rodadaAtual = Number(lblRodada?.match(/Rodada\s+(\d+)/)?.[1] || 1);
 
   const rodadas = [];
 
@@ -110,9 +111,10 @@ function parseJogos(document) {
 
   // 4️⃣ Salva JSON final
   const output = {
-    campeonato,
-    rodadas
-  };
+  campeonato,
+  rodada_atual: rodadaAtual,
+  rodadas
+};
 
   fs.writeFileSync(
     "sicred/jogos.json",
