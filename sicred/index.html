@@ -361,6 +361,12 @@ async function init(){
   try{
     dados = await (await fetch("dados.json",{cache:"no-store"})).json();
     jogosData = await (await fetch("jogos.json",{cache:"no-store"})).json();
+
+jogosData.rodadas.sort((a,b)=>{
+  const numA = parseInt(a.nome.replace(/\D/g,''));
+  const numB = parseInt(b.nome.replace(/\D/g,''));
+  return numA - numB;
+});
     artilheirosData = await (await fetch("artilheiros.json",{cache:"no-store"})).json();
 
     document.getElementById("titulo").innerText = dados.campeonato;
