@@ -366,7 +366,8 @@ async function init(){
     document.getElementById("titulo").innerText = dados.campeonato;
 
     loadClassificacao();
-    renderRodada();
+    rodadaAtual = detectarRodadaAtual();
+renderRodada();
     loadArtilheiros();
 
   }catch(e){
@@ -375,6 +376,25 @@ async function init(){
     document.getElementById("loading").style.display="none";
   }
 }
+
+function detectarRodadaAtual(){
+  for(let i = 0; i < jogosData.rodadas.length; i++){
+    const rodada = jogosData.rodadas[i];
+
+    const temJogoSemPlacar = rodada.jogos.some(j =>
+      j.gols_mandante === null || j.gols_visitante === null
+    );
+
+    if(temJogoSemPlacar){
+      return i;
+    }
+  }
+
+  // Se todas já terminaram, fica na última
+  return jogosData.rodadas.length - 1;
+}
+
+
 
 /* UTIL */
 function normalizarNome(nome){
