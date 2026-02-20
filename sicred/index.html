@@ -378,20 +378,21 @@ renderRodada();
 }
 
 function detectarRodadaAtual(){
-  for(let i = 0; i < jogosData.rodadas.length; i++){
-    const rodada = jogosData.rodadas[i];
+  let indiceAtual = 0;
 
-    const temJogoSemPlacar = rodada.jogos.some(j =>
-      j.gols_mandante === null || j.gols_visitante === null
+  jogosData.rodadas.forEach((rodada, index) => {
+
+    const temAlgumPlacar = rodada.jogos.some(j =>
+      j.gols_mandante !== null && j.gols_visitante !== null
     );
 
-    if(temJogoSemPlacar){
-      return i;
+    if(temAlgumPlacar){
+      indiceAtual = index;
     }
-  }
 
-  // Se todas já terminaram, fica na última
-  return jogosData.rodadas.length - 1;
+  });
+
+  return indiceAtual;
 }
 
 
