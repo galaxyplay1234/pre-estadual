@@ -362,18 +362,22 @@ async function init(){
     dados = await (await fetch("dados.json",{cache:"no-store"})).json();
     jogosData = await (await fetch("jogos.json",{cache:"no-store"})).json();
 
-jogosData.rodadas.sort((a,b)=>{
-  const numA = parseInt(a.nome.match(/\d+/));
-  const numB = parseInt(b.nome.match(/\d+/));
-  return numA - numB;
-});
+    jogosData.rodadas.sort((a,b)=>{
+      const numA = parseInt(a.nome.match(/\d+/));
+      const numB = parseInt(b.nome.match(/\d+/));
+      return numA - numB;
+    });
+
     artilheirosData = await (await fetch("artilheiros.json",{cache:"no-store"})).json();
 
     document.getElementById("titulo").innerText = dados.campeonato;
 
     loadClassificacao();
-    rodadaAtual = detectarRodadaAtual();
-renderRodada();
+
+    // 🔥 AQUI ESTÁ A MÁGICA
+    rodadaAtual = (jogosData.rodada_atual || 1) - 1;
+
+    renderRodada();
     loadArtilheiros();
 
   }catch(e){
@@ -383,23 +387,7 @@ renderRodada();
   }
 }
 
-function detectarRodadaAtual(){
-  let indiceAtual = 0;
 
-  jogosData.rodadas.forEach((rodada, index) => {
-
-    const temAlgumPlacar = rodada.jogos.some(j =>
-      j.gols_mandante !== null && j.gols_visitante !== null
-    );
-
-    if(temAlgumPlacar){
-      indiceAtual = index;
-    }
-
-  });
-
-  return indiceAtual;
-}
 
 
 
