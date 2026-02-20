@@ -55,8 +55,8 @@
         {
           "mandante": "SITICOM/ SÃO PEDRO  FC",
           "visitante": "PAVIDAL BLOCOS E PAVERS",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 3,
+          "gols_visitante": 2,
           "campo": "SER AURORA - ACESSO AEROPORTO",
           "data_hora": "19/02/2026 20:45"
         },
