@@ -189,24 +189,24 @@
         {
           "mandante": "E.C.PASSO DOS FORTES / CFC AUTO ESCOLA CENTER",
           "visitante": "ALVORADA LEGENDS FC / BARBEARIA RUAN ROSA",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 3,
+          "gols_visitante": 1,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "20/02/2026 19:15"
         },
         {
           "mandante": "ANUBIS F.C",
           "visitante": "SÃO VENDELINO / SANTA BARBARA",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 4,
+          "gols_visitante": 3,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "20/02/2026 20:15"
         },
         {
           "mandante": "SHALON FC",
           "visitante": "AGRO GUATAMBU",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 4,
+          "gols_visitante": 4,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "20/02/2026 21:30"
         },
@@ -237,16 +237,16 @@
         {
           "mandante": "SCRIPT UNITED",
           "visitante": "LOS SANTOS",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 0,
+          "gols_visitante": 1,
           "campo": "GUATAMBU SOCIETY",
           "data_hora": "20/02/2026 20:00"
         },
         {
           "mandante": "PROMESSA F.C",
           "visitante": "FREITAS FC /CASA DOS MOTORS CHAPECO/ TIROLESA INTERESTADUAL / F&D CLIMATIZAÇÃO",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 1,
+          "gols_visitante": 4,
           "campo": "GUATAMBU SOCIETY",
           "data_hora": "20/02/2026 21:00"
         }
