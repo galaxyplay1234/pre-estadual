@@ -1,6 +1,6 @@
 {
   "campeonato": "6ª COPA SICREDI LIVRE MASCULINO",
-  "atualizado_em": "2026-02-21T11:48:00.049Z",
+  "atualizado_em": "2026-02-21T12:58:05.819Z",
   "grupos": [
     {
       "nome": "1º Fase",
@@ -14,9 +14,9 @@
           "vitorias": 2,
           "empates": 0,
           "derrotas": 0,
-          "gols_pro": 8,
+          "gols_pro": 7,
           "gols_contra": 1,
-          "saldo": 7
+          "saldo": 6
         },
         {
           "posicao": 2,
@@ -358,6 +358,19 @@
         },
         {
           "posicao": 28,
+          "logo": "https://www.lchf.com.br/Upload/clubes/MARCA%20GERMAN%20STORE.jpg.jpeg",
+          "nome": "GERMAN STORE /TERTIUS",
+          "pontos": 0,
+          "jogos": 1,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 1,
+          "gols_pro": 1,
+          "gols_contra": 3,
+          "saldo": -2
+        },
+        {
+          "posicao": 29,
           "logo": "https://www.lchf.com.br/Upload/clubes/ALVORADO.png",
           "nome": "ALVORADA LEGENDS FC / BARBEARIA RUAN ROSA",
           "pontos": 0,
@@ -370,7 +383,7 @@
           "saldo": -2
         },
         {
-          "posicao": 29,
+          "posicao": 30,
           "logo": "https://www.lchf.com.br/Upload/clubes/GTR.png",
           "nome": "GTR SPORTS",
           "pontos": 0,
@@ -383,7 +396,7 @@
           "saldo": -2
         },
         {
-          "posicao": 30,
+          "posicao": 31,
           "logo": "https://www.lchf.com.br/Upload/clubes/PAVIDAL.png",
           "nome": "PAVIDAL BLOCOS E PAVERS",
           "pontos": 0,
@@ -394,19 +407,6 @@
           "gols_pro": 2,
           "gols_contra": 4,
           "saldo": -2
-        },
-        {
-          "posicao": 31,
-          "logo": "https://www.lchf.com.br/Upload/clubes/MARCA%20GERMAN%20STORE.jpg.jpeg",
-          "nome": "GERMAN STORE /TERTIUS",
-          "pontos": 0,
-          "jogos": 1,
-          "vitorias": 0,
-          "empates": 0,
-          "derrotas": 1,
-          "gols_pro": 1,
-          "gols_contra": 4,
-          "saldo": -3
         },
         {
           "posicao": 32,
