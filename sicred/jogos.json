@@ -213,24 +213,24 @@
         {
           "mandante": "ATLETICO KONDA",
           "visitante": "AAT FC / ALMIR ARAÚJO TRANSPORTE",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 3,
+          "gols_visitante": 3,
           "campo": "CAMPO DO TIAGO",
           "data_hora": "20/02/2026 19:30"
         },
         {
           "mandante": "CATARINENSE / CATARINENSE PROTEÇÃO VEICULAR / SOL AGÊNCIA DE MARKETING",
           "visitante": "GERMAN STORE /TERTIUS",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 4,
+          "gols_visitante": 1,
           "campo": "CAMPO DO TIAGO",
           "data_hora": "20/02/2026 20:30"
         },
         {
           "mandante": "JAGERMEISTER",
           "visitante": "IMPERIAL",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 4,
+          "gols_visitante": 2,
           "campo": "CAMPO DO TIAGO",
           "data_hora": "20/02/2026 21:30"
         },
