@@ -1,6 +1,6 @@
 {
   "campeonato": "6ª COPA SICREDI LIVRE MASCULINO",
-  "atualizado_em": "2026-02-21T02:11:09.712Z",
+  "atualizado_em": "2026-02-21T02:25:50.255Z",
   "grupos": [
     {
       "nome": "1º Fase",
@@ -27,9 +27,9 @@
           "vitorias": 2,
           "empates": 0,
           "derrotas": 0,
-          "gols_pro": 7,
+          "gols_pro": 8,
           "gols_contra": 2,
-          "saldo": 5
+          "saldo": 6
         },
         {
           "posicao": 3,
@@ -314,8 +314,8 @@
           "empates": 1,
           "derrotas": 1,
           "gols_pro": 2,
-          "gols_contra": 5,
-          "saldo": -3
+          "gols_contra": 6,
+          "saldo": -4
         },
         {
           "posicao": 25,
