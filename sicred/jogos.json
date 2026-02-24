@@ -1,6 +1,6 @@
 {
   "campeonato": "6ª COPA SICREDI LIVRE MASCULINO",
-  "rodada_atual": 2,
+  "rodada_atual": 3,
   "rodadas": [
     {
       "nome": "Rodada 1 de 9",
@@ -258,16 +258,16 @@
         {
           "mandante": "ANA LUCIA RESTAURANTE / BUMERANGUE FC",
           "visitante": "RESENHA F.C",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 1,
+          "gols_visitante": 3,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "23/02/2026 20:30"
         },
         {
           "mandante": "GG PINTURAS/SANTA MARIA",
           "visitante": "SEDE DO GORDO",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 2,
+          "gols_visitante": 0,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "23/02/2026 21:30"
         },
