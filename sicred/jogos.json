@@ -274,32 +274,32 @@
         {
           "mandante": "SÃO VENDELINO / SANTA BARBARA",
           "visitante": "SCRIPT UNITED",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 8,
+          "gols_visitante": 2,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "25/02/2026 20:30"
         },
         {
           "mandante": "GERMAN STORE /TERTIUS",
           "visitante": "ANUBIS F.C",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 1,
+          "gols_visitante": 2,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "25/02/2026 21:30"
         },
         {
           "mandante": "LOS SANTOS",
           "visitante": "MECANICA CASTELI / HORTIAGRO F.C",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 2,
+          "gols_visitante": 4,
           "campo": "GUATAMBU SOCIETY",
           "data_hora": "25/02/2026 20:00"
         },
         {
           "mandante": "AGRO GUATAMBU",
           "visitante": "R.C SPORTS",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 3,
+          "gols_visitante": 0,
           "campo": "GUATAMBU SOCIETY",
           "data_hora": "25/02/2026 21:00"
         },
