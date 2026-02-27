@@ -155,22 +155,23 @@ header{
   text-align:right;
   font-size:12px;
   line-height:1.2;
-  padding-right:8px;
+  padding-right:12px;
 }
 
 .team-right{
   text-align:left;
   font-size:12px;
   line-height:1.2;
-  padding-left:8px;
+  padding-left:12px;
 }
 
 .center{
   display:grid;
-  grid-template-columns:26px 34px 26px;
+  grid-template-columns:26px 44px 26px; /* ⬅️ aumentamos o placar */
   align-items:center;
   justify-content:center;
   column-gap:6px;
+  height:32px;
 }
 
 .center img{
@@ -180,9 +181,19 @@ header{
 }
 
 .score{
+  width:44px;              /* largura fixa */
   text-align:center;
   font-size:15px;
   font-weight:700;
+  white-space:nowrap;      /* 🔒 impede quebra */
+  line-height:1;           /* evita empurrar */
+}
+
+
+.score{
+  display:flex;
+  align-items:center;
+  justify-content:center;
 }
 
 .match-bottom{
@@ -350,11 +361,22 @@ async function init(){
   try{
     dados = await (await fetch("dados.json",{cache:"no-store"})).json();
     jogosData = await (await fetch("jogos.json",{cache:"no-store"})).json();
+
+    jogosData.rodadas.sort((a,b)=>{
+      const numA = parseInt(a.nome.match(/\d+/));
+      const numB = parseInt(b.nome.match(/\d+/));
+      return numA - numB;
+    });
+
     artilheirosData = await (await fetch("artilheiros.json",{cache:"no-store"})).json();
 
     document.getElementById("titulo").innerText = dados.campeonato;
 
     loadClassificacao();
+
+    // 🔥 AQUI ESTÁ A MÁGICA
+    rodadaAtual = (jogosData.rodada_atual || 1) - 1;
+
     renderRodada();
     loadArtilheiros();
 
@@ -364,6 +386,10 @@ async function init(){
     document.getElementById("loading").style.display="none";
   }
 }
+
+
+
+
 
 /* UTIL */
 function normalizarNome(nome){
@@ -403,8 +429,16 @@ function loadClassificacao(){
 
     grupo.tabela.forEach((t,i)=>{
       mapaEscudos[normalizarNome(t.nome)] = t.logo;
-      html+=`
-      <div class="table-row ${i<5?'classificado':''}">
+
+      const pos = t.posicao;
+
+const faixa =
+  pos <= 8 ? "geral-verde" :
+  pos <= 24 ? "geral-azul" :
+  "";
+
+html+=`
+  <div class="table-row ${faixa}">
         <div>${t.posicao}</div>
         <img src="${t.logo}">
         <div class="team-name">${t.nome}</div>
