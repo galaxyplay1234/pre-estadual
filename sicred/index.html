@@ -354,6 +354,8 @@ let dados, jogosData, artilheirosData;
 let rodadaAtual = 0;
 let mapaEscudos = {};
 let modoGeral = false;
+let modoTime = false;
+let timeSelecionado = "";
 
 init();
 
@@ -522,7 +524,9 @@ function renderTabelaGeral(){
       <div class="table-row ${faixa}">
         <div>${pos}</div>
         <img src="${t.logo}">
-        <div class="team-name">${t.nome}</div>
+        <div class="team-name" onclick="abrirJogosDoTime('${t.nome.replace(/'/g,"\\'")}')">
+  ${t.nome}
+</div>
         <div class="stats">
           <div class="points">${t.pontos}</div>
           <div>${t.jogos}</div>
@@ -573,6 +577,42 @@ function renderRodada(){
   });
 
   document.getElementById("round-games").innerHTML=html;
+}
+
+
+
+function renderJogosTime(nome, futuros, finalizados){
+
+  let html = `
+    <div style="display:flex;justify-content:flex-end;margin-bottom:10px">
+      <button onclick="voltarRodadas()"
+        style="padding:6px 12px;border:none;border-radius:10px;background:#e5e7eb;font-weight:600;cursor:pointer">
+        Voltar
+      </button>
+    </div>
+  `;
+
+  if(futuros.length){
+    html += `<div class="group-title">Próximos Jogos</div>`;
+    futuros.forEach(j=>{
+      html += criarCardJogo(j);
+    });
+  }
+
+  if(finalizados.length){
+    html += `<div class="group-title">Jogos Finalizados</div>`;
+    finalizados.forEach(j=>{
+      html += criarCardJogo(j);
+    });
+  }
+
+  document.getElementById("round-games").innerHTML = html;
+  document.getElementById("round-title").innerText = nome;
+}
+
+function voltarRodadas(){
+  modoTime = false;
+  renderRodada();
 }
 
 
@@ -636,6 +676,57 @@ function formatarDataHora(dataHora){
   const diaSemana = dias[new Date(y,m-1,d).getDay()];
   return `${diaSemana}, ${d}/${m} - ${hora.replace(":","h")}`;
 }
+
+
+
+
+
+
+function abrirJogosDoTime(nomeTime){
+
+  modoTime = true;
+  timeSelecionado = nomeTime;
+
+  // 🔄 Muda para aba Jogos
+  showTab('jogos');
+  document.querySelectorAll(".tab").forEach(t=>t.classList.remove("active"));
+  document.querySelectorAll(".tab")[1].classList.add("active");
+
+  let todosJogos = [];
+
+  jogosData.rodadas.forEach(rodada=>{
+    rodada.jogos.forEach(j=>{
+      if(j.mandante === nomeTime || j.visitante === nomeTime){
+        todosJogos.push({
+          ...j,
+          rodada: rodada.nome
+        });
+      }
+    });
+  });
+
+  // Converter data
+  todosJogos.forEach(j=>{
+    const [data, hora] = j.data_hora.split(" ");
+    const [d,m,y] = data.split("/");
+    j.dataObj = new Date(`${y}-${m}-${d}T${hora}`);
+  });
+
+  const agora = new Date();
+
+  const futuros = todosJogos
+    .filter(j=>j.dataObj >= agora)
+    .sort((a,b)=>a.dataObj - b.dataObj);
+
+  const finalizados = todosJogos
+    .filter(j=>j.dataObj < agora)
+    .sort((a,b)=>a.dataObj - b.dataObj);
+
+  renderJogosTime(nomeTime, futuros, finalizados);
+}
+
+
+
 </script>
 
 </body>
