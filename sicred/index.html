@@ -740,16 +740,24 @@ function abrirJogosDoTime(nomeTime){
 
   // Converter data
   todosJogos.forEach(j=>{
+  if(!j.data_hora || j.data_hora.includes("0001")){
+    j.dataObj = null; // marca como inválido
+  } else {
     const [data, hora] = j.data_hora.split(" ");
     const [d,m,y] = data.split("/");
     j.dataObj = new Date(`${y}-${m}-${d}T${hora}`);
-  });
+  }
+});
 
   const agora = new Date();
 
   const futuros = todosJogos
   .filter(j => j.gols_mandante === null || j.gols_visitante === null)
-  .sort((a,b)=>a.dataObj - b.dataObj);
+  .sort((a,b)=>{
+    if(!a.dataObj) return 1;   // joga inválidos para baixo
+    if(!b.dataObj) return -1;
+    return a.dataObj - b.dataObj;
+  });
 
 const finalizados = todosJogos
   .filter(j => j.gols_mandante !== null && j.gols_visitante !== null)
