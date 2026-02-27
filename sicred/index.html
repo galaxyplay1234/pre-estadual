@@ -586,11 +586,14 @@ function renderRodada(){
 function criarCardJogo(j){
   return `
     <div class="match-card">
-      <div class="match-top">${j.rodada}</div>
+      <div class="match-top">${formatarDataHora(j.data_hora)}</div>
+
       <div class="match-middle">
         <div class="team-left">${j.mandante}</div>
+
         <div class="center">
           <img src="${buscarEscudo(j.mandante)}">
+
           <div class="score">
             ${
               j.gols_mandante !== null && j.gols_visitante !== null
@@ -598,11 +601,14 @@ function criarCardJogo(j){
                 : "x"
             }
           </div>
+
           <img src="${buscarEscudo(j.visitante)}">
         </div>
+
         <div class="team-right">${j.visitante}</div>
       </div>
-      <div class="match-bottom">${j.data_hora}</div>
+
+      <div class="match-bottom">${j.campo}</div>
     </div>
   `;
 }
@@ -742,12 +748,12 @@ function abrirJogosDoTime(nomeTime){
   const agora = new Date();
 
   const futuros = todosJogos
-    .filter(j=>j.dataObj >= agora)
-    .sort((a,b)=>a.dataObj - b.dataObj);
+  .filter(j => j.gols_mandante === null || j.gols_visitante === null)
+  .sort((a,b)=>a.dataObj - b.dataObj);
 
-  const finalizados = todosJogos
-    .filter(j=>j.dataObj < agora)
-    .sort((a,b)=>a.dataObj - b.dataObj);
+const finalizados = todosJogos
+  .filter(j => j.gols_mandante !== null && j.gols_visitante !== null)
+  .sort((a,b)=>a.dataObj - b.dataObj);
 
   renderJogosTime(nomeTime, futuros, finalizados);
 }
