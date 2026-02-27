@@ -698,6 +698,13 @@ function showTab(tab){
   }else{
     boxGeral.style.display = "none";
   }
+
+  // 🔥 ADICIONE ISSO AQUI
+  if(tab === "jogos"){
+    modoTime = false;
+    timeSelecionado = "";
+    renderRodada();
+  }
 }
 
 
