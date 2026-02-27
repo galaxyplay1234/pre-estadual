@@ -443,7 +443,10 @@ html+=`
   <div class="table-row ${faixa}">
         <div>${t.posicao}</div>
         <img src="${t.logo}">
-        <div class="team-name">${t.nome}</div>
+        <div class="team-name"
+     onclick="abrirJogosDoTime('${t.nome.replace(/'/g,"\\'")}')">
+  ${t.nome}
+</div>
         <div class="stats">
           <div class="points">${t.pontos}</div>
           <div>${t.jogos}</div>
@@ -579,6 +582,30 @@ function renderRodada(){
   document.getElementById("round-games").innerHTML=html;
 }
 
+
+function criarCardJogo(j){
+  return `
+    <div class="match-card">
+      <div class="match-top">${j.rodada}</div>
+      <div class="match-middle">
+        <div class="team-left">${j.mandante}</div>
+        <div class="center">
+          <img src="${buscarEscudo(j.mandante)}">
+          <div class="score">
+            ${
+              j.gols_mandante !== null && j.gols_visitante !== null
+                ? `${j.gols_mandante} x ${j.gols_visitante}`
+                : "x"
+            }
+          </div>
+          <img src="${buscarEscudo(j.visitante)}">
+        </div>
+        <div class="team-right">${j.visitante}</div>
+      </div>
+      <div class="match-bottom">${j.data_hora}</div>
+    </div>
+  `;
+}
 
 
 function renderJogosTime(nome, futuros, finalizados){
