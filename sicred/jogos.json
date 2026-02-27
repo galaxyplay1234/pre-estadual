@@ -306,24 +306,24 @@
         {
           "mandante": "IMPERIAL",
           "visitante": "COLOR TINTAS REAL CATALUNHA FC",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 4,
+          "gols_visitante": 2,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "26/02/2026 21:00"
         },
         {
           "mandante": "PAVIDAL BLOCOS E PAVERS",
           "visitante": "LJS/P2",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 2,
+          "gols_visitante": 2,
           "campo": "GUATAMBU SOCIETY",
           "data_hora": "26/02/2026 20:00"
         },
         {
           "mandante": "ALVORADA LEGENDS FC / BARBEARIA RUAN ROSA",
           "visitante": "SITICOM/ SÃO PEDRO  FC",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 1,
+          "gols_visitante": 5,
           "campo": "GUATAMBU SOCIETY",
           "data_hora": "26/02/2026 21:00"
         },
