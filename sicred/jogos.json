@@ -330,32 +330,32 @@
         {
           "mandante": "NIJU / GO PLAY F.C",
           "visitante": "LÁ12",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 5,
+          "gols_visitante": 0,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "27/02/2026 19:30"
         },
         {
           "mandante": "GTR SPORTS",
           "visitante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 1,
+          "gols_visitante": 6,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "27/02/2026 20:30"
         },
         {
           "mandante": "AAT FC / ALMIR ARAÚJO TRANSPORTE",
           "visitante": "PROMESSA F.C",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 0,
+          "gols_visitante": 2,
           "campo": "CAMPO DO TIAGO",
           "data_hora": "27/02/2026 19:30"
         },
         {
           "mandante": "FREITAS FC /CASA DOS MOTORS CHAPECO/ TIROLESA INTERESTADUAL / F&D CLIMATIZAÇÃO",
           "visitante": "JAGERMEISTER",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 5,
+          "gols_visitante": 0,
           "campo": "CAMPO DO TIAGO",
           "data_hora": "27/02/2026 20:30"
         },
