@@ -362,16 +362,16 @@
         {
           "mandante": "NANDO AUTO SOM /BENFICA FC",
           "visitante": "E.C RONDOFRIO",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 0,
+          "gols_visitante": 4,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "02/03/2026 20:30"
         },
         {
           "mandante": "CK MAQUINAS/NS INSTAÇÃO ELETRICAS",
           "visitante": "SHALON FC",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 0,
+          "gols_visitante": 5,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "02/03/2026 21:30"
         }
