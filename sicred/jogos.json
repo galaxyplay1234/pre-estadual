@@ -1,6 +1,6 @@
 {
   "campeonato": "6ª COPA SICREDI LIVRE MASCULINO",
-  "rodada_atual": 3,
+  "rodada_atual": 4,
   "rodadas": [
     {
       "nome": "Rodada 1 de 9",
@@ -383,8 +383,8 @@
         {
           "mandante": "SCRIPT UNITED",
           "visitante": "GERMAN STORE /TERTIUS",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 3,
+          "gols_visitante": 1,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "04/03/2026 20:30"
         },
@@ -399,16 +399,16 @@
         {
           "mandante": "LJS/P2",
           "visitante": "ALVORADA LEGENDS FC / BARBEARIA RUAN ROSA",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 10,
+          "gols_visitante": 0,
           "campo": "GUATAMBU SOCIETY",
           "data_hora": "04/03/2026 20:00"
         },
         {
           "mandante": "SEDE DO GORDO",
           "visitante": "PAVIDAL BLOCOS E PAVERS",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 3,
+          "gols_visitante": 2,
           "campo": "GUATAMBU SOCIETY",
           "data_hora": "04/03/2026 21:00"
         },
