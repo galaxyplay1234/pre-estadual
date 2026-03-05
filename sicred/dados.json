@@ -1,6 +1,6 @@
 {
   "campeonato": "6ª COPA SICREDI LIVRE MASCULINO",
-  "atualizado_em": "2026-03-05T09:51:46.631Z",
+  "atualizado_em": "2026-03-05T10:47:25.956Z",
   "grupos": [
     {
       "nome": "1º Fase",
@@ -20,6 +20,19 @@
         },
         {
           "posicao": 2,
+          "logo": "https://www.lchf.com.br/Upload/clubes/CAT.png",
+          "nome": "CATARINENSE / CATARINENSE PROTEÇÃO VEICULAR / SOL AGÊNCIA DE MARKETING",
+          "pontos": 9,
+          "jogos": 3,
+          "vitorias": 3,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 11,
+          "gols_contra": 2,
+          "saldo": 9
+        },
+        {
+          "posicao": 3,
           "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-01-21%20at%2010.15.58.jpeg",
           "nome": "GG PINTURAS/SANTA MARIA",
           "pontos": 9,
@@ -32,20 +45,20 @@
           "saldo": 8
         },
         {
-          "posicao": 3,
+          "posicao": 4,
           "logo": "https://www.lchf.com.br/Upload/clubes/ANUBIS.png",
           "nome": "ANUBIS F.C",
           "pontos": 9,
-          "jogos": 3,
+          "jogos": 4,
           "vitorias": 3,
           "empates": 0,
-          "derrotas": 0,
-          "gols_pro": 8,
-          "gols_contra": 5,
-          "saldo": 3
+          "derrotas": 1,
+          "gols_pro": 9,
+          "gols_contra": 9,
+          "saldo": 0
         },
         {
-          "posicao": 4,
+          "posicao": 5,
           "logo": "https://www.lchf.com.br/Upload/clubes/Design%20sem%20nome%20(6).png",
           "nome": "E.C RONDOFRIO",
           "pontos": 7,
@@ -58,7 +71,7 @@
           "saldo": 6
         },
         {
-          "posicao": 5,
+          "posicao": 6,
           "logo": "https://www.lchf.com.br/Upload/clubes/BOLEIROS.png",
           "nome": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
           "pontos": 7,
@@ -68,19 +81,6 @@
           "derrotas": 0,
           "gols_pro": 10,
           "gols_contra": 4,
-          "saldo": 6
-        },
-        {
-          "posicao": 6,
-          "logo": "https://www.lchf.com.br/Upload/clubes/CAT.png",
-          "nome": "CATARINENSE / CATARINENSE PROTEÇÃO VEICULAR / SOL AGÊNCIA DE MARKETING",
-          "pontos": 6,
-          "jogos": 2,
-          "vitorias": 2,
-          "empates": 0,
-          "derrotas": 0,
-          "gols_pro": 7,
-          "gols_contra": 1,
           "saldo": 6
         },
         {
@@ -131,9 +131,9 @@
           "vitorias": 2,
           "empates": 0,
           "derrotas": 1,
-          "gols_pro": 8,
+          "gols_pro": 9,
           "gols_contra": 5,
-          "saldo": 3
+          "saldo": 4
         },
         {
           "posicao": 11,
@@ -405,8 +405,8 @@
           "empates": 1,
           "derrotas": 3,
           "gols_pro": 6,
-          "gols_contra": 9,
-          "saldo": -3
+          "gols_contra": 10,
+          "saldo": -4
         },
         {
           "posicao": 32,

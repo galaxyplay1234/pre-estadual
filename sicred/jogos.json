@@ -391,8 +391,8 @@
         {
           "mandante": "ANUBIS F.C",
           "visitante": "CATARINENSE / CATARINENSE PROTEÇÃO VEICULAR / SOL AGÊNCIA DE MARKETING",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 1,
+          "gols_visitante": 4,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "04/03/2026 21:30"
         },
@@ -407,7 +407,7 @@
         {
           "mandante": "SEDE DO GORDO",
           "visitante": "PAVIDAL BLOCOS E PAVERS",
-          "gols_mandante": 3,
+          "gols_mandante": 4,
           "gols_visitante": 2,
           "campo": "GUATAMBU SOCIETY",
           "data_hora": "04/03/2026 21:00"
