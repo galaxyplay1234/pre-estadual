@@ -415,8 +415,8 @@
         {
           "mandante": "MECANICA CASTELI / HORTIAGRO F.C",
           "visitante": "SÃO VENDELINO / SANTA BARBARA",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 6,
+          "gols_visitante": 4,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "05/03/2026 21:00"
         },
