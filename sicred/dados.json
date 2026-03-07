@@ -1,6 +1,6 @@
 {
   "campeonato": "6ª COPA SICREDI LIVRE MASCULINO",
-  "atualizado_em": "2026-03-07T02:23:16.345Z",
+  "atualizado_em": "2026-03-07T02:45:12.425Z",
   "grupos": [
     {
       "nome": "1º Fase",
@@ -20,6 +20,19 @@
         },
         {
           "posicao": 2,
+          "logo": "https://www.lchf.com.br/Upload/clubes/BOLEIROS.png",
+          "nome": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
+          "pontos": 10,
+          "jogos": 4,
+          "vitorias": 3,
+          "empates": 1,
+          "derrotas": 0,
+          "gols_pro": 12,
+          "gols_contra": 5,
+          "saldo": 7
+        },
+        {
+          "posicao": 3,
           "logo": "https://www.lchf.com.br/Upload/clubes/CAT.png",
           "nome": "CATARINENSE / CATARINENSE PROTEÇÃO VEICULAR / SOL AGÊNCIA DE MARKETING",
           "pontos": 9,
@@ -32,7 +45,7 @@
           "saldo": 9
         },
         {
-          "posicao": 3,
+          "posicao": 4,
           "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-01-21%20at%2010.15.58.jpeg",
           "nome": "GG PINTURAS/SANTA MARIA",
           "pontos": 9,
@@ -45,7 +58,7 @@
           "saldo": 8
         },
         {
-          "posicao": 4,
+          "posicao": 5,
           "logo": "https://www.lchf.com.br/Upload/clubes/ANUBIS.png",
           "nome": "ANUBIS F.C",
           "pontos": 9,
@@ -58,7 +71,7 @@
           "saldo": 0
         },
         {
-          "posicao": 5,
+          "posicao": 6,
           "logo": "https://www.lchf.com.br/Upload/clubes/SP.png",
           "nome": "SITICOM/ SÃO PEDRO  FC",
           "pontos": 9,
@@ -71,7 +84,7 @@
           "saldo": 2
         },
         {
-          "posicao": 6,
+          "posicao": 7,
           "logo": "https://www.lchf.com.br/Upload/clubes/Design%20sem%20nome%20(6).png",
           "nome": "E.C RONDOFRIO",
           "pontos": 7,
@@ -84,33 +97,33 @@
           "saldo": 6
         },
         {
-          "posicao": 7,
-          "logo": "https://www.lchf.com.br/Upload/clubes/BOLEIROS.png",
-          "nome": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
+          "posicao": 8,
+          "logo": "https://www.lchf.com.br/Upload/clubes/PROMESSA.png",
+          "nome": "PROMESSA F.C",
           "pontos": 7,
-          "jogos": 3,
+          "jogos": 4,
           "vitorias": 2,
           "empates": 1,
-          "derrotas": 0,
-          "gols_pro": 10,
-          "gols_contra": 4,
-          "saldo": 6
-        },
-        {
-          "posicao": 8,
-          "logo": "https://www.lchf.com.br/Upload/clubes/coonecta.png",
-          "nome": "GRUPO COONECTA / PLAZA IMOVEIS",
-          "pontos": 6,
-          "jogos": 2,
-          "vitorias": 2,
-          "empates": 0,
-          "derrotas": 0,
-          "gols_pro": 5,
-          "gols_contra": 2,
-          "saldo": 3
+          "derrotas": 1,
+          "gols_pro": 6,
+          "gols_contra": 7,
+          "saldo": -1
         },
         {
           "posicao": 9,
+          "logo": "https://www.lchf.com.br/Upload/clubes/JAGER.png",
+          "nome": "JAGERMEISTER",
+          "pontos": 7,
+          "jogos": 4,
+          "vitorias": 2,
+          "empates": 1,
+          "derrotas": 1,
+          "gols_pro": 10,
+          "gols_contra": 9,
+          "saldo": 1
+        },
+        {
+          "posicao": 10,
           "logo": "https://www.lchf.com.br/Upload/clubes/NIJU%20(2).png",
           "nome": "NIJU / GO PLAY F.C",
           "pontos": 6,
@@ -123,7 +136,20 @@
           "saldo": 7
         },
         {
-          "posicao": 10,
+          "posicao": 11,
+          "logo": "https://www.lchf.com.br/Upload/clubes/coonecta.png",
+          "nome": "GRUPO COONECTA / PLAZA IMOVEIS",
+          "pontos": 6,
+          "jogos": 3,
+          "vitorias": 2,
+          "empates": 0,
+          "derrotas": 1,
+          "gols_pro": 6,
+          "gols_contra": 4,
+          "saldo": 2
+        },
+        {
+          "posicao": 12,
           "logo": "https://www.lchf.com.br/Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(8).png",
           "nome": "SEDE DO GORDO",
           "pontos": 6,
@@ -136,7 +162,7 @@
           "saldo": 4
         },
         {
-          "posicao": 11,
+          "posicao": 13,
           "logo": "https://www.lchf.com.br/Upload/clubes/PASSO_1.png",
           "nome": "E.C.PASSO DOS FORTES / CFC AUTO ESCOLA CENTER",
           "pontos": 6,
@@ -149,7 +175,7 @@
           "saldo": 2
         },
         {
-          "posicao": 12,
+          "posicao": 14,
           "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202025-08-26%20at%2016.27.47.jpeg",
           "nome": "MECANICA CASTELI / HORTIAGRO F.C",
           "pontos": 6,
@@ -162,7 +188,7 @@
           "saldo": 3
         },
         {
-          "posicao": 13,
+          "posicao": 15,
           "logo": "https://www.lchf.com.br/Upload/clubes/36.png",
           "nome": "SCRIPT UNITED",
           "pontos": 6,
@@ -175,7 +201,7 @@
           "saldo": -4
         },
         {
-          "posicao": 14,
+          "posicao": 16,
           "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-01-19%20at%2014.22.43%20(1).jpeg",
           "nome": "AGRO GUATAMBU",
           "pontos": 5,
@@ -188,7 +214,7 @@
           "saldo": 3
         },
         {
-          "posicao": 15,
+          "posicao": 17,
           "logo": "https://www.lchf.com.br/Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(1).png",
           "nome": "SHALON FC",
           "pontos": 5,
@@ -201,20 +227,7 @@
           "saldo": 5
         },
         {
-          "posicao": 16,
-          "logo": "https://www.lchf.com.br/Upload/clubes/PROMESSA.png",
-          "nome": "PROMESSA F.C",
-          "pontos": 4,
-          "jogos": 3,
-          "vitorias": 1,
-          "empates": 1,
-          "derrotas": 1,
-          "gols_pro": 4,
-          "gols_contra": 6,
-          "saldo": -2
-        },
-        {
-          "posicao": 17,
+          "posicao": 18,
           "logo": "https://www.lchf.com.br/Upload/clubes/BUME.png",
           "nome": "ANA LUCIA RESTAURANTE / BUMERANGUE FC",
           "pontos": 4,
@@ -227,7 +240,7 @@
           "saldo": 0
         },
         {
-          "posicao": 18,
+          "posicao": 19,
           "logo": "https://www.lchf.com.br/Upload/clubes/IMPERIAL.png",
           "nome": "IMPERIAL",
           "pontos": 4,
@@ -238,19 +251,6 @@
           "gols_pro": 7,
           "gols_contra": 7,
           "saldo": 0
-        },
-        {
-          "posicao": 19,
-          "logo": "https://www.lchf.com.br/Upload/clubes/JAGER.png",
-          "nome": "JAGERMEISTER",
-          "pontos": 4,
-          "jogos": 3,
-          "vitorias": 1,
-          "empates": 1,
-          "derrotas": 1,
-          "gols_pro": 6,
-          "gols_contra": 9,
-          "saldo": -3
         },
         {
           "posicao": 20,
@@ -358,29 +358,29 @@
         },
         {
           "posicao": 28,
-          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202025-08-19%20at%2013.54.27.jpeg",
-          "nome": "AAT FC / ALMIR ARAÚJO TRANSPORTE",
-          "pontos": 1,
-          "jogos": 2,
-          "vitorias": 0,
-          "empates": 1,
-          "derrotas": 1,
-          "gols_pro": 3,
-          "gols_contra": 5,
-          "saldo": -2
-        },
-        {
-          "posicao": 29,
           "logo": "https://www.lchf.com.br/Upload/clubes/KOMDA.png",
           "nome": "ATLETICO KONDA",
           "pontos": 1,
-          "jogos": 2,
+          "jogos": 3,
           "vitorias": 0,
           "empates": 1,
-          "derrotas": 1,
-          "gols_pro": 4,
-          "gols_contra": 6,
-          "saldo": -2
+          "derrotas": 2,
+          "gols_pro": 5,
+          "gols_contra": 8,
+          "saldo": -3
+        },
+        {
+          "posicao": 29,
+          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202025-08-19%20at%2013.54.27.jpeg",
+          "nome": "AAT FC / ALMIR ARAÚJO TRANSPORTE",
+          "pontos": 1,
+          "jogos": 3,
+          "vitorias": 0,
+          "empates": 1,
+          "derrotas": 2,
+          "gols_pro": 3,
+          "gols_contra": 9,
+          "saldo": -6
         },
         {
           "posicao": 30,

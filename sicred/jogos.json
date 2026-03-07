@@ -431,8 +431,8 @@
         {
           "mandante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
           "visitante": "GRUPO COONECTA / PLAZA IMOVEIS",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 2,
+          "gols_visitante": 1,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "06/03/2026 21:00"
         },
@@ -447,8 +447,8 @@
         {
           "mandante": "PROMESSA F.C",
           "visitante": "ATLETICO KONDA",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 2,
+          "gols_visitante": 1,
           "campo": "CAMPO DO TIAGO",
           "data_hora": "06/03/2026 21:00"
         },
@@ -463,8 +463,8 @@
         {
           "mandante": "JAGERMEISTER",
           "visitante": "AAT FC / ALMIR ARAÚJO TRANSPORTE",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 4,
+          "gols_visitante": 0,
           "campo": "GUATAMBU SOCIETY",
           "data_hora": "06/03/2026 21:00"
         },
