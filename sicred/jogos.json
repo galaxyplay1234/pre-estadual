@@ -423,8 +423,8 @@
         {
           "mandante": "REAL CATALUNHA FC",
           "visitante": "FREITAS FC /CASA DOS MOTORS CHAPECO/ TIROLESA INTERESTADUAL / F&D CLIMATIZAÇÃO",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 1,
+          "gols_visitante": 6,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "06/03/2026 20:00"
         },
@@ -439,8 +439,8 @@
         {
           "mandante": "SITICOM/ SÃO PEDRO  FC",
           "visitante": "E.C.PASSO DOS FORTES / CFC AUTO ESCOLA CENTER",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 4,
+          "gols_visitante": 3,
           "campo": "CAMPO DO TIAGO",
           "data_hora": "06/03/2026 20:00"
         },
@@ -455,8 +455,8 @@
         {
           "mandante": "LÁ12",
           "visitante": "ANA LUCIA RESTAURANTE / BUMERANGUE FC",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 0,
+          "gols_visitante": 3,
           "campo": "GUATAMBU SOCIETY",
           "data_hora": "06/03/2026 20:00"
         },
