@@ -586,6 +586,14 @@
           "data_hora": "17/03/2026 21:30"
         },
         {
+          "mandante": "FREITAS FC /CASA DOS MOTORS CHAPECO/ TIROLESA INTERESTADUAL / F&D CLIMATIZAÇÃO",
+          "visitante": "IMPERIAL",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "18/03/2026 20:30"
+        },
+        {
           "mandante": "GRUPO COONECTA / PLAZA IMOVEIS",
           "visitante": "RESENHA F.C",
           "gols_mandante": null,
@@ -600,14 +608,6 @@
           "gols_visitante": null,
           "campo": "GUATAMBU SOCIETY",
           "data_hora": "18/03/2026 21:00"
-        },
-        {
-          "mandante": "FREITAS FC /CASA DOS MOTORS CHAPECO/ TIROLESA INTERESTADUAL / F&D CLIMATIZAÇÃO",
-          "visitante": "IMPERIAL",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "19/03/2026 21:00"
         },
         {
           "mandante": "NANDO AUTO SOM /BENFICA FC",
