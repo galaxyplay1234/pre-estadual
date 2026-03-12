@@ -1,6 +1,6 @@
 {
   "campeonato": "6ª COPA SICREDI LIVRE MASCULINO",
-  "atualizado_em": "2026-03-11T23:31:13.459Z",
+  "atualizado_em": "2026-03-12T02:33:12.945Z",
   "grupos": [
     {
       "nome": "1º Fase",
@@ -215,6 +215,19 @@
         },
         {
           "posicao": 17,
+          "logo": "https://www.lchf.com.br/Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(1).png",
+          "nome": "SHALON FC",
+          "pontos": 6,
+          "jogos": 4,
+          "vitorias": 1,
+          "empates": 3,
+          "derrotas": 0,
+          "gols_pro": 12,
+          "gols_contra": 7,
+          "saldo": 5
+        },
+        {
+          "posicao": 18,
           "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-01-19%20at%2014.22.43%20(1).jpeg",
           "nome": "AGRO GUATAMBU",
           "pontos": 5,
@@ -227,20 +240,20 @@
           "saldo": 3
         },
         {
-          "posicao": 18,
-          "logo": "https://www.lchf.com.br/Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(1).png",
-          "nome": "SHALON FC",
-          "pontos": 5,
+          "posicao": 19,
+          "logo": "https://www.lchf.com.br/Upload/clubes/OJR.png",
+          "nome": "R.C SPORTS",
+          "pontos": 4,
           "jogos": 3,
           "vitorias": 1,
-          "empates": 2,
-          "derrotas": 0,
-          "gols_pro": 10,
-          "gols_contra": 5,
-          "saldo": 5
+          "empates": 1,
+          "derrotas": 1,
+          "gols_pro": 8,
+          "gols_contra": 6,
+          "saldo": 2
         },
         {
-          "posicao": 19,
+          "posicao": 20,
           "logo": "https://www.lchf.com.br/Upload/clubes/BUME.png",
           "nome": "ANA LUCIA RESTAURANTE / BUMERANGUE FC",
           "pontos": 4,
@@ -253,7 +266,7 @@
           "saldo": 0
         },
         {
-          "posicao": 20,
+          "posicao": 21,
           "logo": "https://www.lchf.com.br/Upload/clubes/IMPERIAL.png",
           "nome": "IMPERIAL",
           "pontos": 4,
@@ -266,7 +279,7 @@
           "saldo": 0
         },
         {
-          "posicao": 21,
+          "posicao": 22,
           "logo": "https://www.lchf.com.br/Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(6)_2.png",
           "nome": "LJS/P2",
           "pontos": 4,
@@ -279,7 +292,7 @@
           "saldo": 4
         },
         {
-          "posicao": 22,
+          "posicao": 23,
           "logo": "https://www.lchf.com.br/Upload/clubes/LOS%20SANTOS.png",
           "nome": "LOS SANTOS",
           "pontos": 3,
@@ -292,7 +305,7 @@
           "saldo": -2
         },
         {
-          "posicao": 23,
+          "posicao": 24,
           "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202025-08-20%20at%2011.21.10.jpeg",
           "nome": "PARCEIROS FC",
           "pontos": 3,
@@ -305,7 +318,7 @@
           "saldo": -4
         },
         {
-          "posicao": 24,
+          "posicao": 25,
           "logo": "https://www.lchf.com.br/Upload/clubes/LA12.png",
           "nome": "LÁ12",
           "pontos": 3,
@@ -316,19 +329,6 @@
           "gols_pro": 2,
           "gols_contra": 9,
           "saldo": -7
-        },
-        {
-          "posicao": 25,
-          "logo": "https://www.lchf.com.br/Upload/clubes/CK.png",
-          "nome": "CK MAQUINAS/NS INSTAÇÃO ELETRICAS",
-          "pontos": 3,
-          "jogos": 3,
-          "vitorias": 1,
-          "empates": 0,
-          "derrotas": 2,
-          "gols_pro": 4,
-          "gols_contra": 10,
-          "saldo": -6
         },
         {
           "posicao": 26,
@@ -345,16 +345,16 @@
         },
         {
           "posicao": 27,
-          "logo": "https://www.lchf.com.br/Upload/clubes/OJR.png",
-          "nome": "R.C SPORTS",
-          "pontos": 1,
-          "jogos": 2,
-          "vitorias": 0,
-          "empates": 1,
-          "derrotas": 1,
-          "gols_pro": 1,
-          "gols_contra": 4,
-          "saldo": -3
+          "logo": "https://www.lchf.com.br/Upload/clubes/CK.png",
+          "nome": "CK MAQUINAS/NS INSTAÇÃO ELETRICAS",
+          "pontos": 3,
+          "jogos": 4,
+          "vitorias": 1,
+          "empates": 0,
+          "derrotas": 3,
+          "gols_pro": 6,
+          "gols_contra": 17,
+          "saldo": -11
         },
         {
           "posicao": 28,
@@ -371,6 +371,19 @@
         },
         {
           "posicao": 29,
+          "logo": "https://www.lchf.com.br/Upload/clubes/nando.png",
+          "nome": "NANDO AUTO SOM /BENFICA FC",
+          "pontos": 1,
+          "jogos": 3,
+          "vitorias": 0,
+          "empates": 1,
+          "derrotas": 2,
+          "gols_pro": 3,
+          "gols_contra": 8,
+          "saldo": -5
+        },
+        {
+          "posicao": 30,
           "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202025-08-19%20at%2013.54.27.jpeg",
           "nome": "AAT FC / ALMIR ARAÚJO TRANSPORTE",
           "pontos": 1,
@@ -383,7 +396,7 @@
           "saldo": -6
         },
         {
-          "posicao": 30,
+          "posicao": 31,
           "logo": "https://www.lchf.com.br/Upload/clubes/PAVIDAL.png",
           "nome": "PAVIDAL BLOCOS E PAVERS",
           "pontos": 1,
@@ -396,7 +409,7 @@
           "saldo": -4
         },
         {
-          "posicao": 31,
+          "posicao": 32,
           "logo": "https://www.lchf.com.br/Upload/clubes/REAL%20C.png",
           "nome": "REAL CATALUNHA FC",
           "pontos": 1,
@@ -407,19 +420,6 @@
           "gols_pro": 5,
           "gols_contra": 12,
           "saldo": -7
-        },
-        {
-          "posicao": 32,
-          "logo": "https://www.lchf.com.br/Upload/clubes/nando.png",
-          "nome": "NANDO AUTO SOM /BENFICA FC",
-          "pontos": 0,
-          "jogos": 2,
-          "vitorias": 0,
-          "empates": 0,
-          "derrotas": 2,
-          "gols_pro": 1,
-          "gols_contra": 6,
-          "saldo": -5
         },
         {
           "posicao": 33,
