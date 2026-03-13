@@ -508,8 +508,8 @@
         {
           "mandante": "CATARINENSE / CATARINENSE PROTEÇÃO VEICULAR / SOL AGÊNCIA DE MARKETING",
           "visitante": "SCRIPT UNITED",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 1,
+          "gols_visitante": 0,
           "campo": "GUATAMBU SOCIETY",
           "data_hora": "12/03/2026 20:00"
         },
