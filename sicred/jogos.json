@@ -516,8 +516,8 @@
         {
           "mandante": "SÃO VENDELINO / SANTA BARBARA",
           "visitante": "LOS SANTOS",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 3,
+          "gols_visitante": 2,
           "campo": "GUATAMBU SOCIETY",
           "data_hora": "12/03/2026 21:00"
         },
@@ -536,14 +536,6 @@
           "gols_visitante": null,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "13/03/2026 20:15"
-        },
-        {
-          "mandante": "ALVORADA LEGENDS FC / BARBEARIA RUAN ROSA",
-          "visitante": "SEDE DO GORDO",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "13/03/2026 21:15"
         },
         {
           "mandante": "GERMAN STORE /TERTIUS",
@@ -592,6 +584,14 @@
           "gols_visitante": null,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "18/03/2026 20:30"
+        },
+        {
+          "mandante": "ALVORADA LEGENDS FC / BARBEARIA RUAN ROSA",
+          "visitante": "SEDE DO GORDO",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "18/03/2026 21:30"
         },
         {
           "mandante": "GRUPO COONECTA / PLAZA IMOVEIS",
