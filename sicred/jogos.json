@@ -572,8 +572,8 @@
         {
           "mandante": "PARCEIROS FC",
           "visitante": "SHALON FC",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 2,
+          "gols_visitante": 6,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "17/03/2026 21:30"
         },
