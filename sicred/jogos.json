@@ -756,8 +756,8 @@
       "nome": "Rodada 7 de 9",
       "jogos": [
         {
-          "mandante": "ATLETICO KONDA",
-          "visitante": "IMPERIAL",
+          "mandante": "SITICOM/ SÃO PEDRO  FC",
+          "visitante": "SEDE DO GORDO",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "ARENA PRIME SOCIETY",
@@ -804,8 +804,8 @@
           "data_hora": "30/03/2026 21:00"
         },
         {
-          "mandante": "SITICOM/ SÃO PEDRO  FC",
-          "visitante": "SEDE DO GORDO",
+          "mandante": "ATLETICO KONDA",
+          "visitante": "IMPERIAL",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "ARENA PRIME SOCIETY",
