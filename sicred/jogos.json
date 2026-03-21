@@ -612,16 +612,16 @@
         {
           "mandante": "NANDO AUTO SOM /BENFICA FC",
           "visitante": "R.C SPORTS",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 3,
+          "gols_visitante": 8,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "20/03/2026 20:00"
         },
         {
           "mandante": "CK MAQUINAS/NS INSTAÇÃO ELETRICAS",
           "visitante": "AGRO GUATAMBU",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 3,
+          "gols_visitante": 1,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "20/03/2026 21:00"
         }
