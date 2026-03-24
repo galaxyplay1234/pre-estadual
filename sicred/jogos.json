@@ -641,8 +641,8 @@
         {
           "mandante": "JAGERMEISTER",
           "visitante": "PROMESSA F.C",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 3,
+          "gols_visitante": 3,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "23/03/2026 21:30"
         },

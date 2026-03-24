@@ -1,6 +1,6 @@
 {
   "campeonato": "6ª COPA SICREDI LIVRE MASCULINO",
-  "atualizado_em": "2026-03-24T10:02:42.796Z",
+  "atualizado_em": "2026-03-24T11:24:50.643Z",
   "grupos": [
     {
       "nome": "1º Fase",
@@ -461,6 +461,10 @@
           "saldo": -23
         }
       ]
+    },
+    {
+      "nome": "2º Fase",
+      "tabela": []
     }
   ]
 }
