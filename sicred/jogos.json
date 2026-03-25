@@ -649,8 +649,8 @@
         {
           "mandante": "REAL CATALUNHA FC",
           "visitante": "ATLETICO KONDA",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 1,
+          "gols_visitante": 1,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "24/03/2026 21:30"
         },

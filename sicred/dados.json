@@ -1,6 +1,6 @@
 {
   "campeonato": "6ª COPA SICREDI LIVRE MASCULINO",
-  "atualizado_em": "2026-03-25T10:01:36.329Z",
+  "atualizado_em": "2026-03-25T11:22:56.778Z",
   "grupos": [
     {
       "nome": "1º Fase",
@@ -321,13 +321,13 @@
           "posicao": 25,
           "logo": "https://www.lchf.com.br/Upload/clubes/KOMDA.png",
           "nome": "ATLETICO KONDA",
-          "pontos": 4,
-          "jogos": 4,
+          "pontos": 5,
+          "jogos": 5,
           "vitorias": 1,
-          "empates": 1,
+          "empates": 2,
           "derrotas": 2,
-          "gols_pro": 10,
-          "gols_contra": 11,
+          "gols_pro": 11,
+          "gols_contra": 12,
           "saldo": -1
         },
         {
@@ -397,6 +397,19 @@
         },
         {
           "posicao": 31,
+          "logo": "https://www.lchf.com.br/Upload/clubes/REAL%20C.png",
+          "nome": "REAL CATALUNHA FC",
+          "pontos": 2,
+          "jogos": 5,
+          "vitorias": 0,
+          "empates": 2,
+          "derrotas": 3,
+          "gols_pro": 13,
+          "gols_contra": 22,
+          "saldo": -9
+        },
+        {
+          "posicao": 32,
           "logo": "https://www.lchf.com.br/Upload/clubes/nando.png",
           "nome": "NANDO AUTO SOM /BENFICA FC",
           "pontos": 1,
@@ -407,19 +420,6 @@
           "gols_pro": 6,
           "gols_contra": 16,
           "saldo": -10
-        },
-        {
-          "posicao": 32,
-          "logo": "https://www.lchf.com.br/Upload/clubes/REAL%20C.png",
-          "nome": "REAL CATALUNHA FC",
-          "pontos": 1,
-          "jogos": 4,
-          "vitorias": 0,
-          "empates": 1,
-          "derrotas": 3,
-          "gols_pro": 12,
-          "gols_contra": 21,
-          "saldo": -9
         },
         {
           "posicao": 33,
