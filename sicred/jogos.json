@@ -756,6 +756,14 @@
       "nome": "Rodada 7 de 9",
       "jogos": [
         {
+          "mandante": "NANDO AUTO SOM /BENFICA FC",
+          "visitante": "CK MAQUINAS/NS INSTAÇÃO ELETRICAS",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "ARENA GRENAL",
+          "data_hora": "30/03/2026 19:30"
+        },
+        {
           "mandante": "SITICOM/ SÃO PEDRO  FC",
           "visitante": "SEDE DO GORDO",
           "gols_mandante": null,
@@ -866,14 +874,6 @@
           "gols_visitante": null,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "02/04/2026 22:00"
-        },
-        {
-          "mandante": "NANDO AUTO SOM /BENFICA FC",
-          "visitante": "CK MAQUINAS/NS INSTAÇÃO ELETRICAS",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "GUATAMBU SOCIETY",
-          "data_hora": "02/04/2026 20:00"
         }
       ]
     },
