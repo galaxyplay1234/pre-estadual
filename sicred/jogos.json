@@ -657,32 +657,32 @@
         {
           "mandante": "SCRIPT UNITED",
           "visitante": "ANUBIS F.C",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 2,
+          "gols_visitante": 1,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "25/03/2026 20:30"
         },
         {
           "mandante": "LOS SANTOS",
           "visitante": "GERMAN STORE /TERTIUS",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 2,
+          "gols_visitante": 2,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "25/03/2026 21:30"
         },
         {
           "mandante": "MECANICA CASTELI / HORTIAGRO F.C",
           "visitante": "CATARINENSE / CATARINENSE PROTEÇÃO VEICULAR / SOL AGÊNCIA DE MARKETING",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 0,
+          "gols_visitante": 2,
           "campo": "GUATAMBU SOCIETY",
           "data_hora": "25/03/2026 20:00"
         },
         {
           "mandante": "SEDE DO GORDO",
           "visitante": "E.C.PASSO DOS FORTES / CFC AUTO ESCOLA CENTER",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 5,
+          "gols_visitante": 2,
           "campo": "GUATAMBU SOCIETY",
           "data_hora": "25/03/2026 21:00"
         },
