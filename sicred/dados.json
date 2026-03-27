@@ -1,6 +1,6 @@
 {
   "campeonato": "6ª COPA SICREDI LIVRE MASCULINO",
-  "atualizado_em": "2026-03-26T23:37:21.515Z",
+  "atualizado_em": "2026-03-27T02:47:29.858Z",
   "grupos": [
     {
       "nome": "1º Fase",
@@ -46,6 +46,19 @@
         },
         {
           "posicao": 4,
+          "logo": "https://www.lchf.com.br/Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(6)_2.png",
+          "nome": "LJS/P2",
+          "pontos": 10,
+          "jogos": 6,
+          "vitorias": 3,
+          "empates": 1,
+          "derrotas": 2,
+          "gols_pro": 22,
+          "gols_contra": 10,
+          "saldo": 12
+        },
+        {
+          "posicao": 5,
           "logo": "https://www.lchf.com.br/Upload/clubes/Design%20sem%20nome%20(6).png",
           "nome": "E.C RONDOFRIO",
           "pontos": 10,
@@ -58,7 +71,7 @@
           "saldo": 10
         },
         {
-          "posicao": 5,
+          "posicao": 6,
           "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-01-21%20at%2010.15.58.jpeg",
           "nome": "GG PINTURAS/SANTA MARIA",
           "pontos": 10,
@@ -71,7 +84,7 @@
           "saldo": 8
         },
         {
-          "posicao": 6,
+          "posicao": 7,
           "logo": "https://www.lchf.com.br/Upload/clubes/BOLEIROS.png",
           "nome": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
           "pontos": 10,
@@ -84,7 +97,7 @@
           "saldo": 7
         },
         {
-          "posicao": 7,
+          "posicao": 8,
           "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202025-08-26%20at%2016.27.47.jpeg",
           "nome": "MECANICA CASTELI / HORTIAGRO F.C",
           "pontos": 9,
@@ -97,7 +110,7 @@
           "saldo": 10
         },
         {
-          "posicao": 8,
+          "posicao": 9,
           "logo": "https://www.lchf.com.br/Upload/clubes/NIJU%20(2).png",
           "nome": "NIJU / GO PLAY F.C",
           "pontos": 9,
@@ -110,7 +123,7 @@
           "saldo": 10
         },
         {
-          "posicao": 9,
+          "posicao": 10,
           "logo": "https://www.lchf.com.br/Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(1).png",
           "nome": "SHALON FC",
           "pontos": 9,
@@ -123,7 +136,7 @@
           "saldo": 9
         },
         {
-          "posicao": 10,
+          "posicao": 11,
           "logo": "https://www.lchf.com.br/Upload/clubes/RESENHA.png",
           "nome": "RESENHA F.C",
           "pontos": 9,
@@ -134,19 +147,6 @@
           "gols_pro": 11,
           "gols_contra": 8,
           "saldo": 3
-        },
-        {
-          "posicao": 11,
-          "logo": "https://www.lchf.com.br/Upload/clubes/SP.png",
-          "nome": "SITICOM/ SÃO PEDRO  FC",
-          "pontos": 9,
-          "jogos": 4,
-          "vitorias": 3,
-          "empates": 0,
-          "derrotas": 1,
-          "gols_pro": 14,
-          "gols_contra": 12,
-          "saldo": 2
         },
         {
           "posicao": 12,
@@ -163,6 +163,19 @@
         },
         {
           "posicao": 13,
+          "logo": "https://www.lchf.com.br/Upload/clubes/SP.png",
+          "nome": "SITICOM/ SÃO PEDRO  FC",
+          "pontos": 9,
+          "jogos": 5,
+          "vitorias": 3,
+          "empates": 0,
+          "derrotas": 2,
+          "gols_pro": 14,
+          "gols_contra": 16,
+          "saldo": -2
+        },
+        {
+          "posicao": 14,
           "logo": "https://www.lchf.com.br/Upload/clubes/36.png",
           "nome": "SCRIPT UNITED",
           "pontos": 9,
@@ -175,7 +188,7 @@
           "saldo": -4
         },
         {
-          "posicao": 14,
+          "posicao": 15,
           "logo": "https://www.lchf.com.br/Upload/clubes/JAGER.png",
           "nome": "JAGERMEISTER",
           "pontos": 8,
@@ -188,7 +201,7 @@
           "saldo": -1
         },
         {
-          "posicao": 15,
+          "posicao": 16,
           "logo": "https://www.lchf.com.br/Upload/clubes/PROMESSA.png",
           "nome": "PROMESSA F.C",
           "pontos": 8,
@@ -199,19 +212,6 @@
           "gols_pro": 9,
           "gols_contra": 10,
           "saldo": -1
-        },
-        {
-          "posicao": 16,
-          "logo": "https://www.lchf.com.br/Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(6)_2.png",
-          "nome": "LJS/P2",
-          "pontos": 7,
-          "jogos": 5,
-          "vitorias": 2,
-          "empates": 1,
-          "derrotas": 2,
-          "gols_pro": 18,
-          "gols_contra": 10,
-          "saldo": 8
         },
         {
           "posicao": 17,
