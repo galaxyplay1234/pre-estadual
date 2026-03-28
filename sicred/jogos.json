@@ -697,56 +697,56 @@
         {
           "mandante": "NIJU / GO PLAY F.C",
           "visitante": "GTR SPORTS",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 12,
+          "gols_visitante": 4,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "27/03/2026 19:15"
         },
         {
           "mandante": "SHALON FC",
           "visitante": "E.C RONDOFRIO",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 3,
+          "gols_visitante": 2,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "27/03/2026 20:15"
         },
         {
           "mandante": "LÁ12",
           "visitante": "GRUPO COONECTA / PLAZA IMOVEIS",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 3,
+          "gols_visitante": 5,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "27/03/2026 21:15"
         },
         {
           "mandante": "GG PINTURAS/SANTA MARIA",
           "visitante": "ALVORADA LEGENDS FC / BARBEARIA RUAN ROSA",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 6,
+          "gols_visitante": 2,
           "campo": "CAMPO DO TIAGO",
           "data_hora": "27/03/2026 20:00"
         },
         {
           "mandante": "RESENHA F.C",
           "visitante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 2,
+          "gols_visitante": 3,
           "campo": "CAMPO DO TIAGO",
           "data_hora": "27/03/2026 21:00"
         },
         {
           "mandante": "AGRO GUATAMBU",
           "visitante": "NANDO AUTO SOM /BENFICA FC",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 3,
+          "gols_visitante": 2,
           "campo": "GUATAMBU SOCIETY",
           "data_hora": "27/03/2026 20:00"
         },
         {
           "mandante": "R.C SPORTS",
           "visitante": "PARCEIROS FC",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 4,
+          "gols_visitante": 1,
           "campo": "GUATAMBU SOCIETY",
           "data_hora": "27/03/2026 21:00"
         }
