@@ -1,6 +1,6 @@
 {
   "campeonato": "6ª COPA SICREDI LIVRE MASCULINO",
-  "rodada_atual": 6,
+  "rodada_atual": 7,
   "rodadas": [
     {
       "nome": "Rodada 1 de 9",
@@ -758,40 +758,40 @@
         {
           "mandante": "NANDO AUTO SOM /BENFICA FC",
           "visitante": "CK MAQUINAS/NS INSTAÇÃO ELETRICAS",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 1,
+          "gols_visitante": 0,
           "campo": "ARENA GRENAL",
           "data_hora": "30/03/2026 19:30"
         },
         {
           "mandante": "SITICOM/ SÃO PEDRO  FC",
           "visitante": "SEDE DO GORDO",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 2,
+          "gols_visitante": 5,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "30/03/2026 20:30"
         },
         {
           "mandante": "PROMESSA F.C",
           "visitante": "REAL CATALUNHA FC",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 2,
+          "gols_visitante": 1,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "30/03/2026 21:30"
         },
         {
           "mandante": "GERMAN STORE /TERTIUS",
           "visitante": "SÃO VENDELINO / SANTA BARBARA",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 1,
+          "gols_visitante": 5,
           "campo": "CAMPO DO TIAGO",
           "data_hora": "30/03/2026 19:30"
         },
         {
           "mandante": "ANUBIS F.C",
           "visitante": "MECANICA CASTELI / HORTIAGRO F.C",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 2,
+          "gols_visitante": 10,
           "campo": "CAMPO DO TIAGO",
           "data_hora": "30/03/2026 20:30"
         },
