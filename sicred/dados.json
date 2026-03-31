@@ -1,12 +1,25 @@
 {
   "campeonato": "6ª COPA SICREDI LIVRE MASCULINO",
-  "atualizado_em": "2026-03-31T10:08:47.587Z",
+  "atualizado_em": "2026-03-31T11:27:15.073Z",
   "grupos": [
     {
       "nome": "1º Fase",
       "tabela": [
         {
           "posicao": 1,
+          "logo": "https://www.lchf.com.br/Upload/clubes/CAT.png",
+          "nome": "CATARINENSE / CATARINENSE PROTEÇÃO VEICULAR / SOL AGÊNCIA DE MARKETING",
+          "pontos": 15,
+          "jogos": 5,
+          "vitorias": 5,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 14,
+          "gols_contra": 2,
+          "saldo": 12
+        },
+        {
+          "posicao": 2,
           "logo": "https://www.lchf.com.br/Upload/clubes/FREITAS_1.png",
           "nome": "FREITAS FC /CASA DOS MOTORS CHAPECO/ TIROLESA INTERESTADUAL / F&D CLIMATIZAÇÃO",
           "pontos": 15,
@@ -19,7 +32,7 @@
           "saldo": 20
         },
         {
-          "posicao": 2,
+          "posicao": 3,
           "logo": "https://www.lchf.com.br/Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(8).png",
           "nome": "SEDE DO GORDO",
           "pontos": 15,
@@ -30,19 +43,6 @@
           "gols_pro": 28,
           "gols_contra": 11,
           "saldo": 17
-        },
-        {
-          "posicao": 3,
-          "logo": "https://www.lchf.com.br/Upload/clubes/CAT.png",
-          "nome": "CATARINENSE / CATARINENSE PROTEÇÃO VEICULAR / SOL AGÊNCIA DE MARKETING",
-          "pontos": 15,
-          "jogos": 5,
-          "vitorias": 5,
-          "empates": 0,
-          "derrotas": 0,
-          "gols_pro": 14,
-          "gols_contra": 2,
-          "saldo": 12
         },
         {
           "posicao": 4,
@@ -72,19 +72,6 @@
         },
         {
           "posicao": 6,
-          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202025-08-26%20at%2016.27.47.jpeg",
-          "nome": "MECANICA CASTELI / HORTIAGRO F.C",
-          "pontos": 12,
-          "jogos": 6,
-          "vitorias": 4,
-          "empates": 0,
-          "derrotas": 2,
-          "gols_pro": 34,
-          "gols_contra": 16,
-          "saldo": 18
-        },
-        {
-          "posicao": 7,
           "logo": "https://www.lchf.com.br/Upload/clubes/NIJU%20(2).png",
           "nome": "NIJU / GO PLAY F.C",
           "pontos": 12,
@@ -94,6 +81,19 @@
           "derrotas": 1,
           "gols_pro": 26,
           "gols_contra": 8,
+          "saldo": 18
+        },
+        {
+          "posicao": 7,
+          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202025-08-26%20at%2016.27.47.jpeg",
+          "nome": "MECANICA CASTELI / HORTIAGRO F.C",
+          "pontos": 12,
+          "jogos": 6,
+          "vitorias": 4,
+          "empates": 0,
+          "derrotas": 2,
+          "gols_pro": 34,
+          "gols_contra": 16,
           "saldo": 18
         },
         {
@@ -111,32 +111,19 @@
         },
         {
           "posicao": 9,
-          "logo": "https://www.lchf.com.br/Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(6)_2.png",
-          "nome": "LJS/P2",
-          "pontos": 10,
+          "logo": "https://www.lchf.com.br/Upload/clubes/PROMESSA.png",
+          "nome": "PROMESSA F.C",
+          "pontos": 11,
           "jogos": 6,
           "vitorias": 3,
-          "empates": 1,
-          "derrotas": 2,
-          "gols_pro": 22,
-          "gols_contra": 10,
-          "saldo": 12
+          "empates": 2,
+          "derrotas": 1,
+          "gols_pro": 11,
+          "gols_contra": 11,
+          "saldo": 0
         },
         {
           "posicao": 10,
-          "logo": "https://www.lchf.com.br/Upload/clubes/OJR.png",
-          "nome": "R.C SPORTS",
-          "pontos": 10,
-          "jogos": 5,
-          "vitorias": 3,
-          "empates": 1,
-          "derrotas": 1,
-          "gols_pro": 20,
-          "gols_contra": 10,
-          "saldo": 10
-        },
-        {
-          "posicao": 11,
           "logo": "https://www.lchf.com.br/Upload/clubes/Design%20sem%20nome%20(6).png",
           "nome": "E.C RONDOFRIO",
           "pontos": 10,
@@ -149,17 +136,30 @@
           "saldo": 9
         },
         {
-          "posicao": 12,
-          "logo": "https://www.lchf.com.br/Upload/clubes/SV.png",
-          "nome": "SÃO VENDELINO / SANTA BARBARA",
-          "pontos": 9,
+          "posicao": 11,
+          "logo": "https://www.lchf.com.br/Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(6)_2.png",
+          "nome": "LJS/P2",
+          "pontos": 10,
           "jogos": 6,
           "vitorias": 3,
-          "empates": 0,
-          "derrotas": 3,
-          "gols_pro": 23,
-          "gols_contra": 19,
-          "saldo": 4
+          "empates": 1,
+          "derrotas": 2,
+          "gols_pro": 22,
+          "gols_contra": 10,
+          "saldo": 12
+        },
+        {
+          "posicao": 12,
+          "logo": "https://www.lchf.com.br/Upload/clubes/OJR.png",
+          "nome": "R.C SPORTS",
+          "pontos": 10,
+          "jogos": 5,
+          "vitorias": 3,
+          "empates": 1,
+          "derrotas": 1,
+          "gols_pro": 20,
+          "gols_contra": 10,
+          "saldo": 10
         },
         {
           "posicao": 13,
@@ -202,6 +202,19 @@
         },
         {
           "posicao": 16,
+          "logo": "https://www.lchf.com.br/Upload/clubes/SV.png",
+          "nome": "SÃO VENDELINO / SANTA BARBARA",
+          "pontos": 9,
+          "jogos": 6,
+          "vitorias": 3,
+          "empates": 0,
+          "derrotas": 3,
+          "gols_pro": 23,
+          "gols_contra": 19,
+          "saldo": 4
+        },
+        {
+          "posicao": 17,
           "logo": "https://www.lchf.com.br/Upload/clubes/SP.png",
           "nome": "SITICOM/ SÃO PEDRO  FC",
           "pontos": 9,
@@ -214,7 +227,7 @@
           "saldo": -5
         },
         {
-          "posicao": 17,
+          "posicao": 18,
           "logo": "https://www.lchf.com.br/Upload/clubes/ANUBIS.png",
           "nome": "ANUBIS F.C",
           "pontos": 9,
@@ -227,7 +240,7 @@
           "saldo": -9
         },
         {
-          "posicao": 18,
+          "posicao": 19,
           "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-01-19%20at%2014.22.43%20(1).jpeg",
           "nome": "AGRO GUATAMBU",
           "pontos": 8,
@@ -240,7 +253,7 @@
           "saldo": 2
         },
         {
-          "posicao": 19,
+          "posicao": 20,
           "logo": "https://www.lchf.com.br/Upload/clubes/JAGER.png",
           "nome": "JAGERMEISTER",
           "pontos": 8,
@@ -250,19 +263,6 @@
           "derrotas": 2,
           "gols_pro": 16,
           "gols_contra": 17,
-          "saldo": -1
-        },
-        {
-          "posicao": 20,
-          "logo": "https://www.lchf.com.br/Upload/clubes/PROMESSA.png",
-          "nome": "PROMESSA F.C",
-          "pontos": 8,
-          "jogos": 5,
-          "vitorias": 2,
-          "empates": 2,
-          "derrotas": 1,
-          "gols_pro": 9,
-          "gols_contra": 10,
           "saldo": -1
         },
         {
@@ -413,13 +413,13 @@
           "logo": "https://www.lchf.com.br/Upload/clubes/REAL%20C.png",
           "nome": "REAL CATALUNHA FC",
           "pontos": 2,
-          "jogos": 5,
+          "jogos": 6,
           "vitorias": 0,
           "empates": 2,
-          "derrotas": 3,
-          "gols_pro": 13,
-          "gols_contra": 22,
-          "saldo": -9
+          "derrotas": 4,
+          "gols_pro": 14,
+          "gols_contra": 24,
+          "saldo": -10
         },
         {
           "posicao": 33,
@@ -461,10 +461,6 @@
           "saldo": -27
         }
       ]
-    },
-    {
-      "nome": "2º Fase",
-      "tabela": []
     }
   ]
 }
