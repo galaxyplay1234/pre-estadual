@@ -798,16 +798,16 @@
         {
           "mandante": "GRUPO COONECTA / PLAZA IMOVEIS",
           "visitante": "NIJU / GO PLAY F.C",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 2,
+          "gols_visitante": 2,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "31/03/2026 21:30"
         },
         {
           "mandante": "ATLETICO KONDA",
           "visitante": "IMPERIAL",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 2,
+          "gols_visitante": 4,
           "campo": "CAMPO DO TIAGO",
           "data_hora": "31/03/2026 20:00"
         },

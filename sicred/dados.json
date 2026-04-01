@@ -1,6 +1,6 @@
 {
   "campeonato": "6ª COPA SICREDI LIVRE MASCULINO",
-  "atualizado_em": "2026-03-31T23:38:17.557Z",
+  "atualizado_em": "2026-04-01T03:16:50.865Z",
   "grupos": [
     {
       "nome": "1º Fase",
@@ -74,13 +74,13 @@
           "posicao": 6,
           "logo": "https://www.lchf.com.br/Upload/clubes/NIJU%20(2).png",
           "nome": "NIJU / GO PLAY F.C",
-          "pontos": 12,
-          "jogos": 5,
+          "pontos": 13,
+          "jogos": 6,
           "vitorias": 4,
-          "empates": 0,
+          "empates": 1,
           "derrotas": 1,
-          "gols_pro": 26,
-          "gols_contra": 8,
+          "gols_pro": 28,
+          "gols_contra": 10,
           "saldo": 18
         },
         {
@@ -165,17 +165,30 @@
           "posicao": 13,
           "logo": "https://www.lchf.com.br/Upload/clubes/coonecta.png",
           "nome": "GRUPO COONECTA / PLAZA IMOVEIS",
-          "pontos": 9,
-          "jogos": 5,
+          "pontos": 10,
+          "jogos": 6,
           "vitorias": 3,
-          "empates": 0,
+          "empates": 1,
           "derrotas": 2,
-          "gols_pro": 12,
-          "gols_contra": 9,
+          "gols_pro": 14,
+          "gols_contra": 11,
           "saldo": 3
         },
         {
           "posicao": 14,
+          "logo": "https://www.lchf.com.br/Upload/clubes/IMPERIAL.png",
+          "nome": "IMPERIAL",
+          "pontos": 10,
+          "jogos": 6,
+          "vitorias": 3,
+          "empates": 1,
+          "derrotas": 2,
+          "gols_pro": 14,
+          "gols_contra": 14,
+          "saldo": 0
+        },
+        {
+          "posicao": 15,
           "logo": "https://www.lchf.com.br/Upload/clubes/RESENHA.png",
           "nome": "RESENHA F.C",
           "pontos": 9,
@@ -188,7 +201,7 @@
           "saldo": 2
         },
         {
-          "posicao": 15,
+          "posicao": 16,
           "logo": "https://www.lchf.com.br/Upload/clubes/36.png",
           "nome": "SCRIPT UNITED",
           "pontos": 9,
@@ -201,7 +214,7 @@
           "saldo": -4
         },
         {
-          "posicao": 16,
+          "posicao": 17,
           "logo": "https://www.lchf.com.br/Upload/clubes/SV.png",
           "nome": "SÃO VENDELINO / SANTA BARBARA",
           "pontos": 9,
@@ -214,7 +227,7 @@
           "saldo": 4
         },
         {
-          "posicao": 17,
+          "posicao": 18,
           "logo": "https://www.lchf.com.br/Upload/clubes/SP.png",
           "nome": "SITICOM/ SÃO PEDRO  FC",
           "pontos": 9,
@@ -227,7 +240,7 @@
           "saldo": -5
         },
         {
-          "posicao": 18,
+          "posicao": 19,
           "logo": "https://www.lchf.com.br/Upload/clubes/ANUBIS.png",
           "nome": "ANUBIS F.C",
           "pontos": 9,
@@ -240,7 +253,7 @@
           "saldo": -9
         },
         {
-          "posicao": 19,
+          "posicao": 20,
           "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-01-19%20at%2014.22.43%20(1).jpeg",
           "nome": "AGRO GUATAMBU",
           "pontos": 8,
@@ -253,7 +266,7 @@
           "saldo": 2
         },
         {
-          "posicao": 20,
+          "posicao": 21,
           "logo": "https://www.lchf.com.br/Upload/clubes/JAGER.png",
           "nome": "JAGERMEISTER",
           "pontos": 8,
@@ -264,19 +277,6 @@
           "gols_pro": 16,
           "gols_contra": 17,
           "saldo": -1
-        },
-        {
-          "posicao": 21,
-          "logo": "https://www.lchf.com.br/Upload/clubes/IMPERIAL.png",
-          "nome": "IMPERIAL",
-          "pontos": 7,
-          "jogos": 5,
-          "vitorias": 2,
-          "empates": 1,
-          "derrotas": 2,
-          "gols_pro": 10,
-          "gols_contra": 12,
-          "saldo": -2
         },
         {
           "posicao": 22,
@@ -322,13 +322,13 @@
           "logo": "https://www.lchf.com.br/Upload/clubes/KOMDA.png",
           "nome": "ATLETICO KONDA",
           "pontos": 5,
-          "jogos": 5,
+          "jogos": 6,
           "vitorias": 1,
           "empates": 2,
-          "derrotas": 2,
-          "gols_pro": 11,
-          "gols_contra": 12,
-          "saldo": -1
+          "derrotas": 3,
+          "gols_pro": 13,
+          "gols_contra": 16,
+          "saldo": -3
         },
         {
           "posicao": 26,
