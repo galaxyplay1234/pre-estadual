@@ -814,48 +814,48 @@
         {
           "mandante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
           "visitante": "LÁ12",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 2,
+          "gols_visitante": 2,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "01/04/2026 20:30"
         },
         {
           "mandante": "GTR SPORTS",
           "visitante": "ANA LUCIA RESTAURANTE / BUMERANGUE FC",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 1,
+          "gols_visitante": 6,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "01/04/2026 21:30"
         },
         {
           "mandante": "ALVORADA LEGENDS FC / BARBEARIA RUAN ROSA",
           "visitante": "PAVIDAL BLOCOS E PAVERS",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 0,
+          "gols_visitante": 4,
           "campo": "CAMPO DO BALDISEERA - LINHA AGUA AMARELA",
           "data_hora": "01/04/2026 19:30"
         },
         {
           "mandante": "AAT FC / ALMIR ARAÚJO TRANSPORTE",
           "visitante": "FREITAS FC /CASA DOS MOTORS CHAPECO/ TIROLESA INTERESTADUAL / F&D CLIMATIZAÇÃO",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 3,
+          "gols_visitante": 9,
           "campo": "CAMPO DO BALDISEERA - LINHA AGUA AMARELA",
           "data_hora": "01/04/2026 20:30"
         },
         {
           "mandante": "PARCEIROS FC",
           "visitante": "AGRO GUATAMBU",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 3,
+          "gols_visitante": 2,
           "campo": "GUATAMBU SOCIETY",
           "data_hora": "01/04/2026 20:00"
         },
         {
           "mandante": "E.C RONDOFRIO",
           "visitante": "R.C SPORTS",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 3,
+          "gols_visitante": 1,
           "campo": "GUATAMBU SOCIETY",
           "data_hora": "01/04/2026 21:00"
         },
