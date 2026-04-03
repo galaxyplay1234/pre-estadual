@@ -1,12 +1,25 @@
 {
   "campeonato": "6ª COPA SICREDI LIVRE MASCULINO",
-  "atualizado_em": "2026-04-02T23:48:01.460Z",
+  "atualizado_em": "2026-04-03T02:45:47.637Z",
   "grupos": [
     {
       "nome": "1º Fase",
       "tabela": [
         {
           "posicao": 1,
+          "logo": "https://www.lchf.com.br/Upload/clubes/CAT.png",
+          "nome": "CATARINENSE / CATARINENSE PROTEÇÃO VEICULAR / SOL AGÊNCIA DE MARKETING",
+          "pontos": 18,
+          "jogos": 6,
+          "vitorias": 6,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 18,
+          "gols_contra": 3,
+          "saldo": 15
+        },
+        {
+          "posicao": 2,
           "logo": "https://www.lchf.com.br/Upload/clubes/FREITAS_1.png",
           "nome": "FREITAS FC /CASA DOS MOTORS CHAPECO/ TIROLESA INTERESTADUAL / F&D CLIMATIZAÇÃO",
           "pontos": 18,
@@ -19,20 +32,20 @@
           "saldo": 26
         },
         {
-          "posicao": 2,
-          "logo": "https://www.lchf.com.br/Upload/clubes/CAT.png",
-          "nome": "CATARINENSE / CATARINENSE PROTEÇÃO VEICULAR / SOL AGÊNCIA DE MARKETING",
-          "pontos": 15,
-          "jogos": 5,
+          "posicao": 3,
+          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-01-21%20at%2010.15.58.jpeg",
+          "nome": "GG PINTURAS/SANTA MARIA",
+          "pontos": 16,
+          "jogos": 6,
           "vitorias": 5,
-          "empates": 0,
+          "empates": 1,
           "derrotas": 0,
-          "gols_pro": 14,
-          "gols_contra": 2,
-          "saldo": 12
+          "gols_pro": 25,
+          "gols_contra": 8,
+          "saldo": 17
         },
         {
-          "posicao": 3,
+          "posicao": 4,
           "logo": "https://www.lchf.com.br/Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(8).png",
           "nome": "SEDE DO GORDO",
           "pontos": 15,
@@ -45,7 +58,7 @@
           "saldo": 17
         },
         {
-          "posicao": 4,
+          "posicao": 5,
           "logo": "https://www.lchf.com.br/Upload/clubes/BOLEIROS.png",
           "nome": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
           "pontos": 14,
@@ -56,19 +69,6 @@
           "gols_pro": 17,
           "gols_contra": 9,
           "saldo": 8
-        },
-        {
-          "posicao": 5,
-          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-01-21%20at%2010.15.58.jpeg",
-          "nome": "GG PINTURAS/SANTA MARIA",
-          "pontos": 13,
-          "jogos": 5,
-          "vitorias": 4,
-          "empates": 1,
-          "derrotas": 0,
-          "gols_pro": 19,
-          "gols_contra": 7,
-          "saldo": 12
         },
         {
           "posicao": 6,
@@ -306,19 +306,6 @@
         },
         {
           "posicao": 24,
-          "logo": "https://www.lchf.com.br/Upload/clubes/PASSO_1.png",
-          "nome": "E.C.PASSO DOS FORTES / CFC AUTO ESCOLA CENTER",
-          "pontos": 6,
-          "jogos": 5,
-          "vitorias": 2,
-          "empates": 0,
-          "derrotas": 3,
-          "gols_pro": 9,
-          "gols_contra": 14,
-          "saldo": -5
-        },
-        {
-          "posicao": 25,
           "logo": "https://www.lchf.com.br/Upload/clubes/CK.png",
           "nome": "CK MAQUINAS/NS INSTAÇÃO ELETRICAS",
           "pontos": 6,
@@ -331,9 +318,22 @@
           "saldo": -10
         },
         {
-          "posicao": 26,
+          "posicao": 25,
           "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202025-08-20%20at%2011.21.10.jpeg",
           "nome": "PARCEIROS FC",
+          "pontos": 6,
+          "jogos": 6,
+          "vitorias": 2,
+          "empates": 0,
+          "derrotas": 4,
+          "gols_pro": 10,
+          "gols_contra": 20,
+          "saldo": -10
+        },
+        {
+          "posicao": 26,
+          "logo": "https://www.lchf.com.br/Upload/clubes/PASSO_1.png",
+          "nome": "E.C.PASSO DOS FORTES / CFC AUTO ESCOLA CENTER",
           "pontos": 6,
           "jogos": 6,
           "vitorias": 2,
@@ -374,13 +374,13 @@
           "logo": "https://www.lchf.com.br/Upload/clubes/LOS%20SANTOS.png",
           "nome": "LOS SANTOS",
           "pontos": 4,
-          "jogos": 5,
+          "jogos": 6,
           "vitorias": 1,
           "empates": 1,
-          "derrotas": 3,
-          "gols_pro": 8,
-          "gols_contra": 11,
-          "saldo": -3
+          "derrotas": 4,
+          "gols_pro": 9,
+          "gols_contra": 15,
+          "saldo": -6
         },
         {
           "posicao": 30,

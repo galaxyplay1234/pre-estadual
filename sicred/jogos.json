@@ -862,16 +862,16 @@
         {
           "mandante": "CATARINENSE / CATARINENSE PROTEÇÃO VEICULAR / SOL AGÊNCIA DE MARKETING",
           "visitante": "LOS SANTOS",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 4,
+          "gols_visitante": 1,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "02/04/2026 20:00"
         },
         {
           "mandante": "E.C.PASSO DOS FORTES / CFC AUTO ESCOLA CENTER",
           "visitante": "GG PINTURAS/SANTA MARIA",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 1,
+          "gols_visitante": 6,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "02/04/2026 21:00"
         }
