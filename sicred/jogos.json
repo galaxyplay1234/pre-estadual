@@ -879,7 +879,72 @@
     },
     {
       "nome": "Rodada 8 de 9",
-      "jogos": []
+      "jogos": [
+        {
+          "mandante": "SCRIPT UNITED",
+          "visitante": "SÃO VENDELINO / SANTA BARBARA",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "RESENHA F.C",
+          "visitante": "SITICOM/ SÃO PEDRO  FC",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "IMPERIAL",
+          "visitante": "ANUBIS F.C",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "R.C SPORTS",
+          "visitante": "AGRO GUATAMBU",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "GRUPO COONECTA / PLAZA IMOVEIS",
+          "visitante": "JAGERMEISTER",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "LJS/P2",
+          "visitante": "ANA LUCIA RESTAURANTE / BUMERANGUE FC",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "PROMESSA F.C",
+          "visitante": "LÁ12",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "SHALON FC",
+          "visitante": "CK MAQUINAS/NS INSTAÇÃO ELETRICAS",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        }
+      ]
     },
     {
       "nome": "Rodada 9 de 9",
