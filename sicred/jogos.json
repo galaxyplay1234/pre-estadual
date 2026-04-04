@@ -881,74 +881,139 @@
       "nome": "Rodada 8 de 9",
       "jogos": [
         {
-          "mandante": "SCRIPT UNITED",
-          "visitante": "SÃO VENDELINO / SANTA BARBARA",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "",
-          "data_hora": "01/01/0001 00:00"
-        },
-        {
-          "mandante": "RESENHA F.C",
-          "visitante": "SITICOM/ SÃO PEDRO  FC",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "",
-          "data_hora": "01/01/0001 00:00"
-        },
-        {
           "mandante": "IMPERIAL",
           "visitante": "ANUBIS F.C",
           "gols_mandante": null,
           "gols_visitante": null,
-          "campo": "",
-          "data_hora": "01/01/0001 00:00"
-        },
-        {
-          "mandante": "R.C SPORTS",
-          "visitante": "AGRO GUATAMBU",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "",
-          "data_hora": "01/01/0001 00:00"
-        },
-        {
-          "mandante": "GRUPO COONECTA / PLAZA IMOVEIS",
-          "visitante": "JAGERMEISTER",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "",
-          "data_hora": "01/01/0001 00:00"
-        },
-        {
-          "mandante": "LJS/P2",
-          "visitante": "ANA LUCIA RESTAURANTE / BUMERANGUE FC",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "",
-          "data_hora": "01/01/0001 00:00"
-        },
-        {
-          "mandante": "PROMESSA F.C",
-          "visitante": "LÁ12",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "",
-          "data_hora": "01/01/0001 00:00"
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "08/04/2026 20:30"
         },
         {
           "mandante": "SHALON FC",
           "visitante": "CK MAQUINAS/NS INSTAÇÃO ELETRICAS",
           "gols_mandante": null,
           "gols_visitante": null,
-          "campo": "",
-          "data_hora": "01/01/0001 00:00"
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "08/04/2026 21:30"
+        },
+        {
+          "mandante": "PROMESSA F.C",
+          "visitante": "LÁ12",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "GUATAMBU SOCIETY",
+          "data_hora": "08/04/2026 20:00"
+        },
+        {
+          "mandante": "GRUPO COONECTA / PLAZA IMOVEIS",
+          "visitante": "JAGERMEISTER",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "GUATAMBU SOCIETY",
+          "data_hora": "09/04/2026 21:00"
+        },
+        {
+          "mandante": "RESENHA F.C",
+          "visitante": "SITICOM/ SÃO PEDRO  FC",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "GUATAMBU SOCIETY",
+          "data_hora": "09/04/2026 20:00"
+        },
+        {
+          "mandante": "R.C SPORTS",
+          "visitante": "AGRO GUATAMBU",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "GUATAMBU SOCIETY",
+          "data_hora": "09/04/2026 21:00"
+        },
+        {
+          "mandante": "LJS/P2",
+          "visitante": "ANA LUCIA RESTAURANTE / BUMERANGUE FC",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "10/04/2026 20:00"
+        },
+        {
+          "mandante": "SCRIPT UNITED",
+          "visitante": "SÃO VENDELINO / SANTA BARBARA",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "10/04/2026 21:00"
         }
       ]
     },
     {
       "nome": "Rodada 9 de 9",
-      "jogos": []
+      "jogos": [
+        {
+          "mandante": "CATARINENSE / CATARINENSE PROTEÇÃO VEICULAR / SOL AGÊNCIA DE MARKETING",
+          "visitante": "VENCEDOR SEGUNDA FASE",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "GUATAMBU SOCIETY",
+          "data_hora": "14/04/2026 20:00"
+        },
+        {
+          "mandante": "FREITAS FC /CASA DOS MOTORS CHAPECO/ TIROLESA INTERESTADUAL / F&D CLIMATIZAÇÃO",
+          "visitante": "VENCEDOR SEGUNDA FASE",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "GUATAMBU SOCIETY",
+          "data_hora": "14/04/2026 20:00"
+        },
+        {
+          "mandante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
+          "visitante": "VENCEDOR SEGUNDA FASE",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "15/04/2026 20:30"
+        },
+        {
+          "mandante": "NIJU / GO PLAY F.C",
+          "visitante": "VENCEDOR SEGUNDA FASE",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "ARENA PRIME SOCIEYT",
+          "data_hora": "15/04/2026 21:30"
+        },
+        {
+          "mandante": "MECANICA CASTELI / HORTIAGRO F.C",
+          "visitante": "VENCEDOR SEGUNDA FASE",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "GUATAMBU SOCIETY",
+          "data_hora": "16/04/2026 20:00"
+        },
+        {
+          "mandante": "SEDE DO GORDO",
+          "visitante": "VENCEDOR SEGUNDA FASE",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "GUATAMBU SOCIETY",
+          "data_hora": "16/04/2026 21:00"
+        },
+        {
+          "mandante": "E.C RONDOFRIO",
+          "visitante": "VENCEDOR SEGUNDA FASE",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "17/04/2026 20:00"
+        },
+        {
+          "mandante": "GG PINTURAS/SANTA MARIA",
+          "visitante": "VENCEDOR SEGUNDA FASE",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "17/04/2026 21:00"
+        }
+      ]
     }
   ]
 }
