@@ -915,16 +915,16 @@
         {
           "mandante": "RESENHA F.C",
           "visitante": "SITICOM/ SÃO PEDRO  FC",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 2,
+          "gols_visitante": 3,
           "campo": "GUATAMBU SOCIETY",
           "data_hora": "09/04/2026 20:00"
         },
         {
           "mandante": "R.C SPORTS",
           "visitante": "AGRO GUATAMBU",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 3,
+          "gols_visitante": 0,
           "campo": "GUATAMBU SOCIETY",
           "data_hora": "09/04/2026 21:00"
         },
