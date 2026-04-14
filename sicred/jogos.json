@@ -1,6 +1,6 @@
 {
   "campeonato": "6ª COPA SICREDI LIVRE MASCULINO",
-  "rodada_atual": 8,
+  "rodada_atual": 9,
   "rodadas": [
     {
       "nome": "Rodada 1 de 9",
@@ -960,8 +960,8 @@
         {
           "mandante": "E.C RONDOFRIO",
           "visitante": "SÃO VENDELINO / SANTA BARBARA",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 1,
+          "gols_visitante": 0,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "13/04/2026 20:30"
         },
