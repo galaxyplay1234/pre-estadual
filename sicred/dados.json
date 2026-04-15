@@ -1,6 +1,6 @@
 {
   "campeonato": "6ª COPA SICREDI LIVRE MASCULINO",
-  "atualizado_em": "2026-04-15T11:09:57.969Z",
+  "atualizado_em": "2026-04-15T12:11:26.001Z",
   "grupos": [
     {
       "nome": "1º Fase",
@@ -693,16 +693,16 @@
         },
         {
           "posicao": 2,
-          "logo": "https://www.lchf.com.br/Upload/clubes/FREITAS_1.png",
-          "nome": "FREITAS FC /CASA DOS MOTORS CHAPECO/ TIROLESA INTERESTADUAL / F&D CLIMATIZAÇÃO",
-          "pontos": 0,
-          "jogos": 0,
-          "vitorias": 0,
+          "logo": "https://www.lchf.com.br/Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(6)_2.png",
+          "nome": "LJS/P2",
+          "pontos": 3,
+          "jogos": 1,
+          "vitorias": 1,
           "empates": 0,
           "derrotas": 0,
-          "gols_pro": 0,
-          "gols_contra": 0,
-          "saldo": 0
+          "gols_pro": 5,
+          "gols_contra": 1,
+          "saldo": 4
         },
         {
           "posicao": 3,
@@ -797,19 +797,6 @@
         },
         {
           "posicao": 10,
-          "logo": "https://www.lchf.com.br/Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(6)_2.png",
-          "nome": "LJS/P2",
-          "pontos": 0,
-          "jogos": 0,
-          "vitorias": 0,
-          "empates": 0,
-          "derrotas": 0,
-          "gols_pro": 0,
-          "gols_contra": 0,
-          "saldo": 0
-        },
-        {
-          "posicao": 11,
           "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-01-21%20at%2010.15.58.jpeg",
           "nome": "GG PINTURAS/SANTA MARIA",
           "pontos": 0,
@@ -822,7 +809,7 @@
           "saldo": 0
         },
         {
-          "posicao": 12,
+          "posicao": 11,
           "logo": "https://www.lchf.com.br/Upload/clubes/coonecta.png",
           "nome": "GRUPO COONECTA / PLAZA IMOVEIS",
           "pontos": 0,
@@ -835,7 +822,7 @@
           "saldo": 0
         },
         {
-          "posicao": 13,
+          "posicao": 12,
           "logo": "https://www.lchf.com.br/Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(1).png",
           "nome": "SHALON FC",
           "pontos": 0,
@@ -848,7 +835,7 @@
           "saldo": 0
         },
         {
-          "posicao": 14,
+          "posicao": 13,
           "logo": "https://www.lchf.com.br/Upload/clubes/OJR.png",
           "nome": "R.C SPORTS",
           "pontos": 0,
@@ -861,7 +848,7 @@
           "saldo": 0
         },
         {
-          "posicao": 15,
+          "posicao": 14,
           "logo": "https://www.lchf.com.br/Upload/clubes/SP.png",
           "nome": "SITICOM/ SÃO PEDRO  FC",
           "pontos": 0,
@@ -874,7 +861,7 @@
           "saldo": 0
         },
         {
-          "posicao": 16,
+          "posicao": 15,
           "logo": "https://www.lchf.com.br/Upload/clubes/SV.png",
           "nome": "SÃO VENDELINO / SANTA BARBARA",
           "pontos": 0,
@@ -885,6 +872,19 @@
           "gols_pro": 0,
           "gols_contra": 1,
           "saldo": -1
+        },
+        {
+          "posicao": 16,
+          "logo": "https://www.lchf.com.br/Upload/clubes/FREITAS_1.png",
+          "nome": "FREITAS FC /CASA DOS MOTORS CHAPECO/ TIROLESA INTERESTADUAL / F&D CLIMATIZAÇÃO",
+          "pontos": 0,
+          "jogos": 1,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 1,
+          "gols_pro": 1,
+          "gols_contra": 5,
+          "saldo": -4
         }
       ]
     }

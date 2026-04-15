@@ -968,9 +968,9 @@
         {
           "mandante": "FREITAS FC /CASA DOS MOTORS CHAPECO/ TIROLESA INTERESTADUAL / F&D CLIMATIZAÇÃO",
           "visitante": "LJS/P2",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "Arena Prime Society",
+          "gols_mandante": 1,
+          "gols_visitante": 5,
+          "campo": "ARENA PRIME SOCIETY",
           "data_hora": "14/04/2026 21:30"
         },
         {
