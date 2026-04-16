@@ -1,6 +1,6 @@
 {
   "campeonato": "6ª COPA SICREDI LIVRE MASCULINO",
-  "atualizado_em": "2026-04-16T12:43:36.014Z",
+  "atualizado_em": "2026-04-16T14:59:05.532Z",
   "artilheiros": [
     {
       "posicao": 1,
@@ -58,302 +58,302 @@
     },
     {
       "posicao": 10,
+      "nome": "João Cléber zatta dos santos",
+      "clube": "SHALON FC",
+      "gols": 6
+    },
+    {
+      "posicao": 11,
       "nome": "Luis Felipe Kusiak Soares",
       "clube": "SÃO VENDELINO / SANTA BARBARA",
       "gols": 6
     },
     {
-      "posicao": 11,
+      "posicao": 12,
       "nome": "MATEUS ROBERTO GILIOLI",
       "clube": "GG PINTURAS/SANTA MARIA",
       "gols": 6
     },
     {
-      "posicao": 12,
+      "posicao": 13,
       "nome": "Ramon Kappel",
       "clube": "R.C SPORTS",
       "gols": 6
     },
     {
-      "posicao": 13,
+      "posicao": 14,
       "nome": "Edilson Fagner Antunes",
       "clube": "LJS/P2",
       "gols": 5
     },
     {
-      "posicao": 14,
+      "posicao": 15,
       "nome": "Edilson de Almeida",
       "clube": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
       "gols": 5
     },
     {
-      "posicao": 15,
+      "posicao": 16,
       "nome": "Emerson de Oliveira",
       "clube": "SITICOM/ SÃO PEDRO  FC",
       "gols": 5
     },
     {
-      "posicao": 16,
+      "posicao": 17,
+      "nome": "FERNANDO AUGUSTO T. LAPPE",
+      "clube": "SHALON FC",
+      "gols": 5
+    },
+    {
+      "posicao": 18,
       "nome": "Gabriel de witt machado",
       "clube": "GRUPO COONECTA / PLAZA IMOVEIS",
       "gols": 5
     },
     {
-      "posicao": 17,
+      "posicao": 19,
       "nome": "Jean Marcos Martins de Oliveira",
       "clube": "E.C RONDOFRIO",
       "gols": 5
     },
     {
-      "posicao": 18,
-      "nome": "João Cléber zatta dos santos",
-      "clube": "SHALON FC",
-      "gols": 5
-    },
-    {
-      "posicao": 19,
+      "posicao": 20,
       "nome": "João Vitor Probst",
       "clube": "JAGERMEISTER",
       "gols": 5
     },
     {
-      "posicao": 20,
+      "posicao": 21,
       "nome": "LEONARDO HENRIQUE BALBINOTTI DALLAGNOL",
       "clube": "SÃO VENDELINO / SANTA BARBARA",
       "gols": 5
     },
     {
-      "posicao": 21,
+      "posicao": 22,
       "nome": "LUCAS ROSINA",
       "clube": "SCRIPT UNITED",
       "gols": 5
     },
     {
-      "posicao": 22,
+      "posicao": 23,
       "nome": "Laerti Correia",
       "clube": "LJS/P2",
       "gols": 5
     },
     {
-      "posicao": 23,
+      "posicao": 24,
       "nome": "Leonardo  ansolin",
       "clube": "GTR SPORTS",
       "gols": 5
     },
     {
-      "posicao": 24,
+      "posicao": 25,
       "nome": "Marcos Antônio de Souza correia",
       "clube": "ATLETICO KONDA",
       "gols": 5
     },
     {
-      "posicao": 25,
+      "posicao": 26,
       "nome": "Ricardo Liell Santos",
       "clube": "R.C SPORTS",
       "gols": 5
     },
     {
-      "posicao": 26,
+      "posicao": 27,
       "nome": "Weslley Dos Santos Mello",
       "clube": "REAL CATALUNHA FC",
       "gols": 5
     },
     {
-      "posicao": 27,
+      "posicao": 28,
+      "nome": "Agson Rennan dos Santos Lopes",
+      "clube": "NIJU / GO PLAY F.C",
+      "gols": 4
+    },
+    {
+      "posicao": 29,
       "nome": "Almir Vieira",
       "clube": "FREITAS FC /CASA DOS MOTORS CHAPECO/ TIROLESA INTERESTADUAL / F&D CLIMATIZAÇÃO",
       "gols": 4
     },
     {
-      "posicao": 28,
+      "posicao": 30,
       "nome": "Antonio Francisco Paiva Lopes",
       "clube": "FREITAS FC /CASA DOS MOTORS CHAPECO/ TIROLESA INTERESTADUAL / F&D CLIMATIZAÇÃO",
       "gols": 4
     },
     {
-      "posicao": 29,
+      "posicao": 31,
       "nome": "Aucapone Velasque",
       "clube": "GG PINTURAS/SANTA MARIA",
       "gols": 4
     },
     {
-      "posicao": 30,
+      "posicao": 32,
       "nome": "Daniel Dias Pereira Batistello",
       "clube": "GG PINTURAS/SANTA MARIA",
       "gols": 4
     },
     {
-      "posicao": 31,
+      "posicao": 33,
       "nome": "Ednilson Ribeiro Santos",
       "clube": "JAGERMEISTER",
       "gols": 4
     },
     {
-      "posicao": 32,
+      "posicao": 34,
       "nome": "Eduardo Bonissoni Cagol",
       "clube": "SHALON FC",
       "gols": 4
     },
     {
-      "posicao": 33,
+      "posicao": 35,
       "nome": "Erik Henrique Trindade",
       "clube": "R.C SPORTS",
       "gols": 4
     },
     {
-      "posicao": 34,
+      "posicao": 36,
       "nome": "Felipe Junior Santa Catarina",
       "clube": "CATARINENSE / CATARINENSE PROTEÇÃO VEICULAR / SOL AGÊNCIA DE MARKETING",
       "gols": 4
     },
     {
-      "posicao": 35,
+      "posicao": 37,
       "nome": "Francisco Diego de sousa costa",
       "clube": "CK MAQUINAS/NS INSTAÇÃO ELETRICAS",
       "gols": 4
     },
     {
-      "posicao": 36,
+      "posicao": 38,
       "nome": "Gildomar j. Da Silva",
       "clube": "CATARINENSE / CATARINENSE PROTEÇÃO VEICULAR / SOL AGÊNCIA DE MARKETING",
       "gols": 4
     },
     {
-      "posicao": 37,
+      "posicao": 39,
       "nome": "Jacson Francisco Zanella",
       "clube": "SCRIPT UNITED",
       "gols": 4
     },
     {
-      "posicao": 38,
+      "posicao": 40,
       "nome": "João Guilherme Cândido",
       "clube": "SITICOM/ SÃO PEDRO  FC",
       "gols": 4
     },
     {
-      "posicao": 39,
+      "posicao": 41,
       "nome": "João Victor dos Santos Ferst",
       "clube": "REAL CATALUNHA FC",
       "gols": 4
     },
     {
-      "posicao": 40,
+      "posicao": 42,
       "nome": "LUIS CARLOS CORREA",
       "clube": "AAT FC / ALMIR ARAÚJO TRANSPORTE",
       "gols": 4
     },
     {
-      "posicao": 41,
+      "posicao": 43,
       "nome": "Mateus José de oliveira",
       "clube": "LOS SANTOS",
       "gols": 4
     },
     {
-      "posicao": 42,
+      "posicao": 44,
       "nome": "Mauri De Souza Rodrigues",
       "clube": "MECANICA CASTELI / HORTIAGRO F.C",
       "gols": 4
     },
     {
-      "posicao": 43,
+      "posicao": 45,
       "nome": "Mauricio Claudino dos Santos",
       "clube": "NIJU / GO PLAY F.C",
       "gols": 4
     },
     {
-      "posicao": 44,
+      "posicao": 46,
       "nome": "Rafael de Oliveira",
       "clube": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
       "gols": 4
     },
     {
-      "posicao": 45,
+      "posicao": 47,
       "nome": "Ricardo Leite Dos Santos",
       "clube": "IMPERIAL",
       "gols": 4
     },
     {
-      "posicao": 46,
+      "posicao": 48,
       "nome": "Rudinei Soares Raimundo",
       "clube": "SHALON FC",
       "gols": 4
     },
     {
-      "posicao": 47,
+      "posicao": 49,
       "nome": "Thaykyson",
       "clube": "ANA LUCIA RESTAURANTE / BUMERANGUE FC",
       "gols": 4
     },
     {
-      "posicao": 48,
+      "posicao": 50,
       "nome": "Vanderson de Almeida Costa",
       "clube": "IMPERIAL",
       "gols": 4
     },
     {
-      "posicao": 49,
+      "posicao": 51,
       "nome": "ANDERSON DE LIMA MARCELINO",
       "clube": "ATLETICO KONDA",
       "gols": 3
     },
     {
-      "posicao": 50,
+      "posicao": 52,
       "nome": "Adriano Umbelino",
       "clube": "SHALON FC",
       "gols": 3
     },
     {
-      "posicao": 51,
-      "nome": "Agson Rennan dos Santos Lopes",
-      "clube": "NIJU / GO PLAY F.C",
-      "gols": 3
-    },
-    {
-      "posicao": 52,
+      "posicao": 53,
       "nome": "Arthur Lanzarin Vanzela",
       "clube": "LJS/P2",
       "gols": 3
     },
     {
-      "posicao": 53,
+      "posicao": 54,
       "nome": "Artur Guilherme Cassuriaga Dias",
       "clube": "PROMESSA F.C",
       "gols": 3
     },
     {
-      "posicao": 54,
+      "posicao": 55,
       "nome": "Breno Felipe Alves da Silva",
       "clube": "AAT FC / ALMIR ARAÚJO TRANSPORTE",
       "gols": 3
     },
     {
-      "posicao": 55,
+      "posicao": 56,
       "nome": "Cleverton Koff",
       "clube": "E.C RONDOFRIO",
       "gols": 3
     },
     {
-      "posicao": 56,
+      "posicao": 57,
       "nome": "Daniel dos Santos Pacheco",
       "clube": "LÁ12",
       "gols": 3
     },
     {
-      "posicao": 57,
+      "posicao": 58,
       "nome": "Elizandro De Souza",
       "clube": "AGRO GUATAMBU",
       "gols": 3
     },
     {
-      "posicao": 58,
+      "posicao": 59,
       "nome": "Evandro favero",
       "clube": "LÁ12",
-      "gols": 3
-    },
-    {
-      "posicao": 59,
-      "nome": "FERNANDO AUGUSTO T. LAPPE",
-      "clube": "SHALON FC",
       "gols": 3
     },
     {
