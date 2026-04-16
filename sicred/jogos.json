@@ -976,18 +976,26 @@
         {
           "mandante": "CATARINENSE / CATARINENSE PROTEÇÃO VEICULAR / SOL AGÊNCIA DE MARKETING",
           "visitante": "R.C SPORTS",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 0,
+          "gols_visitante": 0,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "15/04/2026 20:30"
         },
         {
           "mandante": "NIJU / GO PLAY F.C",
           "visitante": "SHALON FC",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 1,
+          "gols_visitante": 3,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "15/04/2026 21:30"
+        },
+        {
+          "mandante": "CATARINENSE / CATARINENSE PROTEÇÃO VEICULAR / SOL AGÊNCIA DE MARKETING",
+          "visitante": "R.C SPORTS",
+          "gols_mandante": 3,
+          "gols_visitante": 4,
+          "campo": "Pênalti",
+          "data_hora": "15/04/2026 20:30"
         },
         {
           "mandante": "SEDE DO GORDO",
