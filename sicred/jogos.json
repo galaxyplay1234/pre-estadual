@@ -1000,16 +1000,16 @@
         {
           "mandante": "SEDE DO GORDO",
           "visitante": "IMPERIAL",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 3,
+          "gols_visitante": 1,
           "campo": "GUATAMBU SOCIETY",
           "data_hora": "16/04/2026 20:00"
         },
         {
           "mandante": "MECANICA CASTELI / HORTIAGRO F.C",
           "visitante": "SITICOM/ SÃO PEDRO  FC",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 2,
+          "gols_visitante": 0,
           "campo": "GUATAMBU SOCIETY",
           "data_hora": "16/04/2026 21:00"
         },
