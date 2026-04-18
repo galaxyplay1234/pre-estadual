@@ -1016,16 +1016,16 @@
         {
           "mandante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
           "visitante": "GRUPO COONECTA / PLAZA IMOVEIS",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 2,
+          "gols_visitante": 0,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "17/04/2026 20:00"
         },
         {
           "mandante": "GG PINTURAS/SANTA MARIA",
           "visitante": "LÁ12",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 6,
+          "gols_visitante": 0,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "17/04/2026 21:00"
         }
