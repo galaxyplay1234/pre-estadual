@@ -3,7 +3,7 @@
   "rodada_atual": 9,
   "rodadas": [
     {
-      "nome": "Rodada 1 de 9",
+      "nome": "Rodada 1 de 10",
       "jogos": [
         {
           "mandante": "NIJU / GO PLAY F.C",
@@ -128,7 +128,7 @@
       ]
     },
     {
-      "nome": "Rodada 2 de 9",
+      "nome": "Rodada 2 de 10",
       "jogos": [
         {
           "mandante": "GRUPO COONECTA / PLAZA IMOVEIS",
@@ -253,7 +253,7 @@
       ]
     },
     {
-      "nome": "Rodada 3 de 9",
+      "nome": "Rodada 3 de 10",
       "jogos": [
         {
           "mandante": "ANA LUCIA RESTAURANTE / BUMERANGUE FC",
@@ -378,7 +378,7 @@
       ]
     },
     {
-      "nome": "Rodada 4 de 9",
+      "nome": "Rodada 4 de 10",
       "jogos": [
         {
           "mandante": "SCRIPT UNITED",
@@ -503,7 +503,7 @@
       ]
     },
     {
-      "nome": "Rodada 5 de 9",
+      "nome": "Rodada 5 de 10",
       "jogos": [
         {
           "mandante": "CATARINENSE / CATARINENSE PROTEÇÃO VEICULAR / SOL AGÊNCIA DE MARKETING",
@@ -628,7 +628,7 @@
       ]
     },
     {
-      "nome": "Rodada 6 de 9",
+      "nome": "Rodada 6 de 10",
       "jogos": [
         {
           "mandante": "IMPERIAL",
@@ -753,7 +753,7 @@
       ]
     },
     {
-      "nome": "Rodada 7 de 9",
+      "nome": "Rodada 7 de 10",
       "jogos": [
         {
           "mandante": "NANDO AUTO SOM /BENFICA FC",
@@ -878,7 +878,7 @@
       ]
     },
     {
-      "nome": "Rodada 8 de 9",
+      "nome": "Rodada 8 de 10",
       "jogos": [
         {
           "mandante": "IMPERIAL",
@@ -955,7 +955,7 @@
       ]
     },
     {
-      "nome": "Rodada 9 de 9",
+      "nome": "Rodada 9 de 10",
       "jogos": [
         {
           "mandante": "E.C RONDOFRIO",
@@ -1028,6 +1028,59 @@
           "gols_visitante": 0,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "17/04/2026 21:00"
+        }
+      ]
+    },
+    {
+      "nome": "Rodada 10 de 10",
+      "jogos": [
+        {
+          "mandante": "VENCEDOR DE GG PINTURAS X SHALON",
+          "visitante": "VENCEDOR DE LJS X BOLEIROS",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "VENCEDOR DE RONDOFRIO X R.C SPORTS",
+          "visitante": "VENCEDOR DE SEDE DO GORDO X HORTIAGRO",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "E.C RONDOFRIO",
+          "visitante": "R.C SPORTS",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "29/04/2026 20:30"
+        },
+        {
+          "mandante": "GG PINTURAS/SANTA MARIA",
+          "visitante": "SHALON FC",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "29/04/2026 21:30"
+        },
+        {
+          "mandante": "SEDE DO GORDO",
+          "visitante": "MECANICA CASTELI / HORTIAGRO F.C",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "GUATAMBU SOCIETY",
+          "data_hora": "30/04/2026 20:00"
+        },
+        {
+          "mandante": "LJS/P2",
+          "visitante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "GUATAMBU SOCIETY",
+          "data_hora": "30/04/2026 21:00"
         }
       ]
     }
