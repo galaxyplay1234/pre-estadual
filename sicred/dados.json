@@ -1,6 +1,6 @@
 {
   "campeonato": "6ª COPA SICREDI LIVRE MASCULINO",
-  "atualizado_em": "2026-04-30T23:29:30.521Z",
+  "atualizado_em": "2026-05-01T01:23:12.307Z",
   "grupos": [
     {
       "nome": "1º Fase",
@@ -680,8 +680,8 @@
       "tabela": [
         {
           "posicao": 1,
-          "logo": "https://www.lchf.com.br/Upload/clubes/Design%20sem%20nome%20(6).png",
-          "nome": "E.C RONDOFRIO",
+          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202025-08-26%20at%2016.27.47.jpeg",
+          "nome": "MECANICA CASTELI / HORTIAGRO F.C",
           "pontos": 6,
           "jogos": 2,
           "vitorias": 2,
@@ -693,6 +693,19 @@
         },
         {
           "posicao": 2,
+          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202025-08-26%20at%2016.27.47.jpeg",
+          "nome": "MECANICA CASTELI / HORTIAGRO F.C",
+          "pontos": 6,
+          "jogos": 2,
+          "vitorias": 2,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 5,
+          "gols_contra": 2,
+          "saldo": 3
+        },
+        {
+          "posicao": 3,
           "logo": "https://www.lchf.com.br/Upload/clubes/Design%20sem%20nome%20(6).png",
           "nome": "E.C RONDOFRIO",
           "pontos": 6,
@@ -705,46 +718,46 @@
           "saldo": 3
         },
         {
-          "posicao": 3,
-          "logo": "https://www.lchf.com.br/Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(1).png",
-          "nome": "SHALON FC",
-          "pontos": 6,
-          "jogos": 2,
-          "vitorias": 2,
-          "empates": 0,
-          "derrotas": 0,
-          "gols_pro": 8,
-          "gols_contra": 4,
-          "saldo": 4
-        },
-        {
           "posicao": 4,
-          "logo": "https://www.lchf.com.br/Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(1).png",
-          "nome": "SHALON FC",
+          "logo": "https://www.lchf.com.br/Upload/clubes/Design%20sem%20nome%20(6).png",
+          "nome": "E.C RONDOFRIO",
           "pontos": 6,
           "jogos": 2,
           "vitorias": 2,
           "empates": 0,
           "derrotas": 0,
-          "gols_pro": 8,
-          "gols_contra": 4,
-          "saldo": 4
+          "gols_pro": 5,
+          "gols_contra": 2,
+          "saldo": 3
         },
         {
           "posicao": 5,
-          "logo": "https://www.lchf.com.br/Upload/clubes/OJR.png",
-          "nome": "R.C SPORTS",
-          "pontos": 4,
-          "jogos": 3,
-          "vitorias": 1,
-          "empates": 1,
-          "derrotas": 1,
-          "gols_pro": 6,
-          "gols_contra": 7,
-          "saldo": -1
+          "logo": "https://www.lchf.com.br/Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(1).png",
+          "nome": "SHALON FC",
+          "pontos": 6,
+          "jogos": 2,
+          "vitorias": 2,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 8,
+          "gols_contra": 4,
+          "saldo": 4
         },
         {
           "posicao": 6,
+          "logo": "https://www.lchf.com.br/Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(1).png",
+          "nome": "SHALON FC",
+          "pontos": 6,
+          "jogos": 2,
+          "vitorias": 2,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 8,
+          "gols_contra": 4,
+          "saldo": 4
+        },
+        {
+          "posicao": 7,
           "logo": "https://www.lchf.com.br/Upload/clubes/OJR.png",
           "nome": "R.C SPORTS",
           "pontos": 4,
@@ -757,35 +770,22 @@
           "saldo": -1
         },
         {
-          "posicao": 7,
-          "logo": "https://www.lchf.com.br/Upload/clubes/BOLEIROS.png",
-          "nome": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
-          "pontos": 3,
-          "jogos": 1,
-          "vitorias": 1,
-          "empates": 0,
-          "derrotas": 0,
-          "gols_pro": 2,
-          "gols_contra": 0,
-          "saldo": 2
-        },
-        {
           "posicao": 8,
-          "logo": "https://www.lchf.com.br/Upload/clubes/BOLEIROS.png",
-          "nome": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
-          "pontos": 3,
-          "jogos": 1,
+          "logo": "https://www.lchf.com.br/Upload/clubes/OJR.png",
+          "nome": "R.C SPORTS",
+          "pontos": 4,
+          "jogos": 3,
           "vitorias": 1,
-          "empates": 0,
-          "derrotas": 0,
-          "gols_pro": 2,
-          "gols_contra": 0,
-          "saldo": 2
+          "empates": 1,
+          "derrotas": 1,
+          "gols_pro": 6,
+          "gols_contra": 7,
+          "saldo": -1
         },
         {
           "posicao": 9,
-          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202025-08-26%20at%2016.27.47.jpeg",
-          "nome": "MECANICA CASTELI / HORTIAGRO F.C",
+          "logo": "https://www.lchf.com.br/Upload/clubes/BOLEIROS.png",
+          "nome": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
           "pontos": 3,
           "jogos": 1,
           "vitorias": 1,
@@ -797,8 +797,8 @@
         },
         {
           "posicao": 10,
-          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202025-08-26%20at%2016.27.47.jpeg",
-          "nome": "MECANICA CASTELI / HORTIAGRO F.C",
+          "logo": "https://www.lchf.com.br/Upload/clubes/BOLEIROS.png",
+          "nome": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
           "pontos": 3,
           "jogos": 1,
           "vitorias": 1,
@@ -839,26 +839,26 @@
           "logo": "https://www.lchf.com.br/Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(8).png",
           "nome": "SEDE DO GORDO",
           "pontos": 3,
-          "jogos": 1,
+          "jogos": 2,
           "vitorias": 1,
           "empates": 0,
-          "derrotas": 0,
-          "gols_pro": 3,
-          "gols_contra": 1,
-          "saldo": 2
+          "derrotas": 1,
+          "gols_pro": 5,
+          "gols_contra": 4,
+          "saldo": 1
         },
         {
           "posicao": 14,
           "logo": "https://www.lchf.com.br/Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(8).png",
           "nome": "SEDE DO GORDO",
           "pontos": 3,
-          "jogos": 1,
+          "jogos": 2,
           "vitorias": 1,
           "empates": 0,
-          "derrotas": 0,
-          "gols_pro": 3,
-          "gols_contra": 1,
-          "saldo": 2
+          "derrotas": 1,
+          "gols_pro": 5,
+          "gols_contra": 4,
+          "saldo": 1
         },
         {
           "posicao": 15,
