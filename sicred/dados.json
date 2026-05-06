@@ -1,6 +1,6 @@
 {
   "campeonato": "6ª COPA SICREDI LIVRE MASCULINO",
-  "atualizado_em": "2026-05-06T09:27:07.037Z",
+  "atualizado_em": "2026-05-06T11:25:51.085Z",
   "grupos": [
     {
       "nome": "1º Fase",
@@ -902,7 +902,7 @@
         {
           "posicao": 18,
           "logo": "https://www.lchf.com.br/Upload/clubes/padrao.png",
-          "nome": "VENCEDOR DE GG PINTURAS X SHALON",
+          "nome": "VENCEDOR SEMI 2",
           "pontos": 0,
           "jogos": 0,
           "vitorias": 0,
@@ -915,7 +915,7 @@
         {
           "posicao": 19,
           "logo": "https://www.lchf.com.br/Upload/clubes/padrao.png",
-          "nome": "VENCEDOR DE LJS X BOLEIROS",
+          "nome": "VENCEDOR SEMI 1",
           "pontos": 0,
           "jogos": 0,
           "vitorias": 0,
@@ -927,32 +927,6 @@
         },
         {
           "posicao": 20,
-          "logo": "https://www.lchf.com.br/Upload/clubes/padrao.png",
-          "nome": "VENCEDOR DE RONDOFRIO X R.C SPORTS",
-          "pontos": 0,
-          "jogos": 0,
-          "vitorias": 0,
-          "empates": 0,
-          "derrotas": 0,
-          "gols_pro": 0,
-          "gols_contra": 0,
-          "saldo": 0
-        },
-        {
-          "posicao": 21,
-          "logo": "https://www.lchf.com.br/Upload/clubes/padrao.png",
-          "nome": "VENCEDOR DE GG SEDE DO GORDO X HORTIAGRO",
-          "pontos": 0,
-          "jogos": 0,
-          "vitorias": 0,
-          "empates": 0,
-          "derrotas": 0,
-          "gols_pro": 0,
-          "gols_contra": 0,
-          "saldo": 0
-        },
-        {
-          "posicao": 22,
           "logo": "https://www.lchf.com.br/Upload/clubes/SV.png",
           "nome": "SÃO VENDELINO / SANTA BARBARA",
           "pontos": 0,
@@ -965,7 +939,7 @@
           "saldo": -1
         },
         {
-          "posicao": 23,
+          "posicao": 21,
           "logo": "https://www.lchf.com.br/Upload/clubes/coonecta.png",
           "nome": "GRUPO COONECTA / PLAZA IMOVEIS",
           "pontos": 0,
@@ -978,7 +952,7 @@
           "saldo": -2
         },
         {
-          "posicao": 24,
+          "posicao": 22,
           "logo": "https://www.lchf.com.br/Upload/clubes/SP.png",
           "nome": "SITICOM/ SÃO PEDRO  FC",
           "pontos": 0,
@@ -991,7 +965,7 @@
           "saldo": -2
         },
         {
-          "posicao": 25,
+          "posicao": 23,
           "logo": "https://www.lchf.com.br/Upload/clubes/NIJU%20(2).png",
           "nome": "NIJU / GO PLAY F.C",
           "pontos": 0,
@@ -1004,7 +978,7 @@
           "saldo": -2
         },
         {
-          "posicao": 26,
+          "posicao": 24,
           "logo": "https://www.lchf.com.br/Upload/clubes/IMPERIAL.png",
           "nome": "IMPERIAL",
           "pontos": 0,
@@ -1017,7 +991,7 @@
           "saldo": -2
         },
         {
-          "posicao": 27,
+          "posicao": 25,
           "logo": "https://www.lchf.com.br/Upload/clubes/FREITAS_1.png",
           "nome": "FREITAS FC /CASA DOS MOTORS CHAPECO/ TIROLESA INTERESTADUAL / F&D CLIMATIZAÇÃO",
           "pontos": 0,
@@ -1030,7 +1004,7 @@
           "saldo": -4
         },
         {
-          "posicao": 28,
+          "posicao": 26,
           "logo": "https://www.lchf.com.br/Upload/clubes/LA12.png",
           "nome": "LÁ12",
           "pontos": 0,
