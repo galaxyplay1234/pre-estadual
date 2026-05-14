@@ -1,69 +1,13 @@
 {
   "campeonato": "6ª COPA SICREDI LIVRE MASCULINO",
-  "rodada_atual": 10,
+  "rodada_atual": 11,
   "rodadas": [
     {
-      "nome": "Rodada 10 de 10",
+      "nome": "Rodada 11 de 11",
       "jogos": [
         {
-          "mandante": "E.C RONDOFRIO",
-          "visitante": "R.C SPORTS",
-          "gols_mandante": 4,
-          "gols_visitante": 2,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "29/04/2026 20:30"
-        },
-        {
-          "mandante": "GG PINTURAS/SANTA MARIA",
-          "visitante": "SHALON FC",
-          "gols_mandante": 3,
-          "gols_visitante": 5,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "29/04/2026 21:30"
-        },
-        {
-          "mandante": "SEDE DO GORDO",
-          "visitante": "MECANICA CASTELI / HORTIAGRO F.C",
-          "gols_mandante": 2,
-          "gols_visitante": 3,
-          "campo": "GUATAMBU SOCIETY",
-          "data_hora": "30/04/2026 20:00"
-        },
-        {
           "mandante": "LJS/P2",
-          "visitante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
-          "gols_mandante": 5,
-          "gols_visitante": 5,
-          "campo": "GUATAMBU SOCIETY",
-          "data_hora": "30/04/2026 21:00"
-        },
-        {
-          "mandante": "LJS/P2",
-          "visitante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
-          "gols_mandante": 7,
-          "gols_visitante": 6,
-          "campo": "Pênalti",
-          "data_hora": "30/04/2026 21:30"
-        },
-        {
-          "mandante": "SHALON FC",
-          "visitante": "LJS/P2",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "13/05/2026 20:30"
-        },
-        {
-          "mandante": "E.C RONDOFRIO",
           "visitante": "MECANICA CASTELI / HORTIAGRO F.C",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "13/05/2026 21:30"
-        },
-        {
-          "mandante": "VENCEDOR SEMI 1",
-          "visitante": "VENCEDOR SEMI 2",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "ARENA PRIME SOCIETY",
@@ -72,67 +16,11 @@
       ]
     },
     {
-      "nome": "Rodada 10 de 10",
+      "nome": "Rodada 11 de 11",
       "jogos": [
         {
-          "mandante": "E.C RONDOFRIO",
-          "visitante": "R.C SPORTS",
-          "gols_mandante": 4,
-          "gols_visitante": 2,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "29/04/2026 20:30"
-        },
-        {
-          "mandante": "GG PINTURAS/SANTA MARIA",
-          "visitante": "SHALON FC",
-          "gols_mandante": 3,
-          "gols_visitante": 5,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "29/04/2026 21:30"
-        },
-        {
-          "mandante": "SEDE DO GORDO",
-          "visitante": "MECANICA CASTELI / HORTIAGRO F.C",
-          "gols_mandante": 2,
-          "gols_visitante": 3,
-          "campo": "GUATAMBU SOCIETY",
-          "data_hora": "30/04/2026 20:00"
-        },
-        {
           "mandante": "LJS/P2",
-          "visitante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
-          "gols_mandante": 5,
-          "gols_visitante": 5,
-          "campo": "GUATAMBU SOCIETY",
-          "data_hora": "30/04/2026 21:00"
-        },
-        {
-          "mandante": "LJS/P2",
-          "visitante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
-          "gols_mandante": 7,
-          "gols_visitante": 6,
-          "campo": "Pênalti",
-          "data_hora": "30/04/2026 21:30"
-        },
-        {
-          "mandante": "SHALON FC",
-          "visitante": "LJS/P2",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "13/05/2026 20:30"
-        },
-        {
-          "mandante": "E.C RONDOFRIO",
           "visitante": "MECANICA CASTELI / HORTIAGRO F.C",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "13/05/2026 21:30"
-        },
-        {
-          "mandante": "VENCEDOR SEMI 1",
-          "visitante": "VENCEDOR SEMI 2",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "ARENA PRIME SOCIETY",
@@ -141,67 +29,11 @@
       ]
     },
     {
-      "nome": "Rodada 10 de 10",
+      "nome": "Rodada 11 de 11",
       "jogos": [
         {
-          "mandante": "E.C RONDOFRIO",
-          "visitante": "R.C SPORTS",
-          "gols_mandante": 4,
-          "gols_visitante": 2,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "29/04/2026 20:30"
-        },
-        {
-          "mandante": "GG PINTURAS/SANTA MARIA",
-          "visitante": "SHALON FC",
-          "gols_mandante": 3,
-          "gols_visitante": 5,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "29/04/2026 21:30"
-        },
-        {
-          "mandante": "SEDE DO GORDO",
-          "visitante": "MECANICA CASTELI / HORTIAGRO F.C",
-          "gols_mandante": 2,
-          "gols_visitante": 3,
-          "campo": "GUATAMBU SOCIETY",
-          "data_hora": "30/04/2026 20:00"
-        },
-        {
           "mandante": "LJS/P2",
-          "visitante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
-          "gols_mandante": 5,
-          "gols_visitante": 5,
-          "campo": "GUATAMBU SOCIETY",
-          "data_hora": "30/04/2026 21:00"
-        },
-        {
-          "mandante": "LJS/P2",
-          "visitante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
-          "gols_mandante": 7,
-          "gols_visitante": 6,
-          "campo": "Pênalti",
-          "data_hora": "30/04/2026 21:30"
-        },
-        {
-          "mandante": "SHALON FC",
-          "visitante": "LJS/P2",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "13/05/2026 20:30"
-        },
-        {
-          "mandante": "E.C RONDOFRIO",
           "visitante": "MECANICA CASTELI / HORTIAGRO F.C",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "13/05/2026 21:30"
-        },
-        {
-          "mandante": "VENCEDOR SEMI 1",
-          "visitante": "VENCEDOR SEMI 2",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "ARENA PRIME SOCIETY",
@@ -210,67 +42,11 @@
       ]
     },
     {
-      "nome": "Rodada 10 de 10",
+      "nome": "Rodada 11 de 11",
       "jogos": [
         {
-          "mandante": "E.C RONDOFRIO",
-          "visitante": "R.C SPORTS",
-          "gols_mandante": 4,
-          "gols_visitante": 2,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "29/04/2026 20:30"
-        },
-        {
-          "mandante": "GG PINTURAS/SANTA MARIA",
-          "visitante": "SHALON FC",
-          "gols_mandante": 3,
-          "gols_visitante": 5,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "29/04/2026 21:30"
-        },
-        {
-          "mandante": "SEDE DO GORDO",
-          "visitante": "MECANICA CASTELI / HORTIAGRO F.C",
-          "gols_mandante": 2,
-          "gols_visitante": 3,
-          "campo": "GUATAMBU SOCIETY",
-          "data_hora": "30/04/2026 20:00"
-        },
-        {
           "mandante": "LJS/P2",
-          "visitante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
-          "gols_mandante": 5,
-          "gols_visitante": 5,
-          "campo": "GUATAMBU SOCIETY",
-          "data_hora": "30/04/2026 21:00"
-        },
-        {
-          "mandante": "LJS/P2",
-          "visitante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
-          "gols_mandante": 7,
-          "gols_visitante": 6,
-          "campo": "Pênalti",
-          "data_hora": "30/04/2026 21:30"
-        },
-        {
-          "mandante": "SHALON FC",
-          "visitante": "LJS/P2",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "13/05/2026 20:30"
-        },
-        {
-          "mandante": "E.C RONDOFRIO",
           "visitante": "MECANICA CASTELI / HORTIAGRO F.C",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "13/05/2026 21:30"
-        },
-        {
-          "mandante": "VENCEDOR SEMI 1",
-          "visitante": "VENCEDOR SEMI 2",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "ARENA PRIME SOCIETY",
@@ -279,67 +55,11 @@
       ]
     },
     {
-      "nome": "Rodada 10 de 10",
+      "nome": "Rodada 11 de 11",
       "jogos": [
         {
-          "mandante": "E.C RONDOFRIO",
-          "visitante": "R.C SPORTS",
-          "gols_mandante": 4,
-          "gols_visitante": 2,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "29/04/2026 20:30"
-        },
-        {
-          "mandante": "GG PINTURAS/SANTA MARIA",
-          "visitante": "SHALON FC",
-          "gols_mandante": 3,
-          "gols_visitante": 5,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "29/04/2026 21:30"
-        },
-        {
-          "mandante": "SEDE DO GORDO",
-          "visitante": "MECANICA CASTELI / HORTIAGRO F.C",
-          "gols_mandante": 2,
-          "gols_visitante": 3,
-          "campo": "GUATAMBU SOCIETY",
-          "data_hora": "30/04/2026 20:00"
-        },
-        {
           "mandante": "LJS/P2",
-          "visitante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
-          "gols_mandante": 5,
-          "gols_visitante": 5,
-          "campo": "GUATAMBU SOCIETY",
-          "data_hora": "30/04/2026 21:00"
-        },
-        {
-          "mandante": "LJS/P2",
-          "visitante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
-          "gols_mandante": 7,
-          "gols_visitante": 6,
-          "campo": "Pênalti",
-          "data_hora": "30/04/2026 21:30"
-        },
-        {
-          "mandante": "SHALON FC",
-          "visitante": "LJS/P2",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "13/05/2026 20:30"
-        },
-        {
-          "mandante": "E.C RONDOFRIO",
           "visitante": "MECANICA CASTELI / HORTIAGRO F.C",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "13/05/2026 21:30"
-        },
-        {
-          "mandante": "VENCEDOR SEMI 1",
-          "visitante": "VENCEDOR SEMI 2",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "ARENA PRIME SOCIETY",
@@ -348,67 +68,11 @@
       ]
     },
     {
-      "nome": "Rodada 10 de 10",
+      "nome": "Rodada 11 de 11",
       "jogos": [
         {
-          "mandante": "E.C RONDOFRIO",
-          "visitante": "R.C SPORTS",
-          "gols_mandante": 4,
-          "gols_visitante": 2,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "29/04/2026 20:30"
-        },
-        {
-          "mandante": "GG PINTURAS/SANTA MARIA",
-          "visitante": "SHALON FC",
-          "gols_mandante": 3,
-          "gols_visitante": 5,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "29/04/2026 21:30"
-        },
-        {
-          "mandante": "SEDE DO GORDO",
-          "visitante": "MECANICA CASTELI / HORTIAGRO F.C",
-          "gols_mandante": 2,
-          "gols_visitante": 3,
-          "campo": "GUATAMBU SOCIETY",
-          "data_hora": "30/04/2026 20:00"
-        },
-        {
           "mandante": "LJS/P2",
-          "visitante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
-          "gols_mandante": 5,
-          "gols_visitante": 5,
-          "campo": "GUATAMBU SOCIETY",
-          "data_hora": "30/04/2026 21:00"
-        },
-        {
-          "mandante": "LJS/P2",
-          "visitante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
-          "gols_mandante": 7,
-          "gols_visitante": 6,
-          "campo": "Pênalti",
-          "data_hora": "30/04/2026 21:30"
-        },
-        {
-          "mandante": "SHALON FC",
-          "visitante": "LJS/P2",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "13/05/2026 20:30"
-        },
-        {
-          "mandante": "E.C RONDOFRIO",
           "visitante": "MECANICA CASTELI / HORTIAGRO F.C",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "13/05/2026 21:30"
-        },
-        {
-          "mandante": "VENCEDOR SEMI 1",
-          "visitante": "VENCEDOR SEMI 2",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "ARENA PRIME SOCIETY",
@@ -417,67 +81,11 @@
       ]
     },
     {
-      "nome": "Rodada 10 de 10",
+      "nome": "Rodada 11 de 11",
       "jogos": [
         {
-          "mandante": "E.C RONDOFRIO",
-          "visitante": "R.C SPORTS",
-          "gols_mandante": 4,
-          "gols_visitante": 2,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "29/04/2026 20:30"
-        },
-        {
-          "mandante": "GG PINTURAS/SANTA MARIA",
-          "visitante": "SHALON FC",
-          "gols_mandante": 3,
-          "gols_visitante": 5,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "29/04/2026 21:30"
-        },
-        {
-          "mandante": "SEDE DO GORDO",
-          "visitante": "MECANICA CASTELI / HORTIAGRO F.C",
-          "gols_mandante": 2,
-          "gols_visitante": 3,
-          "campo": "GUATAMBU SOCIETY",
-          "data_hora": "30/04/2026 20:00"
-        },
-        {
           "mandante": "LJS/P2",
-          "visitante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
-          "gols_mandante": 5,
-          "gols_visitante": 5,
-          "campo": "GUATAMBU SOCIETY",
-          "data_hora": "30/04/2026 21:00"
-        },
-        {
-          "mandante": "LJS/P2",
-          "visitante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
-          "gols_mandante": 7,
-          "gols_visitante": 6,
-          "campo": "Pênalti",
-          "data_hora": "30/04/2026 21:30"
-        },
-        {
-          "mandante": "SHALON FC",
-          "visitante": "LJS/P2",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "13/05/2026 20:30"
-        },
-        {
-          "mandante": "E.C RONDOFRIO",
           "visitante": "MECANICA CASTELI / HORTIAGRO F.C",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "13/05/2026 21:30"
-        },
-        {
-          "mandante": "VENCEDOR SEMI 1",
-          "visitante": "VENCEDOR SEMI 2",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "ARENA PRIME SOCIETY",
@@ -486,67 +94,11 @@
       ]
     },
     {
-      "nome": "Rodada 10 de 10",
+      "nome": "Rodada 11 de 11",
       "jogos": [
         {
-          "mandante": "E.C RONDOFRIO",
-          "visitante": "R.C SPORTS",
-          "gols_mandante": 4,
-          "gols_visitante": 2,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "29/04/2026 20:30"
-        },
-        {
-          "mandante": "GG PINTURAS/SANTA MARIA",
-          "visitante": "SHALON FC",
-          "gols_mandante": 3,
-          "gols_visitante": 5,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "29/04/2026 21:30"
-        },
-        {
-          "mandante": "SEDE DO GORDO",
-          "visitante": "MECANICA CASTELI / HORTIAGRO F.C",
-          "gols_mandante": 2,
-          "gols_visitante": 3,
-          "campo": "GUATAMBU SOCIETY",
-          "data_hora": "30/04/2026 20:00"
-        },
-        {
           "mandante": "LJS/P2",
-          "visitante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
-          "gols_mandante": 5,
-          "gols_visitante": 5,
-          "campo": "GUATAMBU SOCIETY",
-          "data_hora": "30/04/2026 21:00"
-        },
-        {
-          "mandante": "LJS/P2",
-          "visitante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
-          "gols_mandante": 7,
-          "gols_visitante": 6,
-          "campo": "Pênalti",
-          "data_hora": "30/04/2026 21:30"
-        },
-        {
-          "mandante": "SHALON FC",
-          "visitante": "LJS/P2",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "13/05/2026 20:30"
-        },
-        {
-          "mandante": "E.C RONDOFRIO",
           "visitante": "MECANICA CASTELI / HORTIAGRO F.C",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "13/05/2026 21:30"
-        },
-        {
-          "mandante": "VENCEDOR SEMI 1",
-          "visitante": "VENCEDOR SEMI 2",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "ARENA PRIME SOCIETY",
@@ -555,67 +107,11 @@
       ]
     },
     {
-      "nome": "Rodada 10 de 10",
+      "nome": "Rodada 11 de 11",
       "jogos": [
         {
-          "mandante": "E.C RONDOFRIO",
-          "visitante": "R.C SPORTS",
-          "gols_mandante": 4,
-          "gols_visitante": 2,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "29/04/2026 20:30"
-        },
-        {
-          "mandante": "GG PINTURAS/SANTA MARIA",
-          "visitante": "SHALON FC",
-          "gols_mandante": 3,
-          "gols_visitante": 5,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "29/04/2026 21:30"
-        },
-        {
-          "mandante": "SEDE DO GORDO",
-          "visitante": "MECANICA CASTELI / HORTIAGRO F.C",
-          "gols_mandante": 2,
-          "gols_visitante": 3,
-          "campo": "GUATAMBU SOCIETY",
-          "data_hora": "30/04/2026 20:00"
-        },
-        {
           "mandante": "LJS/P2",
-          "visitante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
-          "gols_mandante": 5,
-          "gols_visitante": 5,
-          "campo": "GUATAMBU SOCIETY",
-          "data_hora": "30/04/2026 21:00"
-        },
-        {
-          "mandante": "LJS/P2",
-          "visitante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
-          "gols_mandante": 7,
-          "gols_visitante": 6,
-          "campo": "Pênalti",
-          "data_hora": "30/04/2026 21:30"
-        },
-        {
-          "mandante": "SHALON FC",
-          "visitante": "LJS/P2",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "13/05/2026 20:30"
-        },
-        {
-          "mandante": "E.C RONDOFRIO",
           "visitante": "MECANICA CASTELI / HORTIAGRO F.C",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "13/05/2026 21:30"
-        },
-        {
-          "mandante": "VENCEDOR SEMI 1",
-          "visitante": "VENCEDOR SEMI 2",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "ARENA PRIME SOCIETY",
@@ -624,67 +120,24 @@
       ]
     },
     {
-      "nome": "Rodada 10 de 10",
+      "nome": "Rodada 11 de 11",
       "jogos": [
         {
-          "mandante": "E.C RONDOFRIO",
-          "visitante": "R.C SPORTS",
-          "gols_mandante": 4,
-          "gols_visitante": 2,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "29/04/2026 20:30"
-        },
-        {
-          "mandante": "GG PINTURAS/SANTA MARIA",
-          "visitante": "SHALON FC",
-          "gols_mandante": 3,
-          "gols_visitante": 5,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "29/04/2026 21:30"
-        },
-        {
-          "mandante": "SEDE DO GORDO",
-          "visitante": "MECANICA CASTELI / HORTIAGRO F.C",
-          "gols_mandante": 2,
-          "gols_visitante": 3,
-          "campo": "GUATAMBU SOCIETY",
-          "data_hora": "30/04/2026 20:00"
-        },
-        {
           "mandante": "LJS/P2",
-          "visitante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
-          "gols_mandante": 5,
-          "gols_visitante": 5,
-          "campo": "GUATAMBU SOCIETY",
-          "data_hora": "30/04/2026 21:00"
-        },
-        {
-          "mandante": "LJS/P2",
-          "visitante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
-          "gols_mandante": 7,
-          "gols_visitante": 6,
-          "campo": "Pênalti",
-          "data_hora": "30/04/2026 21:30"
-        },
-        {
-          "mandante": "SHALON FC",
-          "visitante": "LJS/P2",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "13/05/2026 20:30"
-        },
-        {
-          "mandante": "E.C RONDOFRIO",
           "visitante": "MECANICA CASTELI / HORTIAGRO F.C",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "13/05/2026 21:30"
-        },
+          "data_hora": "23/05/2026 00:00"
+        }
+      ]
+    },
+    {
+      "nome": "Rodada 11 de 11",
+      "jogos": [
         {
-          "mandante": "VENCEDOR SEMI 1",
-          "visitante": "VENCEDOR SEMI 2",
+          "mandante": "LJS/P2",
+          "visitante": "MECANICA CASTELI / HORTIAGRO F.C",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "ARENA PRIME SOCIETY",

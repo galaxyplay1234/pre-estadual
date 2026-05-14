@@ -1,6 +1,6 @@
 {
   "campeonato": "6ª COPA SICREDI LIVRE MASCULINO",
-  "atualizado_em": "2026-05-14T10:57:22.723Z",
+  "atualizado_em": "2026-05-14T12:58:39.733Z",
   "grupos": [
     {
       "nome": "1º Fase",
@@ -680,107 +680,107 @@
       "tabela": [
         {
           "posicao": 1,
-          "logo": "https://www.lchf.com.br/Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(6)_2.png",
-          "nome": "LJS/P2",
-          "pontos": 7,
-          "jogos": 3,
-          "vitorias": 2,
+          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202025-08-26%20at%2016.27.47.jpeg",
+          "nome": "MECANICA CASTELI / HORTIAGRO F.C",
+          "pontos": 10,
+          "jogos": 4,
+          "vitorias": 3,
           "empates": 1,
           "derrotas": 0,
-          "gols_pro": 17,
-          "gols_contra": 12,
-          "saldo": 5
+          "gols_pro": 11,
+          "gols_contra": 7,
+          "saldo": 4
         },
         {
           "posicao": 2,
-          "logo": "https://www.lchf.com.br/Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(6)_2.png",
-          "nome": "LJS/P2",
-          "pontos": 7,
-          "jogos": 3,
-          "vitorias": 2,
+          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202025-08-26%20at%2016.27.47.jpeg",
+          "nome": "MECANICA CASTELI / HORTIAGRO F.C",
+          "pontos": 10,
+          "jogos": 4,
+          "vitorias": 3,
           "empates": 1,
           "derrotas": 0,
-          "gols_pro": 17,
-          "gols_contra": 12,
-          "saldo": 5
+          "gols_pro": 11,
+          "gols_contra": 7,
+          "saldo": 4
         },
         {
           "posicao": 3,
-          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202025-08-26%20at%2016.27.47.jpeg",
-          "nome": "MECANICA CASTELI / HORTIAGRO F.C",
-          "pontos": 6,
-          "jogos": 2,
-          "vitorias": 2,
-          "empates": 0,
+          "logo": "https://www.lchf.com.br/Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(6)_2.png",
+          "nome": "LJS/P2",
+          "pontos": 10,
+          "jogos": 4,
+          "vitorias": 3,
+          "empates": 1,
           "derrotas": 0,
-          "gols_pro": 5,
-          "gols_contra": 2,
-          "saldo": 3
+          "gols_pro": 22,
+          "gols_contra": 12,
+          "saldo": 10
         },
         {
           "posicao": 4,
-          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202025-08-26%20at%2016.27.47.jpeg",
-          "nome": "MECANICA CASTELI / HORTIAGRO F.C",
-          "pontos": 6,
-          "jogos": 2,
-          "vitorias": 2,
-          "empates": 0,
+          "logo": "https://www.lchf.com.br/Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(6)_2.png",
+          "nome": "LJS/P2",
+          "pontos": 10,
+          "jogos": 4,
+          "vitorias": 3,
+          "empates": 1,
           "derrotas": 0,
-          "gols_pro": 5,
-          "gols_contra": 2,
-          "saldo": 3
+          "gols_pro": 22,
+          "gols_contra": 12,
+          "saldo": 10
         },
         {
           "posicao": 5,
           "logo": "https://www.lchf.com.br/Upload/clubes/Design%20sem%20nome%20(6).png",
           "nome": "E.C RONDOFRIO",
-          "pontos": 6,
-          "jogos": 2,
+          "pontos": 7,
+          "jogos": 4,
           "vitorias": 2,
-          "empates": 0,
-          "derrotas": 0,
-          "gols_pro": 5,
-          "gols_contra": 2,
-          "saldo": 3
+          "empates": 1,
+          "derrotas": 1,
+          "gols_pro": 10,
+          "gols_contra": 8,
+          "saldo": 2
         },
         {
           "posicao": 6,
           "logo": "https://www.lchf.com.br/Upload/clubes/Design%20sem%20nome%20(6).png",
           "nome": "E.C RONDOFRIO",
-          "pontos": 6,
-          "jogos": 2,
+          "pontos": 7,
+          "jogos": 4,
           "vitorias": 2,
-          "empates": 0,
-          "derrotas": 0,
-          "gols_pro": 5,
-          "gols_contra": 2,
-          "saldo": 3
+          "empates": 1,
+          "derrotas": 1,
+          "gols_pro": 10,
+          "gols_contra": 8,
+          "saldo": 2
         },
         {
           "posicao": 7,
           "logo": "https://www.lchf.com.br/Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(1).png",
           "nome": "SHALON FC",
           "pontos": 6,
-          "jogos": 2,
+          "jogos": 3,
           "vitorias": 2,
           "empates": 0,
-          "derrotas": 0,
+          "derrotas": 1,
           "gols_pro": 8,
-          "gols_contra": 4,
-          "saldo": 4
+          "gols_contra": 9,
+          "saldo": -1
         },
         {
           "posicao": 8,
           "logo": "https://www.lchf.com.br/Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(1).png",
           "nome": "SHALON FC",
           "pontos": 6,
-          "jogos": 2,
+          "jogos": 3,
           "vitorias": 2,
           "empates": 0,
-          "derrotas": 0,
+          "derrotas": 1,
           "gols_pro": 8,
-          "gols_contra": 4,
-          "saldo": 4
+          "gols_contra": 9,
+          "saldo": -1
         },
         {
           "posicao": 9,
@@ -901,32 +901,6 @@
         },
         {
           "posicao": 18,
-          "logo": "https://www.lchf.com.br/Upload/clubes/padrao.png",
-          "nome": "VENCEDOR SEMI 2",
-          "pontos": 0,
-          "jogos": 0,
-          "vitorias": 0,
-          "empates": 0,
-          "derrotas": 0,
-          "gols_pro": 0,
-          "gols_contra": 0,
-          "saldo": 0
-        },
-        {
-          "posicao": 19,
-          "logo": "https://www.lchf.com.br/Upload/clubes/padrao.png",
-          "nome": "VENCEDOR SEMI 1",
-          "pontos": 0,
-          "jogos": 0,
-          "vitorias": 0,
-          "empates": 0,
-          "derrotas": 0,
-          "gols_pro": 0,
-          "gols_contra": 0,
-          "saldo": 0
-        },
-        {
-          "posicao": 20,
           "logo": "https://www.lchf.com.br/Upload/clubes/SV.png",
           "nome": "SÃO VENDELINO / SANTA BARBARA",
           "pontos": 0,
@@ -939,7 +913,7 @@
           "saldo": -1
         },
         {
-          "posicao": 21,
+          "posicao": 19,
           "logo": "https://www.lchf.com.br/Upload/clubes/coonecta.png",
           "nome": "GRUPO COONECTA / PLAZA IMOVEIS",
           "pontos": 0,
@@ -952,7 +926,7 @@
           "saldo": -2
         },
         {
-          "posicao": 22,
+          "posicao": 20,
           "logo": "https://www.lchf.com.br/Upload/clubes/SP.png",
           "nome": "SITICOM/ SÃO PEDRO  FC",
           "pontos": 0,
@@ -965,7 +939,7 @@
           "saldo": -2
         },
         {
-          "posicao": 23,
+          "posicao": 21,
           "logo": "https://www.lchf.com.br/Upload/clubes/NIJU%20(2).png",
           "nome": "NIJU / GO PLAY F.C",
           "pontos": 0,
@@ -978,7 +952,7 @@
           "saldo": -2
         },
         {
-          "posicao": 24,
+          "posicao": 22,
           "logo": "https://www.lchf.com.br/Upload/clubes/IMPERIAL.png",
           "nome": "IMPERIAL",
           "pontos": 0,
@@ -991,7 +965,7 @@
           "saldo": -2
         },
         {
-          "posicao": 25,
+          "posicao": 23,
           "logo": "https://www.lchf.com.br/Upload/clubes/FREITAS_1.png",
           "nome": "FREITAS FC /CASA DOS MOTORS CHAPECO/ TIROLESA INTERESTADUAL / F&D CLIMATIZAÇÃO",
           "pontos": 0,
@@ -1004,7 +978,7 @@
           "saldo": -4
         },
         {
-          "posicao": 26,
+          "posicao": 24,
           "logo": "https://www.lchf.com.br/Upload/clubes/LA12.png",
           "nome": "LÁ12",
           "pontos": 0,
