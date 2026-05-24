@@ -1,6 +1,6 @@
 {
   "campeonato": "6ª COPA SICREDI LIVRE MASCULINO",
-  "atualizado_em": "2026-05-24T12:41:50.778Z",
+  "atualizado_em": "2026-05-24T14:26:00.144Z",
   "grupos": [
     {
       "nome": "1º Fase",
@@ -682,53 +682,53 @@
           "posicao": 1,
           "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202025-08-26%20at%2016.27.47.jpeg",
           "nome": "MECANICA CASTELI / HORTIAGRO F.C",
-          "pontos": 10,
-          "jogos": 4,
-          "vitorias": 3,
+          "pontos": 13,
+          "jogos": 5,
+          "vitorias": 4,
           "empates": 1,
           "derrotas": 0,
-          "gols_pro": 11,
-          "gols_contra": 7,
-          "saldo": 4
+          "gols_pro": 16,
+          "gols_contra": 10,
+          "saldo": 6
         },
         {
           "posicao": 2,
           "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202025-08-26%20at%2016.27.47.jpeg",
           "nome": "MECANICA CASTELI / HORTIAGRO F.C",
-          "pontos": 10,
-          "jogos": 4,
-          "vitorias": 3,
+          "pontos": 13,
+          "jogos": 5,
+          "vitorias": 4,
           "empates": 1,
           "derrotas": 0,
-          "gols_pro": 11,
-          "gols_contra": 7,
-          "saldo": 4
+          "gols_pro": 16,
+          "gols_contra": 10,
+          "saldo": 6
         },
         {
           "posicao": 3,
           "logo": "https://www.lchf.com.br/Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(6)_2.png",
           "nome": "LJS/P2",
           "pontos": 10,
-          "jogos": 4,
+          "jogos": 5,
           "vitorias": 3,
           "empates": 1,
-          "derrotas": 0,
-          "gols_pro": 22,
-          "gols_contra": 12,
-          "saldo": 10
+          "derrotas": 1,
+          "gols_pro": 25,
+          "gols_contra": 17,
+          "saldo": 8
         },
         {
           "posicao": 4,
           "logo": "https://www.lchf.com.br/Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(6)_2.png",
           "nome": "LJS/P2",
           "pontos": 10,
-          "jogos": 4,
+          "jogos": 5,
           "vitorias": 3,
           "empates": 1,
-          "derrotas": 0,
-          "gols_pro": 22,
-          "gols_contra": 12,
-          "saldo": 10
+          "derrotas": 1,
+          "gols_pro": 25,
+          "gols_contra": 17,
+          "saldo": 8
         },
         {
           "posicao": 5,
