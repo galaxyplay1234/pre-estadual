@@ -3,7 +3,7 @@ const fetch = require("node-fetch");
 const { JSDOM } = require("jsdom");
 
 const URL = "https://www.lchf.com.br/ClassificacaoJogos.aspx";
-const NOME_CAMPEONATO = "6ª COPA SICREDI LIVRE MASCULINO";
+const NOME_CAMPEONATO = "17ªCOPA NDTV DE FUT SETE LIVRE MASCULINO";
 
 (async () => {
   try {
