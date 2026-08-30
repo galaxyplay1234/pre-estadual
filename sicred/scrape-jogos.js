@@ -54,13 +54,22 @@ function parseJogos(document) {
   let document = await getPage(html);
 
   // Campeonato
-  const campeonato = document
-    .querySelector("#ctl00_MainContent_ddlCampeonato option[selected]")
-    ?.textContent.trim() || "Campeonato";
+  const selectCampeonato = document.querySelector(
+  "#ctl00_MainContent_ddlCampeonato"
+);
 
-  if (!campeonato.includes("SICREDI LIVRE MASCULINO")) {
-    throw new Error("❌ Campeonato errado carregado");
-  }
+if (!selectCampeonato) {
+  throw new Error("❌ Select de campeonato não encontrado");
+}
+
+const opcaoSelecionada =
+  selectCampeonato.querySelector("option:checked") ||
+  selectCampeonato.querySelector("option[selected]");
+
+const campeonato =
+  opcaoSelecionada?.textContent.trim() || "Campeonato";
+
+console.log(`🏆 Campeonato carregado: ${campeonato}`);
 
   let lblRodada = document.querySelector("#ctl00_MainContent_lblRodada")
   ?.textContent.trim();
