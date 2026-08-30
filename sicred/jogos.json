@@ -1,149 +1,199 @@
 {
-  "campeonato": "6ª COPA SICREDI LIVRE MASCULINO",
-  "rodada_atual": 11,
+  "campeonato": "REGIONAL LCHF 2026",
+  "rodada_atual": 2,
   "rodadas": [
     {
-      "nome": "Rodada 11 de 11",
+      "nome": "Rodada 1 de 7",
       "jogos": [
         {
-          "mandante": "LJS/P2",
-          "visitante": "MECANICA CASTELI / HORTIAGRO F.C",
+          "mandante": "INDEPENDENTE / CME SÃO CARLOS",
+          "visitante": "R.C SPORTS / INVICTUS",
+          "gols_mandante": 2,
+          "gols_visitante": 1,
+          "campo": "CAMPO DA LINHA NAVEGANTES - SÃO CARLOS",
+          "data_hora": "23/08/2026 15:00"
+        },
+        {
+          "mandante": "SERC GUARANY",
+          "visitante": "SÃO CARLOS FC",
+          "gols_mandante": 0,
+          "gols_visitante": 0,
+          "campo": "ESTADIO DA MONTANHA - XAXIM",
+          "data_hora": "23/08/2026 15:00"
+        },
+        {
+          "mandante": "E.C COLORADO",
+          "visitante": "RONDOFRIO E.C",
+          "gols_mandante": 0,
+          "gols_visitante": 4,
+          "campo": "ESTADIO MUNICIPAL DE CORONEL FREITAS",
+          "data_hora": "23/08/2026 15:00"
+        },
+        {
+          "mandante": "FC LYON SVSB",
+          "visitante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
           "gols_mandante": 3,
           "gols_visitante": 5,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "23/05/2026 16:30"
+          "campo": "CAMPO DO SÃO VENDELINO",
+          "data_hora": "27/08/2026 20:00"
         }
       ]
     },
     {
-      "nome": "Rodada 11 de 11",
+      "nome": "Rodada 2 de 7",
       "jogos": [
         {
-          "mandante": "LJS/P2",
-          "visitante": "MECANICA CASTELI / HORTIAGRO F.C",
+          "mandante": "R.C SPORTS / INVICTUS",
+          "visitante": "SER LEGALIDADE",
+          "gols_mandante": 0,
+          "gols_visitante": 0,
+          "campo": "CAMPO DA CORDILHEIRA ALTA",
+          "data_hora": "30/08/2026 14:00"
+        },
+        {
+          "mandante": "RONDOFRIO E.C",
+          "visitante": "E.C BELVEDERE",
+          "gols_mandante": 1,
+          "gols_visitante": 0,
+          "campo": "CAMPO DA CORDILHEIRA ALTA",
+          "data_hora": "30/08/2026 16:00"
+        },
+        {
+          "mandante": "SÃO CARLOS FC",
+          "visitante": "E.C COLORADO",
           "gols_mandante": 3,
-          "gols_visitante": 5,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "23/05/2026 16:30"
+          "gols_visitante": 0,
+          "campo": "ESTÁDIO ARMANDO BOURSCHEID - SÃO CARLOS",
+          "data_hora": "30/08/2026 15:00"
+        },
+        {
+          "mandante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
+          "visitante": "INDEPENDENTE / CME SÃO CARLOS",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "a definir",
+          "data_hora": "06/09/2026 15:00"
         }
       ]
     },
     {
-      "nome": "Rodada 11 de 11",
+      "nome": "Rodada 3 de 7",
       "jogos": [
         {
-          "mandante": "LJS/P2",
-          "visitante": "MECANICA CASTELI / HORTIAGRO F.C",
-          "gols_mandante": 3,
-          "gols_visitante": 5,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "23/05/2026 16:30"
+          "mandante": "SER LEGALIDADE",
+          "visitante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "INDEPENDENTE / CME SÃO CARLOS",
+          "visitante": "FC LYON SVSB",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "E.C BELVEDERE",
+          "visitante": "SÃO CARLOS FC",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "E.C COLORADO",
+          "visitante": "SERC GUARANY",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
         }
       ]
     },
     {
-      "nome": "Rodada 11 de 11",
+      "nome": "Rodada 4 de 7",
       "jogos": [
         {
-          "mandante": "LJS/P2",
-          "visitante": "MECANICA CASTELI / HORTIAGRO F.C",
-          "gols_mandante": 3,
-          "gols_visitante": 5,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "23/05/2026 16:30"
+          "mandante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
+          "visitante": "R.C SPORTS / INVICTUS",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "FC LYON SVSB",
+          "visitante": "SER LEGALIDADE",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "SÃO CARLOS FC",
+          "visitante": "RONDOFRIO E.C",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "SERC GUARANY",
+          "visitante": "E.C BELVEDERE",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
         }
       ]
     },
     {
-      "nome": "Rodada 11 de 11",
+      "nome": "Rodada 5 de 7",
       "jogos": [
         {
-          "mandante": "LJS/P2",
-          "visitante": "MECANICA CASTELI / HORTIAGRO F.C",
-          "gols_mandante": 3,
-          "gols_visitante": 5,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "23/05/2026 16:30"
+          "mandante": "R.C SPORTS / INVICTUS",
+          "visitante": "FC LYON SVSB",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "SER LEGALIDADE",
+          "visitante": "INDEPENDENTE / CME SÃO CARLOS",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "RONDOFRIO E.C",
+          "visitante": "SERC GUARANY",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "E.C BELVEDERE",
+          "visitante": "E.C COLORADO",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
         }
       ]
     },
     {
-      "nome": "Rodada 11 de 11",
-      "jogos": [
-        {
-          "mandante": "LJS/P2",
-          "visitante": "MECANICA CASTELI / HORTIAGRO F.C",
-          "gols_mandante": 3,
-          "gols_visitante": 5,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "23/05/2026 16:30"
-        }
-      ]
+      "nome": "Rodada 6 de 7",
+      "jogos": []
     },
     {
-      "nome": "Rodada 11 de 11",
-      "jogos": [
-        {
-          "mandante": "LJS/P2",
-          "visitante": "MECANICA CASTELI / HORTIAGRO F.C",
-          "gols_mandante": 3,
-          "gols_visitante": 5,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "23/05/2026 16:30"
-        }
-      ]
-    },
-    {
-      "nome": "Rodada 11 de 11",
-      "jogos": [
-        {
-          "mandante": "LJS/P2",
-          "visitante": "MECANICA CASTELI / HORTIAGRO F.C",
-          "gols_mandante": 3,
-          "gols_visitante": 5,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "23/05/2026 16:30"
-        }
-      ]
-    },
-    {
-      "nome": "Rodada 11 de 11",
-      "jogos": [
-        {
-          "mandante": "LJS/P2",
-          "visitante": "MECANICA CASTELI / HORTIAGRO F.C",
-          "gols_mandante": 3,
-          "gols_visitante": 5,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "23/05/2026 16:30"
-        }
-      ]
-    },
-    {
-      "nome": "Rodada 11 de 11",
-      "jogos": [
-        {
-          "mandante": "LJS/P2",
-          "visitante": "MECANICA CASTELI / HORTIAGRO F.C",
-          "gols_mandante": 3,
-          "gols_visitante": 5,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "23/05/2026 16:30"
-        }
-      ]
-    },
-    {
-      "nome": "Rodada 11 de 11",
-      "jogos": [
-        {
-          "mandante": "LJS/P2",
-          "visitante": "MECANICA CASTELI / HORTIAGRO F.C",
-          "gols_mandante": 3,
-          "gols_visitante": 5,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "23/05/2026 16:30"
-        }
-      ]
+      "nome": "Rodada 7 de 7",
+      "jogos": []
     }
   ]
 }
