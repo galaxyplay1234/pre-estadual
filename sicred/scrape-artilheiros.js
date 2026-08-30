@@ -25,7 +25,7 @@ const URL = "https://www.lchf.com.br/Artilharia.aspx";
     formData.append("__VIEWSTATE", viewstate);
     formData.append("__VIEWSTATEGENERATOR", viewstategenerator);
     formData.append("__EVENTVALIDATION", eventvalidation);
-    formData.append("ctl00$MainContent$ddlCampeonato", "167"); // SICREDI LIVRE MASCULINO
+    formData.append("ctl00$MainContent$ddlCampeonato", "180"); // SICREDI LIVRE MASCULINO
     formData.append("ctl00$MainContent$btnSelecionar", "Selecionar");
 
     const resPost = await fetch(URL, {
@@ -60,10 +60,10 @@ const URL = "https://www.lchf.com.br/Artilharia.aspx";
     });
 
     const dados = {
-      campeonato: "6ª COPA SICREDI LIVRE MASCULINO",
-      atualizado_em: new Date().toISOString(),
-      artilheiros
-    };
+  campeonato: "17ª COPA NDTV DE FUT SETE LIVRE MASCULINO",
+  atualizado_em: new Date().toISOString(),
+  artilheiros
+};
 
     fs.writeFileSync(
       "sicred/artilheiros.json",
