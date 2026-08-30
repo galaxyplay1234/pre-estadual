@@ -53,8 +53,11 @@ function parseJogos(document) {
   let html = await res.text();
   let document = await getPage(html);
 
-  // Campeonato
-  const selectCampeonato = document.querySelector(
+  // =====================================================
+// SELECIONAR CAMPEONATO NDTV - ID 180
+// =====================================================
+
+const selectCampeonato = document.querySelector(
   "#ctl00_MainContent_ddlCampeonato"
 );
 
@@ -62,14 +65,40 @@ if (!selectCampeonato) {
   throw new Error("❌ Select de campeonato não encontrado");
 }
 
-const opcaoSelecionada =
-  selectCampeonato.querySelector("option:checked") ||
-  selectCampeonato.querySelector("option[selected]");
+const campeonatoOption = selectCampeonato.querySelector(
+  'option[value="180"]'
+);
 
-const campeonato =
-  opcaoSelecionada?.textContent.trim() || "Campeonato";
+if (!campeonatoOption) {
+  throw new Error("❌ Campeonato 180 não encontrado");
+}
 
-console.log(`🏆 Campeonato carregado: ${campeonato}`);
+const campeonato = campeonatoOption.textContent.trim();
+
+console.log(`🏆 Selecionando: ${campeonato}`);
+
+// Envia o formulário selecionando o campeonato 180
+const bodyCampeonato = new URLSearchParams({
+  "__EVENTTARGET": "",
+  "__EVENTARGUMENT": "",
+  "__VIEWSTATE": getHidden(document, "__VIEWSTATE"),
+  "__VIEWSTATEGENERATOR": getHidden(document, "__VIEWSTATEGENERATOR"),
+  "__EVENTVALIDATION": getHidden(document, "__EVENTVALIDATION"),
+
+  "ctl00$MainContent$ddlCampeonato": "180",
+  "ctl00$MainContent$btnSelecionar": "Selecionar"
+}).toString();
+
+res = await fetch(URL, {
+  method: "POST",
+  headers: HEADERS,
+  body: bodyCampeonato
+});
+
+html = await res.text();
+document = await getPage(html);
+
+console.log(`✅ Campeonato carregado: ${campeonato}`);
 
   let lblRodada = document.querySelector("#ctl00_MainContent_lblRodada")
   ?.textContent.trim();
@@ -89,8 +118,7 @@ while (!lblRodada.includes("Rodada 1")) {
     "__VIEWSTATE": getHidden(document, "__VIEWSTATE"),
     "__VIEWSTATEGENERATOR": getHidden(document, "__VIEWSTATEGENERATOR"),
     "__EVENTVALIDATION": getHidden(document, "__EVENTVALIDATION"),
-    "ctl00$MainContent$ddlCampeonato":
-      document.querySelector("#ctl00_MainContent_ddlCampeonato")?.value || ""
+    "ctl00$MainContent$ddlCampeonato": "180"
   }).toString();
 
   const resBack = await fetch(URL, {
@@ -133,8 +161,7 @@ while (!lblRodada.includes("Rodada 1")) {
       "__VIEWSTATE": getHidden(document, "__VIEWSTATE"),
       "__VIEWSTATEGENERATOR": getHidden(document, "__VIEWSTATEGENERATOR"),
       "__EVENTVALIDATION": getHidden(document, "__EVENTVALIDATION"),
-      "ctl00$MainContent$ddlCampeonato":
-        document.querySelector("#ctl00_MainContent_ddlCampeonato")?.value || ""
+      "ctl00$MainContent$ddlCampeonato": "180"
     }).toString();
 
     res = await fetch(URL, {
