@@ -809,7 +809,7 @@ async function postForm(document, alteracoes = {}) {
       rodada_atual:
         1,
 
-      total_rodadas,
+      total_rodadas: totalRodadas,
 
       rodadas
 
