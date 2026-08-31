@@ -1,8 +1,12 @@
 {
   "campeonato": "17ªCOPA NDTV DE FUT SETE  LIVRE MASCULINO",
-  "rodada_atual": 2,
+  "campeonato_id": "180",
+  "atualizado_em": "2026-08-31T00:09:35.648Z",
+  "rodada_atual": 7,
+  "total_rodadas": 7,
   "rodadas": [
     {
+      "numero": 1,
       "nome": "Rodada 1 de 7",
       "jogos": [
         {
@@ -128,6 +132,7 @@
       ]
     },
     {
+      "numero": 2,
       "nome": "Rodada 2 de 7",
       "jogos": [
         {
@@ -253,6 +258,7 @@
       ]
     },
     {
+      "numero": 3,
       "nome": "Rodada 3 de 7",
       "jogos": [
         {
@@ -378,6 +384,7 @@
       ]
     },
     {
+      "numero": 4,
       "nome": "Rodada 4 de 7",
       "jogos": [
         {
@@ -503,6 +510,7 @@
       ]
     },
     {
+      "numero": 5,
       "nome": "Rodada 5 de 7",
       "jogos": [
         {
@@ -628,10 +636,12 @@
       ]
     },
     {
+      "numero": 6,
       "nome": "Rodada 6 de 7",
       "jogos": []
     },
     {
+      "numero": 7,
       "nome": "Rodada 7 de 7",
       "jogos": []
     }
