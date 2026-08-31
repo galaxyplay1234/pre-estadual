@@ -4,22 +4,11 @@ const { JSDOM } = require("jsdom");
 
 const URL = "https://www.lchf.com.br/JogosCampeonato.aspx";
 
-// =====================================================
-// CAMPEONATO NDTV
-// =====================================================
-
 const CAMPEONATO_ID = "180";
-
-// =====================================================
-// HEADERS
-// =====================================================
 
 const HEADERS = {
   "User-Agent":
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/131.0 Safari/537.36",
-
-  "Content-Type":
-    "application/x-www-form-urlencoded",
 
   "Accept":
     "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
@@ -29,80 +18,168 @@ const HEADERS = {
 };
 
 // =====================================================
-// COOKIE
+// COOKIES
 // =====================================================
 
-let cookies = "";
+let cookies = {};
 
 function atualizarCookies(response) {
-  const setCookie = response.headers.raw()["set-cookie"];
+
+  const setCookie =
+    response.headers.raw()["set-cookie"];
 
   if (!setCookie) return;
 
-  const novosCookies = setCookie
-    .map(cookie => cookie.split(";")[0])
-    .join("; ");
+  for (const cookie of setCookie) {
 
-  if (!cookies) {
-    cookies = novosCookies;
-  } else {
-    cookies = cookies + "; " + novosCookies;
+    const parte =
+      cookie.split(";")[0];
+
+    const index =
+      parte.indexOf("=");
+
+    if (index === -1) continue;
+
+    const nome =
+      parte.substring(0, index);
+
+    const valor =
+      parte.substring(index + 1);
+
+    cookies[nome] = valor;
   }
 }
 
-function headersComCookie() {
-  return {
-    ...HEADERS,
-    Cookie: cookies
+function cookieHeader() {
+
+  return Object.entries(cookies)
+    .map(([nome, valor]) => `${nome}=${valor}`)
+    .join("; ");
+}
+
+function headersGet() {
+
+  const headers = {
+    ...HEADERS
   };
+
+  const cookie =
+    cookieHeader();
+
+  if (cookie) {
+    headers.Cookie = cookie;
+  }
+
+  return headers;
 }
 
 // =====================================================
 // DOM
 // =====================================================
 
-async function getPage(html) {
-  const dom = new JSDOM(html);
+function getDocument(html) {
+
+  const dom =
+    new JSDOM(html);
+
   return dom.window.document;
 }
 
 // =====================================================
-// HIDDEN INPUT
+// PEGA TODOS OS CAMPOS DO FORMULÁRIO
 // =====================================================
 
-function getHidden(document, name) {
-  return (
-    document.querySelector(`input[name="${name}"]`)?.value || ""
-  );
+function getFormFields(document) {
+
+  const fields = {};
+
+  const elements =
+    document.querySelectorAll(
+      "input, select, textarea"
+    );
+
+  elements.forEach(element => {
+
+    const name =
+      element.getAttribute("name");
+
+    if (!name) return;
+
+    // INPUT
+    if (
+      element.tagName.toLowerCase() ===
+      "input"
+    ) {
+
+      const type =
+        (
+          element.getAttribute("type") ||
+          "text"
+        ).toLowerCase();
+
+      // Não enviar checkbox/radio desmarcado
+      if (
+        (type === "checkbox" ||
+          type === "radio") &&
+        !element.checked
+      ) {
+        return;
+      }
+
+      // Botões serão adicionados manualmente
+      if (
+        type === "submit" ||
+        type === "button" ||
+        type === "image" ||
+        type === "reset"
+      ) {
+        return;
+      }
+
+      fields[name] =
+        element.value || "";
+
+      return;
+    }
+
+    // SELECT
+    if (
+      element.tagName.toLowerCase() ===
+      "select"
+    ) {
+
+      const selected =
+        element.querySelector(
+          "option:checked"
+        ) ||
+        element.querySelector(
+          "option[selected]"
+        );
+
+      fields[name] =
+        selected?.value || "";
+
+      return;
+    }
+
+    // TEXTAREA
+    if (
+      element.tagName.toLowerCase() ===
+      "textarea"
+    ) {
+
+      fields[name] =
+        element.value || "";
+
+    }
+
+  });
+
+  return fields;
 }
 
 // =====================================================
-// RODADA
-// =====================================================
-
-function getRodada(document) {
-  return (
-    document
-      .querySelector("#ctl00_MainContent_lblRodada")
-      ?.textContent
-      .trim() || ""
-  );
-}
-
-function getNumeroRodada(lblRodada) {
-  return Number(
-    lblRodada.match(/Rodada\s+(\d+)/)?.[1] || 1
-  );
-}
-
-function getTotalRodadas(lblRodada) {
-  return Number(
-    lblRodada.match(/de\s+(\d+)/)?.[1] || 1
-  );
-}
-
-// =====================================================
-// CAMPEONATO ATUAL
+// CAMPEONATO
 // =====================================================
 
 function getCampeonatoSelecionado(document) {
@@ -112,28 +189,78 @@ function getCampeonatoSelecionado(document) {
       "#ctl00_MainContent_ddlCampeonato"
     );
 
-  if (!select) return null;
+  if (!select) {
+    return null;
+  }
 
-  const option =
-    select.querySelector("option:checked") ||
-    select.querySelector("option[selected]");
+  const selected =
+    select.querySelector(
+      "option:checked"
+    );
 
-  if (!option) return null;
+  if (!selected) {
+    return null;
+  }
 
   return {
-    id: option.value,
-    nome: option.textContent.trim()
+    id:
+      selected.value,
+
+    nome:
+      selected.textContent.trim()
   };
 }
 
 // =====================================================
-// PARSER DOS JOGOS
+// RODADA
+// =====================================================
+
+function getRodada(document) {
+
+  return (
+    document
+      .querySelector(
+        "#ctl00_MainContent_lblRodada"
+      )
+      ?.textContent
+      .trim() || ""
+  );
+}
+
+function getNumeroRodada(texto) {
+
+  const match =
+    texto.match(
+      /Rodada\s+(\d+)/i
+    );
+
+  return match
+    ? Number(match[1])
+    : 1;
+}
+
+function getTotalRodadas(texto) {
+
+  const match =
+    texto.match(
+      /de\s+(\d+)/i
+    );
+
+  return match
+    ? Number(match[1])
+    : 1;
+}
+
+// =====================================================
+// PARSE JOGOS
 // =====================================================
 
 function parseJogos(document) {
 
   const tabela =
-    document.querySelector("table.point-table");
+    document.querySelector(
+      "table.point-table"
+    );
 
   if (!tabela) {
     return [];
@@ -141,106 +268,97 @@ function parseJogos(document) {
 
   const jogos = [];
 
-  tabela.querySelectorAll("tr").forEach((tr, i) => {
+  tabela
+    .querySelectorAll("tr")
+    .forEach((tr, i) => {
 
-    if (i === 0) return;
+      if (i === 0) return;
 
-    const td = tr.querySelectorAll("td");
+      const td =
+        tr.querySelectorAll("td");
 
-    if (td.length < 6) return;
+      if (td.length < 6) return;
 
-    const inputs =
-      td[2].querySelectorAll("input");
+      const inputs =
+        td[2].querySelectorAll(
+          "input"
+        );
 
-    const mandante =
-      td[1].textContent.trim();
+      const mandante =
+        td[1].textContent.trim();
 
-    const visitante =
-      td[3].textContent.trim();
+      const visitante =
+        td[3].textContent.trim();
 
-    const campo =
-      td[4].textContent.trim();
+      if (
+        !mandante &&
+        !visitante
+      ) {
+        return;
+      }
 
-    const data_hora =
-      td[5].textContent.trim();
+      jogos.push({
 
-    // Evita linhas vazias
-    if (!mandante && !visitante) return;
+        mandante,
 
-    jogos.push({
+        visitante,
 
-      mandante,
+        gols_mandante:
+          inputs[0]?.value
+            ? Number(inputs[0].value)
+            : null,
 
-      visitante,
+        gols_visitante:
+          inputs[1]?.value
+            ? Number(inputs[1].value)
+            : null,
 
-      gols_mandante:
-        inputs[0]?.value
-          ? Number(inputs[0].value)
-          : null,
+        campo:
+          td[4].textContent.trim(),
 
-      gols_visitante:
-        inputs[1]?.value
-          ? Number(inputs[1].value)
-          : null,
+        data_hora:
+          td[5].textContent.trim()
 
-      campo,
-
-      data_hora
+      });
 
     });
 
-  });
-
   return jogos;
-}
-
-// =====================================================
-// MONTA CAMPOS HIDDEN
-// =====================================================
-
-function camposBase(document) {
-
-  return {
-
-    "__VIEWSTATE":
-      getHidden(
-        document,
-        "__VIEWSTATE"
-      ),
-
-    "__VIEWSTATEGENERATOR":
-      getHidden(
-        document,
-        "__VIEWSTATEGENERATOR"
-      ),
-
-    "__EVENTVALIDATION":
-      getHidden(
-        document,
-        "__EVENTVALIDATION"
-      ),
-
-    "ctl00$MainContent$ddlCampeonato":
-      CAMPEONATO_ID
-  };
 }
 
 // =====================================================
 // POST
 // =====================================================
 
-async function postPagina(body) {
+async function postForm(document, alteracoes = {}) {
+
+  const fields =
+    getFormFields(document);
+
+  // Aplica alterações
+  Object.assign(
+    fields,
+    alteracoes
+  );
+
+  const body =
+    new URLSearchParams(
+      fields
+    ).toString();
 
   const response =
     await fetch(URL, {
 
       method: "POST",
 
-      headers:
-        headersComCookie(),
+      headers: {
+        ...headersGet(),
 
-      body:
-        body.toString()
+        "Content-Type":
+          "application/x-www-form-urlencoded"
+      },
+
+      body
 
     });
 
@@ -265,29 +383,35 @@ async function postPagina(body) {
     // 1. GET INICIAL
     // ===================================================
 
-    let res =
-      await fetch(URL, {
-        headers: headersComCookie()
-      });
+    let response =
+      await fetch(
+        URL,
+        {
+          headers:
+            headersGet()
+        }
+      );
 
-    atualizarCookies(res);
+    atualizarCookies(
+      response
+    );
 
     let html =
-      await res.text();
+      await response.text();
 
     let document =
-      await getPage(html);
+      getDocument(html);
 
     // ===================================================
-    // 2. PROCURA CAMPEONATO 180
+    // 2. PROCURA O CAMPEONATO 180
     // ===================================================
 
-    const selectCampeonato =
+    const select =
       document.querySelector(
         "#ctl00_MainContent_ddlCampeonato"
       );
 
-    if (!selectCampeonato) {
+    if (!select) {
 
       throw new Error(
         "❌ Select de campeonato não encontrado"
@@ -295,89 +419,95 @@ async function postPagina(body) {
 
     }
 
-    const opcao =
-      selectCampeonato.querySelector(
+    const option180 =
+      select.querySelector(
         `option[value="${CAMPEONATO_ID}"]`
       );
 
-    if (!opcao) {
+    if (!option180) {
 
       throw new Error(
-        `❌ Campeonato ${CAMPEONATO_ID} não encontrado`
+        "❌ Campeonato 180 não encontrado"
       );
 
     }
 
     const campeonato =
-      opcao.textContent.trim();
+      option180.textContent.trim();
 
     console.log(
-      `🏆 Campeonato desejado: ${campeonato}`
+      `🏆 Campeonato escolhido: ${campeonato}`
     );
 
     // ===================================================
-    // 3. SELECIONA O CAMPEONATO 180
+    // 3. SELECIONA 180
     // ===================================================
 
-    const bodyCampeonato =
-      new URLSearchParams({
-
-        ...camposBase(document),
-
-        "__EVENTTARGET": "",
-
-        "__EVENTARGUMENT": "",
-
-        "ctl00$MainContent$ddlCampeonato":
-          CAMPEONATO_ID,
-
-        "ctl00$MainContent$btnSelecionar":
-          "Selecionar"
-
-      });
-
     html =
-      await postPagina(
-        bodyCampeonato
+      await postForm(
+        document,
+        {
+          "ctl00$MainContent$ddlCampeonato":
+            CAMPEONATO_ID,
+
+          "ctl00$MainContent$btnSelecionar":
+            "Selecionar",
+
+          "__EVENTTARGET":
+            "",
+
+          "__EVENTARGUMENT":
+            ""
+        }
       );
 
     document =
-      await getPage(html);
+      getDocument(html);
 
     // ===================================================
-    // 4. CONFIRMA CAMPEONATO
+    // 4. CONFIRMA QUE ESTÁ NO 180
     // ===================================================
 
-    const campeonatoAtual =
-      getCampeonatoSelecionado(
-        document
+    const selectDepois =
+      document.querySelector(
+        "#ctl00_MainContent_ddlCampeonato"
+      );
+
+    const optionAtual =
+      selectDepois?.querySelector(
+        `option[value="${CAMPEONATO_ID}"][selected]`
+      );
+
+    const option180Depois =
+      selectDepois?.querySelector(
+        `option[value="${CAMPEONATO_ID}"]`
       );
 
     console.log(
-      `🏆 Campeonato após seleção: ${
-        campeonatoAtual?.id
-      } - ${
-        campeonatoAtual?.nome
+      `🏆 Campeonato 180 encontrado: ${
+        option180Depois
+          ? "SIM"
+          : "NÃO"
       }`
     );
 
     // ===================================================
-    // PROTEÇÃO
+    // IMPORTANTE
+    //
+    // Não confiamos somente no selected.
+    // Conferimos também a tabela.
     // ===================================================
 
-    if (
-      !campeonatoAtual ||
-      campeonatoAtual.id !== CAMPEONATO_ID
-    ) {
+    if (!option180Depois) {
 
       throw new Error(
-        `❌ O site não permaneceu no campeonato ${CAMPEONATO_ID}`
+        "❌ O campeonato 180 desapareceu após a seleção"
       );
 
     }
 
     // ===================================================
-    // 5. DESCOBRE A RODADA QUE O SITE MOSTROU
+    // 5. RODADA INICIAL
     // ===================================================
 
     let lblRodada =
@@ -386,7 +516,7 @@ async function postPagina(body) {
     if (!lblRodada) {
 
       throw new Error(
-        "❌ Rodada não encontrada"
+        "❌ Rodada não encontrada após selecionar o campeonato"
       );
 
     }
@@ -402,50 +532,58 @@ async function postPagina(body) {
       );
 
     console.log(
-      `📌 Site está mostrando: ${lblRodada}`
-    );
-
-    console.log(
-      `📌 Total de rodadas: ${totalRodadas}`
+      `📌 Site mostrou: ${lblRodada}`
     );
 
     // ===================================================
-    // IMPORTANTE:
+    // 6. GARANTE QUE COMEÇA NA RODADA 1
     //
-    // NÃO força rodada 1.
-    //
-    // Começa exatamente na rodada que
-    // o site mostrou.
+    // O site normalmente abre na 1.
+    // Se por algum motivo vier 2, 3 etc.,
+    // usamos Button1 até chegar na 1.
     // ===================================================
 
-    const rodadaInicial =
-      rodadaAtual;
+    while (
+      rodadaAtual > 1
+    ) {
 
-    const rodadas = [];
+      console.log(
+        `⬅ Voltando para Rodada 1... atual: ${rodadaAtual}`
+      );
 
-    // ===================================================
-    // 6. LOOP DAS RODADAS
-    // ===================================================
+      html =
+        await postForm(
+          document,
+          {
+            "__EVENTTARGET":
+              "ctl00$MainContent$Button1",
 
-    while (true) {
+            "__EVENTARGUMENT":
+              "",
 
-      // Confirma campeonato antes de
-      // processar cada rodada
-
-      const campeonatoLoop =
-        getCampeonatoSelecionado(
-          document
+            "ctl00$MainContent$ddlCampeonato":
+              CAMPEONATO_ID
+          }
         );
 
-      if (
-        !campeonatoLoop ||
-        campeonatoLoop.id !== CAMPEONATO_ID
-      ) {
+      document =
+        getDocument(html);
+
+      // Confirma campeonato
+      const selectVolta =
+        document.querySelector(
+          "#ctl00_MainContent_ddlCampeonato"
+        );
+
+      const optVolta =
+        selectVolta?.querySelector(
+          `option[value="${CAMPEONATO_ID}"]`
+        );
+
+      if (!optVolta) {
 
         throw new Error(
-          `❌ Campeonato mudou durante o scrape: ${
-            campeonatoLoop?.id || "desconhecido"
-          }`
+          "❌ Campeonato mudou ao voltar rodada"
         );
 
       }
@@ -453,7 +591,83 @@ async function postPagina(body) {
       lblRodada =
         getRodada(document);
 
-      const numeroRodada =
+      rodadaAtual =
+        getNumeroRodada(
+          lblRodada
+        );
+
+      console.log(
+        `   📌 Agora: ${lblRodada}`
+      );
+
+    }
+
+    // ===================================================
+    // 7. AGORA TEMOS RODADA 1
+    // ===================================================
+
+    if (
+      rodadaAtual !== 1
+    ) {
+
+      throw new Error(
+        `❌ Não foi possível posicionar na Rodada 1. Site mostrou: ${lblRodada}`
+      );
+
+    }
+
+    console.log(
+      "✅ Posicionado na Rodada 1"
+    );
+
+    // ===================================================
+    // 8. LER TODAS AS RODADAS
+    // ===================================================
+
+    const rodadas = [];
+
+    while (true) {
+
+      // -----------------------------------------------
+      // CONFIRMA CAMPEONATO
+      // -----------------------------------------------
+
+      const campeonatoAtual =
+        getCampeonatoSelecionado(
+          document
+        );
+
+      console.log(
+        `🔎 Campeonato atual: ${
+          campeonatoAtual?.id
+        } - ${
+          campeonatoAtual?.nome
+        }`
+      );
+
+      if (
+        !campeonatoAtual ||
+        campeonatoAtual.id !==
+          CAMPEONATO_ID
+      ) {
+
+        throw new Error(
+          `❌ CAMPEONATO ERRADO! Esperado 180, encontrado ${
+            campeonatoAtual?.id ||
+            "desconhecido"
+          }`
+        );
+
+      }
+
+      // -----------------------------------------------
+      // RODADA
+      // -----------------------------------------------
+
+      lblRodada =
+        getRodada(document);
+
+      const numero =
         getNumeroRodada(
           lblRodada
         );
@@ -461,6 +675,10 @@ async function postPagina(body) {
       console.log(
         `➡ Lendo ${lblRodada}`
       );
+
+      // -----------------------------------------------
+      // JOGOS
+      // -----------------------------------------------
 
       const jogos =
         parseJogos(document);
@@ -471,8 +689,7 @@ async function postPagina(body) {
 
       rodadas.push({
 
-        numero:
-          numeroRodada,
+        numero,
 
         nome:
           lblRodada,
@@ -481,49 +698,54 @@ async function postPagina(body) {
 
       });
 
-      // =================================================
-      // SE CHEGOU NA ÚLTIMA
-      // =================================================
+      // -----------------------------------------------
+      // ÚLTIMA RODADA
+      // -----------------------------------------------
 
       if (
-        numeroRodada >= totalRodadas
+        numero >= totalRodadas
       ) {
 
         break;
 
       }
 
-      // =================================================
-      // 7. AVANÇA PARA A PRÓXIMA
-      // =================================================
-
-      const bodyProxima =
-        new URLSearchParams({
-
-          ...camposBase(document),
-
-          "__EVENTTARGET":
-            "ctl00$MainContent$Button2",
-
-          "__EVENTARGUMENT":
-            "",
-
-          "ctl00$MainContent$ddlCampeonato":
-            CAMPEONATO_ID
-
-        });
+      // -----------------------------------------------
+      // PRÓXIMA RODADA
+      // -----------------------------------------------
 
       html =
-        await postPagina(
-          bodyProxima
+        await postForm(
+          document,
+          {
+            "__EVENTTARGET":
+              "ctl00$MainContent$Button2",
+
+            "__EVENTARGUMENT":
+              "",
+
+            "ctl00$MainContent$ddlCampeonato":
+              CAMPEONATO_ID
+          }
         );
 
       document =
-        await getPage(html);
+        getDocument(html);
 
-      // =================================================
-      // CONFIRMA CAMPEONATO APÓS POST
-      // =================================================
+      // -----------------------------------------------
+      // CONFIRMA RODADA
+      // -----------------------------------------------
+
+      const novaRodada =
+        getRodada(document);
+
+      console.log(
+        `   ➡ Próxima: ${novaRodada}`
+      );
+
+      // -----------------------------------------------
+      // CONFIRMA CAMPEONATO
+      // -----------------------------------------------
 
       const campeonatoDepois =
         getCampeonatoSelecionado(
@@ -532,34 +754,51 @@ async function postPagina(body) {
 
       if (
         !campeonatoDepois ||
-        campeonatoDepois.id !== CAMPEONATO_ID
+        campeonatoDepois.id !==
+          CAMPEONATO_ID
       ) {
 
         throw new Error(
-          `❌ Após avançar a rodada, o site mudou para outro campeonato: ${
-            campeonatoDepois?.id || "desconhecido"
+          `❌ O site mudou para campeonato ${
+            campeonatoDepois?.id ||
+            "desconhecido"
           }`
         );
 
       }
 
-      const novaRodada =
-        getRodada(document);
+    }
 
-      console.log(
-        `   ➡ Agora no site: ${novaRodada}`
+    // ===================================================
+    // 9. CONFERE SE PEGOU TODAS
+    // ===================================================
+
+    const numeros =
+      rodadas.map(
+        r => r.numero
+      );
+
+    console.log(
+      `📋 Rodadas capturadas: ${numeros.join(", ")}`
+    );
+
+    if (
+      !numeros.includes(1)
+    ) {
+
+      throw new Error(
+        "❌ RODADA 1 NÃO FOI CAPTURADA"
       );
 
     }
 
     // ===================================================
-    // 8. JSON
+    // 10. JSON
     // ===================================================
 
     const output = {
 
-      campeonato:
-        campeonato,
+      campeonato,
 
       campeonato_id:
         CAMPEONATO_ID,
@@ -568,17 +807,16 @@ async function postPagina(body) {
         new Date().toISOString(),
 
       rodada_atual:
-        rodadaInicial,
+        1,
 
-      total_rodadas:
-        totalRodadas,
+      total_rodadas,
 
       rodadas
 
     };
 
     // ===================================================
-    // 9. SALVA
+    // 11. SALVAR
     // ===================================================
 
     fs.mkdirSync(
@@ -608,23 +846,29 @@ async function postPagina(body) {
     );
 
     console.log(
-      "✅ jogos.json gerado com sucesso"
+      "✅ SCRAPER FINALIZADO"
     );
 
     console.log(
-      `🏆 Campeonato: ${campeonato}`
+      `🏆 ${campeonato}`
     );
 
     console.log(
-      `🆔 ID: ${CAMPEONATO_ID}`
+      `🆔 Campeonato: ${CAMPEONATO_ID}`
     );
 
     console.log(
-      `📋 Rodadas salvas: ${rodadas.length}`
+      `📋 Rodadas: ${rodadas.length}/${totalRodadas}`
     );
 
     console.log(
-      `📌 Rodada inicial: ${rodadaInicial}`
+      `⚽ Jogos: ${
+        rodadas.reduce(
+          (total, rodada) =>
+            total + rodada.jogos.length,
+          0
+        )
+      }`
     );
 
     console.log(
@@ -635,7 +879,10 @@ async function postPagina(body) {
 
     console.error("");
     console.error(
-      "❌ Erro no scraper de jogos:",
+      "❌ ERRO NO SCRAPER:"
+    );
+
+    console.error(
       err.message
     );
 
