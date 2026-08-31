@@ -202,6 +202,10 @@ function getTotalRodadas(lblRodada) {
 
     const totalRodadas =
       getTotalRodadas(lblRodada);
+      
+    const rodadaInicial = rodadaAtual;
+
+console.log(`📌 Rodada inicial do site: ${rodadaInicial}`);
 
     console.log(
       `📌 Rodada atual no site: ${lblRodada}`
@@ -222,57 +226,6 @@ function getTotalRodadas(lblRodada) {
     //    Depois percorremos todas as rodadas.
     // =====================================================
 
-    while (rodadaAtual > 1) {
-
-      console.log(
-        `⬅ Voltando para Rodada 1... atualmente ${rodadaAtual}`
-      );
-
-      const bodyVoltar = new URLSearchParams({
-
-        "__EVENTTARGET":
-          "ctl00$MainContent$Button1",
-
-        "__EVENTARGUMENT": "",
-
-        "__VIEWSTATE":
-          getHidden(
-            document,
-            "__VIEWSTATE"
-          ),
-
-        "__VIEWSTATEGENERATOR":
-          getHidden(
-            document,
-            "__VIEWSTATEGENERATOR"
-          ),
-
-        "__EVENTVALIDATION":
-          getHidden(
-            document,
-            "__EVENTVALIDATION"
-          ),
-
-        "ctl00$MainContent$ddlCampeonato":
-          CAMPEONATO_ID
-
-      }).toString();
-
-      res = await fetch(URL, {
-        method: "POST",
-        headers: HEADERS,
-        body: bodyVoltar
-      });
-
-      html = await res.text();
-
-      document = await getPage(html);
-
-      lblRodada = getRodada(document);
-
-      rodadaAtual =
-        getNumeroRodada(lblRodada);
-    }
 
     console.log(
       `📌 Scraper posicionado em: ${lblRodada}`
@@ -385,10 +338,7 @@ function getTotalRodadas(lblRodada) {
       atualizado_em:
         new Date().toISOString(),
 
-      rodada_atual:
-        getNumeroRodada(
-          getRodada(document)
-        ),
+      rodada_atual: rodadaInicial,
 
       total_rodadas:
         totalRodadas,
