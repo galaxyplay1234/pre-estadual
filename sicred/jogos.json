@@ -1,41 +1,129 @@
 {
-  "campeonato": "REGIONAL LCHF 2026",
+  "campeonato": "17ªCOPA NDTV DE FUT SETE  LIVRE MASCULINO",
   "rodada_atual": 2,
   "rodadas": [
     {
       "nome": "Rodada 1 de 7",
       "jogos": [
         {
-          "mandante": "INDEPENDENTE / CME SÃO CARLOS",
-          "visitante": "R.C SPORTS / INVICTUS",
-          "gols_mandante": 2,
-          "gols_visitante": 1,
-          "campo": "CAMPO DA LINHA NAVEGANTES - SÃO CARLOS",
-          "data_hora": "23/08/2026 15:00"
+          "mandante": "R.C SPORTS / INVICTUS",
+          "visitante": "NIJU / GO PLAY F.C",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "02/09/2026 21:15"
         },
         {
-          "mandante": "SERC GUARANY",
-          "visitante": "SÃO CARLOS FC",
-          "gols_mandante": 0,
-          "gols_visitante": 0,
-          "campo": "ESTADIO DA MONTANHA - XAXIM",
-          "data_hora": "23/08/2026 15:00"
+          "mandante": "AMIGOS F.C",
+          "visitante": "DEPORTIVO CHAPECO FC",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "04/09/2026 19:15"
         },
         {
-          "mandante": "E.C COLORADO",
-          "visitante": "RONDOFRIO E.C",
-          "gols_mandante": 0,
-          "gols_visitante": 4,
-          "campo": "ESTADIO MUNICIPAL DE CORONEL FREITAS",
-          "data_hora": "23/08/2026 15:00"
+          "mandante": "SONHARE IMÓVEIS / F&D FUTSAL / BANDA INDEXÃO",
+          "visitante": "E.C BELVEDERE",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "04/09/2026 20:15"
+        },
+        {
+          "mandante": "PARCEIROS",
+          "visitante": "LJS",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "04/09/2026 21:15"
+        },
+        {
+          "mandante": "GG PINTURAS/SANTA MARIA",
+          "visitante": "SCRIPT UNITED",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "SER AURORA - ACESSO AEROPORTO",
+          "data_hora": "08/09/2026 19:30"
+        },
+        {
+          "mandante": "TCC FC",
+          "visitante": "ASSOCIAÇÃO CANTINHO DOS AMIGOS/MARCENARIA NAVA",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "SER AURORA - ACESSO AEROPORTO",
+          "data_hora": "08/09/2026 20:30"
+        },
+        {
+          "mandante": "SEDE DO GORDO",
+          "visitante": "GRUPO COONECTA / AGROCERES",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "09/09/2026 20:30"
+        },
+        {
+          "mandante": "RONDOFRIO E.C",
+          "visitante": "AAT FC / ALMIR ARAÚJO TRANSPORTE",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "09/09/2026 21:30"
+        },
+        {
+          "mandante": "RESTAURANTE BOM SABOR2/ROMA MANTELLI/REAL CATALUNHA",
+          "visitante": "E.C COLORADO",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "a definir",
+          "data_hora": "10/09/2026 19:30"
+        },
+        {
+          "mandante": "RAJA CLUB",
+          "visitante": "IMPERIAL FC",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "a definir",
+          "data_hora": "10/09/2026 20:30"
+        },
+        {
+          "mandante": "SEM PULMÕES FC",
+          "visitante": "GREMIO LP/SEVEN REPRESENTAÇÃO",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "11/09/2026 19:30"
+        },
+        {
+          "mandante": "SITICOM/ SÃO PEDRO  FC",
+          "visitante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "11/09/2026 20:30"
+        },
+        {
+          "mandante": "CATARINENSE PROTEÇÃO VEICULAR/ONE CELL",
+          "visitante": "ATLÉTICO ALIANZA FC",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "11/09/2026 21:30"
         },
         {
           "mandante": "FC LYON SVSB",
-          "visitante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
-          "gols_mandante": 3,
-          "gols_visitante": 5,
-          "campo": "CAMPO DO SÃO VENDELINO",
-          "data_hora": "27/08/2026 20:00"
+          "visitante": "AADG F7",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "12/09/2026 17:00"
+        },
+        {
+          "mandante": "LÁ12",
+          "visitante": "HORTIAGRO F.C /MECANICA CASTELI",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "12/09/2026 18:00"
         }
       ]
     },
@@ -43,53 +131,24 @@
       "nome": "Rodada 2 de 7",
       "jogos": [
         {
-          "mandante": "R.C SPORTS / INVICTUS",
-          "visitante": "SER LEGALIDADE",
-          "gols_mandante": 0,
-          "gols_visitante": 0,
-          "campo": "CAMPO DA CORDILHEIRA ALTA",
-          "data_hora": "30/08/2026 14:00"
-        },
-        {
-          "mandante": "RONDOFRIO E.C",
-          "visitante": "E.C BELVEDERE",
-          "gols_mandante": 1,
-          "gols_visitante": 0,
-          "campo": "CAMPO DA CORDILHEIRA ALTA",
-          "data_hora": "30/08/2026 16:00"
-        },
-        {
-          "mandante": "SÃO CARLOS FC",
-          "visitante": "E.C COLORADO",
-          "gols_mandante": 3,
-          "gols_visitante": 0,
-          "campo": "ESTÁDIO ARMANDO BOURSCHEID - SÃO CARLOS",
-          "data_hora": "30/08/2026 15:00"
-        },
-        {
-          "mandante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
-          "visitante": "INDEPENDENTE / CME SÃO CARLOS",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "a definir",
-          "data_hora": "06/09/2026 15:00"
-        }
-      ]
-    },
-    {
-      "nome": "Rodada 3 de 7",
-      "jogos": [
-        {
-          "mandante": "SER LEGALIDADE",
-          "visitante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
+          "mandante": "GRUPO COONECTA / AGROCERES",
+          "visitante": "RAJA CLUB",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "",
           "data_hora": "01/01/0001 00:00"
         },
         {
-          "mandante": "INDEPENDENTE / CME SÃO CARLOS",
-          "visitante": "FC LYON SVSB",
+          "mandante": "IMPERIAL FC",
+          "visitante": "RONDOFRIO E.C",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "AAT FC / ALMIR ARAÚJO TRANSPORTE",
+          "visitante": "SEDE DO GORDO",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "",
@@ -97,7 +156,47 @@
         },
         {
           "mandante": "E.C BELVEDERE",
-          "visitante": "SÃO CARLOS FC",
+          "visitante": "PARCEIROS",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "DEPORTIVO CHAPECO FC",
+          "visitante": "SONHARE IMÓVEIS / F&D FUTSAL / BANDA INDEXÃO",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "LJS",
+          "visitante": "AMIGOS F.C",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "ASSOCIAÇÃO CANTINHO DOS AMIGOS/MARCENARIA NAVA",
+          "visitante": "R.C SPORTS / INVICTUS",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "SCRIPT UNITED",
+          "visitante": "TCC FC",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "NIJU / GO PLAY F.C",
+          "visitante": "GG PINTURAS/SANTA MARIA",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "",
@@ -105,7 +204,172 @@
         },
         {
           "mandante": "E.C COLORADO",
-          "visitante": "SERC GUARANY",
+          "visitante": "LÁ12",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "AADG F7",
+          "visitante": "RESTAURANTE BOM SABOR2/ROMA MANTELLI/REAL CATALUNHA",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "HORTIAGRO F.C /MECANICA CASTELI",
+          "visitante": "FC LYON SVSB",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "GREMIO LP/SEVEN REPRESENTAÇÃO",
+          "visitante": "SITICOM/ SÃO PEDRO  FC",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "ATLÉTICO ALIANZA FC",
+          "visitante": "SEM PULMÕES FC",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
+          "visitante": "CATARINENSE PROTEÇÃO VEICULAR/ONE CELL",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        }
+      ]
+    },
+    {
+      "nome": "Rodada 3 de 7",
+      "jogos": [
+        {
+          "mandante": "AAT FC / ALMIR ARAÚJO TRANSPORTE",
+          "visitante": "IMPERIAL FC",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "RONDOFRIO E.C",
+          "visitante": "GRUPO COONECTA / AGROCERES",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "RAJA CLUB",
+          "visitante": "SEDE DO GORDO",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "AMIGOS F.C",
+          "visitante": "E.C BELVEDERE",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "PARCEIROS",
+          "visitante": "LJS",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "SONHARE IMÓVEIS / F&D FUTSAL / BANDA INDEXÃO",
+          "visitante": "DEPORTIVO CHAPECO FC",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "GG PINTURAS/SANTA MARIA",
+          "visitante": "ASSOCIAÇÃO CANTINHO DOS AMIGOS/MARCENARIA NAVA",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "R.C SPORTS / INVICTUS",
+          "visitante": "TCC FC",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "SCRIPT UNITED",
+          "visitante": "NIJU / GO PLAY F.C",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "FC LYON SVSB",
+          "visitante": "E.C COLORADO",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "LÁ12",
+          "visitante": "RESTAURANTE BOM SABOR2/ROMA MANTELLI/REAL CATALUNHA",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "AADG F7",
+          "visitante": "HORTIAGRO F.C /MECANICA CASTELI",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "CATARINENSE PROTEÇÃO VEICULAR/ONE CELL",
+          "visitante": "GREMIO LP/SEVEN REPRESENTAÇÃO",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "SITICOM/ SÃO PEDRO  FC",
+          "visitante": "SEM PULMÕES FC",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "ATLÉTICO ALIANZA FC",
+          "visitante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "",
@@ -117,23 +381,15 @@
       "nome": "Rodada 4 de 7",
       "jogos": [
         {
-          "mandante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
-          "visitante": "R.C SPORTS / INVICTUS",
+          "mandante": "GRUPO COONECTA / AGROCERES",
+          "visitante": "IMPERIAL FC",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "",
           "data_hora": "01/01/0001 00:00"
         },
         {
-          "mandante": "FC LYON SVSB",
-          "visitante": "SER LEGALIDADE",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "",
-          "data_hora": "01/01/0001 00:00"
-        },
-        {
-          "mandante": "SÃO CARLOS FC",
+          "mandante": "SEDE DO GORDO",
           "visitante": "RONDOFRIO E.C",
           "gols_mandante": null,
           "gols_visitante": null,
@@ -141,8 +397,104 @@
           "data_hora": "01/01/0001 00:00"
         },
         {
-          "mandante": "SERC GUARANY",
-          "visitante": "E.C BELVEDERE",
+          "mandante": "RAJA CLUB",
+          "visitante": "GTR SPORTS",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "E.C BELVEDERE",
+          "visitante": "LJS",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "SONHARE IMÓVEIS / F&D FUTSAL / BANDA INDEXÃO",
+          "visitante": "AMIGOS F.C",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "PARCEIROS",
+          "visitante": "DEPORTIVO CHAPECO FC",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "ASSOCIAÇÃO CANTINHO DOS AMIGOS/MARCENARIA NAVA",
+          "visitante": "NIJU / GO PLAY F.C",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "TCC FC",
+          "visitante": "GG PINTURAS/SANTA MARIA",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "R.C SPORTS / INVICTUS",
+          "visitante": "SCRIPT UNITED",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "E.C COLORADO",
+          "visitante": "HORTIAGRO F.C /MECANICA CASTELI",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "RESTAURANTE BOM SABOR2/ROMA MANTELLI/REAL CATALUNHA",
+          "visitante": "FC LYON SVSB",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "LÁ12",
+          "visitante": "AADG F7",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "GREMIO LP/SEVEN REPRESENTAÇÃO",
+          "visitante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "SEM PULMÕES FC",
+          "visitante": "CATARINENSE PROTEÇÃO VEICULAR/ONE CELL",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "SITICOM/ SÃO PEDRO  FC",
+          "visitante": "ATLÉTICO ALIANZA FC",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "",
@@ -154,16 +506,16 @@
       "nome": "Rodada 5 de 7",
       "jogos": [
         {
-          "mandante": "R.C SPORTS / INVICTUS",
-          "visitante": "FC LYON SVSB",
+          "mandante": "AAT FC / ALMIR ARAÚJO TRANSPORTE",
+          "visitante": "GRUPO COONECTA / AGROCERES",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "",
           "data_hora": "01/01/0001 00:00"
         },
         {
-          "mandante": "SER LEGALIDADE",
-          "visitante": "INDEPENDENTE / CME SÃO CARLOS",
+          "mandante": "IMPERIAL FC",
+          "visitante": "SEDE DO GORDO",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "",
@@ -171,15 +523,103 @@
         },
         {
           "mandante": "RONDOFRIO E.C",
-          "visitante": "SERC GUARANY",
+          "visitante": "RAJA CLUB",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "",
           "data_hora": "01/01/0001 00:00"
         },
         {
-          "mandante": "E.C BELVEDERE",
+          "mandante": "DEPORTIVO CHAPECO FC",
+          "visitante": "E.C BELVEDERE",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "LJS",
+          "visitante": "SONHARE IMÓVEIS / F&D FUTSAL / BANDA INDEXÃO",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "AMIGOS F.C",
+          "visitante": "PARCEIROS",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "SCRIPT UNITED",
+          "visitante": "ASSOCIAÇÃO CANTINHO DOS AMIGOS/MARCENARIA NAVA",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "NIJU / GO PLAY F.C",
+          "visitante": "TCC FC",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "GG PINTURAS/SANTA MARIA",
+          "visitante": "R.C SPORTS / INVICTUS",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "AADG F7",
           "visitante": "E.C COLORADO",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "HORTIAGRO F.C /MECANICA CASTELI",
+          "visitante": "RESTAURANTE BOM SABOR2/ROMA MANTELLI/REAL CATALUNHA",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "FC LYON SVSB",
+          "visitante": "LÁ12",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "ATLÉTICO ALIANZA FC",
+          "visitante": "GREMIO LP/SEVEN REPRESENTAÇÃO",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
+          "visitante": "SEM PULMÕES FC",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "CATARINENSE PROTEÇÃO VEICULAR/ONE CELL",
+          "visitante": "SITICOM/ SÃO PEDRO  FC",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "",
