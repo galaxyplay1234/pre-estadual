@@ -109,30 +109,23 @@ const rodadaAtual = Number(lblRodada?.match(/Rodada\s+(\d+)/)?.[1] || 1);
   const rodadas = [];
   
   
-  // 🔥 VOLTA PARA A PRIMEIRA RODADA
-while (!lblRodada.includes("Rodada 1")) {
+  // =====================================================
+// COMEÇA EXATAMENTE NA RODADA MOSTRADA PELO SITE
+// =====================================================
 
-  const body = new URLSearchParams({
-    "__EVENTTARGET": "ctl00$MainContent$Button1", // botão "<"
-    "__EVENTARGUMENT": "",
-    "__VIEWSTATE": getHidden(document, "__VIEWSTATE"),
-    "__VIEWSTATEGENERATOR": getHidden(document, "__VIEWSTATEGENERATOR"),
-    "__EVENTVALIDATION": getHidden(document, "__EVENTVALIDATION"),
-    "ctl00$MainContent$ddlCampeonato": "180"
-  }).toString();
+let lblRodada = document.querySelector(
+  "#ctl00_MainContent_lblRodada"
+)?.textContent.trim() || "";
 
-  const resBack = await fetch(URL, {
-    method: "POST",
-    headers: HEADERS,
-    body
-  });
+console.log(`📌 Rodada atual no site: ${lblRodada}`);
 
-  html = await resBack.text();
-  document = await getPage(html);
+const totalRodadas =
+  Number(lblRodada.match(/de\s+(\d+)/)?.[1] || 1);
 
-  lblRodada = document.querySelector("#ctl00_MainContent_lblRodada")
-    ?.textContent.trim();
-}
+const rodadaAtual =
+  Number(lblRodada.match(/Rodada\s+(\d+)/)?.[1] || 1);
+
+const rodadas = [];
   
 
   // 2️⃣ Loop das rodadas
