@@ -1,7 +1,7 @@
 {
   "campeonato": "17ªCOPA NDTV DE FUT SETE  LIVRE MASCULINO",
   "campeonato_id": "180",
-  "atualizado_em": "2026-08-31T00:30:06.673Z",
+  "atualizado_em": "2026-09-01T11:09:25.438Z",
   "rodada_atual": 1,
   "total_rodadas": 7,
   "rodadas": [
@@ -27,7 +27,7 @@
         },
         {
           "mandante": "SONHARE IMÓVEIS / F&D FUTSAL / BANDA INDEXÃO",
-          "visitante": "E.C BELVEDERE",
+          "visitante": "DISMAFF /E.C BELVEDERE",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "ARENA PRIME SOCIETY",
@@ -35,7 +35,7 @@
         },
         {
           "mandante": "PARCEIROS",
-          "visitante": "LJS",
+          "visitante": "LJS/ROSA SUL EMBALAGENS",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "ARENA PRIME SOCIETY",
@@ -74,7 +74,7 @@
           "data_hora": "09/09/2026 21:30"
         },
         {
-          "mandante": "RESTAURANTE BOM SABOR2/ROMA MANTELLI/REAL CATALUNHA",
+          "mandante": "RESTAURANTE BOM SABOR2/ROMA MANTELLI/REAL CATALUNHA / CK MAQUINAS",
           "visitante": "E.C COLORADO",
           "gols_mandante": null,
           "gols_visitante": null,
@@ -98,8 +98,8 @@
           "data_hora": "11/09/2026 19:30"
         },
         {
-          "mandante": "SITICOM/ SÃO PEDRO  FC",
-          "visitante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
+          "mandante": "SITICOM/ SÃO PEDRO  FC/DISK OPTICA CHAPECÓ",
+          "visitante": "BOLEIROS",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "ARENA PRIME SOCIETY",
@@ -160,14 +160,6 @@
           "data_hora": "01/01/0001 00:00"
         },
         {
-          "mandante": "E.C BELVEDERE",
-          "visitante": "PARCEIROS",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "",
-          "data_hora": "01/01/0001 00:00"
-        },
-        {
           "mandante": "DEPORTIVO CHAPECO FC",
           "visitante": "SONHARE IMÓVEIS / F&D FUTSAL / BANDA INDEXÃO",
           "gols_mandante": null,
@@ -176,8 +168,16 @@
           "data_hora": "01/01/0001 00:00"
         },
         {
-          "mandante": "LJS",
+          "mandante": "LJS/ROSA SUL EMBALAGENS",
           "visitante": "AMIGOS F.C",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "DISMAFF /E.C BELVEDERE",
+          "visitante": "PARCEIROS",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "",
@@ -217,7 +217,7 @@
         },
         {
           "mandante": "AADG F7",
-          "visitante": "RESTAURANTE BOM SABOR2/ROMA MANTELLI/REAL CATALUNHA",
+          "visitante": "RESTAURANTE BOM SABOR2/ROMA MANTELLI/REAL CATALUNHA / CK MAQUINAS",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "",
@@ -233,7 +233,7 @@
         },
         {
           "mandante": "GREMIO LP/SEVEN REPRESENTAÇÃO",
-          "visitante": "SITICOM/ SÃO PEDRO  FC",
+          "visitante": "SITICOM/ SÃO PEDRO  FC/DISK OPTICA CHAPECÓ",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "",
@@ -248,7 +248,7 @@
           "data_hora": "01/01/0001 00:00"
         },
         {
-          "mandante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
+          "mandante": "BOLEIROS",
           "visitante": "CATARINENSE PROTEÇÃO VEICULAR/ONE CELL",
           "gols_mandante": null,
           "gols_visitante": null,
@@ -287,7 +287,7 @@
         },
         {
           "mandante": "AMIGOS F.C",
-          "visitante": "E.C BELVEDERE",
+          "visitante": "DISMAFF /E.C BELVEDERE",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "",
@@ -295,7 +295,7 @@
         },
         {
           "mandante": "PARCEIROS",
-          "visitante": "LJS",
+          "visitante": "LJS/ROSA SUL EMBALAGENS",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "",
@@ -343,7 +343,7 @@
         },
         {
           "mandante": "LÁ12",
-          "visitante": "RESTAURANTE BOM SABOR2/ROMA MANTELLI/REAL CATALUNHA",
+          "visitante": "RESTAURANTE BOM SABOR2/ROMA MANTELLI/REAL CATALUNHA / CK MAQUINAS",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "",
@@ -366,7 +366,7 @@
           "data_hora": "01/01/0001 00:00"
         },
         {
-          "mandante": "SITICOM/ SÃO PEDRO  FC",
+          "mandante": "SITICOM/ SÃO PEDRO  FC/DISK OPTICA CHAPECÓ",
           "visitante": "SEM PULMÕES FC",
           "gols_mandante": null,
           "gols_visitante": null,
@@ -375,7 +375,7 @@
         },
         {
           "mandante": "ATLÉTICO ALIANZA FC",
-          "visitante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
+          "visitante": "BOLEIROS",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "",
@@ -412,8 +412,8 @@
           "data_hora": "01/01/0001 00:00"
         },
         {
-          "mandante": "E.C BELVEDERE",
-          "visitante": "LJS",
+          "mandante": "DISMAFF /E.C BELVEDERE",
+          "visitante": "LJS/ROSA SUL EMBALAGENS",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "",
@@ -468,7 +468,7 @@
           "data_hora": "01/01/0001 00:00"
         },
         {
-          "mandante": "RESTAURANTE BOM SABOR2/ROMA MANTELLI/REAL CATALUNHA",
+          "mandante": "RESTAURANTE BOM SABOR2/ROMA MANTELLI/REAL CATALUNHA / CK MAQUINAS",
           "visitante": "FC LYON SVSB",
           "gols_mandante": null,
           "gols_visitante": null,
@@ -485,7 +485,7 @@
         },
         {
           "mandante": "GREMIO LP/SEVEN REPRESENTAÇÃO",
-          "visitante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
+          "visitante": "BOLEIROS",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "",
@@ -500,7 +500,7 @@
           "data_hora": "01/01/0001 00:00"
         },
         {
-          "mandante": "SITICOM/ SÃO PEDRO  FC",
+          "mandante": "SITICOM/ SÃO PEDRO  FC/DISK OPTICA CHAPECÓ",
           "visitante": "ATLÉTICO ALIANZA FC",
           "gols_mandante": null,
           "gols_visitante": null,
@@ -539,14 +539,14 @@
         },
         {
           "mandante": "DEPORTIVO CHAPECO FC",
-          "visitante": "E.C BELVEDERE",
+          "visitante": "DISMAFF /E.C BELVEDERE",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "",
           "data_hora": "01/01/0001 00:00"
         },
         {
-          "mandante": "LJS",
+          "mandante": "LJS/ROSA SUL EMBALAGENS",
           "visitante": "SONHARE IMÓVEIS / F&D FUTSAL / BANDA INDEXÃO",
           "gols_mandante": null,
           "gols_visitante": null,
@@ -595,7 +595,7 @@
         },
         {
           "mandante": "HORTIAGRO F.C /MECANICA CASTELI",
-          "visitante": "RESTAURANTE BOM SABOR2/ROMA MANTELLI/REAL CATALUNHA",
+          "visitante": "RESTAURANTE BOM SABOR2/ROMA MANTELLI/REAL CATALUNHA / CK MAQUINAS",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "",
@@ -618,7 +618,7 @@
           "data_hora": "01/01/0001 00:00"
         },
         {
-          "mandante": "BOLEIROS/MDM CONSTRUÇÕES E PINTURAS",
+          "mandante": "BOLEIROS",
           "visitante": "SEM PULMÕES FC",
           "gols_mandante": null,
           "gols_visitante": null,
@@ -627,7 +627,7 @@
         },
         {
           "mandante": "CATARINENSE PROTEÇÃO VEICULAR/ONE CELL",
-          "visitante": "SITICOM/ SÃO PEDRO  FC",
+          "visitante": "SITICOM/ SÃO PEDRO  FC/DISK OPTICA CHAPECÓ",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "",
