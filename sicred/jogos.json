@@ -1,7 +1,7 @@
 {
   "campeonato": "17ªCOPA NDTV DE FUT SETE  LIVRE MASCULINO",
   "campeonato_id": "180",
-  "atualizado_em": "2026-09-01T11:09:25.438Z",
+  "atualizado_em": "2026-09-02T21:23:31.034Z",
   "rodada_atual": 1,
   "total_rodadas": 7,
   "rodadas": [
@@ -90,6 +90,14 @@
           "data_hora": "10/09/2026 20:30"
         },
         {
+          "mandante": "LÁ12",
+          "visitante": "HORTIAGRO F.C /MECANICA CASTELI",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "a definir",
+          "data_hora": "11/09/2026 20:00"
+        },
+        {
           "mandante": "SEM PULMÕES FC",
           "visitante": "GREMIO LP/SEVEN REPRESENTAÇÃO",
           "gols_mandante": null,
@@ -106,28 +114,20 @@
           "data_hora": "11/09/2026 20:30"
         },
         {
-          "mandante": "CATARINENSE PROTEÇÃO VEICULAR/ONE CELL",
-          "visitante": "ATLÉTICO ALIANZA FC",
+          "mandante": "FC LYON SVSB",
+          "visitante": "AADG F7",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "11/09/2026 21:30"
         },
         {
-          "mandante": "FC LYON SVSB",
-          "visitante": "AADG F7",
+          "mandante": "CATARINENSE PROTEÇÃO VEICULAR/ONE CELL",
+          "visitante": "ATLÉTICO ALIANZA FC",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "12/09/2026 17:00"
-        },
-        {
-          "mandante": "LÁ12",
-          "visitante": "HORTIAGRO F.C /MECANICA CASTELI",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "12/09/2026 18:00"
+          "data_hora": "14/09/2026 21:30"
         }
       ]
     },
