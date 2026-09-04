@@ -1,7 +1,7 @@
 {
   "campeonato": "17ªCOPA NDTV DE FUT SETE  LIVRE MASCULINO",
   "campeonato_id": "180",
-  "atualizado_em": "2026-09-02T21:23:31.034Z",
+  "atualizado_em": "2026-09-04T22:38:27.057Z",
   "rodada_atual": 1,
   "total_rodadas": 7,
   "rodadas": [
@@ -12,8 +12,8 @@
         {
           "mandante": "R.C SPORTS / INVICTUS",
           "visitante": "NIJU / GO PLAY F.C",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 2,
+          "gols_visitante": 3,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "02/09/2026 21:15"
         },
@@ -26,7 +26,7 @@
           "data_hora": "04/09/2026 19:15"
         },
         {
-          "mandante": "SONHARE IMÓVEIS / F&D FUTSAL / BANDA INDEXÃO",
+          "mandante": "FREITAS F.C / AL TECNOLOGIA E SEGURANÇA / SONHARE IMÓVEIS / FED FUTSAL / BANDA INDEXÃO",
           "visitante": "DISMAFF /E.C BELVEDERE",
           "gols_mandante": null,
           "gols_visitante": null,
@@ -74,30 +74,6 @@
           "data_hora": "09/09/2026 21:30"
         },
         {
-          "mandante": "RESTAURANTE BOM SABOR2/ROMA MANTELLI/REAL CATALUNHA / CK MAQUINAS",
-          "visitante": "E.C COLORADO",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "a definir",
-          "data_hora": "10/09/2026 19:30"
-        },
-        {
-          "mandante": "RAJA CLUB",
-          "visitante": "IMPERIAL FC",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "a definir",
-          "data_hora": "10/09/2026 20:30"
-        },
-        {
-          "mandante": "LÁ12",
-          "visitante": "HORTIAGRO F.C /MECANICA CASTELI",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "a definir",
-          "data_hora": "11/09/2026 20:00"
-        },
-        {
           "mandante": "SEM PULMÕES FC",
           "visitante": "GREMIO LP/SEVEN REPRESENTAÇÃO",
           "gols_mandante": null,
@@ -120,6 +96,30 @@
           "gols_visitante": null,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "11/09/2026 21:30"
+        },
+        {
+          "mandante": "RESTAURANTE BOM SABOR2/ROMA MANTELLI/REAL CATALUNHA / CK MAQUINAS",
+          "visitante": "E.C COLORADO",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "COMPLEIXO TIAGO",
+          "data_hora": "11/09/2026 19:30"
+        },
+        {
+          "mandante": "RAJA CLUB",
+          "visitante": "IMPERIAL FC",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "COMPLEXO TIAGO",
+          "data_hora": "11/09/2026 20:30"
+        },
+        {
+          "mandante": "LÁ12",
+          "visitante": "HORTIAGRO F.C /MECANICA CASTELI",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "GUATAMBU SOCIETY",
+          "data_hora": "11/09/2026 20:00"
         },
         {
           "mandante": "CATARINENSE PROTEÇÃO VEICULAR/ONE CELL",
@@ -161,7 +161,7 @@
         },
         {
           "mandante": "DEPORTIVO CHAPECO FC",
-          "visitante": "SONHARE IMÓVEIS / F&D FUTSAL / BANDA INDEXÃO",
+          "visitante": "FREITAS F.C / AL TECNOLOGIA E SEGURANÇA / SONHARE IMÓVEIS / FED FUTSAL / BANDA INDEXÃO",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "",
@@ -286,24 +286,24 @@
           "data_hora": "01/01/0001 00:00"
         },
         {
-          "mandante": "AMIGOS F.C",
-          "visitante": "DISMAFF /E.C BELVEDERE",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "",
-          "data_hora": "01/01/0001 00:00"
-        },
-        {
-          "mandante": "PARCEIROS",
-          "visitante": "LJS/ROSA SUL EMBALAGENS",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "",
-          "data_hora": "01/01/0001 00:00"
-        },
-        {
-          "mandante": "SONHARE IMÓVEIS / F&D FUTSAL / BANDA INDEXÃO",
+          "mandante": "DISMAFF /E.C BELVEDERE",
           "visitante": "DEPORTIVO CHAPECO FC",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "AMIGOS F.C",
+          "visitante": "PARCEIROS",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "FREITAS F.C / AL TECNOLOGIA E SEGURANÇA / SONHARE IMÓVEIS / FED FUTSAL / BANDA INDEXÃO",
+          "visitante": "LJS/ROSA SUL EMBALAGENS",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "",
@@ -412,16 +412,8 @@
           "data_hora": "01/01/0001 00:00"
         },
         {
-          "mandante": "DISMAFF /E.C BELVEDERE",
-          "visitante": "LJS/ROSA SUL EMBALAGENS",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "",
-          "data_hora": "01/01/0001 00:00"
-        },
-        {
-          "mandante": "SONHARE IMÓVEIS / F&D FUTSAL / BANDA INDEXÃO",
-          "visitante": "AMIGOS F.C",
+          "mandante": "AMIGOS F.C",
+          "visitante": "DISMAFF /E.C BELVEDERE",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "",
@@ -429,6 +421,14 @@
         },
         {
           "mandante": "PARCEIROS",
+          "visitante": "FREITAS F.C / AL TECNOLOGIA E SEGURANÇA / SONHARE IMÓVEIS / FED FUTSAL / BANDA INDEXÃO",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "LJS/ROSA SUL EMBALAGENS",
           "visitante": "DEPORTIVO CHAPECO FC",
           "gols_mandante": null,
           "gols_visitante": null,
@@ -538,24 +538,24 @@
           "data_hora": "01/01/0001 00:00"
         },
         {
+          "mandante": "FREITAS F.C / AL TECNOLOGIA E SEGURANÇA / SONHARE IMÓVEIS / FED FUTSAL / BANDA INDEXÃO",
+          "visitante": "AMIGOS F.C",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
           "mandante": "DEPORTIVO CHAPECO FC",
-          "visitante": "DISMAFF /E.C BELVEDERE",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "",
-          "data_hora": "01/01/0001 00:00"
-        },
-        {
-          "mandante": "LJS/ROSA SUL EMBALAGENS",
-          "visitante": "SONHARE IMÓVEIS / F&D FUTSAL / BANDA INDEXÃO",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "",
-          "data_hora": "01/01/0001 00:00"
-        },
-        {
-          "mandante": "AMIGOS F.C",
           "visitante": "PARCEIROS",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "",
+          "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "DISMAFF /E.C BELVEDERE",
+          "visitante": "LJS/ROSA SUL EMBALAGENS",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "",

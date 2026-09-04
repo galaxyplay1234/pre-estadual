@@ -1,5 +1,24 @@
 {
   "campeonato": "17ª COPA NDTV DE FUT SETE LIVRE MASCULINO",
-  "atualizado_em": "2026-09-02T21:23:32.304Z",
-  "artilheiros": []
+  "atualizado_em": "2026-09-04T22:38:27.872Z",
+  "artilheiros": [
+    {
+      "posicao": 1,
+      "nome": "Agson Rennan dos Santos Lopes",
+      "clube": "NIJU / GO PLAY F.C",
+      "gols": 2
+    },
+    {
+      "posicao": 2,
+      "nome": "Ramon Kappel",
+      "clube": "R.C SPORTS / INVICTUS",
+      "gols": 2
+    },
+    {
+      "posicao": 3,
+      "nome": "Pedro Henrique Barcelos Rossetto",
+      "clube": "NIJU / GO PLAY F.C",
+      "gols": 1
+    }
+  ]
 }
