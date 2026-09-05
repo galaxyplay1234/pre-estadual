@@ -1,6 +1,6 @@
 {
   "campeonato": "17ªCOPA NDTV DE FUT SETE  LIVRE MASCULINO",
-  "atualizado_em": "2026-09-04T22:38:24.006Z",
+  "atualizado_em": "2026-09-05T12:10:08.777Z",
   "grupos": [
     {
       "nome": "GRUPO A",
@@ -90,81 +90,81 @@
       "tabela": [
         {
           "posicao": 1,
-          "logo": "https://www.lchf.com.br/Upload/clubes/54.png",
-          "nome": "DISMAFF /E.C BELVEDERE",
-          "pontos": 0,
-          "jogos": 0,
-          "vitorias": 0,
+          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-08-13%20at%2011.34.26.jpeg",
+          "nome": "AMIGOS F.C",
+          "pontos": 3,
+          "jogos": 1,
+          "vitorias": 1,
           "empates": 0,
           "derrotas": 0,
-          "gols_pro": 0,
+          "gols_pro": 2,
           "gols_contra": 0,
-          "saldo": 0
+          "saldo": 2
         },
         {
           "posicao": 2,
-          "logo": "https://www.lchf.com.br/Upload/clubes/FREITAS_1.png",
-          "nome": "FREITAS F.C / AL TECNOLOGIA E SEGURANÇA / SONHARE IMÓVEIS / FED FUTSAL / BANDA INDEXÃO",
-          "pontos": 0,
-          "jogos": 0,
-          "vitorias": 0,
+          "logo": "https://www.lchf.com.br/Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(6)_2.png",
+          "nome": "LJS/ROSA SUL EMBALAGENS",
+          "pontos": 3,
+          "jogos": 1,
+          "vitorias": 1,
           "empates": 0,
           "derrotas": 0,
-          "gols_pro": 0,
-          "gols_contra": 0,
-          "saldo": 0
+          "gols_pro": 2,
+          "gols_contra": 1,
+          "saldo": 1
         },
         {
           "posicao": 3,
-          "logo": "https://www.lchf.com.br/Upload/clubes/PARCERIOS.png",
-          "nome": "PARCEIROS",
-          "pontos": 0,
-          "jogos": 0,
-          "vitorias": 0,
+          "logo": "https://www.lchf.com.br/Upload/clubes/FREITAS_1.png",
+          "nome": "FREITAS F.C / AL TECNOLOGIA E SEGURANÇA / SONHARE IMÓVEIS / FED FUTSAL / BANDA INDEXÃO",
+          "pontos": 3,
+          "jogos": 1,
+          "vitorias": 1,
           "empates": 0,
           "derrotas": 0,
-          "gols_pro": 0,
+          "gols_pro": 1,
           "gols_contra": 0,
-          "saldo": 0
+          "saldo": 1
         },
         {
           "posicao": 4,
-          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-08-13%20at%2011.34.26.jpeg",
-          "nome": "AMIGOS F.C",
+          "logo": "https://www.lchf.com.br/Upload/clubes/PARCERIOS.png",
+          "nome": "PARCEIROS",
           "pontos": 0,
-          "jogos": 0,
+          "jogos": 1,
           "vitorias": 0,
           "empates": 0,
-          "derrotas": 0,
-          "gols_pro": 0,
-          "gols_contra": 0,
-          "saldo": 0
+          "derrotas": 1,
+          "gols_pro": 1,
+          "gols_contra": 2,
+          "saldo": -1
         },
         {
           "posicao": 5,
-          "logo": "https://www.lchf.com.br/Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(6)_2.png",
-          "nome": "LJS/ROSA SUL EMBALAGENS",
+          "logo": "https://www.lchf.com.br/Upload/clubes/54.png",
+          "nome": "DISMAFF /E.C BELVEDERE",
           "pontos": 0,
-          "jogos": 0,
+          "jogos": 1,
           "vitorias": 0,
           "empates": 0,
-          "derrotas": 0,
+          "derrotas": 1,
           "gols_pro": 0,
-          "gols_contra": 0,
-          "saldo": 0
+          "gols_contra": 1,
+          "saldo": -1
         },
         {
           "posicao": 6,
           "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-08-27%20at%2018.49.45.jpeg",
           "nome": "DEPORTIVO CHAPECO FC",
           "pontos": 0,
-          "jogos": 0,
+          "jogos": 1,
           "vitorias": 0,
           "empates": 0,
-          "derrotas": 0,
+          "derrotas": 1,
           "gols_pro": 0,
-          "gols_contra": 0,
-          "saldo": 0
+          "gols_contra": 2,
+          "saldo": -2
         }
       ]
     },

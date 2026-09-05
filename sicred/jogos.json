@@ -1,7 +1,7 @@
 {
   "campeonato": "17ªCOPA NDTV DE FUT SETE  LIVRE MASCULINO",
   "campeonato_id": "180",
-  "atualizado_em": "2026-09-04T22:38:27.057Z",
+  "atualizado_em": "2026-09-05T12:10:11.472Z",
   "rodada_atual": 1,
   "total_rodadas": 7,
   "rodadas": [
@@ -20,24 +20,24 @@
         {
           "mandante": "AMIGOS F.C",
           "visitante": "DEPORTIVO CHAPECO FC",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 2,
+          "gols_visitante": 0,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "04/09/2026 19:15"
         },
         {
           "mandante": "FREITAS F.C / AL TECNOLOGIA E SEGURANÇA / SONHARE IMÓVEIS / FED FUTSAL / BANDA INDEXÃO",
           "visitante": "DISMAFF /E.C BELVEDERE",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 1,
+          "gols_visitante": 0,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "04/09/2026 20:15"
         },
         {
           "mandante": "PARCEIROS",
           "visitante": "LJS/ROSA SUL EMBALAGENS",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 1,
+          "gols_visitante": 2,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "04/09/2026 21:15"
         },
@@ -46,7 +46,7 @@
           "visitante": "SCRIPT UNITED",
           "gols_mandante": null,
           "gols_visitante": null,
-          "campo": "SER AURORA - ACESSO AEROPORTO",
+          "campo": "SEDE DOS METALÚRGICOS - ACESSO AEROPORTO",
           "data_hora": "08/09/2026 19:30"
         },
         {
@@ -54,7 +54,7 @@
           "visitante": "ASSOCIAÇÃO CANTINHO DOS AMIGOS/MARCENARIA NAVA",
           "gols_mandante": null,
           "gols_visitante": null,
-          "campo": "SER AURORA - ACESSO AEROPORTO",
+          "campo": "SEDE DOS METALÚRGICOS - ACESSO AEROPORTO",
           "data_hora": "08/09/2026 20:30"
         },
         {
@@ -168,14 +168,6 @@
           "data_hora": "01/01/0001 00:00"
         },
         {
-          "mandante": "LJS/ROSA SUL EMBALAGENS",
-          "visitante": "AMIGOS F.C",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "",
-          "data_hora": "01/01/0001 00:00"
-        },
-        {
           "mandante": "DISMAFF /E.C BELVEDERE",
           "visitante": "PARCEIROS",
           "gols_mandante": null,
@@ -254,6 +246,14 @@
           "gols_visitante": null,
           "campo": "",
           "data_hora": "01/01/0001 00:00"
+        },
+        {
+          "mandante": "LJS/ROSA SUL EMBALAGENS",
+          "visitante": "AMIGOS F.C",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "CAMPO DA LJS - NOVA ITABERABA",
+          "data_hora": "15/09/2026 20:00"
         }
       ]
     },
