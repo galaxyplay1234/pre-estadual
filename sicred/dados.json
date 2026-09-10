@@ -1,6 +1,6 @@
 {
   "campeonato": "17ªCOPA NDTV DE FUT SETE  LIVRE MASCULINO",
-  "atualizado_em": "2026-09-07T11:26:40.122Z",
+  "atualizado_em": "2026-09-10T04:32:05.965Z",
   "grupos": [
     {
       "nome": "GRUPO A",
@@ -9,26 +9,26 @@
           "posicao": 1,
           "logo": "https://www.lchf.com.br/Upload/clubes/ChatGPT%20Image%2031%20de%20ago.%20de%202026,%2016_28_13.png",
           "nome": "GRUPO COONECTA / AGROCERES",
-          "pontos": 0,
-          "jogos": 0,
+          "pontos": 1,
+          "jogos": 1,
           "vitorias": 0,
-          "empates": 0,
+          "empates": 1,
           "derrotas": 0,
-          "gols_pro": 0,
-          "gols_contra": 0,
+          "gols_pro": 1,
+          "gols_contra": 1,
           "saldo": 0
         },
         {
           "posicao": 2,
           "logo": "https://www.lchf.com.br/Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(8).png",
           "nome": "SEDE DO GORDO",
-          "pontos": 0,
-          "jogos": 0,
+          "pontos": 1,
+          "jogos": 1,
           "vitorias": 0,
-          "empates": 0,
+          "empates": 1,
           "derrotas": 0,
-          "gols_pro": 0,
-          "gols_contra": 0,
+          "gols_pro": 1,
+          "gols_contra": 1,
           "saldo": 0
         },
         {
@@ -60,7 +60,7 @@
         {
           "posicao": 5,
           "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-08-25%20at%2007.41.16.jpeg",
-          "nome": "IMPERIAL FC",
+          "nome": "IMPERIAL FC / LAVACAR COELHO",
           "pontos": 0,
           "jogos": 0,
           "vitorias": 0,
@@ -73,7 +73,7 @@
         {
           "posicao": 6,
           "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202025-08-19%20at%2013.54.27.jpeg",
-          "nome": "AAT FC / ALMIR ARAÚJO TRANSPORTE",
+          "nome": "AAT FC / ALMIR ARAÚJO TRANSPORTE/TRANSPOSEG",
           "pontos": 0,
           "jogos": 0,
           "vitorias": 0,
@@ -173,6 +173,19 @@
       "tabela": [
         {
           "posicao": 1,
+          "logo": "https://www.lchf.com.br/Upload/clubes/36.png",
+          "nome": "SCRIPT UNITED",
+          "pontos": 3,
+          "jogos": 1,
+          "vitorias": 1,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 2,
+          "gols_contra": 0,
+          "saldo": 2
+        },
+        {
+          "posicao": 2,
           "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-08-13%20at%2014.45.29.jpeg",
           "nome": "NIJU / GO PLAY F.C",
           "pontos": 3,
@@ -185,59 +198,33 @@
           "saldo": 1
         },
         {
-          "posicao": 2,
+          "posicao": 3,
           "logo": "https://www.lchf.com.br/Upload/clubes/ACDA.png",
           "nome": "ASSOCIAÇÃO CANTINHO DOS AMIGOS/MARCENARIA NAVA",
-          "pontos": 0,
-          "jogos": 0,
+          "pontos": 1,
+          "jogos": 1,
           "vitorias": 0,
-          "empates": 0,
+          "empates": 1,
           "derrotas": 0,
-          "gols_pro": 0,
-          "gols_contra": 0,
-          "saldo": 0
-        },
-        {
-          "posicao": 3,
-          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-08-13%20at%2010.09.19.jpeg",
-          "nome": "TCC FC",
-          "pontos": 0,
-          "jogos": 0,
-          "vitorias": 0,
-          "empates": 0,
-          "derrotas": 0,
-          "gols_pro": 0,
-          "gols_contra": 0,
+          "gols_pro": 2,
+          "gols_contra": 2,
           "saldo": 0
         },
         {
           "posicao": 4,
-          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-01-21%20at%2010.15.58.jpeg",
-          "nome": "GG PINTURAS/SANTA MARIA",
-          "pontos": 0,
-          "jogos": 0,
+          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-08-13%20at%2010.09.19.jpeg",
+          "nome": "TCC FC",
+          "pontos": 1,
+          "jogos": 1,
           "vitorias": 0,
-          "empates": 0,
+          "empates": 1,
           "derrotas": 0,
-          "gols_pro": 0,
-          "gols_contra": 0,
+          "gols_pro": 2,
+          "gols_contra": 2,
           "saldo": 0
         },
         {
           "posicao": 5,
-          "logo": "https://www.lchf.com.br/Upload/clubes/36.png",
-          "nome": "SCRIPT UNITED",
-          "pontos": 0,
-          "jogos": 0,
-          "vitorias": 0,
-          "empates": 0,
-          "derrotas": 0,
-          "gols_pro": 0,
-          "gols_contra": 0,
-          "saldo": 0
-        },
-        {
-          "posicao": 6,
           "logo": "https://www.lchf.com.br/Upload/clubes/OJR.png",
           "nome": "R.C SPORTS / INVICTUS",
           "pontos": 0,
@@ -248,6 +235,19 @@
           "gols_pro": 2,
           "gols_contra": 3,
           "saldo": -1
+        },
+        {
+          "posicao": 6,
+          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-01-21%20at%2010.15.58.jpeg",
+          "nome": "GG PINTURAS/SANTA MARIA",
+          "pontos": 0,
+          "jogos": 1,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 1,
+          "gols_pro": 0,
+          "gols_contra": 2,
+          "saldo": -2
         }
       ]
     },

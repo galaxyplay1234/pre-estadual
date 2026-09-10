@@ -1,6 +1,6 @@
 {
   "campeonato": "17ª COPA NDTV DE FUT SETE LIVRE MASCULINO",
-  "atualizado_em": "2026-09-07T11:26:42.727Z",
+  "atualizado_em": "2026-09-10T04:32:10.240Z",
   "artilheiros": [
     {
       "posicao": 1,
@@ -10,14 +10,80 @@
     },
     {
       "posicao": 2,
+      "nome": "Jacson Francisco Zanella",
+      "clube": "SCRIPT UNITED",
+      "gols": 2
+    },
+    {
+      "posicao": 3,
       "nome": "Ramon Kappel",
       "clube": "R.C SPORTS / INVICTUS",
       "gols": 2
     },
     {
-      "posicao": 3,
+      "posicao": 4,
+      "nome": "ADEMIR VIEIRA",
+      "clube": "FREITAS F.C / AL TECNOLOGIA E SEGURANÇA / SONHARE IMÓVEIS / FED FUTSAL / BANDA INDEXÃO",
+      "gols": 1
+    },
+    {
+      "posicao": 5,
+      "nome": "GABRIEL GRIS BEDIN",
+      "clube": "ASSOCIAÇÃO CANTINHO DOS AMIGOS/MARCENARIA NAVA",
+      "gols": 1
+    },
+    {
+      "posicao": 6,
+      "nome": "Gustavo Luiz Furtado",
+      "clube": "LJS/ROSA SUL EMBALAGENS",
+      "gols": 1
+    },
+    {
+      "posicao": 7,
+      "nome": "Jean Carlos Provensi",
+      "clube": "PARCEIROS",
+      "gols": 1
+    },
+    {
+      "posicao": 8,
+      "nome": "Júnior Telmo vassoler",
+      "clube": "AMIGOS F.C",
+      "gols": 1
+    },
+    {
+      "posicao": 9,
+      "nome": "Laerti Correia",
+      "clube": "LJS/ROSA SUL EMBALAGENS",
+      "gols": 1
+    },
+    {
+      "posicao": 10,
+      "nome": "Luciano Antunes de Lima",
+      "clube": "TCC FC",
+      "gols": 1
+    },
+    {
+      "posicao": 11,
+      "nome": "Luiz Henrique de barros",
+      "clube": "TCC FC",
+      "gols": 1
+    },
+    {
+      "posicao": 12,
+      "nome": "Maicon Eloir Ribeiro Portela",
+      "clube": "ASSOCIAÇÃO CANTINHO DOS AMIGOS/MARCENARIA NAVA",
+      "gols": 1
+    },
+    {
+      "posicao": 13,
       "nome": "Pedro Henrique Barcelos Rossetto",
       "clube": "NIJU / GO PLAY F.C",
+      "gols": 1
+    },
+    {
+      "posicao": 14,
+      "nome": "Renato Maestri",
+      "clube": "AMIGOS F.C",
       "gols": 1
     }
   ]
