@@ -1,7 +1,7 @@
 {
   "campeonato": "17ªCOPA NDTV DE FUT SETE  LIVRE MASCULINO",
   "campeonato_id": "180",
-  "atualizado_em": "2026-09-10T04:32:09.105Z",
+  "atualizado_em": "2026-09-12T15:04:56.809Z",
   "rodada_atual": 1,
   "total_rodadas": 7,
   "rodadas": [
@@ -66,14 +66,6 @@
           "data_hora": "09/09/2026 20:30"
         },
         {
-          "mandante": "RONDOFRIO E.C",
-          "visitante": "AAT FC / ALMIR ARAÚJO TRANSPORTE/TRANSPOSEG",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "09/09/2026 21:30"
-        },
-        {
           "mandante": "SEM PULMÕES FC",
           "visitante": "GREMIO LP/SEVEN REPRESENTAÇÃO",
           "gols_mandante": null,
@@ -90,14 +82,6 @@
           "data_hora": "11/09/2026 20:30"
         },
         {
-          "mandante": "FC LYON SVSB",
-          "visitante": "AADG F7",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "11/09/2026 21:30"
-        },
-        {
           "mandante": "RESTAURANTE BOM SABOR2/ROMA MANTELLI/REAL CATALUNHA / CK MAQUINAS",
           "visitante": "E.C COLORADO",
           "gols_mandante": null,
@@ -106,20 +90,12 @@
           "data_hora": "11/09/2026 19:30"
         },
         {
-          "mandante": "RAJA CLUB",
-          "visitante": "IMPERIAL FC / LAVACAR COELHO",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "COMPLEXO TIAGO",
-          "data_hora": "11/09/2026 20:30"
-        },
-        {
           "mandante": "LÁ12",
           "visitante": "HORTIAGRO F.C /MECANICA CASTELI",
           "gols_mandante": null,
           "gols_visitante": null,
-          "campo": "GUATAMBU SOCIETY",
-          "data_hora": "11/09/2026 20:00"
+          "campo": "COMPLEXO TIAGO",
+          "data_hora": "11/09/2026 21:30"
         },
         {
           "mandante": "CATARINENSE PROTEÇÃO VEICULAR/ONE CELL",
@@ -128,6 +104,30 @@
           "gols_visitante": null,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "14/09/2026 21:30"
+        },
+        {
+          "mandante": "FC LYON SVSB",
+          "visitante": "AADG F7",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "15/09/2026 21:30"
+        },
+        {
+          "mandante": "RAJA CLUB",
+          "visitante": "IMPERIAL FC / LAVACAR COELHO / GP CELULARES",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "COMPLEXO TIAGO",
+          "data_hora": "15/09/2026 20:00"
+        },
+        {
+          "mandante": "RONDOFRIO E.C",
+          "visitante": "AAT FC / ALMIR ARAÚJO TRANSPORTE/TRANSPOSEG",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "COMPLEXO TIAGO",
+          "data_hora": "15/09/2026 21:00"
         }
       ]
     },
@@ -168,7 +168,7 @@
           "data_hora": "16/09/2026 21:30"
         },
         {
-          "mandante": "IMPERIAL FC / LAVACAR COELHO",
+          "mandante": "IMPERIAL FC / LAVACAR COELHO / GP CELULARES",
           "visitante": "RONDOFRIO E.C",
           "gols_mandante": null,
           "gols_visitante": null,
@@ -263,7 +263,7 @@
       "jogos": [
         {
           "mandante": "AAT FC / ALMIR ARAÚJO TRANSPORTE/TRANSPOSEG",
-          "visitante": "IMPERIAL FC / LAVACAR COELHO",
+          "visitante": "IMPERIAL FC / LAVACAR COELHO / GP CELULARES",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "",
@@ -389,7 +389,7 @@
       "jogos": [
         {
           "mandante": "GRUPO COONECTA / AGROCERES",
-          "visitante": "IMPERIAL FC / LAVACAR COELHO",
+          "visitante": "IMPERIAL FC / LAVACAR COELHO / GP CELULARES",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "",
@@ -522,7 +522,7 @@
           "data_hora": "01/01/0001 00:00"
         },
         {
-          "mandante": "IMPERIAL FC / LAVACAR COELHO",
+          "mandante": "IMPERIAL FC / LAVACAR COELHO / GP CELULARES",
           "visitante": "SEDE DO GORDO",
           "gols_mandante": null,
           "gols_visitante": null,

@@ -1,6 +1,6 @@
 {
   "campeonato": "17ª COPA NDTV DE FUT SETE LIVRE MASCULINO",
-  "atualizado_em": "2026-09-10T04:32:10.240Z",
+  "atualizado_em": "2026-09-12T15:04:57.661Z",
   "artilheiros": [
     {
       "posicao": 1,
@@ -34,54 +34,66 @@
     },
     {
       "posicao": 6,
+      "nome": "Gabriel de witt machado",
+      "clube": "GRUPO COONECTA / AGROCERES",
+      "gols": 1
+    },
+    {
+      "posicao": 7,
       "nome": "Gustavo Luiz Furtado",
       "clube": "LJS/ROSA SUL EMBALAGENS",
       "gols": 1
     },
     {
-      "posicao": 7,
+      "posicao": 8,
       "nome": "Jean Carlos Provensi",
       "clube": "PARCEIROS",
       "gols": 1
     },
     {
-      "posicao": 8,
+      "posicao": 9,
       "nome": "Júnior Telmo vassoler",
       "clube": "AMIGOS F.C",
       "gols": 1
     },
     {
-      "posicao": 9,
+      "posicao": 10,
       "nome": "Laerti Correia",
       "clube": "LJS/ROSA SUL EMBALAGENS",
       "gols": 1
     },
     {
-      "posicao": 10,
+      "posicao": 11,
+      "nome": "Leandro dos anjos",
+      "clube": "SEDE DO GORDO",
+      "gols": 1
+    },
+    {
+      "posicao": 12,
       "nome": "Luciano Antunes de Lima",
       "clube": "TCC FC",
       "gols": 1
     },
     {
-      "posicao": 11,
+      "posicao": 13,
       "nome": "Luiz Henrique de barros",
       "clube": "TCC FC",
       "gols": 1
     },
     {
-      "posicao": 12,
+      "posicao": 14,
       "nome": "Maicon Eloir Ribeiro Portela",
       "clube": "ASSOCIAÇÃO CANTINHO DOS AMIGOS/MARCENARIA NAVA",
       "gols": 1
     },
     {
-      "posicao": 13,
+      "posicao": 15,
       "nome": "Pedro Henrique Barcelos Rossetto",
       "clube": "NIJU / GO PLAY F.C",
       "gols": 1
     },
     {
-      "posicao": 14,
+      "posicao": 16,
       "nome": "Renato Maestri",
       "clube": "AMIGOS F.C",
       "gols": 1
