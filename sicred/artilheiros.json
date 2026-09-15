@@ -1,101 +1,191 @@
 {
   "campeonato": "17ª COPA NDTV DE FUT SETE LIVRE MASCULINO",
-  "atualizado_em": "2026-09-13T02:33:38.417Z",
+  "atualizado_em": "2026-09-15T13:48:34.991Z",
   "artilheiros": [
     {
       "posicao": 1,
+      "nome": "Alexsandro Reis Conterato",
+      "clube": "HORTIAGRO F.C /MECANICA CASTELI",
+      "gols": 3
+    },
+    {
+      "posicao": 2,
+      "nome": "Edilson de Almeida",
+      "clube": "SEM PULMÕES FC",
+      "gols": 3
+    },
+    {
+      "posicao": 3,
+      "nome": "Nailson Felipe Almeida Oliveira",
+      "clube": "E.C COLORADO",
+      "gols": 3
+    },
+    {
+      "posicao": 4,
+      "nome": "WILLIAM GUSTAVO ALVES DE JESUS",
+      "clube": "SEM PULMÕES FC",
+      "gols": 3
+    },
+    {
+      "posicao": 5,
       "nome": "Agson Rennan dos Santos Lopes",
       "clube": "NIJU / GO PLAY F.C",
       "gols": 2
     },
     {
-      "posicao": 2,
+      "posicao": 6,
       "nome": "Jacson Francisco Zanella",
       "clube": "SCRIPT UNITED",
       "gols": 2
     },
     {
-      "posicao": 3,
+      "posicao": 7,
       "nome": "Ramon Kappel",
       "clube": "R.C SPORTS / INVICTUS",
       "gols": 2
     },
     {
-      "posicao": 4,
+      "posicao": 8,
       "nome": "ADEMIR VIEIRA",
       "clube": "FREITAS F.C / AL TECNOLOGIA E SEGURANÇA / SONHARE IMÓVEIS / FED FUTSAL / BANDA INDEXÃO",
       "gols": 1
     },
     {
-      "posicao": 5,
+      "posicao": 9,
+      "nome": "Alberto Carlos Pires da Silva",
+      "clube": "SITICOM/ SÃO PEDRO  FC/DISK OPTICA CHAPECÓ",
+      "gols": 1
+    },
+    {
+      "posicao": 10,
+      "nome": "Alexandre Augusto Zavascki",
+      "clube": "SEM PULMÕES FC",
+      "gols": 1
+    },
+    {
+      "posicao": 11,
+      "nome": "Anailson Chaves de Lara",
+      "clube": "E.C COLORADO",
+      "gols": 1
+    },
+    {
+      "posicao": 12,
+      "nome": "Anderson de Oliveira",
+      "clube": "BOLEIROS",
+      "gols": 1
+    },
+    {
+      "posicao": 13,
+      "nome": "David Luciano Souza Moraes",
+      "clube": "E.C COLORADO",
+      "gols": 1
+    },
+    {
+      "posicao": 14,
       "nome": "GABRIEL GRIS BEDIN",
       "clube": "ASSOCIAÇÃO CANTINHO DOS AMIGOS/MARCENARIA NAVA",
       "gols": 1
     },
     {
-      "posicao": 6,
+      "posicao": 15,
       "nome": "Gabriel de witt machado",
       "clube": "GRUPO COONECTA / AGROCERES",
       "gols": 1
     },
     {
-      "posicao": 7,
+      "posicao": 16,
+      "nome": "Gean Carlos de Oliveira Braga",
+      "clube": "BOLEIROS",
+      "gols": 1
+    },
+    {
+      "posicao": 17,
       "nome": "Gustavo Luiz Furtado",
       "clube": "LJS/ROSA SUL EMBALAGENS",
       "gols": 1
     },
     {
-      "posicao": 8,
+      "posicao": 18,
       "nome": "Jean Carlos Provensi",
       "clube": "PARCEIROS",
       "gols": 1
     },
     {
-      "posicao": 9,
+      "posicao": 19,
+      "nome": "John Lennon Paiva Goslar",
+      "clube": "SEM PULMÕES FC",
+      "gols": 1
+    },
+    {
+      "posicao": 20,
+      "nome": "João Guilherme Cândido",
+      "clube": "SITICOM/ SÃO PEDRO  FC/DISK OPTICA CHAPECÓ",
+      "gols": 1
+    },
+    {
+      "posicao": 21,
       "nome": "Júnior Telmo vassoler",
       "clube": "AMIGOS F.C",
       "gols": 1
     },
     {
-      "posicao": 10,
+      "posicao": 22,
       "nome": "Laerti Correia",
       "clube": "LJS/ROSA SUL EMBALAGENS",
       "gols": 1
     },
     {
-      "posicao": 11,
+      "posicao": 23,
       "nome": "Leandro dos anjos",
       "clube": "SEDE DO GORDO",
       "gols": 1
     },
     {
-      "posicao": 12,
+      "posicao": 24,
       "nome": "Luciano Antunes de Lima",
       "clube": "TCC FC",
       "gols": 1
     },
     {
-      "posicao": 13,
+      "posicao": 25,
       "nome": "Luiz Henrique de barros",
       "clube": "TCC FC",
       "gols": 1
     },
     {
-      "posicao": 14,
+      "posicao": 26,
+      "nome": "Macueydy E. T. Glanert",
+      "clube": "SEM PULMÕES FC",
+      "gols": 1
+    },
+    {
+      "posicao": 27,
       "nome": "Maicon Eloir Ribeiro Portela",
       "clube": "ASSOCIAÇÃO CANTINHO DOS AMIGOS/MARCENARIA NAVA",
       "gols": 1
     },
     {
-      "posicao": 15,
+      "posicao": 28,
       "nome": "Pedro Henrique Barcelos Rossetto",
       "clube": "NIJU / GO PLAY F.C",
       "gols": 1
     },
     {
-      "posicao": 16,
+      "posicao": 29,
+      "nome": "Pedro Henrique da Rosa Griss",
+      "clube": "SEM PULMÕES FC",
+      "gols": 1
+    },
+    {
+      "posicao": 30,
       "nome": "Renato Maestri",
       "clube": "AMIGOS F.C",
+      "gols": 1
+    },
+    {
+      "posicao": 31,
+      "nome": "Toniel Moraes",
+      "clube": "LÁ12",
       "gols": 1
     }
   ]
