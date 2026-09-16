@@ -1,12 +1,38 @@
 {
   "campeonato": "17ªCOPA NDTV DE FUT SETE  LIVRE MASCULINO",
-  "atualizado_em": "2026-09-15T13:48:32.230Z",
+  "atualizado_em": "2026-09-16T04:03:41.890Z",
   "grupos": [
     {
       "nome": "GRUPO A",
       "tabela": [
         {
           "posicao": 1,
+          "logo": "https://www.lchf.com.br/Upload/clubes/Design%20sem%20nome%20(6).png",
+          "nome": "RONDOFRIO E.C / CORDILHEIR ALTA",
+          "pontos": 3,
+          "jogos": 1,
+          "vitorias": 1,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 4,
+          "gols_contra": 2,
+          "saldo": 2
+        },
+        {
+          "posicao": 2,
+          "logo": "https://www.lchf.com.br/Upload/clubes/RAJA.png",
+          "nome": "RAJA CLUB",
+          "pontos": 3,
+          "jogos": 1,
+          "vitorias": 1,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 3,
+          "gols_contra": 1,
+          "saldo": 2
+        },
+        {
+          "posicao": 3,
           "logo": "https://www.lchf.com.br/Upload/clubes/ChatGPT%20Image%2031%20de%20ago.%20de%202026,%2016_28_13.png",
           "nome": "GRUPO COONECTA / AGROCERES",
           "pontos": 1,
@@ -19,7 +45,7 @@
           "saldo": 0
         },
         {
-          "posicao": 2,
+          "posicao": 4,
           "logo": "https://www.lchf.com.br/Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(8).png",
           "nome": "SEDE DO GORDO",
           "pontos": 1,
@@ -32,56 +58,30 @@
           "saldo": 0
         },
         {
-          "posicao": 3,
-          "logo": "https://www.lchf.com.br/Upload/clubes/RAJA.png",
-          "nome": "RAJA CLUB",
-          "pontos": 0,
-          "jogos": 0,
-          "vitorias": 0,
-          "empates": 0,
-          "derrotas": 0,
-          "gols_pro": 0,
-          "gols_contra": 0,
-          "saldo": 0
-        },
-        {
-          "posicao": 4,
-          "logo": "https://www.lchf.com.br/Upload/clubes/Design%20sem%20nome%20(6).png",
-          "nome": "RONDOFRIO E.C / CORDILHEIR ALTA",
-          "pontos": 0,
-          "jogos": 0,
-          "vitorias": 0,
-          "empates": 0,
-          "derrotas": 0,
-          "gols_pro": 0,
-          "gols_contra": 0,
-          "saldo": 0
-        },
-        {
           "posicao": 5,
-          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-08-25%20at%2007.41.16.jpeg",
-          "nome": "IMPERIAL FC / LAVACAR COELHO / GP CELULARES",
-          "pontos": 0,
-          "jogos": 0,
-          "vitorias": 0,
-          "empates": 0,
-          "derrotas": 0,
-          "gols_pro": 0,
-          "gols_contra": 0,
-          "saldo": 0
-        },
-        {
-          "posicao": 6,
           "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202025-08-19%20at%2013.54.27.jpeg",
           "nome": "AAT FC / ALMIR ARAÚJO TRANSPORTE/TRANSPOSEG",
           "pontos": 0,
-          "jogos": 0,
+          "jogos": 1,
           "vitorias": 0,
           "empates": 0,
-          "derrotas": 0,
-          "gols_pro": 0,
-          "gols_contra": 0,
-          "saldo": 0
+          "derrotas": 1,
+          "gols_pro": 2,
+          "gols_contra": 4,
+          "saldo": -2
+        },
+        {
+          "posicao": 6,
+          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-08-25%20at%2007.41.16.jpeg",
+          "nome": "IMPERIAL FC / LAVACAR COELHO / GP CELULARES",
+          "pontos": 0,
+          "jogos": 1,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 1,
+          "gols_pro": 1,
+          "gols_contra": 3,
+          "saldo": -2
         }
       ]
     },
@@ -90,32 +90,19 @@
       "tabela": [
         {
           "posicao": 1,
-          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-08-13%20at%2011.34.26.jpeg",
-          "nome": "AMIGOS F.C",
-          "pontos": 3,
-          "jogos": 1,
-          "vitorias": 1,
+          "logo": "https://www.lchf.com.br/Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(6)_2.png",
+          "nome": "LJS/ROSA SUL EMBALAGENS",
+          "pontos": 6,
+          "jogos": 2,
+          "vitorias": 2,
           "empates": 0,
           "derrotas": 0,
-          "gols_pro": 2,
-          "gols_contra": 0,
-          "saldo": 2
+          "gols_pro": 6,
+          "gols_contra": 1,
+          "saldo": 5
         },
         {
           "posicao": 2,
-          "logo": "https://www.lchf.com.br/Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(6)_2.png",
-          "nome": "LJS/ROSA SUL EMBALAGENS",
-          "pontos": 3,
-          "jogos": 1,
-          "vitorias": 1,
-          "empates": 0,
-          "derrotas": 0,
-          "gols_pro": 2,
-          "gols_contra": 1,
-          "saldo": 1
-        },
-        {
-          "posicao": 3,
           "logo": "https://www.lchf.com.br/Upload/clubes/FREITAS_1.png",
           "nome": "FREITAS F.C / AL TECNOLOGIA E SEGURANÇA / SONHARE IMÓVEIS / FED FUTSAL / BANDA INDEXÃO",
           "pontos": 3,
@@ -126,6 +113,19 @@
           "gols_pro": 1,
           "gols_contra": 0,
           "saldo": 1
+        },
+        {
+          "posicao": 3,
+          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-08-13%20at%2011.34.26.jpeg",
+          "nome": "AMIGOS F.C",
+          "pontos": 3,
+          "jogos": 2,
+          "vitorias": 1,
+          "empates": 0,
+          "derrotas": 1,
+          "gols_pro": 2,
+          "gols_contra": 4,
+          "saldo": -2
         },
         {
           "posicao": 4,
@@ -256,6 +256,19 @@
       "tabela": [
         {
           "posicao": 1,
+          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-08-25%20at%2008.23.03.jpeg",
+          "nome": "AADG F7",
+          "pontos": 3,
+          "jogos": 1,
+          "vitorias": 1,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 8,
+          "gols_contra": 1,
+          "saldo": 7
+        },
+        {
+          "posicao": 2,
           "logo": "https://www.lchf.com.br/Upload/clubes/COLORADO.png",
           "nome": "E.C COLORADO",
           "pontos": 3,
@@ -268,7 +281,7 @@
           "saldo": 5
         },
         {
-          "posicao": 2,
+          "posicao": 3,
           "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202025-08-26%20at%2016.27.47.jpeg",
           "nome": "HORTIAGRO F.C /MECANICA CASTELI",
           "pontos": 3,
@@ -281,33 +294,7 @@
           "saldo": 2
         },
         {
-          "posicao": 3,
-          "logo": "https://www.lchf.com.br/Upload/clubes/sv%20(2).png",
-          "nome": "FC LYON SVSB",
-          "pontos": 0,
-          "jogos": 0,
-          "vitorias": 0,
-          "empates": 0,
-          "derrotas": 0,
-          "gols_pro": 0,
-          "gols_contra": 0,
-          "saldo": 0
-        },
-        {
           "posicao": 4,
-          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-08-25%20at%2008.23.03.jpeg",
-          "nome": "AADG F7",
-          "pontos": 0,
-          "jogos": 0,
-          "vitorias": 0,
-          "empates": 0,
-          "derrotas": 0,
-          "gols_pro": 0,
-          "gols_contra": 0,
-          "saldo": 0
-        },
-        {
-          "posicao": 5,
           "logo": "https://www.lchf.com.br/Upload/clubes/LA12.png",
           "nome": "LÁ12",
           "pontos": 0,
@@ -320,7 +307,7 @@
           "saldo": -2
         },
         {
-          "posicao": 6,
+          "posicao": 5,
           "logo": "https://www.lchf.com.br/Upload/clubes/REAL%20C.png",
           "nome": "RESTAURANTE BOM SABOR2/ROMA MANTELLI/REAL CATALUNHA / CK MAQUINAS",
           "pontos": 0,
@@ -331,6 +318,19 @@
           "gols_pro": 0,
           "gols_contra": 5,
           "saldo": -5
+        },
+        {
+          "posicao": 6,
+          "logo": "https://www.lchf.com.br/Upload/clubes/sv%20(2).png",
+          "nome": "FC LYON SVSB",
+          "pontos": 0,
+          "jogos": 1,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 1,
+          "gols_pro": 1,
+          "gols_contra": 8,
+          "saldo": -7
         }
       ]
     },

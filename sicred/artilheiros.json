@@ -1,6 +1,6 @@
 {
   "campeonato": "17ª COPA NDTV DE FUT SETE LIVRE MASCULINO",
-  "atualizado_em": "2026-09-15T13:48:34.991Z",
+  "atualizado_em": "2026-09-16T04:03:46.925Z",
   "artilheiros": [
     {
       "posicao": 1,
@@ -76,116 +76,158 @@
     },
     {
       "posicao": 13,
+      "nome": "Daniel poltronieri Machado",
+      "clube": "CATARINENSE PROTEÇÃO VEICULAR/ONE CELL",
+      "gols": 1
+    },
+    {
+      "posicao": 14,
       "nome": "David Luciano Souza Moraes",
       "clube": "E.C COLORADO",
       "gols": 1
     },
     {
-      "posicao": 14,
+      "posicao": 15,
+      "nome": "EDIVAN BONDAN",
+      "clube": "CATARINENSE PROTEÇÃO VEICULAR/ONE CELL",
+      "gols": 1
+    },
+    {
+      "posicao": 16,
+      "nome": "Fábio Junior Antunes",
+      "clube": "ATLÉTICO ALIANZA FC",
+      "gols": 1
+    },
+    {
+      "posicao": 17,
       "nome": "GABRIEL GRIS BEDIN",
       "clube": "ASSOCIAÇÃO CANTINHO DOS AMIGOS/MARCENARIA NAVA",
       "gols": 1
     },
     {
-      "posicao": 15,
+      "posicao": 18,
       "nome": "Gabriel de witt machado",
       "clube": "GRUPO COONECTA / AGROCERES",
       "gols": 1
     },
     {
-      "posicao": 16,
+      "posicao": 19,
       "nome": "Gean Carlos de Oliveira Braga",
       "clube": "BOLEIROS",
       "gols": 1
     },
     {
-      "posicao": 17,
+      "posicao": 20,
+      "nome": "Gildomar j. Da Silva",
+      "clube": "CATARINENSE PROTEÇÃO VEICULAR/ONE CELL",
+      "gols": 1
+    },
+    {
+      "posicao": 21,
       "nome": "Gustavo Luiz Furtado",
       "clube": "LJS/ROSA SUL EMBALAGENS",
       "gols": 1
     },
     {
-      "posicao": 18,
+      "posicao": 22,
       "nome": "Jean Carlos Provensi",
       "clube": "PARCEIROS",
       "gols": 1
     },
     {
-      "posicao": 19,
+      "posicao": 23,
       "nome": "John Lennon Paiva Goslar",
       "clube": "SEM PULMÕES FC",
       "gols": 1
     },
     {
-      "posicao": 20,
+      "posicao": 24,
       "nome": "João Guilherme Cândido",
       "clube": "SITICOM/ SÃO PEDRO  FC/DISK OPTICA CHAPECÓ",
       "gols": 1
     },
     {
-      "posicao": 21,
+      "posicao": 25,
+      "nome": "João Witor Lazaretti",
+      "clube": "ATLÉTICO ALIANZA FC",
+      "gols": 1
+    },
+    {
+      "posicao": 26,
       "nome": "Júnior Telmo vassoler",
       "clube": "AMIGOS F.C",
       "gols": 1
     },
     {
-      "posicao": 22,
+      "posicao": 27,
       "nome": "Laerti Correia",
       "clube": "LJS/ROSA SUL EMBALAGENS",
       "gols": 1
     },
     {
-      "posicao": 23,
+      "posicao": 28,
       "nome": "Leandro dos anjos",
       "clube": "SEDE DO GORDO",
       "gols": 1
     },
     {
-      "posicao": 24,
+      "posicao": 29,
       "nome": "Luciano Antunes de Lima",
       "clube": "TCC FC",
       "gols": 1
     },
     {
-      "posicao": 25,
+      "posicao": 30,
       "nome": "Luiz Henrique de barros",
       "clube": "TCC FC",
       "gols": 1
     },
     {
-      "posicao": 26,
+      "posicao": 31,
       "nome": "Macueydy E. T. Glanert",
       "clube": "SEM PULMÕES FC",
       "gols": 1
     },
     {
-      "posicao": 27,
+      "posicao": 32,
       "nome": "Maicon Eloir Ribeiro Portela",
       "clube": "ASSOCIAÇÃO CANTINHO DOS AMIGOS/MARCENARIA NAVA",
       "gols": 1
     },
     {
-      "posicao": 28,
+      "posicao": 33,
+      "nome": "Marcos Paulo Neres da Luz",
+      "clube": "ATLÉTICO ALIANZA FC",
+      "gols": 1
+    },
+    {
+      "posicao": 34,
       "nome": "Pedro Henrique Barcelos Rossetto",
       "clube": "NIJU / GO PLAY F.C",
       "gols": 1
     },
     {
-      "posicao": 29,
+      "posicao": 35,
       "nome": "Pedro Henrique da Rosa Griss",
       "clube": "SEM PULMÕES FC",
       "gols": 1
     },
     {
-      "posicao": 30,
+      "posicao": 36,
       "nome": "Renato Maestri",
       "clube": "AMIGOS F.C",
       "gols": 1
     },
     {
-      "posicao": 31,
+      "posicao": 37,
       "nome": "Toniel Moraes",
       "clube": "LÁ12",
+      "gols": 1
+    },
+    {
+      "posicao": 38,
+      "nome": "Weslley Assis de Meneses",
+      "clube": "CATARINENSE PROTEÇÃO VEICULAR/ONE CELL",
       "gols": 1
     }
   ]
