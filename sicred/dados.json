@@ -1,6 +1,6 @@
 {
   "campeonato": "17ªCOPA NDTV DE FUT SETE  LIVRE MASCULINO",
-  "atualizado_em": "2026-09-16T04:03:41.890Z",
+  "atualizado_em": "2026-09-18T00:05:47.211Z",
   "grupos": [
     {
       "nome": "GRUPO A",
@@ -8,7 +8,7 @@
         {
           "posicao": 1,
           "logo": "https://www.lchf.com.br/Upload/clubes/Design%20sem%20nome%20(6).png",
-          "nome": "RONDOFRIO E.C / CORDILHEIR ALTA",
+          "nome": "RONDOFRIO E.C / CORDILHEIRA ALTA",
           "pontos": 3,
           "jogos": 1,
           "vitorias": 1,
@@ -105,17 +105,30 @@
           "posicao": 2,
           "logo": "https://www.lchf.com.br/Upload/clubes/FREITAS_1.png",
           "nome": "FREITAS F.C / AL TECNOLOGIA E SEGURANÇA / SONHARE IMÓVEIS / FED FUTSAL / BANDA INDEXÃO",
-          "pontos": 3,
-          "jogos": 1,
-          "vitorias": 1,
+          "pontos": 6,
+          "jogos": 2,
+          "vitorias": 2,
           "empates": 0,
           "derrotas": 0,
-          "gols_pro": 1,
-          "gols_contra": 0,
-          "saldo": 1
+          "gols_pro": 3,
+          "gols_contra": 1,
+          "saldo": 2
         },
         {
           "posicao": 3,
+          "logo": "https://www.lchf.com.br/Upload/clubes/PARCERIOS.png",
+          "nome": "PARCEIROS",
+          "pontos": 3,
+          "jogos": 2,
+          "vitorias": 1,
+          "empates": 0,
+          "derrotas": 1,
+          "gols_pro": 4,
+          "gols_contra": 4,
+          "saldo": 0
+        },
+        {
+          "posicao": 4,
           "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-08-13%20at%2011.34.26.jpeg",
           "nome": "AMIGOS F.C",
           "pontos": 3,
@@ -128,43 +141,30 @@
           "saldo": -2
         },
         {
-          "posicao": 4,
-          "logo": "https://www.lchf.com.br/Upload/clubes/PARCERIOS.png",
-          "nome": "PARCEIROS",
-          "pontos": 0,
-          "jogos": 1,
-          "vitorias": 0,
-          "empates": 0,
-          "derrotas": 1,
-          "gols_pro": 1,
-          "gols_contra": 2,
-          "saldo": -1
-        },
-        {
           "posicao": 5,
           "logo": "https://www.lchf.com.br/Upload/clubes/54.png",
           "nome": "DISMAFF /E.C BELVEDERE",
           "pontos": 0,
-          "jogos": 1,
+          "jogos": 2,
           "vitorias": 0,
           "empates": 0,
-          "derrotas": 1,
-          "gols_pro": 0,
-          "gols_contra": 1,
-          "saldo": -1
+          "derrotas": 2,
+          "gols_pro": 2,
+          "gols_contra": 4,
+          "saldo": -2
         },
         {
           "posicao": 6,
           "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-08-27%20at%2018.49.45.jpeg",
           "nome": "DEPORTIVO CHAPECO FC",
           "pontos": 0,
-          "jogos": 1,
+          "jogos": 2,
           "vitorias": 0,
           "empates": 0,
-          "derrotas": 1,
-          "gols_pro": 0,
-          "gols_contra": 2,
-          "saldo": -2
+          "derrotas": 2,
+          "gols_pro": 1,
+          "gols_contra": 4,
+          "saldo": -3
         }
       ]
     },
@@ -199,15 +199,15 @@
         },
         {
           "posicao": 3,
-          "logo": "https://www.lchf.com.br/Upload/clubes/ACDA.png",
-          "nome": "ASSOCIAÇÃO CANTINHO DOS AMIGOS/MARCENARIA NAVA",
-          "pontos": 1,
-          "jogos": 1,
-          "vitorias": 0,
-          "empates": 1,
-          "derrotas": 0,
-          "gols_pro": 2,
-          "gols_contra": 2,
+          "logo": "https://www.lchf.com.br/Upload/clubes/OJR.png",
+          "nome": "R.C SPORTS / INVICTUS",
+          "pontos": 3,
+          "jogos": 2,
+          "vitorias": 1,
+          "empates": 0,
+          "derrotas": 1,
+          "gols_pro": 3,
+          "gols_contra": 3,
           "saldo": 0
         },
         {
@@ -225,12 +225,12 @@
         },
         {
           "posicao": 5,
-          "logo": "https://www.lchf.com.br/Upload/clubes/OJR.png",
-          "nome": "R.C SPORTS / INVICTUS",
-          "pontos": 0,
-          "jogos": 1,
+          "logo": "https://www.lchf.com.br/Upload/clubes/ACDA.png",
+          "nome": "ASSOCIAÇÃO CANTINHO DOS AMIGOS/MARCENARIA NAVA",
+          "pontos": 1,
+          "jogos": 2,
           "vitorias": 0,
-          "empates": 0,
+          "empates": 1,
           "derrotas": 1,
           "gols_pro": 2,
           "gols_contra": 3,
