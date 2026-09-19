@@ -1,7 +1,7 @@
 {
   "campeonato": "17ªCOPA NDTV DE FUT SETE  LIVRE MASCULINO",
   "campeonato_id": "180",
-  "atualizado_em": "2026-09-18T21:47:40.513Z",
+  "atualizado_em": "2026-09-19T01:51:42.248Z",
   "rodada_atual": 1,
   "total_rodadas": 7,
   "rodadas": [
@@ -170,16 +170,16 @@
         {
           "mandante": "NIJU / GO PLAY F.C",
           "visitante": "GG PINTURAS/SANTA MARIA",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 2,
+          "gols_visitante": 3,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "18/09/2026 19:30"
         },
         {
           "mandante": "AAT FC / ALMIR ARAÚJO TRANSPORTE/TRANSPOSEG",
           "visitante": "SEDE DO GORDO",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 0,
+          "gols_visitante": 5,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "18/09/2026 20:30"
         },
@@ -194,16 +194,16 @@
         {
           "mandante": "SCRIPT UNITED",
           "visitante": "TCC FC",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 4,
+          "gols_visitante": 1,
           "campo": "GUATAMBU SOCIETY",
           "data_hora": "18/09/2026 20:00"
         },
         {
           "mandante": "E.C COLORADO",
           "visitante": "LÁ12",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 3,
+          "gols_visitante": 4,
           "campo": "GUATAMBU SOCIETY",
           "data_hora": "18/09/2026 21:00"
         },
