@@ -1,6 +1,6 @@
 {
   "campeonato": "17ªCOPA NDTV DE FUT SETE  LIVRE MASCULINO",
-  "atualizado_em": "2026-09-19T01:51:37.616Z",
+  "atualizado_em": "2026-09-20T16:30:37.408Z",
   "grupos": [
     {
       "nome": "GRUPO A",
@@ -258,14 +258,14 @@
           "posicao": 1,
           "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-08-25%20at%2008.23.03.jpeg",
           "nome": "AADG F7",
-          "pontos": 3,
-          "jogos": 1,
-          "vitorias": 1,
+          "pontos": 6,
+          "jogos": 2,
+          "vitorias": 2,
           "empates": 0,
           "derrotas": 0,
-          "gols_pro": 8,
-          "gols_contra": 1,
-          "saldo": 7
+          "gols_pro": 14,
+          "gols_contra": 2,
+          "saldo": 12
         },
         {
           "posicao": 2,
@@ -308,19 +308,6 @@
         },
         {
           "posicao": 5,
-          "logo": "https://www.lchf.com.br/Upload/clubes/REAL%20C.png",
-          "nome": "RESTAURANTE BOM SABOR2/ROMA MANTELLI/REAL CATALUNHA / CK MAQUINAS",
-          "pontos": 0,
-          "jogos": 1,
-          "vitorias": 0,
-          "empates": 0,
-          "derrotas": 1,
-          "gols_pro": 0,
-          "gols_contra": 5,
-          "saldo": -5
-        },
-        {
-          "posicao": 6,
           "logo": "https://www.lchf.com.br/Upload/clubes/sv%20(2).png",
           "nome": "FC LYON SVSB",
           "pontos": 0,
@@ -331,6 +318,19 @@
           "gols_pro": 1,
           "gols_contra": 8,
           "saldo": -7
+        },
+        {
+          "posicao": 6,
+          "logo": "https://www.lchf.com.br/Upload/clubes/REAL%20C.png",
+          "nome": "RESTAURANTE BOM SABOR2/ROMA MANTELLI/REAL CATALUNHA / CK MAQUINAS",
+          "pontos": 0,
+          "jogos": 2,
+          "vitorias": 0,
+          "empates": 0,
+          "derrotas": 2,
+          "gols_pro": 1,
+          "gols_contra": 11,
+          "saldo": -10
         }
       ]
     },
@@ -339,6 +339,19 @@
       "tabela": [
         {
           "posicao": 1,
+          "logo": "https://www.lchf.com.br/Upload/clubes/SP.png",
+          "nome": "SITICOM/ SÃO PEDRO  FC/DISK OPTICA CHAPECÓ",
+          "pontos": 4,
+          "jogos": 2,
+          "vitorias": 1,
+          "empates": 1,
+          "derrotas": 0,
+          "gols_pro": 9,
+          "gols_contra": 4,
+          "saldo": 5
+        },
+        {
+          "posicao": 2,
           "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-08-13%20at%2009.47.17.jpeg",
           "nome": "SEM PULMÕES FC",
           "pontos": 3,
@@ -351,7 +364,7 @@
           "saldo": 10
         },
         {
-          "posicao": 2,
+          "posicao": 3,
           "logo": "https://www.lchf.com.br/Upload/clubes/CAT.png",
           "nome": "CATARINENSE PROTEÇÃO VEICULAR/ONE CELL",
           "pontos": 3,
@@ -362,19 +375,6 @@
           "gols_pro": 4,
           "gols_contra": 3,
           "saldo": 1
-        },
-        {
-          "posicao": 3,
-          "logo": "https://www.lchf.com.br/Upload/clubes/SP.png",
-          "nome": "SITICOM/ SÃO PEDRO  FC/DISK OPTICA CHAPECÓ",
-          "pontos": 1,
-          "jogos": 1,
-          "vitorias": 0,
-          "empates": 1,
-          "derrotas": 0,
-          "gols_pro": 2,
-          "gols_contra": 2,
-          "saldo": 0
         },
         {
           "posicao": 4,
@@ -407,13 +407,13 @@
           "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-08-25%20at%2013.06.51%20(1).jpeg",
           "nome": "GREMIO LP/SEVEN REPRESENTAÇÃO",
           "pontos": 0,
-          "jogos": 1,
+          "jogos": 2,
           "vitorias": 0,
           "empates": 0,
-          "derrotas": 1,
-          "gols_pro": 0,
-          "gols_contra": 10,
-          "saldo": -10
+          "derrotas": 2,
+          "gols_pro": 2,
+          "gols_contra": 17,
+          "saldo": -15
         }
       ]
     }

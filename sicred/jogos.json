@@ -1,7 +1,7 @@
 {
   "campeonato": "17ªCOPA NDTV DE FUT SETE  LIVRE MASCULINO",
   "campeonato_id": "180",
-  "atualizado_em": "2026-09-19T01:51:42.248Z",
+  "atualizado_em": "2026-09-20T16:30:39.730Z",
   "rodada_atual": 1,
   "total_rodadas": 7,
   "rodadas": [
@@ -186,8 +186,8 @@
         {
           "mandante": "AADG F7",
           "visitante": "RESTAURANTE BOM SABOR2/ROMA MANTELLI/REAL CATALUNHA / CK MAQUINAS",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 6,
+          "gols_visitante": 1,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "18/09/2026 21:30"
         },
@@ -210,8 +210,8 @@
         {
           "mandante": "GREMIO LP/SEVEN REPRESENTAÇÃO",
           "visitante": "SITICOM/ SÃO PEDRO  FC/DISK OPTICA CHAPECÓ",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 2,
+          "gols_visitante": 7,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "19/09/2026 17:00"
         },
