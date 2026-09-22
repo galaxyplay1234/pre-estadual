@@ -1,399 +1,531 @@
 {
   "campeonato": "17ª COPA NDTV DE FUT SETE LIVRE MASCULINO",
-  "atualizado_em": "2026-09-20T16:30:40.525Z",
+  "atualizado_em": "2026-09-22T02:58:27.140Z",
   "artilheiros": [
     {
       "posicao": 1,
+      "nome": "Davi josé brizola",
+      "clube": "AADG F7",
+      "gols": 5
+    },
+    {
+      "posicao": 2,
+      "nome": "Nailson Felipe Almeida Oliveira",
+      "clube": "E.C COLORADO",
+      "gols": 5
+    },
+    {
+      "posicao": 3,
+      "nome": "Jacson Francisco Zanella",
+      "clube": "SCRIPT UNITED",
+      "gols": 4
+    },
+    {
+      "posicao": 4,
+      "nome": "Agson Rennan dos Santos Lopes",
+      "clube": "NIJU / GO PLAY F.C",
+      "gols": 3
+    },
+    {
+      "posicao": 5,
       "nome": "Alexsandro Reis Conterato",
       "clube": "HORTIAGRO F.C /MECANICA CASTELI",
       "gols": 3
     },
     {
-      "posicao": 2,
+      "posicao": 6,
       "nome": "Edilson de Almeida",
       "clube": "SEM PULMÕES FC",
       "gols": 3
     },
     {
-      "posicao": 3,
-      "nome": "Nailson Felipe Almeida Oliveira",
-      "clube": "E.C COLORADO",
-      "gols": 3
-    },
-    {
-      "posicao": 4,
+      "posicao": 7,
       "nome": "WILLIAM GUSTAVO ALVES DE JESUS",
       "clube": "SEM PULMÕES FC",
       "gols": 3
     },
     {
-      "posicao": 5,
-      "nome": "Agson Rennan dos Santos Lopes",
-      "clube": "NIJU / GO PLAY F.C",
+      "posicao": 8,
+      "nome": "Alberto Carlos Pires da Silva",
+      "clube": "SITICOM/ SÃO PEDRO  FC/DISK OPTICA CHAPECÓ",
       "gols": 2
     },
     {
-      "posicao": 6,
-      "nome": "Davi josé brizola",
-      "clube": "AADG F7",
+      "posicao": 9,
+      "nome": "Anailson Chaves de Lara",
+      "clube": "E.C COLORADO",
       "gols": 2
     },
     {
-      "posicao": 7,
+      "posicao": 10,
+      "nome": "Angel Gabriel medina mendoza",
+      "clube": "SITICOM/ SÃO PEDRO  FC/DISK OPTICA CHAPECÓ",
+      "gols": 2
+    },
+    {
+      "posicao": 11,
+      "nome": "CAIO SAMUEL ANTUNES DA ROSA",
+      "clube": "SITICOM/ SÃO PEDRO  FC/DISK OPTICA CHAPECÓ",
+      "gols": 2
+    },
+    {
+      "posicao": 12,
       "nome": "Eduardo Bonissoni Cagol",
       "clube": "AADG F7",
       "gols": 2
     },
     {
-      "posicao": 8,
-      "nome": "Jacson Francisco Zanella",
-      "clube": "SCRIPT UNITED",
+      "posicao": 13,
+      "nome": "Guilherme Pluchinski dos Santos",
+      "clube": "GREMIO LP/SEVEN REPRESENTAÇÃO",
       "gols": 2
     },
     {
-      "posicao": 9,
+      "posicao": 14,
       "nome": "Jean Carlos Provensi",
       "clube": "PARCEIROS",
       "gols": 2
     },
     {
-      "posicao": 10,
+      "posicao": 15,
+      "nome": "José Xavier Soares Sousa",
+      "clube": "SEDE DO GORDO",
+      "gols": 2
+    },
+    {
+      "posicao": 16,
       "nome": "João Cléber zatta dos santos",
       "clube": "AADG F7",
       "gols": 2
     },
     {
-      "posicao": 11,
+      "posicao": 17,
+      "nome": "João Marcos Alves",
+      "clube": "LÁ12",
+      "gols": 2
+    },
+    {
+      "posicao": 18,
+      "nome": "Leonardo Baptista Da Silva",
+      "clube": "AADG F7",
+      "gols": 2
+    },
+    {
+      "posicao": 19,
       "nome": "Ramon Kappel",
       "clube": "R.C SPORTS / INVICTUS",
       "gols": 2
     },
     {
-      "posicao": 12,
+      "posicao": 20,
       "nome": "ADEMIR VIEIRA",
       "clube": "FREITAS F.C / AL TECNOLOGIA E SEGURANÇA / SONHARE IMÓVEIS / FED FUTSAL / BANDA INDEXÃO",
       "gols": 1
     },
     {
-      "posicao": 13,
+      "posicao": 21,
+      "nome": "Adriano Moraes leite",
+      "clube": "RESTAURANTE BOM SABOR2/ROMA MANTELLI/REAL CATALUNHA / CK MAQUINAS",
+      "gols": 1
+    },
+    {
+      "posicao": 22,
       "nome": "Adriano albino Vortmann",
       "clube": "RONDOFRIO E.C / CORDILHEIRA ALTA",
       "gols": 1
     },
     {
-      "posicao": 14,
-      "nome": "Alberto Carlos Pires da Silva",
-      "clube": "SITICOM/ SÃO PEDRO  FC/DISK OPTICA CHAPECÓ",
+      "posicao": 23,
+      "nome": "Alex Alves da Silva",
+      "clube": "SEDE DO GORDO",
       "gols": 1
     },
     {
-      "posicao": 15,
+      "posicao": 24,
       "nome": "Alexandre Augusto Zavascki",
       "clube": "SEM PULMÕES FC",
       "gols": 1
     },
     {
-      "posicao": 16,
-      "nome": "Anailson Chaves de Lara",
-      "clube": "E.C COLORADO",
+      "posicao": 25,
+      "nome": "Anderson Fagundes Plauth",
+      "clube": "SEDE DO GORDO",
       "gols": 1
     },
     {
-      "posicao": 17,
+      "posicao": 26,
       "nome": "Anderson de Oliveira",
       "clube": "BOLEIROS",
       "gols": 1
     },
     {
-      "posicao": 18,
+      "posicao": 27,
       "nome": "Arthur Lanzarin Vanzela",
       "clube": "LJS/ROSA SUL EMBALAGENS",
       "gols": 1
     },
     {
-      "posicao": 19,
+      "posicao": 28,
+      "nome": "Arthur escobar morreira",
+      "clube": "TCC FC",
+      "gols": 1
+    },
+    {
+      "posicao": 29,
+      "nome": "Aucapone Velasque",
+      "clube": "GG PINTURAS/SANTA MARIA",
+      "gols": 1
+    },
+    {
+      "posicao": 30,
       "nome": "Bruno Simadon",
       "clube": "PARCEIROS",
       "gols": 1
     },
     {
-      "posicao": 20,
+      "posicao": 31,
       "nome": "Daniel poltronieri Machado",
       "clube": "CATARINENSE PROTEÇÃO VEICULAR/ONE CELL",
       "gols": 1
     },
     {
-      "posicao": 21,
+      "posicao": 32,
       "nome": "David Luciano Souza Moraes",
       "clube": "E.C COLORADO",
       "gols": 1
     },
     {
-      "posicao": 22,
+      "posicao": 33,
       "nome": "EDIVAN BONDAN",
       "clube": "CATARINENSE PROTEÇÃO VEICULAR/ONE CELL",
       "gols": 1
     },
     {
-      "posicao": 23,
+      "posicao": 34,
+      "nome": "EDUARDO AYALA MENDES DE MEDEIROS",
+      "clube": "SCRIPT UNITED",
+      "gols": 1
+    },
+    {
+      "posicao": 35,
       "nome": "Elizandro Rodrigues de Freitas",
       "clube": "R.C SPORTS / INVICTUS",
       "gols": 1
     },
     {
-      "posicao": 24,
+      "posicao": 36,
+      "nome": "Emerson de Oliveira",
+      "clube": "SITICOM/ SÃO PEDRO  FC/DISK OPTICA CHAPECÓ",
+      "gols": 1
+    },
+    {
+      "posicao": 37,
+      "nome": "Erik Henrique Trindade",
+      "clube": "GG PINTURAS/SANTA MARIA",
+      "gols": 1
+    },
+    {
+      "posicao": 38,
       "nome": "Fábio Junior Antunes",
       "clube": "ATLÉTICO ALIANZA FC",
       "gols": 1
     },
     {
-      "posicao": 25,
+      "posicao": 39,
       "nome": "GABRIEL GRIS BEDIN",
       "clube": "ASSOCIAÇÃO CANTINHO DOS AMIGOS/MARCENARIA NAVA",
       "gols": 1
     },
     {
-      "posicao": 26,
+      "posicao": 40,
       "nome": "Gabriel Czyzewski Parabocz",
       "clube": "DISMAFF /E.C BELVEDERE",
       "gols": 1
     },
     {
-      "posicao": 27,
+      "posicao": 41,
       "nome": "Gabriel de witt machado",
       "clube": "GRUPO COONECTA / AGROCERES",
       "gols": 1
     },
     {
-      "posicao": 28,
+      "posicao": 42,
       "nome": "Gean Carlos de Oliveira Braga",
       "clube": "BOLEIROS",
       "gols": 1
     },
     {
-      "posicao": 29,
+      "posicao": 43,
       "nome": "Gildomar j. Da Silva",
       "clube": "CATARINENSE PROTEÇÃO VEICULAR/ONE CELL",
       "gols": 1
     },
     {
-      "posicao": 30,
+      "posicao": 44,
+      "nome": "Guilherme João Lopes Conte",
+      "clube": "NIJU / GO PLAY F.C",
+      "gols": 1
+    },
+    {
+      "posicao": 45,
       "nome": "Guilherme Luiz Biesek",
       "clube": "LJS/ROSA SUL EMBALAGENS",
       "gols": 1
     },
     {
-      "posicao": 31,
+      "posicao": 46,
       "nome": "Gustavo Luiz Furtado",
       "clube": "LJS/ROSA SUL EMBALAGENS",
       "gols": 1
     },
     {
-      "posicao": 32,
+      "posicao": 47,
       "nome": "Jakson Camargo Alves",
       "clube": "LJS/ROSA SUL EMBALAGENS",
       "gols": 1
     },
     {
-      "posicao": 33,
+      "posicao": 48,
       "nome": "Jean Lima",
       "clube": "DEPORTIVO CHAPECO FC",
       "gols": 1
     },
     {
-      "posicao": 34,
+      "posicao": 49,
       "nome": "Jean Marcos Martins de Oliveira",
       "clube": "RONDOFRIO E.C / CORDILHEIRA ALTA",
       "gols": 1
     },
     {
-      "posicao": 35,
+      "posicao": 50,
+      "nome": "Jefferson cavalheiro Lopes",
+      "clube": "LÁ12",
+      "gols": 1
+    },
+    {
+      "posicao": 51,
       "nome": "John Lennon Paiva Goslar",
       "clube": "SEM PULMÕES FC",
       "gols": 1
     },
     {
-      "posicao": 36,
+      "posicao": 52,
       "nome": "João Augusto Rover Giordani",
       "clube": "RONDOFRIO E.C / CORDILHEIRA ALTA",
       "gols": 1
     },
     {
-      "posicao": 37,
+      "posicao": 53,
       "nome": "João Guilherme Cândido",
       "clube": "SITICOM/ SÃO PEDRO  FC/DISK OPTICA CHAPECÓ",
       "gols": 1
     },
     {
-      "posicao": 38,
+      "posicao": 54,
       "nome": "João Paulo dos Santos de Oliveira Cardoso",
       "clube": "IMPERIAL FC / LAVACAR COELHO / GP CELULARES",
       "gols": 1
     },
     {
-      "posicao": 39,
+      "posicao": 55,
       "nome": "João Vitor Propodolski",
       "clube": "RONDOFRIO E.C / CORDILHEIRA ALTA",
       "gols": 1
     },
     {
-      "posicao": 40,
+      "posicao": 56,
       "nome": "João Witor Lazaretti",
       "clube": "ATLÉTICO ALIANZA FC",
       "gols": 1
     },
     {
-      "posicao": 41,
+      "posicao": 57,
       "nome": "Julio Cesar dos Santos Dircksen",
       "clube": "PARCEIROS",
       "gols": 1
     },
     {
-      "posicao": 42,
+      "posicao": 58,
       "nome": "Júnior Telmo vassoler",
       "clube": "AMIGOS F.C",
       "gols": 1
     },
     {
-      "posicao": 43,
+      "posicao": 59,
+      "nome": "Kaue Lima Zitzke",
+      "clube": "SCRIPT UNITED",
+      "gols": 1
+    },
+    {
+      "posicao": 60,
+      "nome": "Kleivison Klein",
+      "clube": "GG PINTURAS/SANTA MARIA",
+      "gols": 1
+    },
+    {
+      "posicao": 61,
+      "nome": "LUCAS FERNANDES",
+      "clube": "LÁ12",
+      "gols": 1
+    },
+    {
+      "posicao": 62,
       "nome": "Laerti Correia",
       "clube": "LJS/ROSA SUL EMBALAGENS",
       "gols": 1
     },
     {
-      "posicao": 44,
+      "posicao": 63,
       "nome": "Leandro dos anjos",
       "clube": "SEDE DO GORDO",
       "gols": 1
     },
     {
-      "posicao": 45,
-      "nome": "Leonardo Baptista Da Silva",
-      "clube": "AADG F7",
-      "gols": 1
-    },
-    {
-      "posicao": 46,
+      "posicao": 64,
       "nome": "Luciano Antunes de Lima",
       "clube": "TCC FC",
       "gols": 1
     },
     {
-      "posicao": 47,
+      "posicao": 65,
+      "nome": "Luiz Felipe Rodrigues",
+      "clube": "SITICOM/ SÃO PEDRO  FC/DISK OPTICA CHAPECÓ",
+      "gols": 1
+    },
+    {
+      "posicao": 66,
       "nome": "Luiz Henrique de barros",
       "clube": "TCC FC",
       "gols": 1
     },
     {
-      "posicao": 48,
+      "posicao": 67,
       "nome": "Léo Francisco Correia",
       "clube": "LJS/ROSA SUL EMBALAGENS",
       "gols": 1
     },
     {
-      "posicao": 49,
+      "posicao": 68,
       "nome": "Macueydy E. T. Glanert",
       "clube": "SEM PULMÕES FC",
       "gols": 1
     },
     {
-      "posicao": 50,
+      "posicao": 69,
       "nome": "Maicon Eloir Ribeiro Portela",
       "clube": "ASSOCIAÇÃO CANTINHO DOS AMIGOS/MARCENARIA NAVA",
       "gols": 1
     },
     {
-      "posicao": 51,
+      "posicao": 70,
+      "nome": "Marcos Antônio Pimentel dos Santos",
+      "clube": "AADG F7",
+      "gols": 1
+    },
+    {
+      "posicao": 71,
       "nome": "Marcos Paulo Neres da Luz",
       "clube": "ATLÉTICO ALIANZA FC",
       "gols": 1
     },
     {
-      "posicao": 52,
+      "posicao": 72,
+      "nome": "Mateus José Miotto",
+      "clube": "SEDE DO GORDO",
+      "gols": 1
+    },
+    {
+      "posicao": 73,
       "nome": "Mateus venturini dela flora",
       "clube": "AADG F7",
       "gols": 1
     },
     {
-      "posicao": 53,
+      "posicao": 74,
       "nome": "Mauricio Oliveira Gonçalves",
       "clube": "FREITAS F.C / AL TECNOLOGIA E SEGURANÇA / SONHARE IMÓVEIS / FED FUTSAL / BANDA INDEXÃO",
       "gols": 1
     },
     {
-      "posicao": 54,
+      "posicao": 75,
       "nome": "NELSON BRUNO FACIM",
       "clube": "RAJA CLUB",
       "gols": 1
     },
     {
-      "posicao": 55,
+      "posicao": 76,
       "nome": "Pedro Henrique Barcelos Rossetto",
       "clube": "NIJU / GO PLAY F.C",
       "gols": 1
     },
     {
-      "posicao": 56,
+      "posicao": 77,
       "nome": "Pedro Henrique Harres Hilario",
       "clube": "FC LYON SVSB",
       "gols": 1
     },
     {
-      "posicao": 57,
+      "posicao": 78,
       "nome": "Pedro Henrique da Rosa Griss",
       "clube": "SEM PULMÕES FC",
       "gols": 1
     },
     {
-      "posicao": 58,
+      "posicao": 79,
       "nome": "RYAN ADILIO DA SILVA",
       "clube": "DISMAFF /E.C BELVEDERE",
       "gols": 1
     },
     {
-      "posicao": 59,
+      "posicao": 80,
       "nome": "Renan Rodrigo Dantas",
       "clube": "RAJA CLUB",
       "gols": 1
     },
     {
-      "posicao": 60,
+      "posicao": 81,
       "nome": "Renato Maestri",
       "clube": "AMIGOS F.C",
       "gols": 1
     },
     {
-      "posicao": 61,
+      "posicao": 82,
       "nome": "Ricardo Brizola dos Santos",
       "clube": "AAT FC / ALMIR ARAÚJO TRANSPORTE/TRANSPOSEG",
       "gols": 1
     },
     {
-      "posicao": 62,
+      "posicao": 83,
       "nome": "Ricardo Henrique Pozzo",
       "clube": "RAJA CLUB",
       "gols": 1
     },
     {
-      "posicao": 63,
+      "posicao": 84,
+      "nome": "Rudinei Soares Raimundo",
+      "clube": "AADG F7",
+      "gols": 1
+    },
+    {
+      "posicao": 85,
       "nome": "Toniel Moraes",
       "clube": "LÁ12",
       "gols": 1
     },
     {
-      "posicao": 64,
+      "posicao": 86,
       "nome": "Weslley Assis de Meneses",
       "clube": "CATARINENSE PROTEÇÃO VEICULAR/ONE CELL",
       "gols": 1
     },
     {
-      "posicao": 65,
+      "posicao": 87,
       "nome": "Willian Felipe Boniatti",
       "clube": "FREITAS F.C / AL TECNOLOGIA E SEGURANÇA / SONHARE IMÓVEIS / FED FUTSAL / BANDA INDEXÃO",
       "gols": 1
     },
     {
-      "posicao": 66,
+      "posicao": 88,
       "nome": "Willian Gonçalves de Azevedo",
       "clube": "AAT FC / ALMIR ARAÚJO TRANSPORTE/TRANSPOSEG",
       "gols": 1
