@@ -1,7 +1,7 @@
 {
   "campeonato": "17ªCOPA NDTV DE FUT SETE  LIVRE MASCULINO",
   "campeonato_id": "180",
-  "atualizado_em": "2026-09-22T02:58:26.267Z",
+  "atualizado_em": "2026-09-24T10:48:56.779Z",
   "rodada_atual": 1,
   "total_rodadas": 7,
   "rodadas": [
@@ -115,7 +115,7 @@
         },
         {
           "mandante": "RAJA CLUB",
-          "visitante": "IMPERIAL FC / LAVACAR COELHO / GP CELULARES",
+          "visitante": "IMPERIAL FC / GRUPO SANTÔ CONSÓRCIO E INVEST. / LAVACAR COELHO / GP CELULARES",
           "gols_mandante": 3,
           "gols_visitante": 1,
           "campo": "COMPLEXO TIAGO",
@@ -216,12 +216,12 @@
           "data_hora": "19/09/2026 17:00"
         },
         {
-          "mandante": "ATLÉTICO ALIANZA FC",
-          "visitante": "SEM PULMÕES FC",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "mandante": "HORTIAGRO F.C /MECANICA CASTELI",
+          "visitante": "FC LYON SVSB",
+          "gols_mandante": 2,
+          "gols_visitante": 1,
           "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "21/09/2026 20:30"
+          "data_hora": "23/09/2026 20:30"
         },
         {
           "mandante": "BOLEIROS",
@@ -229,18 +229,10 @@
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "21/09/2026 21:30"
+          "data_hora": "24/09/2026 21:00"
         },
         {
-          "mandante": "HORTIAGRO F.C /MECANICA CASTELI",
-          "visitante": "FC LYON SVSB",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "23/09/2026 20:30"
-        },
-        {
-          "mandante": "IMPERIAL FC / LAVACAR COELHO / GP CELULARES",
+          "mandante": "IMPERIAL FC / GRUPO SANTÔ CONSÓRCIO E INVEST. / LAVACAR COELHO / GP CELULARES",
           "visitante": "RONDOFRIO E.C / CORDILHEIRA ALTA",
           "gols_mandante": null,
           "gols_visitante": null,
@@ -254,6 +246,14 @@
           "gols_visitante": null,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "25/09/2026 21:00"
+        },
+        {
+          "mandante": "ATLÉTICO ALIANZA FC",
+          "visitante": "SEM PULMÕES FC",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "GUATAMBU SOCIETY",
+          "data_hora": "25/09/2026 20:00"
         }
       ]
     },
@@ -295,7 +295,7 @@
         },
         {
           "mandante": "AAT FC / ALMIR ARAÚJO TRANSPORTE/TRANSPOSEG",
-          "visitante": "IMPERIAL FC / LAVACAR COELHO / GP CELULARES",
+          "visitante": "IMPERIAL FC / GRUPO SANTÔ CONSÓRCIO E INVEST. / LAVACAR COELHO / GP CELULARES",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "GUATAMBU SOCIETY",
@@ -397,7 +397,7 @@
         },
         {
           "mandante": "GRUPO COONECTA / AGROCERES",
-          "visitante": "IMPERIAL FC / LAVACAR COELHO / GP CELULARES",
+          "visitante": "IMPERIAL FC / GRUPO SANTÔ CONSÓRCIO E INVEST. / LAVACAR COELHO / GP CELULARES",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "ARENA PRIME SOCIETY",
@@ -554,7 +554,7 @@
           "data_hora": "16/10/2026 19:30"
         },
         {
-          "mandante": "IMPERIAL FC / LAVACAR COELHO / GP CELULARES",
+          "mandante": "IMPERIAL FC / GRUPO SANTÔ CONSÓRCIO E INVEST. / LAVACAR COELHO / GP CELULARES",
           "visitante": "SEDE DO GORDO",
           "gols_mandante": null,
           "gols_visitante": null,

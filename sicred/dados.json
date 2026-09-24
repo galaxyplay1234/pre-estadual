@@ -1,6 +1,6 @@
 {
   "campeonato": "17ªCOPA NDTV DE FUT SETE  LIVRE MASCULINO",
-  "atualizado_em": "2026-09-22T02:58:21.840Z",
+  "atualizado_em": "2026-09-24T10:48:52.530Z",
   "grupos": [
     {
       "nome": "GRUPO A",
@@ -60,7 +60,7 @@
         {
           "posicao": 5,
           "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-08-25%20at%2007.41.16.jpeg",
-          "nome": "IMPERIAL FC / LAVACAR COELHO / GP CELULARES",
+          "nome": "IMPERIAL FC / GRUPO SANTÔ CONSÓRCIO E INVEST. / LAVACAR COELHO / GP CELULARES",
           "pontos": 0,
           "jogos": 1,
           "vitorias": 0,
@@ -269,6 +269,19 @@
         },
         {
           "posicao": 2,
+          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202025-08-26%20at%2016.27.47.jpeg",
+          "nome": "HORTIAGRO F.C /MECANICA CASTELI",
+          "pontos": 6,
+          "jogos": 2,
+          "vitorias": 2,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 5,
+          "gols_contra": 2,
+          "saldo": 3
+        },
+        {
+          "posicao": 3,
           "logo": "https://www.lchf.com.br/Upload/clubes/COLORADO.png",
           "nome": "E.C COLORADO",
           "pontos": 3,
@@ -279,19 +292,6 @@
           "gols_pro": 8,
           "gols_contra": 4,
           "saldo": 4
-        },
-        {
-          "posicao": 3,
-          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202025-08-26%20at%2016.27.47.jpeg",
-          "nome": "HORTIAGRO F.C /MECANICA CASTELI",
-          "pontos": 3,
-          "jogos": 1,
-          "vitorias": 1,
-          "empates": 0,
-          "derrotas": 0,
-          "gols_pro": 3,
-          "gols_contra": 1,
-          "saldo": 2
         },
         {
           "posicao": 4,
@@ -311,13 +311,13 @@
           "logo": "https://www.lchf.com.br/Upload/clubes/sv%20(2).png",
           "nome": "FC LYON SVSB",
           "pontos": 0,
-          "jogos": 1,
+          "jogos": 2,
           "vitorias": 0,
           "empates": 0,
-          "derrotas": 1,
-          "gols_pro": 1,
-          "gols_contra": 8,
-          "saldo": -7
+          "derrotas": 2,
+          "gols_pro": 2,
+          "gols_contra": 10,
+          "saldo": -8
         },
         {
           "posicao": 6,
