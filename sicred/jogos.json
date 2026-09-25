@@ -1,7 +1,7 @@
 {
   "campeonato": "17ªCOPA NDTV DE FUT SETE  LIVRE MASCULINO",
   "campeonato_id": "180",
-  "atualizado_em": "2026-09-24T10:48:56.779Z",
+  "atualizado_em": "2026-09-25T02:05:45.541Z",
   "rodada_atual": 1,
   "total_rodadas": 7,
   "rodadas": [
@@ -226,8 +226,8 @@
         {
           "mandante": "BOLEIROS",
           "visitante": "CATARINENSE PROTEÇÃO VEICULAR/ONE CELL",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 0,
+          "gols_visitante": 1,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "24/09/2026 21:00"
         },

@@ -1,6 +1,6 @@
 {
   "campeonato": "17ªCOPA NDTV DE FUT SETE  LIVRE MASCULINO",
-  "atualizado_em": "2026-09-24T10:48:52.530Z",
+  "atualizado_em": "2026-09-25T02:05:41.712Z",
   "grupos": [
     {
       "nome": "GRUPO A",
@@ -339,6 +339,19 @@
       "tabela": [
         {
           "posicao": 1,
+          "logo": "https://www.lchf.com.br/Upload/clubes/CAT.png",
+          "nome": "CATARINENSE PROTEÇÃO VEICULAR/ONE CELL",
+          "pontos": 6,
+          "jogos": 2,
+          "vitorias": 2,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 5,
+          "gols_contra": 3,
+          "saldo": 2
+        },
+        {
+          "posicao": 2,
           "logo": "https://www.lchf.com.br/Upload/clubes/SP.png",
           "nome": "SITICOM/ SÃO PEDRO  FC/DISK OPTICA CHAPECÓ",
           "pontos": 4,
@@ -351,7 +364,7 @@
           "saldo": 5
         },
         {
-          "posicao": 2,
+          "posicao": 3,
           "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-08-13%20at%2009.47.17.jpeg",
           "nome": "SEM PULMÕES FC",
           "pontos": 3,
@@ -364,30 +377,17 @@
           "saldo": 10
         },
         {
-          "posicao": 3,
-          "logo": "https://www.lchf.com.br/Upload/clubes/CAT.png",
-          "nome": "CATARINENSE PROTEÇÃO VEICULAR/ONE CELL",
-          "pontos": 3,
-          "jogos": 1,
-          "vitorias": 1,
-          "empates": 0,
-          "derrotas": 0,
-          "gols_pro": 4,
-          "gols_contra": 3,
-          "saldo": 1
-        },
-        {
           "posicao": 4,
           "logo": "https://www.lchf.com.br/Upload/clubes/BOLEIROS.png",
           "nome": "BOLEIROS",
           "pontos": 1,
-          "jogos": 1,
+          "jogos": 2,
           "vitorias": 0,
           "empates": 1,
-          "derrotas": 0,
+          "derrotas": 1,
           "gols_pro": 2,
-          "gols_contra": 2,
-          "saldo": 0
+          "gols_contra": 3,
+          "saldo": -1
         },
         {
           "posicao": 5,
