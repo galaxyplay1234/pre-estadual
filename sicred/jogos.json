@@ -1,7 +1,7 @@
 {
   "campeonato": "17ªCOPA NDTV DE FUT SETE  LIVRE MASCULINO",
   "campeonato_id": "180",
-  "atualizado_em": "2026-09-25T02:05:45.541Z",
+  "atualizado_em": "2026-09-26T15:22:04.820Z",
   "rodada_atual": 1,
   "total_rodadas": 7,
   "rodadas": [
@@ -234,24 +234,24 @@
         {
           "mandante": "IMPERIAL FC / GRUPO SANTÔ CONSÓRCIO E INVEST. / LAVACAR COELHO / GP CELULARES",
           "visitante": "RONDOFRIO E.C / CORDILHEIRA ALTA",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 2,
+          "gols_visitante": 4,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "25/09/2026 20:00"
         },
         {
           "mandante": "GRUPO COONECTA / AGROCERES",
           "visitante": "RAJA CLUB",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 1,
+          "gols_visitante": 0,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "25/09/2026 21:00"
         },
         {
           "mandante": "ATLÉTICO ALIANZA FC",
           "visitante": "SEM PULMÕES FC",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 1,
+          "gols_visitante": 12,
           "campo": "GUATAMBU SOCIETY",
           "data_hora": "25/09/2026 20:00"
         }

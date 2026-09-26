@@ -1,12 +1,25 @@
 {
   "campeonato": "17ªCOPA NDTV DE FUT SETE  LIVRE MASCULINO",
-  "atualizado_em": "2026-09-25T02:05:41.712Z",
+  "atualizado_em": "2026-09-26T15:22:02.370Z",
   "grupos": [
     {
       "nome": "GRUPO A",
       "tabela": [
         {
           "posicao": 1,
+          "logo": "https://www.lchf.com.br/Upload/clubes/Design%20sem%20nome%20(6).png",
+          "nome": "RONDOFRIO E.C / CORDILHEIRA ALTA",
+          "pontos": 6,
+          "jogos": 2,
+          "vitorias": 2,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 8,
+          "gols_contra": 4,
+          "saldo": 4
+        },
+        {
+          "posicao": 2,
           "logo": "https://www.lchf.com.br/Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(8).png",
           "nome": "SEDE DO GORDO",
           "pontos": 4,
@@ -19,56 +32,43 @@
           "saldo": 5
         },
         {
-          "posicao": 2,
-          "logo": "https://www.lchf.com.br/Upload/clubes/Design%20sem%20nome%20(6).png",
-          "nome": "RONDOFRIO E.C / CORDILHEIRA ALTA",
-          "pontos": 3,
-          "jogos": 1,
-          "vitorias": 1,
-          "empates": 0,
-          "derrotas": 0,
-          "gols_pro": 4,
-          "gols_contra": 2,
-          "saldo": 2
-        },
-        {
           "posicao": 3,
-          "logo": "https://www.lchf.com.br/Upload/clubes/RAJA.png",
-          "nome": "RAJA CLUB",
-          "pontos": 3,
-          "jogos": 1,
+          "logo": "https://www.lchf.com.br/Upload/clubes/ChatGPT%20Image%2031%20de%20ago.%20de%202026,%2016_28_13.png",
+          "nome": "GRUPO COONECTA / AGROCERES",
+          "pontos": 4,
+          "jogos": 2,
           "vitorias": 1,
-          "empates": 0,
+          "empates": 1,
           "derrotas": 0,
-          "gols_pro": 3,
+          "gols_pro": 2,
           "gols_contra": 1,
-          "saldo": 2
+          "saldo": 1
         },
         {
           "posicao": 4,
-          "logo": "https://www.lchf.com.br/Upload/clubes/ChatGPT%20Image%2031%20de%20ago.%20de%202026,%2016_28_13.png",
-          "nome": "GRUPO COONECTA / AGROCERES",
-          "pontos": 1,
-          "jogos": 1,
-          "vitorias": 0,
-          "empates": 1,
-          "derrotas": 0,
-          "gols_pro": 1,
-          "gols_contra": 1,
-          "saldo": 0
+          "logo": "https://www.lchf.com.br/Upload/clubes/RAJA.png",
+          "nome": "RAJA CLUB",
+          "pontos": 3,
+          "jogos": 2,
+          "vitorias": 1,
+          "empates": 0,
+          "derrotas": 1,
+          "gols_pro": 3,
+          "gols_contra": 2,
+          "saldo": 1
         },
         {
           "posicao": 5,
           "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-08-25%20at%2007.41.16.jpeg",
           "nome": "IMPERIAL FC / GRUPO SANTÔ CONSÓRCIO E INVEST. / LAVACAR COELHO / GP CELULARES",
           "pontos": 0,
-          "jogos": 1,
+          "jogos": 2,
           "vitorias": 0,
           "empates": 0,
-          "derrotas": 1,
-          "gols_pro": 1,
-          "gols_contra": 3,
-          "saldo": -2
+          "derrotas": 2,
+          "gols_pro": 3,
+          "gols_contra": 7,
+          "saldo": -4
         },
         {
           "posicao": 6,
@@ -339,6 +339,19 @@
       "tabela": [
         {
           "posicao": 1,
+          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-08-13%20at%2009.47.17.jpeg",
+          "nome": "SEM PULMÕES FC",
+          "pontos": 6,
+          "jogos": 2,
+          "vitorias": 2,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 22,
+          "gols_contra": 1,
+          "saldo": 21
+        },
+        {
+          "posicao": 2,
           "logo": "https://www.lchf.com.br/Upload/clubes/CAT.png",
           "nome": "CATARINENSE PROTEÇÃO VEICULAR/ONE CELL",
           "pontos": 6,
@@ -351,7 +364,7 @@
           "saldo": 2
         },
         {
-          "posicao": 2,
+          "posicao": 3,
           "logo": "https://www.lchf.com.br/Upload/clubes/SP.png",
           "nome": "SITICOM/ SÃO PEDRO  FC/DISK OPTICA CHAPECÓ",
           "pontos": 4,
@@ -362,19 +375,6 @@
           "gols_pro": 9,
           "gols_contra": 4,
           "saldo": 5
-        },
-        {
-          "posicao": 3,
-          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-08-13%20at%2009.47.17.jpeg",
-          "nome": "SEM PULMÕES FC",
-          "pontos": 3,
-          "jogos": 1,
-          "vitorias": 1,
-          "empates": 0,
-          "derrotas": 0,
-          "gols_pro": 10,
-          "gols_contra": 0,
-          "saldo": 10
         },
         {
           "posicao": 4,
@@ -394,13 +394,13 @@
           "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-08-15%20at%2012.36.51.jpeg",
           "nome": "ATLÉTICO ALIANZA FC",
           "pontos": 0,
-          "jogos": 1,
+          "jogos": 2,
           "vitorias": 0,
           "empates": 0,
-          "derrotas": 1,
-          "gols_pro": 3,
-          "gols_contra": 4,
-          "saldo": -1
+          "derrotas": 2,
+          "gols_pro": 4,
+          "gols_contra": 16,
+          "saldo": -12
         },
         {
           "posicao": 6,
