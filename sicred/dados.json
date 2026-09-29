@@ -1,6 +1,6 @@
 {
   "campeonato": "17ªCOPA NDTV DE FUT SETE  LIVRE MASCULINO",
-  "atualizado_em": "2026-09-28T10:54:15.330Z",
+  "atualizado_em": "2026-09-29T20:13:13.743Z",
   "grupos": [
     {
       "nome": "GRUPO A",
@@ -9,14 +9,14 @@
           "posicao": 1,
           "logo": "https://www.lchf.com.br/Upload/clubes/Design%20sem%20nome%20(6).png",
           "nome": "RONDOFRIO E.C / CORDILHEIRA ALTA",
-          "pontos": 6,
-          "jogos": 2,
-          "vitorias": 2,
+          "pontos": 9,
+          "jogos": 3,
+          "vitorias": 3,
           "empates": 0,
           "derrotas": 0,
-          "gols_pro": 8,
-          "gols_contra": 4,
-          "saldo": 4
+          "gols_pro": 10,
+          "gols_contra": 5,
+          "saldo": 5
         },
         {
           "posicao": 2,
@@ -36,13 +36,13 @@
           "logo": "https://www.lchf.com.br/Upload/clubes/ChatGPT%20Image%2031%20de%20ago.%20de%202026,%2016_28_13.png",
           "nome": "GRUPO COONECTA / AGROCERES",
           "pontos": 4,
-          "jogos": 2,
+          "jogos": 3,
           "vitorias": 1,
           "empates": 1,
-          "derrotas": 0,
-          "gols_pro": 2,
-          "gols_contra": 1,
-          "saldo": 1
+          "derrotas": 1,
+          "gols_pro": 3,
+          "gols_contra": 3,
+          "saldo": 0
         },
         {
           "posicao": 4,
@@ -116,6 +116,19 @@
         },
         {
           "posicao": 3,
+          "logo": "https://www.lchf.com.br/Upload/clubes/54.png",
+          "nome": "DISMAFF /E.C BELVEDERE",
+          "pontos": 3,
+          "jogos": 3,
+          "vitorias": 1,
+          "empates": 0,
+          "derrotas": 2,
+          "gols_pro": 5,
+          "gols_contra": 4,
+          "saldo": 1
+        },
+        {
+          "posicao": 4,
           "logo": "https://www.lchf.com.br/Upload/clubes/PARCERIOS.png",
           "nome": "PARCEIROS",
           "pontos": 3,
@@ -128,7 +141,7 @@
           "saldo": 0
         },
         {
-          "posicao": 4,
+          "posicao": 5,
           "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-08-13%20at%2011.34.26.jpeg",
           "nome": "AMIGOS F.C",
           "pontos": 3,
@@ -141,30 +154,17 @@
           "saldo": -2
         },
         {
-          "posicao": 5,
-          "logo": "https://www.lchf.com.br/Upload/clubes/54.png",
-          "nome": "DISMAFF /E.C BELVEDERE",
-          "pontos": 0,
-          "jogos": 2,
-          "vitorias": 0,
-          "empates": 0,
-          "derrotas": 2,
-          "gols_pro": 2,
-          "gols_contra": 4,
-          "saldo": -2
-        },
-        {
           "posicao": 6,
           "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-08-27%20at%2018.49.45.jpeg",
           "nome": "DEPORTIVO CHAPECO FC",
           "pontos": 0,
-          "jogos": 2,
+          "jogos": 3,
           "vitorias": 0,
           "empates": 0,
-          "derrotas": 2,
+          "derrotas": 3,
           "gols_pro": 1,
-          "gols_contra": 4,
-          "saldo": -3
+          "gols_contra": 7,
+          "saldo": -6
         }
       ]
     },
