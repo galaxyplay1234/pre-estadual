@@ -1,7 +1,7 @@
 {
   "campeonato": "17ªCOPA NDTV DE FUT SETE  LIVRE MASCULINO",
   "campeonato_id": "180",
-  "atualizado_em": "2026-10-02T03:14:15.273Z",
+  "atualizado_em": "2026-10-02T10:16:10.777Z",
   "rodada_atual": 1,
   "total_rodadas": 7,
   "rodadas": [
@@ -288,32 +288,32 @@
         {
           "mandante": "CATARINENSE PROTEÇÃO VEICULAR/ONE CELL",
           "visitante": "GREMIO LP/SEVEN REPRESENTAÇÃO",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 3,
+          "gols_visitante": 1,
           "campo": "GUATAMBU SOCIETY",
           "data_hora": "01/10/2026 20:00"
         },
         {
           "mandante": "SITICOM/ SÃO PEDRO  FC/DISK OPTICA CHAPECÓ",
           "visitante": "SEM PULMÕES FC",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 0,
+          "gols_visitante": 2,
           "campo": "GUATAMBU SOCIETY",
           "data_hora": "01/10/2026 21:00"
         },
         {
           "mandante": "ATLÉTICO ALIANZA FC",
           "visitante": "BOLEIROS",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 5,
+          "gols_visitante": 2,
           "campo": "SER AURORA",
           "data_hora": "01/10/2026 20:00"
         },
         {
           "mandante": "SCRIPT UNITED",
           "visitante": "NIJU / GO PLAY F.C",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 2,
+          "gols_visitante": 4,
           "campo": "SER AURORA",
           "data_hora": "01/10/2026 21:00"
         },

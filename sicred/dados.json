@@ -1,6 +1,6 @@
 {
   "campeonato": "17ªCOPA NDTV DE FUT SETE  LIVRE MASCULINO",
-  "atualizado_em": "2026-10-02T03:14:12.843Z",
+  "atualizado_em": "2026-10-02T10:16:08.979Z",
   "grupos": [
     {
       "nome": "GRUPO A",
@@ -176,26 +176,26 @@
           "logo": "https://www.lchf.com.br/Upload/clubes/36.png",
           "nome": "SCRIPT UNITED",
           "pontos": 6,
-          "jogos": 2,
+          "jogos": 3,
           "vitorias": 2,
           "empates": 0,
-          "derrotas": 0,
-          "gols_pro": 6,
-          "gols_contra": 1,
-          "saldo": 5
+          "derrotas": 1,
+          "gols_pro": 8,
+          "gols_contra": 5,
+          "saldo": 3
         },
         {
           "posicao": 2,
           "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-08-13%20at%2014.45.29.jpeg",
           "nome": "NIJU / GO PLAY F.C",
-          "pontos": 3,
-          "jogos": 2,
-          "vitorias": 1,
+          "pontos": 6,
+          "jogos": 3,
+          "vitorias": 2,
           "empates": 0,
           "derrotas": 1,
-          "gols_pro": 5,
-          "gols_contra": 5,
-          "saldo": 0
+          "gols_pro": 9,
+          "gols_contra": 7,
+          "saldo": 2
         },
         {
           "posicao": 3,
@@ -341,79 +341,79 @@
           "posicao": 1,
           "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-08-13%20at%2009.47.17.jpeg",
           "nome": "SEM PULMÕES FC",
-          "pontos": 6,
-          "jogos": 2,
-          "vitorias": 2,
+          "pontos": 9,
+          "jogos": 3,
+          "vitorias": 3,
           "empates": 0,
           "derrotas": 0,
-          "gols_pro": 22,
+          "gols_pro": 24,
           "gols_contra": 1,
-          "saldo": 21
+          "saldo": 23
         },
         {
           "posicao": 2,
           "logo": "https://www.lchf.com.br/Upload/clubes/CAT.png",
           "nome": "CATARINENSE PROTEÇÃO VEICULAR/ONE CELL",
-          "pontos": 6,
-          "jogos": 2,
-          "vitorias": 2,
+          "pontos": 9,
+          "jogos": 3,
+          "vitorias": 3,
           "empates": 0,
           "derrotas": 0,
-          "gols_pro": 5,
-          "gols_contra": 3,
-          "saldo": 2
+          "gols_pro": 8,
+          "gols_contra": 4,
+          "saldo": 4
         },
         {
           "posicao": 3,
           "logo": "https://www.lchf.com.br/Upload/clubes/SP.png",
           "nome": "SITICOM/ SÃO PEDRO  FC/DISK OPTICA CHAPECÓ",
           "pontos": 4,
-          "jogos": 2,
+          "jogos": 3,
           "vitorias": 1,
           "empates": 1,
-          "derrotas": 0,
+          "derrotas": 1,
           "gols_pro": 9,
-          "gols_contra": 4,
-          "saldo": 5
+          "gols_contra": 6,
+          "saldo": 3
         },
         {
           "posicao": 4,
-          "logo": "https://www.lchf.com.br/Upload/clubes/BOLEIROS.png",
-          "nome": "BOLEIROS",
-          "pontos": 1,
-          "jogos": 2,
-          "vitorias": 0,
-          "empates": 1,
-          "derrotas": 1,
-          "gols_pro": 2,
-          "gols_contra": 3,
-          "saldo": -1
+          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-08-15%20at%2012.36.51.jpeg",
+          "nome": "ATLÉTICO ALIANZA FC",
+          "pontos": 3,
+          "jogos": 3,
+          "vitorias": 1,
+          "empates": 0,
+          "derrotas": 2,
+          "gols_pro": 9,
+          "gols_contra": 18,
+          "saldo": -9
         },
         {
           "posicao": 5,
-          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-08-15%20at%2012.36.51.jpeg",
-          "nome": "ATLÉTICO ALIANZA FC",
-          "pontos": 0,
-          "jogos": 2,
+          "logo": "https://www.lchf.com.br/Upload/clubes/BOLEIROS.png",
+          "nome": "BOLEIROS",
+          "pontos": 1,
+          "jogos": 3,
           "vitorias": 0,
-          "empates": 0,
+          "empates": 1,
           "derrotas": 2,
           "gols_pro": 4,
-          "gols_contra": 16,
-          "saldo": -12
+          "gols_contra": 8,
+          "saldo": -4
         },
         {
           "posicao": 6,
           "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-08-25%20at%2013.06.51%20(1).jpeg",
           "nome": "GREMIO LP/SEVEN REPRESENTAÇÃO",
           "pontos": 0,
-          "jogos": 2,
+          "jogos": 3,
           "vitorias": 0,
           "empates": 0,
-          "derrotas": 2,
-          "gols_pro": 2,
-          "gols_contra": 17,
-          "saldo": -15
+          "derrotas": 3,
+          "gols_pro": 3,
+          "gols_contra": 20,
+          "saldo": -17
         }
       ]
     }
