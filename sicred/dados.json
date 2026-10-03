@@ -1,6 +1,6 @@
 {
   "campeonato": "17ªCOPA NDTV DE FUT SETE  LIVRE MASCULINO",
-  "atualizado_em": "2026-10-02T10:16:08.979Z",
+  "atualizado_em": "2026-10-03T10:42:41.492Z",
   "grupos": [
     {
       "nome": "GRUPO A",
@@ -92,30 +92,17 @@
           "posicao": 1,
           "logo": "https://www.lchf.com.br/Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(6)_2.png",
           "nome": "LJS/ROSA SUL EMBALAGENS",
-          "pontos": 6,
-          "jogos": 2,
-          "vitorias": 2,
+          "pontos": 9,
+          "jogos": 3,
+          "vitorias": 3,
           "empates": 0,
           "derrotas": 0,
-          "gols_pro": 6,
-          "gols_contra": 1,
-          "saldo": 5
+          "gols_pro": 10,
+          "gols_contra": 3,
+          "saldo": 7
         },
         {
           "posicao": 2,
-          "logo": "https://www.lchf.com.br/Upload/clubes/FREITAS_1.png",
-          "nome": "FREITAS F.C / AL TECNOLOGIA E SEGURANÇA / SONHARE IMÓVEIS / FED FUTSAL / BANDA INDEXÃO",
-          "pontos": 6,
-          "jogos": 2,
-          "vitorias": 2,
-          "empates": 0,
-          "derrotas": 0,
-          "gols_pro": 3,
-          "gols_contra": 1,
-          "saldo": 2
-        },
-        {
-          "posicao": 3,
           "logo": "https://www.lchf.com.br/Upload/clubes/PARCERIOS.png",
           "nome": "PARCEIROS",
           "pontos": 6,
@@ -126,6 +113,19 @@
           "gols_pro": 6,
           "gols_contra": 5,
           "saldo": 1
+        },
+        {
+          "posicao": 3,
+          "logo": "https://www.lchf.com.br/Upload/clubes/FREITAS_1.png",
+          "nome": "FREITAS F.C / AL TECNOLOGIA E SEGURANÇA / SONHARE IMÓVEIS / FED FUTSAL / BANDA INDEXÃO",
+          "pontos": 6,
+          "jogos": 3,
+          "vitorias": 2,
+          "empates": 0,
+          "derrotas": 1,
+          "gols_pro": 5,
+          "gols_contra": 5,
+          "saldo": 0
         },
         {
           "posicao": 4,
@@ -186,6 +186,19 @@
         },
         {
           "posicao": 2,
+          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-01-21%20at%2010.15.58.jpeg",
+          "nome": "GG PINTURAS/SANTA MARIA",
+          "pontos": 6,
+          "jogos": 3,
+          "vitorias": 2,
+          "empates": 0,
+          "derrotas": 1,
+          "gols_pro": 9,
+          "gols_contra": 7,
+          "saldo": 2
+        },
+        {
+          "posicao": 3,
           "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-08-13%20at%2014.45.29.jpeg",
           "nome": "NIJU / GO PLAY F.C",
           "pontos": 6,
@@ -198,56 +211,43 @@
           "saldo": 2
         },
         {
-          "posicao": 3,
+          "posicao": 4,
           "logo": "https://www.lchf.com.br/Upload/clubes/OJR.png",
           "nome": "R.C SPORTS / INVICTUS",
-          "pontos": 3,
-          "jogos": 2,
-          "vitorias": 1,
+          "pontos": 6,
+          "jogos": 3,
+          "vitorias": 2,
           "empates": 0,
           "derrotas": 1,
-          "gols_pro": 3,
-          "gols_contra": 3,
-          "saldo": 0
-        },
-        {
-          "posicao": 4,
-          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-01-21%20at%2010.15.58.jpeg",
-          "nome": "GG PINTURAS/SANTA MARIA",
-          "pontos": 3,
-          "jogos": 2,
-          "vitorias": 1,
-          "empates": 0,
-          "derrotas": 1,
-          "gols_pro": 3,
-          "gols_contra": 4,
-          "saldo": -1
+          "gols_pro": 7,
+          "gols_contra": 5,
+          "saldo": 2
         },
         {
           "posicao": 5,
           "logo": "https://www.lchf.com.br/Upload/clubes/ACDA.png",
           "nome": "ASSOCIAÇÃO CANTINHO DOS AMIGOS/MARCENARIA NAVA",
           "pontos": 1,
-          "jogos": 2,
+          "jogos": 3,
           "vitorias": 0,
           "empates": 1,
-          "derrotas": 1,
-          "gols_pro": 2,
-          "gols_contra": 3,
-          "saldo": -1
+          "derrotas": 2,
+          "gols_pro": 5,
+          "gols_contra": 9,
+          "saldo": -4
         },
         {
           "posicao": 6,
           "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-08-13%20at%2010.09.19.jpeg",
           "nome": "TCC FC",
           "pontos": 1,
-          "jogos": 2,
+          "jogos": 3,
           "vitorias": 0,
           "empates": 1,
-          "derrotas": 1,
-          "gols_pro": 3,
-          "gols_contra": 6,
-          "saldo": -3
+          "derrotas": 2,
+          "gols_pro": 5,
+          "gols_contra": 10,
+          "saldo": -5
         }
       ]
     },
@@ -269,6 +269,19 @@
         },
         {
           "posicao": 2,
+          "logo": "https://www.lchf.com.br/Upload/clubes/COLORADO.png",
+          "nome": "E.C COLORADO",
+          "pontos": 6,
+          "jogos": 3,
+          "vitorias": 2,
+          "empates": 0,
+          "derrotas": 1,
+          "gols_pro": 10,
+          "gols_contra": 5,
+          "saldo": 5
+        },
+        {
+          "posicao": 3,
           "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202025-08-26%20at%2016.27.47.jpeg",
           "nome": "HORTIAGRO F.C /MECANICA CASTELI",
           "pontos": 6,
@@ -281,56 +294,43 @@
           "saldo": 3
         },
         {
-          "posicao": 3,
-          "logo": "https://www.lchf.com.br/Upload/clubes/COLORADO.png",
-          "nome": "E.C COLORADO",
-          "pontos": 3,
-          "jogos": 2,
-          "vitorias": 1,
-          "empates": 0,
-          "derrotas": 1,
-          "gols_pro": 8,
-          "gols_contra": 4,
-          "saldo": 4
-        },
-        {
           "posicao": 4,
           "logo": "https://www.lchf.com.br/Upload/clubes/LA12.png",
           "nome": "LÁ12",
-          "pontos": 3,
-          "jogos": 2,
-          "vitorias": 1,
+          "pontos": 6,
+          "jogos": 3,
+          "vitorias": 2,
           "empates": 0,
           "derrotas": 1,
-          "gols_pro": 5,
-          "gols_contra": 6,
-          "saldo": -1
+          "gols_pro": 9,
+          "gols_contra": 8,
+          "saldo": 1
         },
         {
           "posicao": 5,
           "logo": "https://www.lchf.com.br/Upload/clubes/sv%20(2).png",
           "nome": "FC LYON SVSB",
           "pontos": 0,
-          "jogos": 2,
+          "jogos": 3,
           "vitorias": 0,
           "empates": 0,
-          "derrotas": 2,
-          "gols_pro": 2,
-          "gols_contra": 10,
-          "saldo": -8
+          "derrotas": 3,
+          "gols_pro": 3,
+          "gols_contra": 12,
+          "saldo": -9
         },
         {
           "posicao": 6,
           "logo": "https://www.lchf.com.br/Upload/clubes/REAL%20C.png",
           "nome": "RESTAURANTE BOM SABOR2/ROMA MANTELLI/REAL CATALUNHA / CK MAQUINAS",
           "pontos": 0,
-          "jogos": 2,
+          "jogos": 3,
           "vitorias": 0,
           "empates": 0,
-          "derrotas": 2,
-          "gols_pro": 1,
-          "gols_contra": 11,
-          "saldo": -10
+          "derrotas": 3,
+          "gols_pro": 3,
+          "gols_contra": 15,
+          "saldo": -12
         }
       ]
     },
