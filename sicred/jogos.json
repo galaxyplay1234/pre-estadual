@@ -1,7 +1,7 @@
 {
   "campeonato": "17ªCOPA NDTV DE FUT SETE  LIVRE MASCULINO",
   "campeonato_id": "180",
-  "atualizado_em": "2026-10-03T10:42:44.678Z",
+  "atualizado_em": "2026-10-04T00:40:45.936Z",
   "rodada_atual": 1,
   "total_rodadas": 7,
   "rodadas": [
@@ -336,8 +336,8 @@
         {
           "mandante": "AAT FC / ALMIR ARAÚJO TRANSPORTE/TRANSPOSEG",
           "visitante": "IMPERIAL FC / GRUPO SANTÔ CONSÓRCIO E INVEST. / LAVACAR COELHO / GP CELULARES",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 3,
+          "gols_visitante": 0,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "02/10/2026 21:00"
         },
@@ -368,16 +368,16 @@
         {
           "mandante": "RAJA CLUB",
           "visitante": "SEDE DO GORDO",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 3,
+          "gols_visitante": 3,
           "campo": "GER SADIA",
           "data_hora": "02/10/2026 21:00"
         },
         {
           "mandante": "AADG F7",
           "visitante": "HORTIAGRO F.C /MECANICA CASTELI",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 4,
+          "gols_visitante": 6,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "03/10/2026 18:00"
         }

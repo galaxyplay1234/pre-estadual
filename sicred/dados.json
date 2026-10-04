@@ -1,6 +1,6 @@
 {
   "campeonato": "17ªCOPA NDTV DE FUT SETE  LIVRE MASCULINO",
-  "atualizado_em": "2026-10-03T10:42:41.492Z",
+  "atualizado_em": "2026-10-04T00:40:43.194Z",
   "grupos": [
     {
       "nome": "GRUPO A",
@@ -22,17 +22,30 @@
           "posicao": 2,
           "logo": "https://www.lchf.com.br/Upload/clubes/Blue%20Football%20Match%20Instagram%20Post%20(8).png",
           "nome": "SEDE DO GORDO",
-          "pontos": 4,
-          "jogos": 2,
+          "pontos": 5,
+          "jogos": 3,
           "vitorias": 1,
-          "empates": 1,
+          "empates": 2,
           "derrotas": 0,
-          "gols_pro": 6,
-          "gols_contra": 1,
+          "gols_pro": 9,
+          "gols_contra": 4,
           "saldo": 5
         },
         {
           "posicao": 3,
+          "logo": "https://www.lchf.com.br/Upload/clubes/RAJA.png",
+          "nome": "RAJA CLUB",
+          "pontos": 4,
+          "jogos": 3,
+          "vitorias": 1,
+          "empates": 1,
+          "derrotas": 1,
+          "gols_pro": 6,
+          "gols_contra": 5,
+          "saldo": 1
+        },
+        {
+          "posicao": 4,
           "logo": "https://www.lchf.com.br/Upload/clubes/ChatGPT%20Image%2031%20de%20ago.%20de%202026,%2016_28_13.png",
           "nome": "GRUPO COONECTA / AGROCERES",
           "pontos": 4,
@@ -45,42 +58,29 @@
           "saldo": 0
         },
         {
-          "posicao": 4,
-          "logo": "https://www.lchf.com.br/Upload/clubes/RAJA.png",
-          "nome": "RAJA CLUB",
+          "posicao": 5,
+          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202025-08-19%20at%2013.54.27.jpeg",
+          "nome": "AAT FC / ALMIR ARAÚJO TRANSPORTE/TRANSPOSEG",
           "pontos": 3,
-          "jogos": 2,
+          "jogos": 3,
           "vitorias": 1,
           "empates": 0,
-          "derrotas": 1,
-          "gols_pro": 3,
-          "gols_contra": 2,
-          "saldo": 1
-        },
-        {
-          "posicao": 5,
-          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-08-25%20at%2007.41.16.jpeg",
-          "nome": "IMPERIAL FC / GRUPO SANTÔ CONSÓRCIO E INVEST. / LAVACAR COELHO / GP CELULARES",
-          "pontos": 0,
-          "jogos": 2,
-          "vitorias": 0,
-          "empates": 0,
           "derrotas": 2,
-          "gols_pro": 3,
-          "gols_contra": 7,
+          "gols_pro": 5,
+          "gols_contra": 9,
           "saldo": -4
         },
         {
           "posicao": 6,
-          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202025-08-19%20at%2013.54.27.jpeg",
-          "nome": "AAT FC / ALMIR ARAÚJO TRANSPORTE/TRANSPOSEG",
+          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-08-25%20at%2007.41.16.jpeg",
+          "nome": "IMPERIAL FC / GRUPO SANTÔ CONSÓRCIO E INVEST. / LAVACAR COELHO / GP CELULARES",
           "pontos": 0,
-          "jogos": 2,
+          "jogos": 3,
           "vitorias": 0,
           "empates": 0,
-          "derrotas": 2,
-          "gols_pro": 2,
-          "gols_contra": 9,
+          "derrotas": 3,
+          "gols_pro": 3,
+          "gols_contra": 10,
           "saldo": -7
         }
       ]
@@ -256,19 +256,32 @@
       "tabela": [
         {
           "posicao": 1,
-          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-08-25%20at%2008.23.03.jpeg",
-          "nome": "AADG F7",
-          "pontos": 6,
-          "jogos": 2,
-          "vitorias": 2,
+          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202025-08-26%20at%2016.27.47.jpeg",
+          "nome": "HORTIAGRO F.C /MECANICA CASTELI",
+          "pontos": 9,
+          "jogos": 3,
+          "vitorias": 3,
           "empates": 0,
           "derrotas": 0,
-          "gols_pro": 14,
-          "gols_contra": 2,
-          "saldo": 12
+          "gols_pro": 11,
+          "gols_contra": 6,
+          "saldo": 5
         },
         {
           "posicao": 2,
+          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-08-25%20at%2008.23.03.jpeg",
+          "nome": "AADG F7",
+          "pontos": 6,
+          "jogos": 3,
+          "vitorias": 2,
+          "empates": 0,
+          "derrotas": 1,
+          "gols_pro": 18,
+          "gols_contra": 8,
+          "saldo": 10
+        },
+        {
+          "posicao": 3,
           "logo": "https://www.lchf.com.br/Upload/clubes/COLORADO.png",
           "nome": "E.C COLORADO",
           "pontos": 6,
@@ -279,19 +292,6 @@
           "gols_pro": 10,
           "gols_contra": 5,
           "saldo": 5
-        },
-        {
-          "posicao": 3,
-          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202025-08-26%20at%2016.27.47.jpeg",
-          "nome": "HORTIAGRO F.C /MECANICA CASTELI",
-          "pontos": 6,
-          "jogos": 2,
-          "vitorias": 2,
-          "empates": 0,
-          "derrotas": 0,
-          "gols_pro": 5,
-          "gols_contra": 2,
-          "saldo": 3
         },
         {
           "posicao": 4,
