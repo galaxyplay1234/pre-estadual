@@ -1,7 +1,7 @@
 {
   "campeonato": "17ªCOPA NDTV DE FUT SETE  LIVRE MASCULINO",
   "campeonato_id": "180",
-  "atualizado_em": "2026-10-04T00:40:45.936Z",
+  "atualizado_em": "2026-10-07T03:31:15.833Z",
   "rodada_atual": 1,
   "total_rodadas": 7,
   "rodadas": [
@@ -82,7 +82,7 @@
           "data_hora": "11/09/2026 20:30"
         },
         {
-          "mandante": "RESTAURANTE BOM SABOR2/ROMA MANTELLI/REAL CATALUNHA / CK MAQUINAS",
+          "mandante": "RESTAURANTE BOM SABOR2/AGUIAS CHAPECO/ROMA MANTELLI/REAL CATALUNHA/CK MAQUINAS",
           "visitante": "E.C COLORADO",
           "gols_mandante": 0,
           "gols_visitante": 5,
@@ -185,7 +185,7 @@
         },
         {
           "mandante": "AADG F7",
-          "visitante": "RESTAURANTE BOM SABOR2/ROMA MANTELLI/REAL CATALUNHA / CK MAQUINAS",
+          "visitante": "RESTAURANTE BOM SABOR2/AGUIAS CHAPECO/ROMA MANTELLI/REAL CATALUNHA/CK MAQUINAS",
           "gols_mandante": 6,
           "gols_visitante": 1,
           "campo": "ARENA PRIME SOCIETY",
@@ -351,7 +351,7 @@
         },
         {
           "mandante": "LÁ12",
-          "visitante": "RESTAURANTE BOM SABOR2/ROMA MANTELLI/REAL CATALUNHA / CK MAQUINAS",
+          "visitante": "RESTAURANTE BOM SABOR2/AGUIAS CHAPECO/ROMA MANTELLI/REAL CATALUNHA/CK MAQUINAS",
           "gols_mandante": 4,
           "gols_visitante": 2,
           "campo": "COMPLEXO TIAGO",
@@ -390,32 +390,24 @@
         {
           "mandante": "SEDE DO GORDO",
           "visitante": "RONDOFRIO E.C / CORDILHEIRA ALTA",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 3,
+          "gols_visitante": 3,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "05/10/2026 20:30"
         },
         {
-          "mandante": "GRUPO COONECTA / AGROCERES",
-          "visitante": "IMPERIAL FC / GRUPO SANTÔ CONSÓRCIO E INVEST. / LAVACAR COELHO / GP CELULARES",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "ARENA PRIME SOCIETY",
-          "data_hora": "05/10/2026 21:30"
-        },
-        {
           "mandante": "RAJA CLUB",
           "visitante": "AAT FC / ALMIR ARAÚJO TRANSPORTE/TRANSPOSEG",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 3,
+          "gols_visitante": 0,
           "campo": "SER AURORA",
           "data_hora": "06/10/2026 20:00"
         },
         {
           "mandante": "AMIGOS F.C",
           "visitante": "DISMAFF /E.C BELVEDERE",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 2,
+          "gols_visitante": 1,
           "campo": "SER AURORA",
           "data_hora": "06/10/2026 21:00"
         },
@@ -436,19 +428,11 @@
           "data_hora": "07/10/2026 21:30"
         },
         {
-          "mandante": "SITICOM/ SÃO PEDRO  FC/DISK OPTICA CHAPECÓ",
-          "visitante": "ATLÉTICO ALIANZA FC",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "GUATAMBU SOCIETY",
-          "data_hora": "07/10/2026 20:00"
-        },
-        {
           "mandante": "LÁ12",
           "visitante": "AADG F7",
           "gols_mandante": null,
           "gols_visitante": null,
-          "campo": "GUATAMBU SOCIETY",
+          "campo": "GER SADIA",
           "data_hora": "07/10/2026 21:00"
         },
         {
@@ -457,6 +441,14 @@
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "CAMPO DA ACDA - SEARA",
+          "data_hora": "08/10/2026 20:00"
+        },
+        {
+          "mandante": "SITICOM/ SÃO PEDRO  FC/DISK OPTICA CHAPECÓ",
+          "visitante": "ATLÉTICO ALIANZA FC",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "GER SADIA",
           "data_hora": "08/10/2026 20:00"
         },
         {
@@ -476,6 +468,14 @@
           "data_hora": "09/10/2026 20:30"
         },
         {
+          "mandante": "GRUPO COONECTA / AGROCERES",
+          "visitante": "IMPERIAL FC / GRUPO SANTÔ CONSÓRCIO E INVEST. / LAVACAR COELHO / GP CELULARES",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "ARENA PRIME SOCIETY",
+          "data_hora": "09/10/2026 21:30"
+        },
+        {
           "mandante": "GREMIO LP/SEVEN REPRESENTAÇÃO",
           "visitante": "BOLEIROS",
           "gols_mandante": null,
@@ -492,7 +492,7 @@
           "data_hora": "09/10/2026 21:00"
         },
         {
-          "mandante": "RESTAURANTE BOM SABOR2/ROMA MANTELLI/REAL CATALUNHA / CK MAQUINAS",
+          "mandante": "RESTAURANTE BOM SABOR2/AGUIAS CHAPECO/ROMA MANTELLI/REAL CATALUNHA/CK MAQUINAS",
           "visitante": "FC LYON SVSB",
           "gols_mandante": null,
           "gols_visitante": null,
@@ -603,7 +603,7 @@
         },
         {
           "mandante": "HORTIAGRO F.C /MECANICA CASTELI",
-          "visitante": "RESTAURANTE BOM SABOR2/ROMA MANTELLI/REAL CATALUNHA / CK MAQUINAS",
+          "visitante": "RESTAURANTE BOM SABOR2/AGUIAS CHAPECO/ROMA MANTELLI/REAL CATALUNHA/CK MAQUINAS",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "ARENA PRIME SOCIETY",
