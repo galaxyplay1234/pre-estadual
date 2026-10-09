@@ -1,7 +1,7 @@
 {
   "campeonato": "17ªCOPA NDTV DE FUT SETE  LIVRE MASCULINO",
   "campeonato_id": "180",
-  "atualizado_em": "2026-10-07T03:31:15.833Z",
+  "atualizado_em": "2026-10-09T02:22:12.554Z",
   "rodada_atual": 1,
   "total_rodadas": 7,
   "rodadas": [
@@ -412,44 +412,36 @@
           "data_hora": "06/10/2026 21:00"
         },
         {
+          "mandante": "RESTAURANTE BOM SABOR2/AGUIAS CHAPECO/ROMA MANTELLI/REAL CATALUNHA/CK MAQUINAS",
+          "visitante": "FC LYON SVSB",
+          "gols_mandante": 1,
+          "gols_visitante": 6,
+          "campo": "AMIGOS DA BOLA",
+          "data_hora": "07/10/2026 19:00"
+        },
+        {
           "mandante": "LJS/ROSA SUL EMBALAGENS",
           "visitante": "DEPORTIVO CHAPECO FC",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 6,
+          "gols_visitante": 4,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "07/10/2026 20:30"
         },
         {
           "mandante": "PARCEIROS",
           "visitante": "FREITAS F.C / AL TECNOLOGIA E SEGURANÇA / SONHARE IMÓVEIS / FED FUTSAL / BANDA INDEXÃO",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 2,
+          "gols_visitante": 2,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "07/10/2026 21:30"
         },
         {
           "mandante": "LÁ12",
           "visitante": "AADG F7",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 2,
+          "gols_visitante": 5,
           "campo": "GER SADIA",
           "data_hora": "07/10/2026 21:00"
-        },
-        {
-          "mandante": "ASSOCIAÇÃO CANTINHO DOS AMIGOS/MARCENARIA NAVA",
-          "visitante": "NIJU / GO PLAY F.C",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "CAMPO DA ACDA - SEARA",
-          "data_hora": "08/10/2026 20:00"
-        },
-        {
-          "mandante": "SITICOM/ SÃO PEDRO  FC/DISK OPTICA CHAPECÓ",
-          "visitante": "ATLÉTICO ALIANZA FC",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "GER SADIA",
-          "data_hora": "08/10/2026 20:00"
         },
         {
           "mandante": "R.C SPORTS / INVICTUS",
@@ -492,20 +484,28 @@
           "data_hora": "09/10/2026 21:00"
         },
         {
-          "mandante": "RESTAURANTE BOM SABOR2/AGUIAS CHAPECO/ROMA MANTELLI/REAL CATALUNHA/CK MAQUINAS",
-          "visitante": "FC LYON SVSB",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "GUATAMBU SOCIETY",
-          "data_hora": "09/10/2026 20:00"
-        },
-        {
           "mandante": "SEM PULMÕES FC",
           "visitante": "CATARINENSE PROTEÇÃO VEICULAR/ONE CELL",
           "gols_mandante": null,
           "gols_visitante": null,
           "campo": "GUATAMBU SOCIETY",
           "data_hora": "09/10/2026 21:00"
+        },
+        {
+          "mandante": "ASSOCIAÇÃO CANTINHO DOS AMIGOS/MARCENARIA NAVA",
+          "visitante": "NIJU / GO PLAY F.C",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "CAMPO DA ACDA - SEARA",
+          "data_hora": "13/10/2026 20:00"
+        },
+        {
+          "mandante": "SITICOM/ SÃO PEDRO  FC/DISK OPTICA CHAPECÓ",
+          "visitante": "ATLÉTICO ALIANZA FC",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "GER SADIA",
+          "data_hora": "13/10/2026 20:00"
         }
       ]
     },
