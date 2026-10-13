@@ -1,7 +1,7 @@
 {
   "campeonato": "17ªCOPA NDTV DE FUT SETE  LIVRE MASCULINO",
   "campeonato_id": "180",
-  "atualizado_em": "2026-10-13T01:03:01.061Z",
+  "atualizado_em": "2026-10-13T03:22:56.245Z",
   "rodada_atual": 1,
   "total_rodadas": 7,
   "rodadas": [
@@ -462,8 +462,8 @@
         {
           "mandante": "SEM PULMÕES FC",
           "visitante": "CATARINENSE PROTEÇÃO VEICULAR/ONE CELL",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 0,
+          "gols_visitante": 3,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "12/10/2026 20:00"
         },

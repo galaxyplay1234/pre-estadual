@@ -1,6 +1,6 @@
 {
   "campeonato": "17ªCOPA NDTV DE FUT SETE  LIVRE MASCULINO",
-  "atualizado_em": "2026-10-13T01:02:52.406Z",
+  "atualizado_em": "2026-10-13T03:22:49.960Z",
   "grupos": [
     {
       "nome": "GRUPO A",
@@ -339,29 +339,29 @@
       "tabela": [
         {
           "posicao": 1,
-          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-08-13%20at%2009.47.17.jpeg",
-          "nome": "SEM PULMÕES FC",
-          "pontos": 9,
-          "jogos": 3,
-          "vitorias": 3,
+          "logo": "https://www.lchf.com.br/Upload/clubes/CAT.png",
+          "nome": "CATARINENSE PROTEÇÃO VEICULAR/ONE CELL",
+          "pontos": 12,
+          "jogos": 4,
+          "vitorias": 4,
           "empates": 0,
           "derrotas": 0,
-          "gols_pro": 24,
-          "gols_contra": 1,
-          "saldo": 23
+          "gols_pro": 11,
+          "gols_contra": 4,
+          "saldo": 7
         },
         {
           "posicao": 2,
-          "logo": "https://www.lchf.com.br/Upload/clubes/CAT.png",
-          "nome": "CATARINENSE PROTEÇÃO VEICULAR/ONE CELL",
+          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-08-13%20at%2009.47.17.jpeg",
+          "nome": "SEM PULMÕES FC",
           "pontos": 9,
-          "jogos": 3,
+          "jogos": 4,
           "vitorias": 3,
           "empates": 0,
-          "derrotas": 0,
-          "gols_pro": 8,
+          "derrotas": 1,
+          "gols_pro": 24,
           "gols_contra": 4,
-          "saldo": 4
+          "saldo": 20
         },
         {
           "posicao": 3,
