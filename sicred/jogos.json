@@ -1,7 +1,7 @@
 {
   "campeonato": "17ªCOPA NDTV DE FUT SETE  LIVRE MASCULINO",
   "campeonato_id": "180",
-  "atualizado_em": "2026-10-14T15:39:39.980Z",
+  "atualizado_em": "2026-10-15T13:25:23.687Z",
   "rodada_atual": 1,
   "total_rodadas": 7,
   "rodadas": [
@@ -478,16 +478,16 @@
         {
           "mandante": "TCC FC",
           "visitante": "GG PINTURAS/SANTA MARIA",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 1,
+          "gols_visitante": 3,
           "campo": "GER SADIA",
           "data_hora": "14/10/2026 21:00"
         },
         {
           "mandante": "E.C COLORADO",
           "visitante": "HORTIAGRO F.C /MECANICA CASTELI",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 3,
+          "gols_visitante": 6,
           "campo": "SER AURORA - ACESSO AEROPORTO",
           "data_hora": "14/10/2026 20:00"
         },
@@ -516,24 +516,24 @@
         {
           "mandante": "DEPORTIVO CHAPECO FC",
           "visitante": "PARCEIROS",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 1,
+          "gols_visitante": 5,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "14/10/2026 20:30"
         },
         {
           "mandante": "AAT FC / ALMIR ARAÚJO TRANSPORTE/TRANSPOSEG",
           "visitante": "GRUPO COONECTA / AGROCERES",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 0,
+          "gols_visitante": 4,
           "campo": "ARENA PRIME SOCIETY",
           "data_hora": "14/10/2026 21:30"
         },
         {
           "mandante": "FC LYON SVSB",
           "visitante": "LÁ12",
-          "gols_mandante": null,
-          "gols_visitante": null,
+          "gols_mandante": 4,
+          "gols_visitante": 1,
           "campo": "CAMPO DO ALEMÃO",
           "data_hora": "14/10/2026 21:00"
         },
@@ -570,22 +570,6 @@
           "data_hora": "19/10/2026 21:30"
         },
         {
-          "mandante": "CATARINENSE PROTEÇÃO VEICULAR/ONE CELL",
-          "visitante": "SITICOM/ SÃO PEDRO  FC/DISK OPTICA CHAPECÓ",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "GUATAMBU SOCIETY",
-          "data_hora": "19/10/2026 20:00"
-        },
-        {
-          "mandante": "BOLEIROS",
-          "visitante": "SEM PULMÕES FC",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "GUATAMBU SOCIETY",
-          "data_hora": "19/10/2026 21:00"
-        },
-        {
           "mandante": "AADG F7",
           "visitante": "E.C COLORADO",
           "gols_mandante": null,
@@ -600,6 +584,22 @@
           "gols_visitante": null,
           "campo": "a definir",
           "data_hora": "20/10/2026 20:30"
+        },
+        {
+          "mandante": "CATARINENSE PROTEÇÃO VEICULAR/ONE CELL",
+          "visitante": "SITICOM/ SÃO PEDRO  FC/DISK OPTICA CHAPECÓ",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "GUATAMBU SOCIETY",
+          "data_hora": "20/10/2026 20:00"
+        },
+        {
+          "mandante": "BOLEIROS",
+          "visitante": "SEM PULMÕES FC",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "GUATAMBU SOCIETY",
+          "data_hora": "20/10/2026 21:00"
         },
         {
           "mandante": "NIJU / GO PLAY F.C",

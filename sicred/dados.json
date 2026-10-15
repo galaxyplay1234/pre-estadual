@@ -1,6 +1,6 @@
 {
   "campeonato": "17ªCOPA NDTV DE FUT SETE  LIVRE MASCULINO",
-  "atualizado_em": "2026-10-14T15:39:36.865Z",
+  "atualizado_em": "2026-10-15T13:25:20.716Z",
   "grupos": [
     {
       "nome": "GRUPO A",
@@ -20,6 +20,19 @@
         },
         {
           "posicao": 2,
+          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-10-15%20at%2010.08.27.jpeg",
+          "nome": "GRUPO COONECTA / AGROCERES",
+          "pontos": 10,
+          "jogos": 5,
+          "vitorias": 3,
+          "empates": 1,
+          "derrotas": 1,
+          "gols_pro": 12,
+          "gols_contra": 7,
+          "saldo": 5
+        },
+        {
+          "posicao": 3,
           "logo": "https://www.lchf.com.br/Upload/clubes/RAJA.png",
           "nome": "RAJA CLUB",
           "pontos": 7,
@@ -30,19 +43,6 @@
           "gols_pro": 9,
           "gols_contra": 5,
           "saldo": 4
-        },
-        {
-          "posicao": 3,
-          "logo": "https://www.lchf.com.br/Upload/clubes/ChatGPT%20Image%2031%20de%20ago.%20de%202026,%2016_28_13.png",
-          "nome": "GRUPO COONECTA / AGROCERES",
-          "pontos": 7,
-          "jogos": 4,
-          "vitorias": 2,
-          "empates": 1,
-          "derrotas": 1,
-          "gols_pro": 8,
-          "gols_contra": 7,
-          "saldo": 1
         },
         {
           "posicao": 4,
@@ -62,13 +62,13 @@
           "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202025-08-19%20at%2013.54.27.jpeg",
           "nome": "AAT FC / ALMIR ARAÚJO TRANSPORTE/TRANSPOSEG",
           "pontos": 3,
-          "jogos": 4,
+          "jogos": 5,
           "vitorias": 1,
           "empates": 0,
-          "derrotas": 3,
+          "derrotas": 4,
           "gols_pro": 5,
-          "gols_contra": 12,
-          "saldo": -7
+          "gols_contra": 16,
+          "saldo": -11
         },
         {
           "posicao": 6,
@@ -105,14 +105,14 @@
           "posicao": 2,
           "logo": "https://www.lchf.com.br/Upload/clubes/PARCERIOS.png",
           "nome": "PARCEIROS",
-          "pontos": 7,
-          "jogos": 4,
-          "vitorias": 2,
+          "pontos": 10,
+          "jogos": 5,
+          "vitorias": 3,
           "empates": 1,
           "derrotas": 1,
-          "gols_pro": 8,
-          "gols_contra": 7,
-          "saldo": 1
+          "gols_pro": 13,
+          "gols_contra": 8,
+          "saldo": 5
         },
         {
           "posicao": 3,
@@ -158,13 +158,13 @@
           "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-08-27%20at%2018.49.45.jpeg",
           "nome": "DEPORTIVO CHAPECO FC",
           "pontos": 0,
-          "jogos": 4,
+          "jogos": 5,
           "vitorias": 0,
           "empates": 0,
-          "derrotas": 4,
-          "gols_pro": 5,
-          "gols_contra": 13,
-          "saldo": -8
+          "derrotas": 5,
+          "gols_pro": 6,
+          "gols_contra": 18,
+          "saldo": -12
         }
       ]
     },
@@ -186,6 +186,19 @@
         },
         {
           "posicao": 2,
+          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-01-21%20at%2010.15.58.jpeg",
+          "nome": "GG PINTURAS/SANTA MARIA",
+          "pontos": 9,
+          "jogos": 4,
+          "vitorias": 3,
+          "empates": 0,
+          "derrotas": 1,
+          "gols_pro": 12,
+          "gols_contra": 8,
+          "saldo": 4
+        },
+        {
+          "posicao": 3,
           "logo": "https://www.lchf.com.br/Upload/clubes/36.png",
           "nome": "SCRIPT UNITED",
           "pontos": 7,
@@ -198,7 +211,7 @@
           "saldo": 3
         },
         {
-          "posicao": 3,
+          "posicao": 4,
           "logo": "https://www.lchf.com.br/Upload/clubes/OJR.png",
           "nome": "R.C SPORTS / INVICTUS",
           "pontos": 7,
@@ -211,30 +224,17 @@
           "saldo": 2
         },
         {
-          "posicao": 4,
-          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-01-21%20at%2010.15.58.jpeg",
-          "nome": "GG PINTURAS/SANTA MARIA",
-          "pontos": 6,
-          "jogos": 3,
-          "vitorias": 2,
-          "empates": 0,
-          "derrotas": 1,
-          "gols_pro": 9,
-          "gols_contra": 7,
-          "saldo": 2
-        },
-        {
           "posicao": 5,
           "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-08-13%20at%2010.09.19.jpeg",
           "nome": "TCC FC",
           "pontos": 1,
-          "jogos": 3,
+          "jogos": 4,
           "vitorias": 0,
           "empates": 1,
-          "derrotas": 2,
-          "gols_pro": 5,
-          "gols_contra": 10,
-          "saldo": -5
+          "derrotas": 3,
+          "gols_pro": 6,
+          "gols_contra": 13,
+          "saldo": -7
         },
         {
           "posicao": 6,
@@ -256,6 +256,19 @@
       "tabela": [
         {
           "posicao": 1,
+          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202025-08-26%20at%2016.27.47.jpeg",
+          "nome": "HORTIAGRO F.C /MECANICA CASTELI",
+          "pontos": 12,
+          "jogos": 4,
+          "vitorias": 4,
+          "empates": 0,
+          "derrotas": 0,
+          "gols_pro": 17,
+          "gols_contra": 9,
+          "saldo": 8
+        },
+        {
+          "posicao": 2,
           "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202026-08-25%20at%2008.23.03.jpeg",
           "nome": "AADG F7",
           "pontos": 9,
@@ -268,56 +281,43 @@
           "saldo": 13
         },
         {
-          "posicao": 2,
-          "logo": "https://www.lchf.com.br/Upload/clubes/WhatsApp%20Image%202025-08-26%20at%2016.27.47.jpeg",
-          "nome": "HORTIAGRO F.C /MECANICA CASTELI",
-          "pontos": 9,
-          "jogos": 3,
-          "vitorias": 3,
-          "empates": 0,
-          "derrotas": 0,
-          "gols_pro": 11,
-          "gols_contra": 6,
-          "saldo": 5
-        },
-        {
           "posicao": 3,
           "logo": "https://www.lchf.com.br/Upload/clubes/COLORADO.png",
           "nome": "E.C COLORADO",
-          "pontos": 6,
-          "jogos": 3,
-          "vitorias": 2,
-          "empates": 0,
-          "derrotas": 1,
-          "gols_pro": 10,
-          "gols_contra": 5,
-          "saldo": 5
-        },
-        {
-          "posicao": 4,
-          "logo": "https://www.lchf.com.br/Upload/clubes/LA12.png",
-          "nome": "LÁ12",
           "pontos": 6,
           "jogos": 4,
           "vitorias": 2,
           "empates": 0,
           "derrotas": 2,
-          "gols_pro": 11,
-          "gols_contra": 13,
-          "saldo": -2
+          "gols_pro": 13,
+          "gols_contra": 11,
+          "saldo": 2
+        },
+        {
+          "posicao": 4,
+          "logo": "https://www.lchf.com.br/Upload/clubes/sv%20(2).png",
+          "nome": "FC LYON SVSB",
+          "pontos": 6,
+          "jogos": 5,
+          "vitorias": 2,
+          "empates": 0,
+          "derrotas": 3,
+          "gols_pro": 13,
+          "gols_contra": 14,
+          "saldo": -1
         },
         {
           "posicao": 5,
-          "logo": "https://www.lchf.com.br/Upload/clubes/sv%20(2).png",
-          "nome": "FC LYON SVSB",
-          "pontos": 3,
-          "jogos": 4,
-          "vitorias": 1,
+          "logo": "https://www.lchf.com.br/Upload/clubes/LA12.png",
+          "nome": "LÁ12",
+          "pontos": 6,
+          "jogos": 5,
+          "vitorias": 2,
           "empates": 0,
           "derrotas": 3,
-          "gols_pro": 9,
-          "gols_contra": 13,
-          "saldo": -4
+          "gols_pro": 12,
+          "gols_contra": 17,
+          "saldo": -5
         },
         {
           "posicao": 6,
