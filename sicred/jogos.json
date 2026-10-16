@@ -1,7 +1,7 @@
 {
   "campeonato": "17ªCOPA NDTV DE FUT SETE  LIVRE MASCULINO",
   "campeonato_id": "180",
-  "atualizado_em": "2026-10-15T13:25:23.687Z",
+  "atualizado_em": "2026-10-16T10:55:00.699Z",
   "rodada_atual": 1,
   "total_rodadas": 7,
   "rodadas": [
@@ -570,20 +570,20 @@
           "data_hora": "19/10/2026 21:30"
         },
         {
-          "mandante": "AADG F7",
-          "visitante": "E.C COLORADO",
-          "gols_mandante": null,
-          "gols_visitante": null,
-          "campo": "a definir",
-          "data_hora": "20/10/2026 00:00"
-        },
-        {
           "mandante": "IMPERIAL FC / GRUPO SANTÔ CONSÓRCIO E INVEST. / LAVACAR COELHO / GP CELULARES",
           "visitante": "SEDE DO GORDO",
           "gols_mandante": null,
           "gols_visitante": null,
-          "campo": "a definir",
-          "data_hora": "20/10/2026 20:30"
+          "campo": "COMPLEXO TIAGO",
+          "data_hora": "20/10/2026 20:00"
+        },
+        {
+          "mandante": "AADG F7",
+          "visitante": "E.C COLORADO",
+          "gols_mandante": null,
+          "gols_visitante": null,
+          "campo": "COMPLEXO TIAGO",
+          "data_hora": "20/10/2026 21:00"
         },
         {
           "mandante": "CATARINENSE PROTEÇÃO VEICULAR/ONE CELL",
