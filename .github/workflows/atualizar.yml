@@ -1,4 +1,5 @@
-name: Atualizar dados Sicredi
+
+name: Atualizar dados NDTV
 
 permissions:
   contents: write
@@ -9,6 +10,7 @@ on:
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
       - name: Checkout do repositório
@@ -22,16 +24,22 @@ jobs:
       - name: Instalar dependências
         run: npm install node-fetch@2 jsdom
 
-      - name: Rodar scrapers
-        run: |
-          node sicred/scrape.js
-          node sicred/scrape-jogos.js
-          node sicred/scrape-artilheiros.js
+      - name: Rodar scraper de grupos
+        timeout-minutes: 2
+        run: node sicred/scrape.js
+
+      - name: Rodar scraper de jogos
+        timeout-minutes: 4
+        run: node sicred/scrape-jogos.js
+
+      - name: Rodar scraper de artilheiros
+        timeout-minutes: 2
+        run: node sicred/scrape-artilheiros.js
 
       - name: Commit dos dados atualizados
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add sicred/*.json
-          git commit -m "Atualização automática dos dados" || echo "Sem alterações"
+          git commit -m "Atualização dos dados NDTV" || echo "Sem alterações"
           git push
